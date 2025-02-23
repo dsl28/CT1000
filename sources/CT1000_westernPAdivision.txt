@@ -208,34 +208,22 @@ Cresson
 if"" 6141 .... Lancashire Coils. Nos. 2 & 3 (Barnes & 
 Tucker) and Porter Coll. No. 1 t 24.3 
 . .. .. End of Porter Run Branch*...................... 24.8 
-~~{ 6147 .... Junction Gardner Run Branch* ................ .. 
-J~ .... End of Gardner Run Branch* .................. .. 
+~~{ 6147 .... Junction Gardner Run Branch* ................ .. 23.7
+J~ .... End of Gardner Run Branch* .................. .. 24.7
 { 
-61O3 .... Garman Coll. No. 1 (Garman Coal Co.)t .. .. 
-.,; 61O3A .. June. Moss Creek Branch* ...................... .. 
-~ 6120 .. Woodland Coll. <Deringer Bros.)t ............ .. 
-.::; 612OB .. Butterworth Coll. (Butterworth Coal Co.Jt 
+61O3 .... Garman Coll. No. 1 (Garman Coal Co.)t .. .. 24.9
+.,; 61O3A .. June. Moss Creek Branch* ...................... .. 25.3
+~ 6120 .. Woodland Coll. <Deringer Bros.)t ............ .. 25.8
+.::; 612OB .. Butterworth Coll. (Butterworth Coal Co.Jt 26.0
 ~ 6121 .... Penna. Calls. Nos. 5 & 6 (Penna. C. & C. 
-:. Corporation)t ........................ .. 
-.... End of Moss Creek Branch* ..................... . 
-6104 ... Garman, Pa ............................................. .. 
+:. Corporation)t ........................ .. 27.3
+.... End of Moss Creek Branch* ..................... . 27.4
+6104 ... Garman, Pa ............................................. .. 25.7
 6106 ... Jc. Emigh Run Br. (Pa. Div. N.Y.C.R.R.l* 
 61O7 .... Kinport Coll. No. 1 (Hastings Coal & Coke 
-Co.lt ...................................... .. 
+Co.lt ...................................... .. 27.4
 6108 ... Cherry Tree ("Y" June. C. T. & Dixonville 
-R.R.) ...................................... .. 
-23.7 
-24.7 
-24.9 
-25.3 
-25.8 
-26.0 
-27.3 
-27.4 
-25.7 
-27.1 
-27.4 
-28.7 
+R.R.) ...................................... .. 28.7
 ~ Dist.from 
 ;;; CherryTree"Y" 
 "' 6602 ... Cherry Tree, Pa. (Storage) 11...................... 0.3 
@@ -267,6 +255,7 @@ H~;;;·~M~~·k--C~·~j 13•
 rn Co.lt ........................................ 13.6 
 .... End of Shanktown Br.*.............................. 13.6 
 * No Siding t For individual use II Siding-No carload delivery
+
 212 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -325,6 +314,7 @@ a. : 6019 { Patton, Pa. (Station)................................ 18.2
 N. Y. C. R. RJ.......................... 19.2 
 8022 .... Thomas' Mill, Pa.•.................................... 20.6 
 • No Siding t For individual use i Telegraph O
+
 213 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -389,6 +379,7 @@ end of McCoy Run Br................. 50.0
 End of Suter Branch*................................ 48.6 
 .... End of McGees Branch*............................ 48.3 
 • No Siding t For individual use U Siding-No carload delivery
+
 214 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -437,6 +428,7 @@ B 96 .... Lindsey Coll. No. 8 CA. L. Light)t............ 61.8
 B 100 .... Fordham, Pa.* .......................................... 63.6 
 .... End of Cresson Branch*............................ 63.7 
 * No Siding t For individual use II Siding-No carload delivery # Telephone Office 
+
 215 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -530,6 +522,7 @@ B 12 1 " (End of Bellwood Br.)*.................... 39.5
 g B 133 .... Hughes Coll. No. 3 (Forks Coal Co.lt........ 41.1 
 £; .... End of Stroud Branch*.............................. 41.7 
 • No Siding t For individual use II Siding-No carload delivery 
+
 217 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -589,6 +582,7 @@ Creek Valley Coal Co.lt 25.5 21.4
 * No Siding t For individual use 
 II Siding-No carload delivery 
 # Telephone Office
+
 218 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -658,7 +652,8 @@ u ~ :i l F 96 ... End of Eureka No. 40 Siding.................... 42.4
 l
 ~ F 99 ... Eureka Coll. No. 37 <B.-W. C. M. Co.)t.... 42.9 
 L F 100 ... End of Eureka Branch No. 37.................... 43.1 
-* No Siding t For individual use II Siding-No carload delivery # Telephone Offic
+* No Siding t For individual use II Siding-No carload delivery # Telephone Office
+
 219 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -719,7 +714,8 @@ o:i F 148 .... Eureka Coll. No. 36 <B.-W. C. M. Co.Jt
 F 152 .... Eureka Coll. No. 42 (B.-W. C. M. Co.lt.... 47.0 
 .... Eureka No. 42, Pa. (Station)*#················ 47.2 
 F 153 .... End of Windber Branch.............................. 47.4 
-* No Siding t For individual use II Siding-No carload delivery # Telephone O
+* No Siding t For individual use II Siding-No carload delivery # Telephone Office
+
 220 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -786,6 +782,7 @@ R. R.>• .................................... 38.9
 " (City of Johnstownlt........................ 39.3 
 • No Siding t For Individual use II Siding-No carload delivery :II Telephone Office 
 11 V-Conemaugh-lncludes all points In Conema11b Y.,.. nit ltlllr
+
 221 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -854,6 +851,7 @@ Plonier Coll. (Plonler Fuel Co.Jt ............... . 72.4
 5341 .... End of Bradenville Branch ...................... .. 74.4
 • No Sldlnl 
 t For lnd ... dual • i Telegraph Otllcl I Sldlnt-Nt carload delivery 
+
 222 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -921,6 +919,7 @@ Leg "Y") .................................. 79.1
 t For lndlwld•I 111 
 A Siding-Ne carl•d .. liftry I T1l1p11Nt 0 .. 
 - c-tl• wla U.-• Yallly I. L 
+
 223 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
