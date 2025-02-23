@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CT1000></CT1000>
+
+<page n= "208">208</page>
+<page_heading></page_heading>
+CENTRAL REGION-Continued 
+WESTERN PENNSYLVANIA DIVISION-Continued 
+PITTSBURGH DIVISION
+</page_heading>
+
+<distance from= "Altoona"></distance>
+Dist.from
+Altoona
+(Pass. Sta.)
+</distance>
+
+<switch number= "1A">1A</switch> <!-- This is subject to change. I don't know what the numbers indicate in the far left column, pending further research. AJR -->
+<location type="station" name= "Altoona">Altoona, Pa. </location>(Passenger Station):j:............ .<distance milepost= "0.1">0 l "</distance>
+(Junc. Middle Div.)*:j:...................... 1.0 
+<switch number="333">333</switch> .... <location type="siding" name="Car Shop Siding">Kittanning Point, Pa.</location>(Shop Car Siding) <distance milepost= "5.8">II 5.8 </distance>
+<swithc number= "335">335</swithc> .... <Location type= "industry" name= "Pennsylvania Colliery Number 2">Penna. Coll. No. 2 (Penna. C. &amp; C. Corp.)</location>t 10.7 
+
+<Branch name= "New Portage">
+    <Distance from= "New portage Junction"></Distance>
+Dist. from 
+New Portage Jc. 
+    </Distance>
+
+    <switch number= "5107">5107 </switch>.... <location type="junction" name= "East End New Portage Branch">East End New Portage Br. (Jc. Petersburg Br., Mid. Div.)</location>................................ <distance milepost= "0.1">0.1</distance> 
+    <switch number= "5202">5205 </switch>.... <location type="passing track" name= "Mule Shoe">Mule Shoe, Pa. (Passing)</location>llji:...................... <distance milepost= "6.6">6.6</distance>
+    <switch number= "5210"> 5210</switch> .... <location type="passing track" name ="Patch">Patch, Pa. (Passing)</location>llji:.............................. <distance milepost= "14.0">14.0</distance>
+    <switch number= "5211">5211</switch> .... <location type= "industry" name= "Bennignton B colliery, Argyle Coal Company">Bennington "B" Coll. (Argyle Coal Co.)</location>t.. <distance milepost= "14.3">14.3</distance>
+    <switch number= "5212">5212</switch> .... <location type= "industry" name= "Tunnel Colliery, Argyle Coal Company">Tunnel Coll. (Argyle Coal Co.)</location>t................ <distance milepost= "14.4">14.4</distance>
+    <switch number= "335A">335A</switch> .... <location type= "junction" name= "East End Tunnel">East End Tunnel (Junc. Main Line)</location>l!ji:...... <distance milepost= "14.9">14.9</distance>
+</Branch>
+
+<distance from= "Altoona"></distance>
+Dist.from
+Altoona
+(Pass. Sta.)
+</distance>
+
+<switch number= "335A"></switch>
+<location type="siding">East End Tunnel, Pa. (Storage)</location> 11.............. 10.6 
+" (Jc. New Portage Br.-Eastbound Conn.)* .................................... 10.9 
+" (Jc. New Portage Br.-Eastbound Conn.)* .................................... 11.0 
+" (Power Plant Siding)llji:.................... 11.1 
+</switch>
+
+<switch number= "336">336</switch> .... Gallitzin, Pa. (Westbound Station)i: and Tunnel Coll. No. 1-Inland Coal Co.)t ........................................ 11.8 
+<switch number= "336A">336A</switch>.... " (Storage)llji: .................................... 11.9 
+<switch number= "336B">336B</switch>.... " (Pa. Coll. No. 1-Penna. C. &amp; C. Corporation)t (Br.) .................. 11.9 
+
+<secondary_route name="Portage Tunnel"></secondary_route>
+" ( Eastbound Station)*# .................... 11.8 
+<switch number= "5215">5215</switch>.... " (Dirt Track)llji: ................................ 12.0 
+<switch number= "5216">5216</switch> .... Gallitzin Shaft Coll. (Taylor &amp; McCoy C. &amp; C. Co.)t...................................... 12.0 
+<switch number= "5217">5217</switch> .... Gallitzin Shop Track1lji:.............................. 12.2 
+<switch number= "338">338</switch> .... cresson (Penna. Coll. No. 3--Penna. C. &amp; C. Corporation)t ...................... 13.6 
+</secondary_route>
+
+<switch number= "339">
+Cresson, Pa. (Overhead Conn., Cresson Br.)llji: ...................................... 13.6 
+" (North Overhead Conn. No. l) 1l!ji:...... 13.8 
+" (North Overhead Conn. No. 2) llji:...... 13.8 
+" (North Overhead Conn. No. 3) 11#...... 13.8 
+" (Garfield Refractories Co. No. l)t.. 13.9 
+" ("MO" Storage, M. W. Material)II# 14.0 
+" (Cresson Flour &amp; Feed Co.)t............ 14.0 
+" (Carload Delvy., South Side)ji:.......... 14.1 
+" (Junc. Irvona Branch)...................... 14.1 
+" (Junc. Cresson Branch, East. Conn.) 14.1 
+" (Junc. Cresson Branch, West Conn.) 14.4 
+" (Passenger Station)*# .................... 14.4 
+</switch>
+
+<key_of_symbols> <!-- This will need to be addressed somehow. The OCR that convereted the PDF has no consistency to how it converted the symbols. -->
+* No Siding 
+t For individual use
+t Telegraph Office 
+II Siding-No carload delivery 
+# Telephone Office 
+t A-Altoon-includes all points in Altoona Yard not otherwis â–  
+designated
+</key_of_symbols>
+
+</CT1000>
