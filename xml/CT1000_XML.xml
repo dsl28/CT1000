@@ -21,7 +21,7 @@ Altoona
 <swithc number= "335">335</swithc> .... <location type= "industry" name= "Pennsylvania Colliery Number 2">Penna. Coll. No. 2 (Penna. C. &amp; C. Corp.)</location>t 10.7 
 
 <branch name= "New Portage">
-    <distance from= "New portage Junction">
+    <distance from= "New Portage Junction">
 Dist. from 
 New Portage Jc. 
     </distance>
@@ -746,10 +746,10 @@ lOld Line Storage!!.......................... 22.0 22.4
 5256 ... Portage, Pa. (Junction Martin Br.) 22.9 21.5 
 5258 ... Portage Coll. No. 4 (Johnstown C. &amp; C. Co.)t.......... ........... 23.7 22.3 
 5261A .... Portage Coll. No. 6 (Johnstown C. E &amp; C. Co)...................... 24.2 22.9 
-5262 ** Portage Coll. No. 2 (Johnstown C. E &amp; C. Co).........................24.5 23.2
+5262 ... Portage Coll. No. 2 (Johnstown C. E &amp; C. Co).........................24.5 23.2
 5269 ... Portage Coll. No. 10 (Johnstown C. &amp; C. Co.)t...................... 25.4 24.0 
 5272 ... Penker Coll. No. 1 (Portage-Kittanning Coal Co.)t.............. 25.5 24.1 
-5281--Â·Â·End of Martin Branch*.................. 25.3 24.4 
+5281 ... End of Martin Branch*.................. 25.3 24.4 
 
 
 z mÂ·,,Â· j 5250 ... Junction Sonman Branch................ 23.4 
@@ -781,6 +781,213 @@ F4 ... South Fork, Pa. (Penna. Lumber &amp; Const. Co.)t........................
 t For individual use 
 II Siding-No carload delivery 
 # Telephone Office
+
+218 
+CENTRAL REGION-Continued 
+WESTERN PENNSYLVANIA DIVISION-Continued 
+PITTSBURGH DIVISION-Continued 
+
+Dist.from 
+Altoona 
+(Pass. Sta.) 
+[ 
+South Fork, Pa. (F-4-F Stineman Coll. No. 4-Stineman C. &amp; C. Co.)t........ 28.4 
+F4
+" (F-4-G Stineman Coll. No. 2 F 4 Stineman C. &amp; C. Co.).............. 28.4 
+" (F-4-H Stineman Coll. No. 1 Stineman C. M. Co.)t................ 28.4 
+" (F-4-I Riverside Coll. No.1 --Adams Fuel corp.)t............28.4
+F 5 ... South Fork, Pa. (Storage) II........................ 28.6 
+F 7 ... Flenner Coll. No. I-Priscilla Coal Co.)t.. 29.0 
+F 7 A .... Hughes Coll. 5 (South Fork Bit. C. Co.)t.... 29.0 
+.... St. Michael, Pa. (Station)*........................ 30.8 
+F 9 .... Maryland Shaft Coll. (Maryland Coal Co. of Penna.)t .............................. 30.9 
+F IO ... Eureka Stores (St. Michael Store)t.......... 30.9 
+LV ... Lovett Yard, Pa.11...................................... 31.3 
+F 11 ... Creslo, Pa. (Station).................................. 31.6 
+F 12 ... Lovett, Pa. (Storage) II jl............................ 32.2 
+
+
+F 13 ... Junc. Beaver Branch*#.............................. 32.3 
+
+
+F 50 ... Junc. Llanfair Branch''::i............................ 32.3 
+F 53 ... Dunlo, Pa. (Station)jl................................ 35.4 
+F 58 ... Windber Coll. No. 5 (Windber Hy-Grade C. M. Co.)t............................... 36.4 
+F 59 ... Krayne Coll. No. 1 (Tony Obreza)t............ 37.1 
+F 60 ... Henriette Coll. No. 2 (Henriette C. M. Co. and Jennings Coll. No. 2-B. Anderson)t .............................. 37.2 
+F 61 ... End of Llanfair Branch.............................. 37.4 
+
+.... Ruthford, Pa. (Station)*............................ 33.5 
+F 68A ... Courtwright Coll. No. 1 (Boucher-Courtwright Coal Co.)t ...................... 35.0 
+F 69 ... Logan Coll. No. 6 (Johnstown C. &amp; C. Co.) 35.2 
+F 7) .... Lloydell, Pa. (Station)#............................ 35.5 
+F 73 .. Lloydell, Pa. (Carload Delivery and Lloydell Coll. No. 1-H. J. Hudec)t........ 35.6 
+F 74 .. Lloydell, Pa. (Logan Coll. No. 4-Johnstown C. &amp; C. Co.)t ..... .............. 35.4 
+F 78 ... Burkett Coll. No. 1 (A. R. Burkettlt.......... 36.9 
+F 79 .. End of Beaver Branch................................ 37.1 
+
+
+F 14 ... Lovett, Pa. (Station and G. H. Millert)...... 32.4 
+F 15 ... Salix, Pa. (Station).................................... 35.7 
+F 18 ... Elton. Pa. (Station).................................. 38.2 
+F 21 .... Junction Paint Creek Branchi:jl.................. 41.4 
+F 90 .. Plug Track (Paint Creek Storage) llit.......... 41.6 
+
+
+F 91 .... Junc. Eureka Branch No. 37 ...................... 41.7 
+
+F 92 ... Junc. Eureka No. 40 Siding........................ 41.8 
+F 94 ... Eureka Coll. No. 40 (B.-W. C. M. Co.)t...... 42.2 
+F 95 ... Eureka Stores (No. 40 Storelt.................. 42.2 
+F 96 ... End of Eureka No. 40 Siding.................... 42.4 
+F 93 .... Shaffer Coll. (Shaffer &amp; Sons)t.................. 42.2 
+F 98A ... Veil Coll. No. 1 (Raloh L. Vei1)t................ 42.3 
+F 99 ... Eureka Coll. No. 37 (B.-W. C. M. Co.)t.... 42.9 
+F 100 ... End of Eureka Branch No. 37.................... 43.1 
+* No Siding t For individual use II Siding-No carload delivery # Telephone Office
+
+219 
+CENTRAL REGION-Continued 
+WESTERN PENNSYLVANIA DIVISION-Continued 
+PITTSBURGH DIVISION-Continued 
+Dist.from 
+Altoona 
+(Pass.Sta.) 
+
+
+
+F 102 .... Junc. Shade Creek Branch)l........................ 42.1 
+F 103 ... Reitz Coll. No. 5 (Reitz Coal Co.)tjl.......... 42.9 
+F 110 .... Seanor, Pa.* ............................................ 47.6 
+F 112A .. "B" Quality Coll. No. 6 ("B" Quality Coal Co.)t ........................................ 49.4 
+F 112B .. Hillsboro, Pa. ............................................ 51.4 
+F 113 ... "B" Quality Coll. No. 7 ("B" Quality Coal Co.)t ........................................ 51.4 
+.... Huskin, Pa. ................................................ 53.3 
+F 114 ... Thermal Coll. No. 11 (Lenox Coal Co.)t.... 53.3 
+F 115 .... Huskin Run Siding, Pa. (Passing)II............ 53.4 
+F 117  Miller Run, Pa........................................... 55.5 
+(Troy Coll.-H. Sheesley)t.............. 55.5 
+F 118 ... Arrow Col ls. Nos. 1 &amp; 2 (Arrow Coal Mining Co.)t .................................. 56.1 
+F 119 ... Loyalhanna Coll. No. 6 (Loyalhanna C. &amp; C. Co.) ........................................ 57.0 
+
+
+F 120 ... Junc. Reitz Branch*.................................. 57.0 
+F 126 ... Junc. McGregor Siding*............................ 57.3 
+F 127 .... Reitz Coll. No. 2 (Reitz Coal Co.)t............ 57.4 
+F 127 A .. Little Valley Pit No. 2 (Little Valley Coal Co.) ........................................ 57.4 
+F 129 ... End of McGregor Siding*.......................... 57.7 
+F 131 .... End of Reitz Branch*................................ 58.1
+
+
+F 123 ... Cairnbrook, Pa. (Station).......................... 57.3 
+.... North Leg Wye*........................................ 57.4 
+.... South Leg Wye*........................................ 57.5 
+F 124 ... Loyalhanna No. 7 (Loyalhanna C. &amp; C. Co.)t ........................................ 58.2 
+F 125 ... Reitz Coll. No. 4 (Reitz Coal Co.)............ 58.7 
+F 125A .. Central City Siding.................................... 59.3 
+.... Central City, Pa. (Station)*...................... 59.4 
+F 132 ... Reitz Coll. No. 3 (Reitz Coal Co.)t............ 59.6 
+F 132A .. Huskin Coll. No. 3 (Huskin Coal Mining Co.) ........................................ 59.6 
+F 133 ... End of Shade Creek Branch*...................... 61.8 
+
+
+F 133A .Huskin Coll. No. 6 (Huskin C. M. Co.)...... 59.8 
+F 136 .. Eureka Coll. No. 30 (Berwind-White C. M. Co.)t ........................................ 42.7 
+F 137 . End of Paint Creek Branch........................ 43.0 
+
+
+.... Scalp Level, Pa.*...................................... 42.1 
+F 25 .. .Windber Lumber Co. and J. E. Crisman t.... 42.8 
+
+
+F 27 ... Junc. Windber Branch'':;t............................ 43.1 
+F 144 ... Eureka Stores No. lt ................................ 43.2 
+F 145 .... Eureka Coll. No. 35 (B.-W. C. M. Co.)t 
+(Branch) .................................. 43.6 
+.... Eureka No. 35, Pa.*.................................. 43.7.· 
+F 148 .... Eureka Coll. No. 36 (B.-W. C. M. Co.) 
+(Branch) .................................. 44.4 
+.... Eureka No. 36, Pa.*.................................. 44.5 
+.... Eureka No. 41, Pa.*.................................. 45.2 
+F 152 .... Eureka Coll. No. 42 (B.-W. C. M. Co.)t.... 47.0 
+.... Eureka No. 42, Pa. (Station)*...........................· 47.2 
+F 153 .... End of Windber Branch.............................. 47.4 
+
+* No Siding 
+t For individual use 
+II Siding-No carload delivery 
+# Telephone Office
+
+220 
+CENTRAL REGION-Continued 
+WESTERN PENNSYLVANIA DIVISION-Continued 
+PITTSBURGH DIVISION-Continued 
+
+Dist.from 
+Altoona 
+(Pass.Sta.) 
+
+F 29 .... Windber, Pa. (Storage)II............................ 43.3 
+F 3O .... Windber, Pa. (Freight Station).................. 43.3 
+F 31 .... North Leg Windber Wye* .......................... 43.3 
+F 155 ... .Weaver &amp; Berkeyt...................................... 43.3 
+F158
+Berwind-White C. M. Co.-Car Shopst.... 43.4 
+McNeil Coll. No. 1 (McNeil Coal Co.)...... 43.4 
+Peerage Coll. No. 1 (H. Quinnlt ................ 43.4 
+F 33 .... South Leg Windber Wye*.......................... 43.5 
+F 34 .... Windber Brick Co.t.................................... 43.9 
+F 35 .... Windber Coll. No. 1 (C. E. Schooley)t........ 44.0 
+F 35A .... Berwind-White C. M. Co. (Power Plant).. 44.0 
+F 36 ... .Windber Coll. No. 2 (Windber Hy-Grade C. M. Co.)................................ 44.5 
+F 36C .... "B" Quality Coll. No. 3 ("B" Quality Coal Co.) ........................................ 46.4 
+F 36E .... Krayn Coll. No. 4 (Conbro Coal Co.)...... 46.4 
+F 36D .... Jennings Coll. No. 1 CB. Andersonlt.......... 46.5 
+F 37 .... End of South Fork Branch II........................ 46.9 
+.... Ehrenfield, Pa.* ........................................ 27.2 
+354A .... South Fork, Pa. (Station)ji........................ 28.1 
+355
+355 { South Fork, Pa. West Junc. South Fork Br.)*.................. 28.4 
+" (Manufacturers Water Co.)............ 28.8 
+" (Storage-North Sidell! ................ 28.8 
+359 .... Mineral Point, Pa....................................... 30.7 
+357 .... Smokeless Colleries Nos. 1 &amp; 2 (Mineral Point Coal Co.)........................ 31.7 
+
+V
+Conemaugh, Pa. (Stationl)i........................ 35.0 
+" (Shop) II .......................................... 35.1 
+" (Work Train)ll ................................ 35.2 
+" (Scales) .......................................... 35.7 
+" (Jc. Johnstown Branch)*ji.............. 35.7 
+
+5300
+Johnstown, Pa. (Atlantic Refining Co. No. 3) .................................... 35.8 
+" (Junction Conemaugh &amp; Black Lick 5300 R. R.) II ...................................... 35.8 
+5304 Johnstown, Pa. (Freight Station)ji............ 37.2 
+" (Junc. B. &amp; 0. R. R.)*...................... 37.3 
+5305 .... Johnstown &amp; Stony Creek R.R................... 38.4 
+362 
+Johnstown, Pa. (Atlantic Refining Co. Sub-Station No. 3).......................... 35.8
+" (American Stores Co.) .................... 36.4 
+" (H. Swank's Sons)t.......................... 36.7 
+363
+Johnstown, Pa. (Passenger Station)*ji...... 37.4 
+" (Haws Refractories Nos. 1 &amp; 2 and Shaft Coll.-Haws Refractories Co.) ........................................ 38.0 
+" (Pittsburgh Brewing Co.) .............. 38.3 
+" (J. W. Walters No. 1 and Ferguson Packing Co.)t .......................... 38.5 
+" (J. W. Walters No. 2).................... 38.6 
+" (Pennsylvania Electric Co. No. 1)t.. 38.7 
+364
+Morrellville, Pa. (Yard)j............................ 38.9 
+" (Junc. Conemaugh &amp; Black Lick R. R.)* .................................... 38.9 
+" (Conemaugh Lumber Co.)t.............. 39.1 
+* (Davis Brake Beam Co.)................ 39.2 
+" (City of Johnstown)t........................ 39.3 
+
+* No Siding t For Individual use 
+II Siding-No carload delivery 
+II Telephone Office 
+11 V-Conemaugh-lncludes all points In Conemaugh Yard not otherwise designated
 
 
 </CT1000>
