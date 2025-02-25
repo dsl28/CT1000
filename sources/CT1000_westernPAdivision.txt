@@ -719,7 +719,7 @@ z m·,,· j 5250 ... Junction Sonman Branch................ 23.4
 
 354 ... East Junc. (South Fork Branch)*.............. 26.6 
 F4 ... South Fork, Pa. (Penna. Lumber &amp Const. Co.)t................................ 28.3 
-"' 
+
 * No Siding 
 t For individual use 
 II Siding-No carload delivery 
@@ -1001,14 +1001,13 @@ Altoona
 399F .... McFeely Brick Co. No. 2 t.......................... 73.0 
 399G .... Vanadium-Alloys Steel Co. t...................... 73.0 
 399D .... Anchor Drawn Steel Co. t.......................... 73.3 
-400 '.'. (Pohland Bros.)~ .......................... 73.4
-         (Shirey Coll.--Small Coal Co.)
-         (Station)
-{ 
-<<<<<<< HEAD
-Latrobe, Pa. (Junc. Ligonier Val. R. R.)*# 73.3 
-" )~:~~~tnf 0
-'.'.:=~~~'.'. .. ~.~~I .. ~~---~~:::::: ~~:: 
+400....
+        Latrobe, Pa. (Junc. Ligonier Val. R. R.)*# 73.3 
+        (Pohland Bros.)~ .......................... 73.4
+         (Shirey Coll.--Small Coal Co.)............. 73.4
+         (Station).................................. 73.8
+
+
 40} .... Junction Unity Branch*jt............................ 74.3 
 5345 .... Monastery Coke Works CH. C. Frick C. Co.)t 74.4 
 5346 .... Beatty Colliery (Mt. Pleasant Coke Co.l 
@@ -1140,12 +1139,11 @@ Division• .................................. 86.0
 * No Siding t For indMdual use i Tel11ra,b Office n Siding-No carload dell"l'Y 
 I T1lephon1 Office 
 =======
-• No Siding 
+* No Siding 
 t For individual use 
 i Telegraph Office 
 n Siding-No carload delivery
 I Telephone Office 
->>>>>>> bdaa6550e8a72900e53fa8ce9521aa59a63586d1
 
 224 
 CENTRAL REGION-Continued 
@@ -1196,10 +1194,9 @@ I Penn, Pa. (Lee, Thompson, Fawcett &amp; Co.,
 H &amp; H Foundry Machine Co. and 
 Penn Farm Bureau Co-operative 
 <<<<<<< HEAD
-416 i Associationlt ............................ 88.5 
+416 i Association)t ............................ 88.5 
 " (Stationlji: ...................................... 88.7 
-J " (Hockensmith Wheel &amp; Mine Car 
-l Companylt .............................. 88.8 
+J " (Hockensmith Wheel &amp; Mine Car  Company)t .............................. 88.8 
 =======
 416 i Association lt ............................ 88.5 
 " (Station lji: ...................................... 88.7 
@@ -2088,34 +2085,20 @@ II Siding-Ne carload delivery # Telephone Office
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 MONONGAHELA DIVISION-Continued 
-::c 
-., 
-z 
-( 
-a: 
-a:, 
-~ 3: 
-::i: 
-... 
-:::, 
-0 "' 
-r 
+
 Dist. from 
 S'th-west 
 Junction 
-5502 .... East Greensburg, Pa. (Jct. Pittsburgh &amp; 
-Monongahela Div.)* .................. 0.4 
-East Greensburg, Pa. (Greensburg Lumber 
-Mill Co. and St. Clair Supply 
-Co.)t.................................... 0.6 
-" (McFarland Supply Co. No. llt...... 0.6 
-i 
+
+5502 .... East Greensburg, Pa. (Jct. Pittsburgh &amp; Monongahela Div.)* .................. 0.4 
+East Greensburg, Pa. (Greensburg Lumber Mill Co. and St. Clair Supply Co.)t.................................... 0.6 
+" (McFarland Supply Co. No. l)t...... 0.6 
+ 
 East Greensburg, Pa. (Greensburg Lumber 
 5503 (McFarland Supply Co. No. 2lt...... 0.9 
-(McFarland Supply Co. No. 3 and 
-Atlantic Refining Co. No. 2lt.... 0.9 
+(McFarland Supply Co. No. 3 and Atlantic Refining Co. No. 2)t.... 0.9 
 l " (Westmoreland Farm Bureau Cooperative Assn.)t ...................... 0.9 
-r 
+
 South Greensburg, Pa. (Sell Estatelt........ 1.1 
 " (National Biscuit Co.)t.................... 1.1 
 I " (Building Materials Nos. 1 &amp; 2, 
@@ -2160,15 +2143,11 @@ Valley Coll. and J. A. Arsont.... 10.7
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 MONONGAHELA DIVISION-Continued 
-.c 
-C 
-I 
-a: 
-l 
-RA 
+
 Dist. from 
 S'th-west 
 Junction 
+
 .. Jc. Andrews Run Branch*.......................... 12.3 
 ... End of Andrews Run Br.*.......................... 14.0 
 ... Herminie, Pa. (Station)#, .. ,........................ 12.8 
@@ -2209,18 +2188,20 @@ Cl) 5680 .. Calumet, Pa. (H. C. Frick Coke Co)........ 11.3
 l " ( End of Mammoth Br.l.................... 13.0 
 5648 ... United Coal &amp; Coke Co.t............................ 11.4 
 I 5649 ... Junction Bessemer Br.*j! .......................... 11.8 
-( Pleasant Unity, Pa. (Junc. Marguerite Br.l* 12.9 
-n r 5 6 50 i '.'. i~~!!~:~t ·u~ii/ ** Mii°1·;"~9··i··s·~·p·pi/ 12*
-9 
+( Pleasant Unity, Pa. (Junc. Marguerite Br.)* 12.9 
+5650 i '.'. i~~!!~:~t ·u~ii/ ** Mii°1·;"~9··i··s·~·p·pi/ 12*
+ 
 eo:i l Co.) ........................................ 12.9 
-"'.:i 5650A .. A. Barnhart &amp; Co.t.................................... 13.6 f~ 5651 ... King Coal Co. and Saxman Fuel Co.t........ 14.1 
-:,: l:' 5653 ... Marguerite, Pa. (Station}.......................... 14.6 
-Jl~5653A ... Marguerite Coll. (H. C. Frick Coke Co.).. 14.6 
-l L5653B .. End of Marguerite Branch*...................... 14.6 
+5650A .. A. Barnhart &amp; Co.t.................................... 13.6 
+5651 ... King Coal Co. and Saxman Fuel Co.t........ 14.1 
+5653 ... Marguerite, Pa. (Station}.......................... 14.6 
+5653A ... Marguerite Coll. (H. C. Frick Coke Co.).. 14.6 
+5653B .. End of Marguerite Branch*...................... 14.6 
 5654 ... Humphrey, Pa. (Station)............................ 13.4 
 5654A .. End of Bessemer Branch............................ 13.4 
 5657., .. End of Sewickley Branch............................ 11.8 
-* No Siding t For individual use ! Telegraph Office 
+* No Siding t For individual use
+ ! Telegraph Office 
 II Siding-No carload delivery 
 ll Telephone Office
 
@@ -2228,49 +2209,45 @@ ll Telephone Office
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 MONONGAHELA DIVISION-Continued 
+
 Dist. from 
 S'th-west 
 Junction 
+
 5516 ( New Stanton, Pa. (Stationlj! ................... . 7.7
 (Stanton Milling Co.}t ................... . 7.7
-. 5 518 f Hunker, Pa. (Station and Public Delivery} 8.8
-~{ l " (Jc. Hunker Branch}* ..................... . 8.9
-~ 5689 ... Hunker Sand &amp; Stone Co.t ....................... . 10.2
-" 5690B .... End of Hunker Branch ............................. . 10.2
-:c 5520 .... Junc. Yukon Branch* ............................... . 8.8
+518 f Hunker, Pa. (Station and Public Delivery} 8.8
+ " (Jc. Hunker Branch}* ..................... . 8.9
+5689 ... Hunker Sand &amp; Stone Co.t ....................... . 10.2
+5690B .... End of Hunker Branch ............................. . 10.2
+5520 .... Junc. Yukon Branch* ............................... . 8.8
 5750 ... Hunker Coll. (Westmoreland Brick Co.}t ... . 9.2
-.c 5751 ... Hunker, Pa. (Storage Siding}II ................. . 9.5
-g 5753A ... Yukon Lumber Co.t ................................... . 12.9
-~{ 5754 ... Junc. Whyel Branch* ............................... . 12.9
-.; 5778 ... End of Whyel Branch* ............................. . 13.8
-i 5736A .... Yukon, Pa. (Station}jl ............................... . 13.1
-j 5756 .... Magee Coll. (Westmoreland Coal Co.) ..... . 13.3
+5751 ... Hunker, Pa. (Storage Siding)II ................. . 9.5
+5753A ... Yukon Lumber Co.t ................................... . 12.9
+5754 ... Junc. Whyel Branch* ............................... . 12.9
+5778 ... End of Whyel Branch* ............................. . 13.8
+5736A .... Yukon, Pa. (Station}jl ............................... . 13.1
+5756 .... Magee Coll. (Westmoreland Coal Co.) ..... . 13.3
 5759 ... Junc. Hunter Run Branch* ....................... . 15.2
 5759B ... M. E. Poll Coal Co.t ................................. . 16.0
-5759C .... Bertha Colliery-Jeanette Coal Co. and
- Keystone Foundry Facing Mill 
-Co.t ......................................... . 16.0
+5759C .... Bertha Colliery-Jeanette Coal Co. and Keystone Foundry Facing Mill Co.t ......................................... . 16.0
 5760 .. .Wyano, Pa. (Public Delivery) ..................... . 16.7
-5761 .... Osborne Coll. (Youghiogheny &amp; Ohio Coal 
-Co.)t ....................................... . 16.9
+5761 .... Osborne Coll. (Youghiogheny &amp; Ohio Coal Co.)t ....................................... . 16.9
 5762 ... End of Hunter Run Branch* ..................... . 17.2
 5763 ... Scott Siding, Pa. (Storage}II ................... . 15.7
 5764 ... Hutchinson Coll. (Westmoreland Coal Co.) 17.4
-5912 ... Cowansburg, Pa. (Junc. Youghiogheny Br. 
--North Conn.l*j! ................... . 20.5
+5912 ... Cowansburg, Pa. (Junc. Youghiogheny Br. North Conn.)*j! ................... . 20.5
 5920 f Gratztown, Pa. (Junc. B. &amp; 0. R. R.l. ........ . 26.6
-1 " (End of Youghiogheny Br.)* ........... . 26.6
+" (End of Youghiogheny Br.)* ........... . 26.6
 5522 ( Ruffsdale, Pa. (Dillinger Distillery}t ......... . 11.1
-;: ] " (Station and Public Delivery} ......... . 11.2
-~ .c=·~u{ 5524 ... Junction Tarr Branch* ......................11.7
-v, :: 5692 ... Myers Coll. (George K. Brennan Coal &amp; 
-Coke Co.)t ............................... . 12.2
-~ 5693 ... Central Coll. (Bortz Coal Co.)) ................. . 12.3
+" (Station and Public Delivery} ......... . 11.2
+5524 ... Junction Tarr Branch* ......................11.7
+5692 ... Myers Coll. (George K. Brennan Coal &amp; Coke Co.)t ............................... . 12.2
+~ 5693 ... Central Coll. (Bortz Coal Co.) ................. . 12.3
 1- 5694 ... End of Tarr Branch ................................. . 12.3
 5525 ... Tarr, Pa. (Station and Public Delivery). .... . 12.1
-5528 ... Alverton, Pa. (Station and Public Delivery} 14.2
-5532 ... Alverton, Pa. (Jane Coll.-J. W. Byars  
-Coal Co.)t ............................... . 14.2
+5528 ... Alverton, Pa. (Station and Public Delivery) 14.2
+5532 ... Alverton, Pa. (Jane Coll.-J. W. Byars Coal Co.)t ............................... . 14.2
 SD.. Scottdale, Pa. (Junc. Scottdale Br.} ......... . 16.6
 5702.. Scottdale Branch (Storage) 11 ................... . 17.3
 5703... J. E. Prittst ............................................. . 17.5
@@ -2279,10 +2256,10 @@ I " (Atlantic Refining Co. No. 3)t ....... . 21.8
 5726 ) " (Public Delivery) ........................... . 21.6
 l " (Station)tj! ................................... . 22.1
 " (Fritz Freedom Supply Co.) ........... . 22.2
-" (Standard Coll. (King Bro. Coal &amp; 
-Coke Co.) ............................... . 22.2
+" (Standard Coll. (King Bro. Coal &amp; Coke Co.) ............................... . 22.2
 5729 .... End of Scottdale Branch ........................... . 22.0
-* No Siding t For individual use t Telegraph Office 
+* No Siding t For individual use 
+t Telegraph Office 
 II Siding-No carload delivery 
 ll Telephone Office
 
@@ -2290,29 +2267,10 @@ ll Telephone Office
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 MONONGAHELA DIVISION-Continued 
-] 
-:3 
-'f :r 
-u 
-z 
-.. 
-0: "' t;; 
-"' 3:= 
-:c 
-... 
-::, 
-0 
-U) 
-H 
-uJ 
--5 
-E " "' " ::, 
-0: 
-E 
-C. 
-~ 0 
+
 Dist. from 
 S'th-west 
+
 Junction r Scottdale, Pa. (Ruth Lumber &amp; Supply 
 I Co.)t ........................................ 16.8 
 I " (U. S. Casket Co.)t.......................... 16.9 
@@ -2323,9 +2281,9 @@ I " (R. E. Uptegraft Mfg. Co.)t............ 17.1
 I " (Public Delivery) ............................ 17.2 
 I " (Station)# ...................................... 17.2 
 I " (National Machine &amp; Foundry Corp.lt 18.3 
-I " (Jc. Everson &amp; Broad Ford Br.l*ji:.. 17.5 
+I " (Jc. Everson &amp; Broad Ford Br.)*ji:.. 17.5 
 ( Summit, Pa. (Yardlll................................ 19.0 
-SY { " (Jc. P. &amp; L. E. R. R.-End of E. &amp; 
+SY { " (Jc. P. &amp; L. E. R. R.-End of E. &amp; B.
 t Everson, p~: isc~:i:~!i~-M~~ii';'~~:--F~-~~diy 
 19
 .4 
@@ -2335,145 +2293,149 @@ l (Jc. B. &amp; 0. R. R.-Rece1pt) 11........ 17.6
 EV f Everson, Pa. (Station)#............................ 18.2 l " (Storage) II ...................................... 18.7 
 5554 ... IV!oyer, Pa. (Soisson Brick Co.)t ................ 21.6 
 5560 ... Connellsville, Pa. (Storage) 11...................... 23.8 
-r Connellsville, Pa. (Stone &amp; Company)t ...... 24.7 
-5562 J " (Daniels &amp; Millerlt........................ 24.8 I " (Freight Station and Public De- l livery)# .................................... 24.4 
-r Connellsville, Pa. W. S. (Jct. Opossum Run 
-I Branch)* .................................. 24.8 
-I " (Carload Delivery) .......................... 24.9 
-I " (Atlantic Ref'g Co. No. 4lt.............. 24.9 
-5564 " (Connellsville Iron Workslt ...... ........ 25.0 
-" (Connellsville Manufacturing &amp; Mine 
-Supply Co.)t ............................ 25.4 
+5562
+ Connellsville, Pa. (Stone &amp; Company)t ...... 24.7 
+ " (Daniels &amp; Miller)t........................ 24.8 I " 
+ (Freight Station and Public De- l livery)# .................................... 24.4 
+ 
+ 5564
+Connellsville, Pa. W. S. (Jct. Opossum Run Branch)* .................................. 24.8 
+" (Carload Delivery) .......................... 24.9 
+" (Atlantic Ref'g Co. No. 4lt.............. 24.9 
+ " (Connellsville Iron Workslt ...... ........ 25.0 
+" (Connellsville Manufacturing &amp; Mine Supply Co.)t ............................ 25.4 
 " (Connellsville Macaroni Co.)t .......... 25.5 
 " (West Penn Power Co. No. 3lt........ 25.5 
-5 7 40 .... Jc. Pittsburgh &amp; Lake Erie R. R. (Transfer 
-Sta.l 11 ...................................... 25.6 
-( Trotter, Pa. (Station and Public De5742 { liveryl*#q ................................ 26.5 
-L " (George W. Enos &amp; Sons)t.............. 27.0 
-57 43 .... Leisenring, Pa. (Storage) 11........................ 28.2 
+
+5740 .... Jc. Pittsburgh &amp; Lake Erie R. R. (Transfer Sta.) 11 ...................................... 25.6 
+5742
+( Trotter, Pa. (Station and Public Delivery)*#q ................................ 26.5 
+" (George W. Enos &amp; Sons)t.............. 27.0 
+5743 .... Leisenring, Pa. (Storage) 11........................ 28.2 
 5744 .... Leisenring No. 1 (H. C. Frick Coke Co.)t.. 27.8 
 5745 .... E. I. DuPont DeNemours &amp; Co. No. 2t...... 28.8 
 5747 .... End of Opossum Run Br ............................. 31.5 
-* No Siding t For individual use II Siding-No carload delivery ! Telephone Office ~ Switch connection with B. &amp; 0. R. R.
+
+* No Siding 
+t For individual use 
+II Siding-No carload delivery 
+! Telephone Office 
+~ Switch connection with B. &amp; 0. R. R.
 
 243 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 MONONGAHELA DIVISION-Continued 
-~ 
-] 
-§ 
-'f 
-:r 
-u 
-z 
-.. 
-0: 
-a, 
-t;; "' 3:= 
-:r 
-... 
-::, 
-0 
-U) 
+
 Dist. from 
 S'th-west 
 Junction 
+
 5570 .... Connellsville, Pa. (Junc. Western Maryland 
 Railroad Co.) II# ........................ 26.0 
 5576 .... Watt, Pa. (B. &amp; 0. R. R. Trans.) 11:............ 27.2 
-5580 ( Dunbar, Pa. (Station and Public Delivery)# 28.7 
-i{ 
-Cl 
-l " (W. L. Hwipkeylt............................ 28.8 
+5580 
+( Dunbar, Pa. (Station and Public Delivery)# 28.7 
+" (W. L. Hwipkey)t............................ 28.8 
 5582 ... Junc. Dunbar Branch* .............................. 28.8 
 5772 ... Junc. New Haven &amp; Dunbar R. R.11............ 29.1 
 5773 .... End of Dunbar Branch.............................. 29.2 
--5 
-E " "' " ::, 
-0: 
-5591 ... Gist, Pa. (Stationlj!: .................................. 30.3 
-5592 ... " (Passingll! ...................................... 31.2 
+
+5591 ... Gist, Pa. (Station)j!: .................................. 30.3 
+5592 ... " (Passing)l! ...................................... 31.2 
 .... Stambaugh, Pa. (Station)*........................ 32.3 
 5594 .... Youngstown Coll. (Bortz Coal Co.)t............ 32.8 
-r Allen J. Parket.......................................... 33.3 
-5596 { Lemont Coll. No. 1 (Guseman-Hall Coke 
-l Co.)t ........................................ 33.8 
+5596 
+Allen J. Parket.......................................... 33.3 
+Lemont Coll. No. 1 (Guseman-Hall Coke l Co.)t ........................................ 33.8 
 RS ... Redstone Jct., Pa. (Jc. Redstone Br.)*...... 36.4 
-5601 .... Redstone Junction (Oliver Coll. No. 2-0ld 
-Home Fuel Co.)t~...................... 36.9 
+5601 .... Redstone Junction (Oliver Coll. No. 2-0ld Home Fuel Co.)t~...................... 36.9 
 5602 .... Uniontown, Pa. (Jc. B. &amp; 0. R. R.l 11.......... 36.9 
-5603 .... Richmond Radiator Co. No. 1-"Radiator 
-Works"tq ................................ 36.9 
-5604 .... Richmond Radiator Co. No. 3-"Enamel 
-Works"t .................................. 36.9 
-5605 ... Junc. Coal Lick Run Branch:j:j!:.................. 37.2 
+5603 .... Richmond Radiator Co. No. 1-"Radiator Works"tq ................................ 36.9 
+5604 .... Richmond Radiator Co. No. 3-"Enamel Works"t .................................. 36.9 
+5605 ... Junc. Coal Lick Run Branch:j:j!:.................. 37.2
+
+5865 
 Uniontown, Pa. (Fayette Metal Co.)t........ 37.3 
 " (Public Delivery) ............................ 37.4 
-" (Westmoreland Grocery Co. and Wilson &amp; Co.)t ................................ 37.4 
-5865 
-" ( H ygeia Storage l II .... .. .. .... .. ... .. .... ... 37.4 
+" (Westmoreland Grocery Co. and Wilson &amp; Co.)t ................................ 37.4 
+" ( Hygeia Storage)II .... .. .. .... .. ... .. .... ... 37.4 
+
+
 Uniontown, Pa. (J. F. Hogsett &amp; Son)t.... 37.7 
 5867 l " (Rick's Foundry Co.)t .................... 38.1 
-5868 ... Uniontown, Pa. (H. C. Frick C. Co.-Cont. 
-Works)t .................................... 38.2 
+5868 ... Uniontown, Pa. (H. C. Frick C. Co.-Cont. Works)t .................................... 38.2 
 5869 ... Uniontown, Pa. (Tri-State Roofing Co.)t.. 38.4 
-~ (5870 ... Rainey Junc., Pa. (Junc. Rainey BrJ:f:j;:...... 38.5 
-~ j R y .... Rainey Yard, Pa.II.................................... 38.5 
-~ fj 5871 .... South Uni~:sr .. ~~: .. l .. '.~~u.:~.~-~-i~~.~~~'. 39.0 
-o: 5873 .... End of Rainey Branch*.............................. 39.6 
+5870 ... Rainey Junc., Pa. (Junc. Rainey Br.)t...... 38.5 
+.... Rainey Yard, Pa.II.................................... 38.5 
+5871 .... South Union Coll. No.1 (South Union Coal Co.)t...... 39.0 
+5873 .... End of Rainey Branch*.............................. 39.6 
 5876 ... Walnut Hill, Pa. (Station)*........................ 40.9 
 S876A .... lrwin Coll. No. 2 (Irwin Gas Coal Co.)t...... 41.6 
-5879 \ Newcomer, Pa. (Station)*#........................ 42.1 
-l " (Fay West Coal Co.)t...................... 42.5 
+5879  Newcomer, Pa. (Station)*#........................ 42.1 
+(Fay West Coal Co.)t...................... 42.5 
 5879A ... End of Coal Lick Run Br.*:...................... 42.7 
-* No Siding t For individual use :t Telegraph Office 
-II Siding-No carload delivery ~ Switch connection with B. &amp; 0. R. R. ~ Telegraph Office
+
+* No Siding t For individual use 
+t Telegraph Office 
+II Siding-No carload delivery ~ 
+Switch connection with B. &amp; 0. R. R. 
+~ Telegraph Office
 
 244 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 MONONGAHELA DIVISION-Continued 
+
 Dist. from 
-S'th-west 
+South-west 
 Junction 
-l Uniontown, Pa. (Hawkins &amp; Poulsin Co.)t .. 37.1 
-" (Pittsburgh Brewing Co. and Central 
-5606 Produce Co.)t .......................... 37.4 
+
+5606
+Uniontown, Pa. (Hawkins &amp; Poulsin Co.)t .. 37.1 
+" (Pittsburgh Brewing Co. and Central Produce Co.)t .......................... 37.4 
 " (Freight Sta. and Public Delivery).. 37.4 
+
+UN
 Uniontown, Pa. (Rom &amp; Sons)t.................. 37.6 
-" (Church St. Carload Delivery and 
-A. S. Craig &amp; Sonstl.................. 37.6 
-(C. F. Eggers &amp; Co.)t...................... 37.7 
-UN (O. C. Cluss Lumber Co.)t................ 37.7 
-ii (U. P. Storage Tracks).................... 37.8 
-= " (David Goldberglt .......................... 38.1 
-~ " (Atlantic Refining Co. No. 5lt........ 38.1 l 56 I I ... so:th ~~:~ ~~~1. ·N~:·2··c:;~;;;i~~~··c:-·&amp;··c: 38"
-9 
-~ Co.)t ........................................ 38.9 
-; 56l4 ·:::~~~~~~~~/t/7b!~;~;!;·sidi~~"i:::::::::::::: :g:g l;; 5620 f Oliphant Furnace, Pa. (Pure Oil Co.)t ........ 42.4 
-"' l " (Station) ........................................ 42.4 
-~ r 5623 .... Fairchance, Pa. (Junc. Fairchance Br.l*# 42.7 
-;: 5789 .... Wynn Works No. 2 CH. C. Frick Coke Co.)t 43.6 
-g"fi.;,;{57891'. .. Junction Oliphant Branch*........................ 43.6 
-"'~ ,;_ 5938 ... R. B. Hays Coal Co.t.................................. 44.9 
-mi5 5941 .... End of Oliphant Branch*............................ 44.6 
-~ 5790 .... Fairchance Coke Works CH. C. Frick Coke 
-_g Co.)t ........................................ 43.7 
-·l; 5791 .... Kyle, Pa. (Storagelll.................................. 44.0 
-""l 5792 .... Kyle Works CH. C. Frick Coke Co.).......... 44.2 
+" (Church St. Carload Delivery and A. S. Craig &amp; Sons)l.................. 37.6 
+" (C. F. Eggers &amp; Co.)t...................... 37.7 
+" (O. C. Cluss Lumber Co.)t................ 37.7 
+" (U. P. Storage Tracks).................... 37.8 
+" (David Goldberglt .......................... 38.1 
+" (Atlantic Refining Co. No. 5lt........ 38.1
+" (Station) .................... 38.9
+
+5611.... South Union Coll. No.2 jamison C. &amp; C. Co.)t...................... 38.9
+....Speedway, Pa. (Station)*..................... 40.0
+56l4 .... Hutchinson, Pa. (Delivery Siding) .................... 40.0
+5620
+ Oliphant Furnace, Pa. (Pure Oil Co.)t ........ 42.4 
+" (Station) ........................................ 42.4 
+
+5623 .... Fairchance, Pa. (Junc. Fairchance Br.l*# 42.7 
+5789 .... Wynn Works No. 2 CH. C. Frick Coke Co.)t 43.6 
+5789A. .. Junction Oliphant Branch*........................ 43.6 
+5938 ... R. B. Hays Coal Co.t.................................. 44.9 
+5941 .... End of Oliphant Branch*............................ 44.6 
+5790 .... Fairchance Coke Works (H. C. Frick Coke Co.)t ........................................ 43.7 
+5791 .... Kyle, Pa. (Storagelll.................................. 44.0 
+5792 .... Kyle Works CH. C. Frick Coke Co.).......... 44.2 
 5794 .... End of Fairchance Branch.......................... 44.8 
-r Fairchance, Pa. (Public Delivery).............. 44.2 
-5626 { " (Station)# ...................................... 44.6 l " (Fairchance Lumber Co.)t.............. 44.4 
-* No Siding t For individual use II Siding-No carload delivery S Telephone Office
+ Fairchance, Pa. (Public Delivery).............. 44.2 
+5626 " (Station)# ...................................... 44.6 
+(Fairchance Lumber Co.)t.............. 44.4 
+* No Siding 
+t For individual use II 
+Siding-No carload delivery 
+S Telephone Office
 
 245 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 CONEMAUGH DIVISION 
-i{ ·;;; 
-iii 
-i{ 
+
+
 INDIANA BRANCH Dist.from 
 Torrance f Torrance, Pa. (Jc. Pittsburgh Div .-Sta.)*:j: 0.1
 BI l " (Stock-Yard) ................................. . 0.2
@@ -2483,11 +2445,10 @@ BI l " (Stock-Yard) ................................. . 0.2
 Blairsville, Pa. (Storage) ......................... . 2.8
 " (Jc. Main Line Conemaugh Div.)* .. .. 2.9
 DV " (Station)+ ..................................... . 2.9 
-(Shoplll ......................................... . 3.1
+(Shop)ll ......................................... . 3.1
 " (Wye) ............................................. . 3.2
 6306 .... Stock Yard Siding .................................... .. 3.2
-6307 .... L. H. Kunkle Co. and Blairsville Concrete 
-Prod. Co.t ............................... . 3.2
+6307 .... L. H. Kunkle Co. and Blairsville Concrete Prod. Co.t ............................... . 3.2
 6308 .... Andre Lumber Co.t ................................... . 3.2
 6309 .... Porter-Blairsville Co.t ............................. . 3.5
 .... American Oil Co.t ................................... . 3.5
@@ -2503,21 +2464,18 @@ j " (Siding)ll ....................................... . 7.5
 r Homer City, Pa. (Syntron Co.)t ................. . 12.4
 6332 1 " (Junc. Yellow Creek Branch)* ......... . 12.8
 l " (Homer City Feed Co.)t ................. . 12.8
-63321'. ... Lucerne Coll. (Rochester &amp; Pittsburgh 
-Coal Co.)t ............................... . 13.7
-6332B ... .Waterman Coll. (Rochester &amp; Pittsburgh 
-Coal Co.)t ............................... . 14.6
-6333(:: .... Appalacha Coal Co.t ................................. . 16.6
+63321'. ... Lucerne Coll. (Rochester &amp; Pittsburgh Coal Co.)t ............................... . 13.7
+6332B ... .Waterman Coll. (Rochester &amp; Pittsburgh Coal Co.)t ............................... . 14.6
+6333... .... Appalacha Coal Co.t ................................. . 16.6
 r Homer City, Pa. (Station) ......................... . 13.2
-6332 ) " (Public Delivery) ........................... . 13.2
+6332  " (Public Delivery) ........................... . 13.2
 1 " (Coral Coal Co.)t ........................... . 13.2
 l " (J. D. George)t ............................... . 13.2
 6337 .... Standard Oil Co. of Pa. No. 1 t ................ .. 15.7
 Indiana, Pa. ("Y" Track)ll ....................... . 17.9
 " (M. Bennett &amp; Sons)t ................... . 17.9
 6339 " (Stock Yard) ................................. . 17.9
-" (Quaker State Oil Ref. Corp. No. 3 
-l -Sterling Sales Div. and Sinclair Ref. Co. No. l)t .............. .. 17.9
+" (Quaker State Oil Ref. Corp. No. 3 -Sterling Sales Div. and Sinclair Ref. Co. No. l)t .............. .. 17.9
 r Indiana, Pa. (McCreary Tire &amp; Rubber Co.)t 
 " (Atlantic Refining Co. No. l)t ......... . 18.0
 " (The Pennzoil Co.)t ....................... . 18.1
@@ -2525,15 +2483,14 @@ r Indiana, Pa. (McCreary Tire &amp; Rubber Co.)t
 " (Public Track No. 1) ....................... . 18.5
 " (A. F. Moreau &amp; Sons)t ................. . 18.6
 " (Public Track No. 2) ....................... . 18.7
-ID " (J. W. Stewart and Geo. T. 
-" No Siding 
-Buchanan)t+ ........................... . 18.8
+ID " (J. W. Stewart and Geo. T. Buchanan)t+ ........................... . 18.8
 " (Station):j: ..................................... . 18.9
 " (Public Track No. 3-Trestle)t ..... . 18.9
 " (Lewis, Steel Feed Co. No. l)t ....... . 18.9
 " (John La Mantia, Altman's Cash 
 Feed Co., Lewis, Steel Feed Co. 
 No. 2 and American Stores Co.)t 18.9
+" No Siding 
 i Telegraph Office 
 t For individual use II Siding-No carload delivery
 
@@ -2541,17 +2498,22 @@ t For individual use II Siding-No carload delivery
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 CONEMAUGH DIVISION-Continued 
-i{ 
+
 Dist. from 
 Conpitt 
 Junction 
-373 .... Compitt Junc. (Junc. Pittsburgh Division 
-and Sang Hollow Ext. W. Conn.l* .0 
-6403 ... Bolivar Foundry &amp; Machine Co.t................ 3.0 
-Garfield Fuel Co. t ...................................... 3.6 
-6403A Garfield Refractory No. 2t........................ 3.6 
+
+373 .... Compitt Junc. (Junc. Pittsburgh Division and Sang Hollow Ext. W. Conn.)* .0 
+
+6403
+ ... Bolivar Foundry &amp; Machine Co.t................ 3.0 
+
+6403A 
+Garfield Fuel Co. t ...................................... 3.6
+Garfield Refractory No. 2t........................ 3.6 
 Garfield Refractory No. 1 t ........................ 3.6 
-60104 Bolivar, Pa. (Storage)!!.............................. 3.6 
+
+6404 Bolivar, Pa. (Storage)!!.............................. 3.6 
 " (Storage) II ...................................... 4.2 
 6406 ... Bluestone Quarries Co.t............................ 7.8 
 6407 .... Storagell .................................................. 8.5 
@@ -2563,11 +2525,11 @@ Blairsville, Pa. (Scales)II............................ 11.1
 " (Station):j: ...................................... 11.5 
 " (Storage and Public Delivery).......... 12.0 
 " (Junc. with High Grade Tracks)...... 13.0 
-61 J .f ... Livermore, Pa. (Public Delivery)................ 16.0 
+6414 ... Livermore, Pa. (Public Delivery)................ 16.0 
 ! Tunnelton, Pa. (Eastbound Siding) 11.......... 18.5 
 6416 1 " (Station and Public Delivery).......... 19.2 
 l " (Westbound Siding) II ...................... 19.3 
-!H17A ... Atlas Powder Co. No. 2t ............................ 19.6 
+6417A ... Atlas Powder Co. No. 2t ............................ 19.6 
 6418 .... Atlas Powder Co. No. lt ............................ 20.1 
 fMl8B ... Bowman Coll. (Bowman C. M. Co.)t.......... 20.3 
 64 l 8A ... Watson Colliery No. 2 (Watson Coal Co.)t 20.8 
@@ -2587,38 +2549,34 @@ Edri, Pa. CW. B. Siding) 11.......................... 26.6
 ( Mechanical Coal Sta. Sdg.11...................... 28.5 
 6428 f Avonmore, Pa. (Passenger Station)*........ 28.9 
 l " (Junction Avonmore Br.)* .............. 30.0 
-6535 .... Avonmore, Pa. (National Roll &amp; Foundry 
-Co. Nos. 1 &amp; 2)t:f:...................... 31.8 
-r Avonmore, Pa. (National Roll &amp; Foundry 
-6538 ) Co. No. 3---Steel Div.)H,......... 32.0 
+6535 .... Avonmore, Pa. (National Roll &amp; Foundry Co. Nos. 1 &amp; 2)t:f:...................... 31.8 
+r Avonmore, Pa. (National Roll &amp; Foundry ) Co. No. 3---Steel Div.)H,......... 32.0 
+6538
 " (Storage):j: II .................................... 32.0 
 Salina, Pa. (Station):j:................................ 30.7 
 " (Public Track):j: .............................. 30.7 
-64291 " (General Refractories Co. Nos. 1 
-&amp; 2)t..... 30.7 
+64291 " (General Refractories Co. Nos. 1 &amp; 2)t..... 30.7 
 " (Storage):j:11 .................................... 30.7 
 6430 .... Cochran Coll.-Cochran Coal Co.t.............. 30.8 
 6432 } Truxall, Pa. CW. B. Siding):j:11.................... 33.1 
 (E. B. Siding):j:11.............................. 33.7 
-Truxall, Pa. (Roaring Run Coll.-West6433 1 moreland Mining Co.).............. 34.2 l " (Station)* ...................................... 34.3 
+Truxall, Pa. (Roaring Run Coll.-West6433 1 moreland Mining Co.).............. 34.2 
+ " (Station)* ...................................... 34.3 
 * No Siding t For individual use t Telegraph Office 
-II Sidino-No carload delivery ~ BV-Blairsville-lncludes all points in Blairsville Yard not otherwise designated
+II Sidino-No carload delivery 
+BV-Blairsville-lncludes all points in Blairsville Yard not otherwise designated
 
 247 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 CONEMAUGH DIVISION-Continued 
-5 
-E 
-m 
-0 
-g_ 
-(( 
+
+
 Dist.from 
 Conpitt 
 Junction 
+
 6540 .... Junc. Apollo Branch:j:11.............................. 36.1 
-r 
 Apollo, Pa. (Freight Station):j:.................. 37.0 
 " (West Apollo Milling Co.)t.............. 37.1 
 6541 " ("Y") 11 ................... 37.1
@@ -2626,8 +2584,7 @@ Apollo, Pa. (Freight Station):j:.................. 37.0
 " (Apollo Steel Co.)t.......................... 37.5 
 " (J. Weisband Co.)t.......................... 37.7 
 " (Preston C. Grimm)t........................ 37.7 
-6544 .... Kiski. Valley Coll. No. 3 (Kiski. Valley Coal 
-Co.)t ........................................ 37.8 
+6544 .... Kiski. Valley Coll. No. 3 (Kiski. Valley Coal Co.)t ........................................ 37.8 
 6547 .... Foster Coils. Nos. 4 &amp; 5 (Leechburg Collieries Co.)t .............................. 40.0 
 6436 f West Apollo, Pa. (Station):j:...................... 36.6 
 l " (Public Track) ................................ 36.6 
@@ -2653,18 +2610,15 @@ r Hyde Park, Pa........................................... 42.8
 l " (Hyde Park Fdy. &amp; Machine Co.).. 43.7 
 .... Leechburg, Pa. (Passenger Station)*........ 44.7 
 6448 .... Valley Colliery (Valley Coal Co.)t.............. 44.7 
-r West Leechburg, Pa.*................................ 45.8 
-6450 ] " (Allegheny Ludlum Steel Corp. No. 1 
-l -Industrial Interchange)t ...... 45.8 
+ West Leechburg, Pa.*................................ 45.8 
+6450 ] " (Allegheny Ludlum Steel Corp. No. 1  -Industrial Interchange)t ...... 45.8 
 6456 .... Bagdad, Pa. (Station)*.............................. 47.3 
 Kiskiminetas Jc., Pa. (Eastbound Storage)!I 48.3 
 " (Shop Cars) II .................................. 49.1 
 KJ " (Yard) II .......................................... 49.2 
-" (Station - Conn. Conemaugh Div. 
-P. R. R.l:)11 .............................. 49.9 
+" (Station - Conn. Conemaugh Div. P. R. R.l:)11 .............................. 49.9 
 KR .... Kiskiminetas Jc., Pa. (Jc. Allegheny Br.)ll:j: 49.9 
-I Freeport, Pa. (Pittsburg &amp; Shawmut R. R. 
-I -Interchange) ........................ 50.8 
+I Freeport, Pa. (Pittsburg &amp; Shawmut R. R.  -Interchange) ........................ 50.8 
 6468 1 " (Storage) II ...................................... 50.6 
 I " (Freight Station) ............................ 50.7 
 Lane, Pa. (Butler Junc. Coll.-Koppers l 
@@ -2679,28 +2633,20 @@ Siding-No carload delivery
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 CONEMAUGH DIVISION-Continued 
-::c 
-u 
-z 
-c,: 
-0:: 
-a, 
-0:: 
-w 
-..J 
-f-
-::, 
-a, 
+
 Dist.from 
 Conpitt 
 Junction 
+
 6570 ... Lane, Pa. (Public Delivery)........................ 52.1 
-6572 f Lane, Pa. (Storage)I[................................ 52.8 l " (Freeport Brick Co.)t...................... 53.1 
-6574 \ Winfield Jc., Pa. (Storagelll...................... 56.0 l " {Jc. Winfield R. R.l.......................... 56.1 
+6572 f Lane, Pa. (Storage)I[................................ 52.8 l " 
+(Freeport Brick Co.)t...................... 53.1 
+6574  Winfield Jc., Pa. (Storage)ll...................... 56.0 l " 
+(Jc. Winfield R. R).......................... 56.1 
 6578 \ Sarver, Pa. (Station).................................. 59.6 
 l " (Carload Delivery) .......................... 59.7 
-r Cabot, Pa. (Franklin Glass Corp. No. 2lt 61.5 
-6580 j " (Cabot Sidinglll .............................. 62.2 
+r Cabot, Pa. (Franklin Glass Corp. No. 2)t 61.5 
+6580 j " (Cabot Siding)ll .............................. 62.2 
 l " (Station) ........................................ 62.5 
 6581 ... Marwood, Pa. (Station-Carload Delivery) 63.5 
 6583 ... Dilks Pa. (Siding) 11.................................... 65.2 
@@ -2708,44 +2654,39 @@ l " (Station) ........................................ 62.5
 6586 ... Herman, Pa. (Station-Public Delivery).... 67.7 
 6586A .. Bisco Coal Co.t.......................................... 70.5 
 BT 
-Butler, Pa. (Atlantic Refining Co. No. 2lt 72.1 
+Butler, Pa. (Atlantic Refining Co. No. 2)t 72.1 
 " (Storage) II .................................. .... 72.2 
-" (Sinclair Refg. Co. No. 2lt.............. 72.3 
-" (Franklin Glass Corp. No. llt.......... 72.4 
+" (Sinclair Refg. Co. No. 2)t.............. 72.3 
+" (Franklin Glass Corp. No. l)t.......... 72.4 
 " (Carson Builders Supply Co. No. llt 72.8 
-" (Public Delivery, Carson Builders 
-Supply Co. No. 2, Dillich Lumber 
-Co., General Mills, P. J. Oesterling &amp; Son, T. W. Phillips Gas &amp; 
-Oil Co. and H.J. Klinger &amp; Co.tl 72.8 
+" (Public Delivery, Carson Builders Supply Co. No. 2, Dillich Lumber Co., General Mills, P. J. Oesterling &amp; Son, T. W. Phillips Gas &amp; Oil Co. and H.J. Klinger &amp; Co.)t 72.8 
 " (S. G. Purvis &amp; Co.)t...................... 72.8 
 " (Sutton Gasoline Co.)t.................... 72.8 
-" (Jc. Bessemer &amp; Lake Erie R. R.l 11.. 72.9 
-" (Junc. B. &amp; L. E. R. R.l:j:.................. 73.0 
+" (Jc. Bessemer &amp; Lake Erie R. R.) 11.. 72.9 
+" (Junc. B. &amp; L. E. R. R.):j:.................. 73.0 
 " (National Supply Co.)t.................... 73.0 
 " (Station):j: ...................................... 73.0 
 6472 ... Harris Sidingll .......................................... 52.6 
 NR 
 .... Karns, Pa. (Station)*................................ 54.3 
-Natrona, Pa. (K. S. Storage-S. S.l 11...... 55.2 
+Natrona, Pa. (K. S. Storage-S. S.) 11...... 55.2 
 " (Penna. Salt Mfg. Co.)t .................. 55.4 
-(K. S. Storage-N. S.lll................. 55.4 
-" (Penna. Salt Mfg. Coll. No. 1-
-Penna. Salt Mfg. Co.)t.............. 55.4 
+(K. S. Storage-N. S.)ll................. 55.4 
+" (Penna. Salt Mfg. Coll. No. 1-Penna. Salt Mfg. Co.)t.............. 55.4 
 " (Station)'' ...................................... 55.8 
-" (Public Deliverylll .......................... 55.9 
+" (Public Delivery)ll .......................... 55.9 
 6480 ... Grovedale, Pa. (No. 1 &amp; 2 Storage Tracks) II 56.1 
-i Brackenridge, Pa. (Allegheny Ludlum Steel 
-I Corp. No. 2)t............................ 56.5 
+i Brackenridge, Pa. (Allegheny Ludlum Steel Corp. No. 2)t............................ 56.5 
 6484 I " (Outbound Storage) II ...................... 56.6 
-I " {Allegheny Steel Co.)t.................... 56.6 
+I " (Allegheny Steel Co.)t.................... 56.6 
 l " (Station):j: ...................................... 56.8 
-" (Storage Sidinglll .......................... 57.3 
-r 
+" (Storage Siding)ll .......................... 57.3 
+ 
 Tarentum, Pa. (Public Delivery No. 1)...... 57.6 
 " (Public Delivery No. 2, Logan Lum6 4 86 J ber Co., No.land R. J. Toepfertl 57.6 1 " {Passenger Station)* ...................... 57.8 
 * No Siding 
-l " {Tarentum Paper Millslt................ 58.3 
-" {Freight Station and C. L. Delivery) 58.5 
+ " (Tarentum Paper Millslt................ 58.3 
+" (Freight Station and C. L. Delivery) 58.5 
 t For individual use 
 ! Telegraph Office 
 Ii s:ding-No carload delivery 
@@ -2754,34 +2695,34 @@ Ii s:ding-No carload delivery
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 CONEMAUGH DIVISION-Continued 
+
+
 Dist.from 
 Conpitt 
 Junction 
-~ West Tarentum, Pa. (Station) 11................ 58.5 
+
+
+ West Tarentum, Pa. (Station) 11................ 58.5 
 6486
 A " (Yard)ll .......................................... 58.7 
 " (P. J. Greco &amp; Sons)t...................... 58.9 
 l " (Scales) II ........................................ 58.8 
-r Creighton, Pa. (Penn Iron &amp; Steel Co. 
-I " (Penn Iron &amp; Steel Co. 
-No.2)t.............................. 59.9
-6487 j " (Creighton Coll. - Creighton Fuel 
-1 Co.)t ........................................ 59.2 
-I " (Pittsburgh Plate Glass Co. No. 2lt 59.1 
-I " (Pittsburgh Plate Glass Co. No. llt 59.3 
-l " {Station)* ...................................... 59.3 
+r Creighton, Pa. (Penn Iron &amp; Steel Co.) 
+I " (Penn Iron &amp; Steel Co. No.2)t.............................. 59.9
+6487 j " (Creighton Coll. - Creighton Fuel Co.)t ........................................ 59.2 
+I " (Pittsburgh Plate Glass Co. No. 2)t 59.1 
+I " (Pittsburgh Plate Glass Co. No. l)t 59.3 
+l " (Station)* ...................................... 59.3 
 6487 A .. Junc. Bailey's Run Branch*........................ 59.5 
-6375 .... McFetridge Coll. (Mcfetridge Bros. Coal 
-Co.)t ........... ............................ 59.8 
+6375 .... McFetridge Coll. (Mcfetridge Bros. Coal Co.)t ........... ............................ 59.8 
 6377 .... Mcfetridge Bros. Brick Co.t.................... 60.0 
 6488 ... Creighton (Storage) II ................................ 59.7 
 6489 .... Cornell Colliery (Crucible Fuel Co.)t.......... 59.8 
-6489A .. Glassmere, Pa. (Glassmere Brick &amp; Tile 
-Co.)t ........................................ 59.8 
+6489A .. Glassmere, Pa. (Glassmere Brick &amp; Tile Co.)t ........................................ 59.8 
 6490 \ Glassmere, Pa. (Station)*.......................... 60.1 
 l " (Glassmere Castings Co.)t................ 60.2 
 6490B ... Aluminum Co. of America No. 1 .............. 60.7 
-.... We,t New Kensington, Pa. (Station)*........ 61.1 
+.... West New Kensington, Pa. (Station)*........ 61.1 
 6490A .. West Penn Power Co. No. 1 t.................... 62.4 
 6491 
 Springdale, Pa. (Station).......................... 62.7 
@@ -2809,9 +2750,9 @@ Harmarville, Pa. CJ. W. Maglaughlin)t...... 66.6
 Red Raven, Pa. (Freight Station).............. 66.9 
 Harmarville, Pa. (Red Raven Corp.)........ 66.8 
 Hulton Ferry, Pa. (Station) 11...................... 67.2 
-" {Storage)ll ...................................... 67.3 
+" (Storage)ll ...................................... 67.3 
 " (Consumers Mining Co.)t................ 67.3 
-6498····Glenover, Pa. (Station)*............................ 69.2 
+6498 .... Glenover, Pa. (Station)*............................ 69.2 
 r Blawnox, Pa. (Sun Oil Co.)t...................... 69.6 
 6499 I " (Blawnox Riverside Siding)t............ 69.8 
 " (Station)...................... 70.1
@@ -2824,9 +2765,12 @@ II Siding-No carload delivery
 260 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
-CONEMAUGH DIVISION-Continued Dist.from 
+CONEMAUGH DIVISION-Continued 
+
+Dist.from 
 Conpitt 
 Junction 
+
 Parkview, Pa. (Allegheny Co. Work-House 
 6500 No. 2lt .................................... 70.4 
 " (Station) ........................................ 70.4 
@@ -2834,31 +2778,25 @@ Aspinwall, Pa. (Ross Storage Nos. 101,
 650 I 102 &amp; 103l II............................ 70.5 
 " (Scales) II ........................................ 71.3 
 " (Storage) II ...................................... 71.5 
-Aspinwall, Pa. (John F. Casey Co., Allegheny Equipment Co., Hillside 
-Stone &amp; Supply Co., Railway 
-Maintenance Co. and SwindellDressler Co.)t .......................... 71.5 
-" (Aspinwall &amp; Ross Pumping Station 
--City of Pittsburgh)t.............. 71.7 
+Aspinwall, Pa. (John F. Casey Co., Allegheny Equipment Co., Hillside Stone &amp; Supply Co., Railway Maintenance Co. and Swindell Dressler Co.)t .......................... 71.5 
+" (Aspinwall &amp; Ross Pumping Station City of Pittsburgh)t.............. 71.7 
 6502 
 " (Jc. Brilliant Br., East Leg "Y").... 71.9 
 " (Station) ........................................ 72.4 
 " (Sharpsburg Class. Yd.-East Conn.) 72.4 
-" (Baro of Aspinwall - Water and 
-Light Plant)t ............................ 72.4 
-" (Pittsburgh Machinery &amp; Equipment 
-Co.) ........................................ 72.4 
+" (Baro of Aspinwall - Water and Light Plant)t ............................ 72.4 
+" (Pittsburgh Machinery &amp; Equipment Co.) ........................................ 72.4 
 " (Warehouse Siding) ........................ 72.4 
 " (Carload Delivery) .......................... 72.7 
 { 
 6502A .. As::nwall, Pa. (Jc. Brilliant Br., East Leg 
-~ .g} 436B .... Jun .. c. Pitt:·~*;~h ·oi~i;i~~-*·t·:::::::::::::::::::::: ~~:~ ~ _,;_ 436 .. East Liberty Pa. (Junc. Main Line)............ 75.1 
+~ .g} 436B .... Jun .. c. Pitt:·~*;~h ·oi~i;i~~-*·t·:::::::::::::::::::::: ~~:~ ~ _,;_ 
+436 .. East Liberty Pa. (Junc. Main Line)............ 75.1 
 ~ /J: 6503 ... As;,inwall, Pa. (Junc. Brilliant Br., West 
 "' Leg "Y"l* ................................ 72.4 
 .... Fast End of Sharpsburg Yard.................... 72.6 
-6503 ... As~inwall, Pa. (Junc. Brilliant Branch, 
-West Leg "Y")* .......................... 73.0 
-6504 ... Sumner, Pa. (H. J. Heinz Bottle Co. and 
-Sharpsburg Foundry Co.)t........ 73.3 
+6503 ... As~inwall, Pa. (Junc. Brilliant Branch, West Leg "Y")* .......................... 73.0 
+6504 ... Sumner, Pa. (H. J. Heinz Bottle Co. and Sharpsburg Foundry Co.)t........ 73.3 
 Sharpsburg, Pa. (Fort Pitt Brewing Co.) 73.7 
 " ( E. E. Brosius)t ...... ........................ 73. 7 
 6505 " (Roessing Mfg. Co.)t........................ 73.7 
@@ -2866,7 +2804,7 @@ Sharpsburg, Pa. (Fort Pitt Brewing Co.) 73.7
 " (Freight Station and Public Dely.) 74.4 
 " (Classification Yard) ...................... 74.4 
 6506 ... Etna, Pa. (Spang, Chalfant, lnc.lt............ 74.5 
-1Etna, Pa. (Yardlll ..................................... 74.7 
+Etna, Pa. (Yardlll ..................................... 74.7 
 j " (Etna &amp; Montrose R. R.-lsabella 
 6507 I Furnace-Carnegie-Illinois Steel 
 l Corp. No. llt............................ 74.9 
@@ -2891,32 +2829,25 @@ PK .... Pittsburgh, Pa. (Pittsburgh Joint Stock
 6512 
 AC 
 Yards Co. (Herrs Island)j:.......... 77.9 
-Herrs Island, Pa. (Pittsburgh Provision &amp; 
-P'k'g Co.)t .............................. 78.2 
+Herrs Island, Pa. (Pittsburgh Provision &amp; Pack'ing Co.)t .............................. 78.2 
 " (Armour &amp; Co.)t.............................. 78.2 
 " (Junc. B. &amp; 0. R. R.)...................... 78.6 
-Pittsburgh N. S., Pa. (Armstrong &amp; 
-McKelvey Works of the National 
-Lead &amp; Oil Co. of Pennsylvania)t 78.0 
+Pittsburgh N. S., Pa. (Armstrong &amp; McKelvey Works of the National Lead &amp; Oil Co. of Pennsylvania)t 78.0 
 " (Standard Ice Co.)t........................ 78.0 
-" (P. J. McGraw Wool Co. and Flaccus 
-Leather Co.)t ........................ :... 78.1 
+" (P. J. McGraw Wool Co. and Flaccus Leather Co.)t ........................ :... 78.1 
 " (H. J. Heinz Co.)............................ 78.1 
 Pittsburgh N. S., Pa. (Lacock St. Yard).... 78.8 
 " (N. Jockellt .................................... 78.8 
 " (May Stern &amp; Co.)t........................ 78.8 
-" (Junction Conemaugh and Eastern 
-Divisions)* ................................ 78.9 
+" (Junction Conemaugh and Eastern Divisions)* ................................ 78.9 
 " (Anderson St. Yard)........................ 79.0 
 " (Federal St. Frt. Station)................ 79.1 
-" (Federal St. Pass. Station-P., F. 
-W. &amp; C. Ry.):j:............................ 79.3 
-JA .... Pittsburgh N. S., Pa. (Island Ave.-Eastbound and Westbound Frt. Yd.) 80.6 
+" (Federal St. Pass. Station-P., F. W. &amp; C. Ry.):j:............................ 79.3 
+JA .... Pittsburgh N. S., Pa. (Island Ave.-Eastbound and Westbound Frt. Yd.) 80.6 
 3CA ... " (Manchester Yd.) ............................ 80.6 
 CW .... Conway, Pa ............................................... 100.0 
 WINFIELD RAILROAD 
-6574 ... .Winfield Junction, Pa. (Junc. Butler Branch 
-P. R. R.lll.................................. 56.2 
+6574 ... .Winfield Junction, Pa. (Junc. Butler Branch P. R. R.)ll.................................. 56.2 
 6589 .. Tuscorara Oil Co.t...................................... 57.1 
 6591 .... 1ron Bridge, Pa. (Siding)............................ 59.6 
 6592 .... Pogqsville, Pa. (Public Delivery)................ 61.5 
@@ -2938,16 +2869,16 @@ CONEMAUGH DIVISION-Continued
 ALLEGHENY BRANCH 
 Dist. from 
 Pgh. (Junc. Eastern Div.) 
-VY .... Pittsburgh, Pa. (Junc. Eastern Div.J* ........ .0 
+VY .... Pittsburgh, Pa. (Junc. Eastern Div.)* ........ .0 
 r Pittsburgh, Pa. (Penn St. Delivery Yard) 0.2 
-A I j " (Mulberry Alley-Delivery Yard).... 0.3 l " (Eleventh Street Yard).................... 0.3 
+A I j " (Mulberry Alley-Delivery Yard).... 0.3 
+" (Eleventh Street Yard).................... 0.3 
 A 2 .. Pittsburgh, Pa. (Wilson &amp; Co.)t................ 0.3 
 A 3 ... " (Eleventh St. Crane Yard)................ 0.3 
 A 4 ... " (Spear &amp; Co.)t................................. 0.3 
 A 5 " (White Terminal No. 2)t.................. 0.3 
 i Pittsburgh, Pa. (Produce Yard "A")........ 0.3 
-A 6 I " (Allegheny County Steam Heating 
-i Co.)t ...................................... .. 0.3
+A 6 I " (Allegheny County Steam Heating Co.)t ...................................... .. 0.3
 I " (14th Street Storage Yard) 11 ........... . 0.4
 A 7 ... Pittsburgh, Pa. (Hardie Bros. Co.)t ......... . 0.4
 ; Pittsburgh, Pa. (McClure-Johnson Co.)t ... . 0.5
