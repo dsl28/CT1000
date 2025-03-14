@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ct1000schema.rnc" type="application/relax-ng-compact-syntax"?>
 <CT1000>
 
 208
@@ -19,7 +20,7 @@ Altoona
     <entry><location type="junction" name= "MIddle Division">(Junc. Middle Div.)</location>...................... <distance milepost= "1.0">1.0</distance></entry>
 </switch> 
     <entry><switch number="333">333</switch> .... <location type="siding" name="Car Shop Siding">Kittanning Point, Pa.</location>(Shop Car Siding) <distance milepost= "5.8"> 5.8 </distance></entry>
-    <entry><swithc number= "335">335</swithc> .... <location type= "industry" name= "Pennsylvania Colliery Number 2" itype="coal">Penna. Coll. No. 2 (Penna. C. &amp; C. Corp.)</location> <distance milepost="10.7">10.7</distance> </entry>
+    <entry><switch number= "335">335</switch> .... <location type= "industry" name= "Pennsylvania Colliery Number 2" itype="coal">Penna. Coll. No. 2 (Penna. C. &amp; C. Corp.)</location> <distance milepost="10.7">10.7</distance> </entry>
 
 <branch name= "New Portage">
     <measure from= "New Portage Junction">
@@ -35,11 +36,11 @@ New Portage Jc.
     <entry><switch number= "335A">335A</switch> .... <location type= "junction" name= "East End Tunnel">East End Tunnel (Junc. Main Line)</location>l!ji:...... <distance milepost= "14.9">14.9</distance></entry>
 </branch>
 
-<meausre from= "Altoona">
+<measure from= "Altoona">
 Dist.from
 Altoona
 (Pass. Sta.)
-</meausre>
+</measure>
 
 <switch number= "335A">335A
     <entry><location type="siding">East End Tunnel, Pa. (Storage)</location> 11.............. <distance milepost= "10.6">10.6</distance> </entry>
@@ -185,6 +186,7 @@ Cresson
 </switch>
 
 <switch number="6318">6318
+<<<<<<< HEAD
     <location type="siding" name="storage no.3 south side">Black Lick, Pa. (Storage No. 3-South Side)</location> ...................................... 42.6 
     <location type="junction" name="Conemaugh Division"> (Junc. Conemaugh Div.)</location>.................. 42.9 
     <location type= "station" name = "Black Lick">" (Station)</location> ........................................ 43.0 
@@ -205,9 +207,31 @@ Cresson
 6O92F ..<location type="industry" name="Bakerton Coll. No. 1 (Bakerton Coal Co.)" itype="coal">Bakerton Coll. No. 1 (Bakerton Coal Co.)</location> 17.3 
 6O92A .. <location type="industry" name="Navy Smokeless Coll. (Mccombie Coal Co.)" itype="coal">Navy Smokeless Coll. (Mccombie Coal Co.)</location> 17.6 
 6O92B .. <location type="industry" name="Peerless Coll. No. 1 (Mccardell Coal Co.)" itype="coal">Peerless Coll. No. 1 (Mccardell Coal Co.)</location> 18.2 
+=======
+<switch number="6318">6318</switch>
+    <entry>Black Lick, Pa. (Storage No. 3-South 
+     Sidell[ ......................................  <distance milepost= "42.6">42.6</distance></entry>
+        <entry>" (Junc. Conemaugh Div.).................. <distance milepost= "42.9">42.9</distance></entry>
+        <entry>" (Station) ........................................ <distance milepost= "43.0">43.0</distance></entry>
 
+</branch>
+
+<entry><switch number="6007">6007</switch>.... Loretto Road, Pa..................................... <distance milepost= "6.9">6.9</distance></entry>
+
+<switch number="6012">6012</switch>
+<entry>Bradley Junc., Pa. (Storage Passing) ii...... <distance milepost= "11.1">11.1</distance></entry>
+<entry>" (Station) ........................................ <distance milepost= "11.3">11.3</distance></entry>
+<entry>" (Jc. Susquehanna ExU.................... <distance milepost= "11.3">11.3</distance></entry>
+>>>>>>> 8e63d6193d7d099fd296c8ea1bb1530571a345fc
+
+<entry><switch number="6089">6089</switch>....Dishart, Pa. (Storage-Passing) I!.............. <distance milepost= "14.7">14.7</distance></entry>
+<entry><switch number="6090">6090</switch>.... Tunnel (Storage) II .................................... <distance milepost= "15.6">15.6</distance></entry>
+<entry><switch number="6092">6092</switch>... Carrolltown, Pa. ........................................ <distance milepost= "16.9">16.9</distance></entry>
+<entry><switch number="6O92F">6O92F</switch> .Bakerton Coll. No. 1 (Bakerton Coal Co.)  <distance milepost= "17.3">17.3</distance></entry>
+<entry><switch number="6O92A">6O92A</switch> .. Navy Smokeless Coll. (Mccombie Coal Co.)  <distance milepost= "17.6">17.6</distance></entry>
 
 <branch name= "Luther">
+<<<<<<< HEAD
 6092C .. <location type="junction" name="Luther Branch">Junction Luther Branch</location>.......................... 18.3 
 6112 ... <location type="industry" name="Sterling Coll. No. 2 (Sterling Coal Co.)" itype="coal">Sterling Coll. No. 2 (Sterling Coal Co.)</location>.. 18.7 
 6113 ... <location type="industry" name="Reed Coll. No. 1 (Reed C. M. Co.)" itype="coal">Reed Coll. No. 1 (Reed C. M. Co.)</location>.......... 18.7 
@@ -252,86 +276,134 @@ Cresson
 6137 ... <location type="industry" name="Thermal Coll. No. 7 (Press Coal Co.)" itype="coal">Thermal Coll. No. 7 (Press Coal Co.)</location> ...... 24.9
 6138 .. <location type="industry" name="Cymbria Coll. (Patton C. M. Co.)" itype="coal">Cymbria Coll. (Patton C. M. Co.)</location>.............. 25.3 
 6139 .... End of Walnut Run Branch...................... 25.4
+=======
+    <entry><switch number="6O92B">6O92B</switch> .. Peerless Coll. No. 1 (Mccardell Coal Co.) <distance milepost= "18.2">18.2</distance></entry>
+    <entry><switch number="6092C">6092C</switch> .. Junction Luther Branch* ..........................  <distance milepost= "18.3">43.0</distance></entry>
+    <entry><switch number="6112">6112</switch> ... Sterling Coll. No. 2 (Sterling Coal Co.)..  <distance milepost= "18.7">18.7</distance></entry>
+    <entry><switch number="6113">6113</switch> ... Reed Coll. No. 1 (Reed C. M. Co.)..........  <distance milepost= "18.7">18.7</distance></entry>
+    <entry>.... End of Luther Branch*..............................  <distance milepost= "18.8">18.8</distance></entry>
+</branch>
+
+<entry><switch number="6O92D">6O92D</switch> .Heisley Coll. No. 2 (Heisley Coal Co.)......  <distance milepost= "18.4">18.4</distance></entry>
+<entry><switch number="6O92E">6O92E</switch> .. Bakerton, Pa. ............................................  <distance milepost= "18.6">18.6</distance></entry>
+<entry><switch number="6O93A">6O93A</switch> .. Miller Run Coll. No. 1 (Mccombie Coal Co.) ........................................  <distance milepost= "19.6">19.6</distance></entry>
+
+<branch name= "Sterling">
+    <entry><switch number="6O93B">6O93B</switch> .. Junction Sterling Branch* ........................  <distance milepost= "19.8">19.8</distance></entry>
+    <entry><switch number="6116">6116</switch> 
+        ... Sterling Coll. No. 1 (Sterling Coal Co)....  <distance milepost= "20.7">20.7</distance></entry>
+    <entry>.... End Sterling Branch*................................  <distance milepost= "20.8">20.8</distance></entry>
+</branch>
+
+<entry><switch number="6O93C">6O93C</switch>  .. Lancashire Coll. No. 1 (Barnes Coal Co.)  <distance milepost= "20.2">20.2</distance></entry>
+<entry><switch number="6O93E">6O93E</switch>  .. Benton, Pa. (Storage-Passing) II.............. <distance milepost= "20.9">20.9</distance></entry>
+<entry><switch number="6O93F">6O93F</switch>  .. Reilly Coll. (Joseph H. Reilly Coal Co.)....  <distance milepost= "21.5">21.5</distance></entry>
+<entry><switch number="6O94B">6O94B</switch>  .. Atlantic Refining Co. No. 1 t......................  <distance milepost= "21.6">21.6</distance></entry>
+<entry><switch number="6095">6095</switch>  .... Jc. Cambria Co. R. R. (Pa. Div.-N. Y. C. R. R.)* ......................................  <distance milepost= "21.7">21.7</distance></entry>
+
+<switch number="6096">6096</switch>
+<entry>Spangler, Pa. (Station).............................. 21.8 <distance milepost= "21.8">21.8</distance></entry>
+<entry>" (Storage))! ...................................... 21.8 <distance milepost= "21.8">21.8</distance></entry>
+
+<entry>" (Lauderbach-Griest Co) ..............  <distance milepost= "22.1">22.1</distance></entry>
+<entry><switch number="6O97">6O97</switch>  .... Spangler, Pa. CE. F. Dumm) ....................  <distance milepost= "22.3">22.3</distance></entry>
+<entry><switch number="6098">6098</switch>  ... Summit Track II ........................................  <distance milepost= "22.4">22.4</distance></entry>
+<entry><switch number="6O99">6O99</switch>  .... West Branch No. 1 (Penna. Div.-N. Y. C. R. RY)* ......................................  <distance milepost= "22.7">22.7</distance></entry>
+<entry><switch number="6O99A">6O99A</switch>  .Sandberg Siding ll ....................................  <distance milepost= "22.9">22.9</distance></entry>
+
+<branch name="Walnut Run">
+    <switch number="6100">6100</switch>
+    <entry>Barnesboro, Pa. (Storage) II......................  <distance milepost= "23.0">23.0</distance></entry>
+    <entry>" (Station-Jc. Walnut Run Br.)......  <distance milepost= "23.0">23.0</distance></entry>
+    <entry>" (Barnesboro Lumber Co.)..............  <distance milepost= "23.5">23.5</distance></entry>
+
+    <entry><switch number="6134">6134</switch> ... Byrnes Coll. No. 1 (Dill, Stephens &amp; Byrnes) ..................................  <distance milepost= "24.3">24.3</distance></entry>
+    <entry><switch number="6136">6136</switch> ... Penna. Coll. No. 4 (Penna. C. &amp; C. Corp.) <distance milepost= "24.6">24.6</distance></entry>
+    <entry><switch number="6137">6137</switch> ... Thermal Coll. No. 7 (Press Coal Co.) ...... <distance milepost= "24.9">24.9</distance></entry>
+    <entry><switch number="6138">6138</switch> .. Cymbria Coll. (Patton C. M. Co.)..............  <distance milepost= "25.3">25.3</distance></entry>
+    <entry><switch number="6139">6139</switch>  .... End of Walnut Run Branch*...................... <distance milepost= "25.4">25.4</distance></entry>
+>>>>>>> 8e63d6193d7d099fd296c8ea1bb1530571a345fc
 </branch>
 
 
 
-211 
+--211 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued  
-CRESSON BRANCH-Continued 
+CRESSON BRANCH-Continued
 
 Dist.from 
 Cresson 
 
 <branch name="Susquehanna Extension">
     <branch name="Porter Run">
-61OOA .. Barnesboro, Pa. (Sterling Oil Co. No. l).. 23.5 
-6101 .... Barnesboro Bilkeryt .................................. 23.5 
-6101A .. Junction Porter Run Br.*.......................... 23.7 
-6140 ... Delta Coll. (Duncan-Spangler C. Co.)...... 24.3 
-6141 .... Lancashire Coils. Nos. 2 &amp; 3 (Barnes &amp; Tucker) and Porter Coll. No. 1 t 24.3 
-. .. .. End of Porter Run Branch*...................... 24.8 
+        <entry><switch number="61OOA">61OOA</switch> .. Barnesboro, Pa. (Sterling Oil Co. No. l)..  <distance milepost= "23.5">23.5</distance></entry>
+        <entry><switch number="6101">6101</switch> .... Barnesboro Bilkeryt ..................................  <distance milepost= "23.5">23.5</distance></entry>
+        <entry><switch number="6101A">6101A</switch> .. Junction Porter Run Br.*..........................  <distance milepost= "23.7">23.7</distance></entry>
+        <entry><switch number="6140">6140</switch> ... Delta Coll. (Duncan-Spangler C. Co.)......  <distance milepost= "24.3">24.3</distance></entry>
+        <entry><switch number="6141">6141</switch> .... Lancashire Coils. Nos. 2 &amp; 3 (Barnes &amp; Tucker) and Porter Coll. No. 1 t  <distance milepost= "24.3">24.3</distance></entry>
+        <entry>. .. .. End of Porter Run Branch*......................  <distance milepost= "24.8">24.8</distance></entry>
     </branch>
     <branch name="Gardner Run">
-6147 .... Junction Gardner Run Branch* ................ .. 23.7
-.... End of Gardner Run Branch* .................. .. 24.7
+        <entry><switch number="6147">6147</switch> .... Junction Gardner Run Branch* ................ .. <distance milepost= "23.7">23.7</distance></entry>
+        <entry>.... End of Gardner Run Branch* .................. .. <distance milepost= "24.7">24.7</distance></entry>
     </branch>
     <branch name="Moss Creek">
-61O3 .... Garman Coll. No. 1 (Garman Coal Co.) .. .. 24.9
-61O3A .. Junc. Moss Creek Branch* ...................... .. 25.3
-6120 .. Woodland Coll. (Deringer Bros.) ............ .. 25.8
-612OB .. Butterworth Coll. (Butterworth Coal Co.) 26.0
-6121 .... Penna. Calls. Nos. 5 &amp; 6 (Penna. C. &amp; C. Corporation) ........................ .. 27.3
-.... End of Moss Creek Branch* ..................... . 27.4
+        <entry><switch number="61O3">61O3</switch> .... Garman Coll. No. 1 (Garman Coal Co.) .. .. <distance milepost= "24.9">24.9</distance></entry>
+        <entry><switch number="61O3A">61O3A</switch>  .. Junc. Moss Creek Branch* ...................... .. <distance milepost= "25.3">25.3</distance></entry>
+        <entry><switch number="6120">6120</switch> .. Woodland Coll. (Deringer Bros.) ............ .. <distance milepost= "25.8">25.8</distance></entry>
+        <entry><switch number="612OB">612OB</switch> .. Butterworth Coll. (Butterworth Coal Co.) <distance milepost= "26.0">26.0</distance></entry>
+        <entry><switch number="6121">6121</switch> .... Penna. Calls. Nos. 5 &amp; 6 (Penna. C. &amp; C. Corporation) ........................ .. <distance milepost= "27.3">27.3</distance></entry>
+        <entry>.... End of Moss Creek Branch* ..................... . <distance milepost= "27.4">27.4</distance></entry>
     </branch>
-6104 ... Garman, Pa ............................................. .. 25.7
-6106 ... Jc. Emigh Run Br. (Pa. Div. N.Y.C.R.R.l* 
-61O7 .... Kinport Coll. No. 1 (Hastings Coal &amp; Coke Co.) ...................................... .. 27.4
-6108 ... Cherry Tree ("Y" Junc. C. T. &amp; Dixonville R.R.) ...................................... .. 28.7
+    <entry><switch number="6104">6104</switch> ... Garman, Pa ............................................. .. <distance milepost= "25.7">25.7</distance></entry>
+    <entry><switch number="6106">6106</switch> ... Jc. Emigh Run Br. (Pa. Div. N.Y.C.R.R.l* </entry>
+    <entry><switch number="61O7">61O7</switch> .... Kinport Coll. No. 1 (Hastings Coal &amp; Coke Co.) ...................................... .. <distance milepost= "27.4">27.4</distance></entry>
+    <entry><switch number="6108">6108</switch> ... Cherry Tree ("Y" Junc. C. T. &amp; Dixonville R.R.) ...................................... .. <distance milepost= "28.7">28.7</distance></entry>
 
 Dist.from 
 CherryTree"Y" 
 
 <subsidiary name="Cherry Tree and Dixonville Railroad">
-6602 ... Cherry Tree, Pa. (Storage) 11...................... 0.3 
-6604.... " (McKeages Delivery) ...................... 0.5 
-6606 ... Cush Cushion, Pa. ...................................... 3.4 
-6110
-Fleming Summit, Pa. (Storage-Passing)11 5.4 
-" (Stat:on) ........................................ 5.8 
+    <entry><switch number="6602">6602</switch> ... Cherry Tree, Pa. (Storage) 11......................  <distance milepost= "0.3">0.3</distance></entry>
+    <entry><switch number="6604">6604</switch>.... " (McKeages Delivery) ......................  <distance milepost= "0.5">0.5</distance></entry>
+    <entry><switch number="6606">6606</switch> ... Cush Cushion, Pa. ......................................  <distance milepost= "3.4">3.4</distance></entry>
+    <entry><switch number="6110">6110</switch> 
+        Fleming Summit, Pa. (Storage-Passing)11  <distance milepost= "5.4">5.4</distance></entry>
+    <entry>" (Stat:on) ........................................  <distance milepost= "5.8">5.8</distance></entry>
 
-6612 .... Purchase Line, Pa. (Delivery).................... 7.9 
-Purchase Line, Pa.''.................................. 8.7 
-6613 .... Commodore Coils. Nos. 1 &amp; 2 (Clearfield Bituminous Coal Corp.)............ 10.2 
-6614
-Commodore, Pa. (Station).......................... 10.2 
-" (J. W. Henry)................................ 10.3 
+    <entry><switch number="6612">6612</switch> .... Purchase Line, Pa. (Delivery)....................  <distance milepost= "7.9">7.9</distance></entry>
+    <entry>Purchase Line, Pa.''.................................. <distance milepost= "8.7">8.7</distance></entry>
+    <entry><switch number="6613">6613</switch> .... Commodore Coils. Nos. 1 &amp; 2 (Clearfield Bituminous Coal Corp.)............  <distance milepost= "10.2">10.2</distance></entry>
+    
+    <entry><switch number="6614">6614</switch>
+        Commodore, Pa. (Station)..........................  <distance milepost= "10.2">10.2</distance></entry>
+    <entry>" (J. W. Henry)................................  <distance milepost= "10.3">10.3</distance></entry>
 
-6615 ... Commodore, Pa. ........................................ 10.6 
-
-
-66l5A .. Junc. Gallaher Branch*.............................. 10.6 
-6657 .... Andora Coll. No. 1 (Andora Coal Co.)...... 10.9 
-6658 ... Pleasant Valley Coll. No. 1 (Estep Bros. C. M. Co.)................................ 11.0 
-....  .... End of Gallaher Branch*.......................... 11.0 
+    <entry><switch number="6615">6615</switch> ... Commodore, Pa. ........................................  <distance milepost= "10.6">10.6</distance></entry>
 
 
-6617 .... Starford, Pa. ............................................ 11.3 
-6619 ... Glenside Coll. No. 6 (James C. M. Co.).. 12.1 
+    <entry><switch number="66l5A">66l5A</switch> .. Junc. Gallaher Branch*..............................  <distance milepost= "10.6">10.6</distance></entry>
+    <entry><switch number="6657">6657</switch>  .... Andora Coll. No. 1 (Andora Coal Co.)......  <distance milepost= "10.9">10.9</distance></entry>
+    <entry><switch number="6658">6658</switch> ... Pleasant Valley Coll. No. 1 (Estep Bros. C. M. Co.)................................  <distance milepost= "11.0">11.0</distance></entry>
+    <entry>....  .... End of Gallaher Branch*..........................  <distance milepost= "11.0">11.0</distance></entry>
+
+
+    <entry><switch number="6617">6617</switch> .... Starford, Pa. ............................................  <distance milepost= "11.3">11.3</distance></entry>
+    <entry><switch number="6619">6619</switch> ... Glenside Coll. No. 6 (James C. M. Co.)..  <distance milepost= "12.1">12.1</distance></entry>
 
 <branch name="Shanktown">
-6620
-.... Shanktown, Pa. (Station)*........................ 12.2 
-" (Storage-Passing)II ...................... 12.4 
-" (Junc. Shanktown Br.).................... 12.7 
+    <entry><switch number="6620">6620</switch>
+        .... Shanktown, Pa. (Station)*........................  <distance milepost= "12.2">12.2</distance></entry>
+    <entry>" (Storage-Passing)II ......................  <distance milepost= "12.4">12.4</distance></entry>
+    <entry>" (Junc. Shanktown Br.)....................  <distance milepost= "12.7">12.7</distance></entry>
 
-6652 .. '..Shanktown, Pa. (Carload Delivery)............ 13.2 Ji 
-6653 ... Glenside Coll. No. 3 (Glenside Coal Co.).. 13.3 
-6654 .... Harve-Mack Coll. No. 2 (Harve-Mack Coal Co.) ................. 13.3 
-6655.... Harve-Mack Coll. No. 3 (Harve-Mack Coal Co.) .................. 13.6 
-.... End of Shanktown Br.*.............................. 13.6 
+    <entry><switch number="6652">6652</switch> .. '..Shanktown, Pa. (Carload Delivery)............ <distance milepost= "13.2">13.2</distance></entry> Ji 
+    <entry><switch number="6653">6653</switch> ... Glenside Coll. No. 3 (Glenside Coal Co.).. <distance milepost= "13.3">13.3</distance></entry> 
+    <entry><switch number="6654">6654</switch> .... Harve-Mack Coll. No. 2 (Harve-Mack Coal Co.) ................. <distance milepost= "13.3">13.3</distance></entry> 
+    <entry><switch number="6655">6655</switch>.... Harve-Mack Coll. No. 3 (Harve-Mack Coal Co.) .................. <distance milepost= "13.6">13.6</distance></entry> 
+    <entry>.... End of Shanktown Br.*..............................  <distance milepost= "13.6">13.6</distance></entry>
 </branch>
 
 
@@ -341,100 +413,101 @@ Commodore, Pa. (Station).......................... 10.2
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
-CRESSON BRANCH-Continued 
+CRESSON BRANCH-Continued
 
 Dist.from 
 CherryTree"Y" 
 <branch name="Possum Glory">
-6621 .... Wandin, Pa. (Junc. Possum Glory Branch)* 13.1 
-6662 .... Pine Flats, Pa........................................... 16.4 
-6663 .... Manver, Pa. (Junc. Cambria &amp; Indiana R. R. Co.l*................................ 16.7 
-6666 .... Heilwood, Pa.t ........................................ 20.1 .... 
-End of Possum Glory Br.*.......................... 20.3 
+    <entry><switch number="6621">6621</switch> .... Wandin, Pa. (Junc. Possum Glory Branch)*  <distance milepost= "13.1">13.1</distance></entry>
+    <entry><switch number="6662">6662</switch> .... Pine Flats, Pa...........................................  <distance milepost= "16.4">16.4</distance></entry>
+    <entry><switch number="6663">6663</switch> .... Manver, Pa. (Junc. Cambria &amp; Indiana R. R. Co.l*................................  <distance milepost= "16.7">16.7</distance></entry>
+    <entry><switch number="6666">6666</switch> .... Heilwood, Pa.t ........................................ <distance milepost= "20.1">20.1</distance></entry> .... 
+    <entry>End of Possum Glory Br.*..........................  <distance milepost= "20.3">20.3</distance></entry>
 </branch>
 
-6626 .... Diamondville, Pa. ...................................... 14.2 
-6627 .... Mack Coll. No. 2 (Wilmore Fuel Co.)...... 14.9 
+    <entry><switch number="6626">6626</switch> .... Diamondville, Pa. ......................................  <distance milepost= "14.2">14.2</distance></entry>
+    <entry><switch number="6627">6627</switch> .... Mack Coll. No. 2 (Wilmore Fuel Co.)...... <distance milepost= "14.9">14.9</distance></entry>
 
 <branch name="Buck Run">
-6629 .... Junc. Buck Run Branch*............................ 16.2 
-6672A .. Clymer-Moshannon Coll. (Clymer-Moshannon Coal Co.).......................... 17.1 
- .... End of Buck Run Br.*.............................. 17.4 
+    <entry><switch number="6629">6629</switch> .... Junc. Buck Run Branch*............................  <distance milepost= "16.2">16.2</distance></entry>
+    <entry><switch number="6672A">6672A</switch> .. Clymer-Moshannon Coll. (Clymer-Moshannon Coal Co.)..........................  <distance milepost= "17.1">17.1</distance></entry>
+    <entry>.... End of Buck Run Br.*..............................  <distance milepost= "17.4">17.4</distance></entry>
 </branch>
 
-6630 .... Clymer-Hiram Swank &amp; Sons Inc.t............ 16.3 
-6630A .. Atlantic Refining Co. No. 2t...................... 16.7
+    <entry><switch number="6630">6630</switch> .... Clymer-Hiram Swank &amp; Sons Inc.t............  <distance milepost= "16.3">16.3</distance></entry>
+    <entry><switch number="6630A">6630A</switch> .. Atlantic Refining Co. No. 2t...................... <distance milepost= "16.7">16.7</distance></entry>
 
     <branch name="Western">
-6631 .... Junc. Western Branch*.............................. 16.7 
-6684 .... Clymer, Pa.t ******************************************** 16.9 
-6684A ... Saw Mill Siding (Clearfield Bituminous . Coal Corp.) ............................ 17.1 
-6685 .... Victor Colliery No. 23 (Peale, Peacock &amp; Kerr) ...................................... 17.6 
+        <entry><switch number="6631">6631</switch> .... Junc. Western Branch*..............................  <distance milepost= "16.7">16.7</distance></entry>
+        <entry><switch number="6684">6684</switch> .... Clymer, Pa.t ********************************************  <distance milepost= "16.9">16.9</distance></entry>
+        <entry><switch number="v">6684A</switch> ... Saw Mill Siding (Clearfield Bituminous . Coal Corp.) ............................  <distance milepost= "17.1">17.1</distance></entry>
+        <entry><switch number="6685">6685</switch> .... Victor Colliery No. 23 (Peale, Peacock &amp; Kerr) ......................................  <distance milepost= "17.6">17.6</distance></entry>
     </branch>
     <branch name="Sample Run">
-6686 .... Junction Sample Run Br.*........................ 18.0 
-6688 .... Sample Run Coll. (Clearfield Bit. Coal Corp) ...................................... 18.6 
+        <entry><switch number="6686">6686</switch> .... Junction Sample Run Br.*........................  <distance milepost= "18.0">18.0</distance></entry>
+        <entry><switch number="6688">6688</switch> .... Sample Run Coll. (Clearfield Bit. Coal Corp) ......................................  <distance milepost= "18.6">18.6</distance></entry>
     </branch>
     <branch name="Long Run">
-6632 .... Junction Long Run Branch*...................... 17.6 
-.... Rembrandt, Pa.* ...................................... 18.5 
+        <entry><switch number="6632">6632</switch> .... Junction Long Run Branch*......................  <distance milepost= "17.6">17.6</distance></entry>
+        <entry>.... Rembrandt, Pa.* ......................................  <distance milepost= "18.5">18.5</distance></entry>
     </branch>
-6632A .. Widdowson Colliery No. 1 (Widdowson C. M. Co.) .................................... 18.5 
-6633A .. Milbar Coll. No. 1 (Milbar Coal Co.)........ 19.2 
+    <entry><switch number="6632A">6632A</switch> .. Widdowson Colliery No. 1 (Widdowson C. M. Co.) ....................................  <distance milepost= "18.5">18.5</distance></entry>
+    <entry><switch number="6633A">6633A</switch> .. Milbar Coll. No. 1 (Milbar Coal Co.)........  <distance milepost= "19.2">19.2</distance></entry>
 
 <branch name="Price Run">
-6634 .... Junc. Price Run Branch............................ 19.2 
-6698 .... Barr Coils. (Clearfield Bit. Coal Corp.lt 19.5 
+    <entry><switch number="6634">6634</switch> .... Junc. Price Run Branch............................  <distance milepost= "19.2">19.2</distance></entry>
+    <entry><switch number="6698">6698</switch> .... Barr Coils. (Clearfield Bit. Coal Corp.lt  <distance milepost= "19.5">19.5</distance></entry>
 </branch>
 
-6635 .... Randolph Colliery (Dixonville Coal Co.).... 19.4 
+    <entry><switch number="6635">6635</switch> .... Randolph Colliery (Dixonville Coal Co.)....  <distance milepost= "19.4">19.4</distance></entry>
 
 <siding name="Upper Buchanan">
-6636 .... Jc. Upper Buchanan Siding........................ 19.7 
-6695 
-Dix Run Coll. (Dix Run Coal Co.)............ 20.0 
-....Hess Coll. No. 1 (Hess Coal Co.).............. 20.0 
+    <entry><switch number="6636">6636</switch> .... Jc. Upper Buchanan Siding........................  <distance milepost= "19.7">19.7</distance></entry>
+    <entry><switch number="6695">6695</switch> 
+        Dix Run Coll. (Dix Run Coal Co.)............  <distance milepost= "20.0">20.0</distance></entry>
+    <entry>....Hess Coll. No. 1 (Hess Coal Co.)..............  <distance milepost= "20.0">20.0</distance></entry>
 </siding>
 
-6637 ... Dixonville, Pa. .......................................... 20.1 
-6638 ... ldamar, Pa. .............................................. 20.8 
-6640 .... Arcadia Coll. No. 27 (Arcadia Co.).......... 21.0 
-.... End of C. T. &amp; D. R. R.*............................ 21.8 
+    <entry><switch number="6637">6637</switch> ... Dixonville, Pa. ..........................................  <distance milepost= "20.1">20.1</distance></entry>
+    <entry><switch number="6638">6638</switch> ... ldamar, Pa. ..............................................  <distance milepost= "20.8">20.8</distance></entry>
+    <entry><switch number="6640">6640</switch> .... Arcadia Coll. No. 27 (Arcadia Co.)..........  <distance milepost= "21.0">21.0</distance></entry>
+    <entry>.... End of C. T. &amp; D. R. R.*............................  <distance milepost= "21.8">21.8</distance></entry>
 </subsidiary>
     
     Dist.from 
     Cresson 
     6108 
-    Cherry Tree, Pa: (Stationlt...................... 28.8 
-    Jc. Pa. D1v.-N. Y. C. R. R.l.......... 28.9 
+    Cherry Tree, Pa: (Stationlt......................  <distance milepost= "28.8">28.8</distance>
+    Jc. Pa. D1v.-N. Y. C. R. R.l..........  <distance milepost= "28.9">28.9</distance>
     
 </branch>
-6016 .... Eckenrode Mill, Pa. .................................. 15.3 
+<entry><switch number="6016">6016</switch> .... Eckenrode Mill, Pa. ..................................  <distance milepost= "15.3">15.3</distance></entry>
 
 <branch name="Patton Branch Number 2">
-6018 .... Junction Patton Br. No. 2*........................ 18.2 
+    <entry><switch number="6018">6018</switch> .... Junction Patton Br. No. 2*........................  <distance milepost= "18.2">18.2</distance></entry>
 
-6051
-Patton Br. No. 2 (Delivery) and lndependent Oil Co.t.............................. 18.5 
-Paul Yahnert ............................................ 18.6 
-Geo. Hoppelt ............................................ 18.8 
+    <entry><switch number="6051">6051</switch>
+        Patton Br. No. 2 (Delivery) and lndependent Oil Co.t..............................  <distance milepost= "18.5">18.5</distance></entry>
+    <entry>Paul Yahnert ............................................  <distance milepost= "18.6">18.6</distance></entry>
+    <entry>Geo. Hoppelt ............................................  <distance milepost= "18.8">18.8</distance></entry>
 <branch name="Patton Branch Number 3">
-6153 .... Junction Patton Branch No. 3*................ 19.3 
+    <entry><switch number="6153">6153</switch> .... Junction Patton Branch No. 3*................  <distance milepost= "19.3">19.3</distance></entry>
 </branch>
+    
 </branch>
-6019
-Patton, Pa. (Station)................................ 18.2 
-" (Carload Delivery) .......................... 18.2 
+<entry><switch number="6019">6019</switch>
+    Patton, Pa. (Station)................................  <distance milepost= "18.2">18.2</distance></entry>
+<entry>" (Carload Delivery) ..........................  <distance milepost= "18.2">18.2</distance></entry>
 
 <branch name="Patton Branch Number 1">
-6162 .... Junc. Patton Branch No. l*...................... 18.2 
-6164 
-Patton Clay Mfg. Co.t ................................ 18.5 
-Patton Clay Mfg. Co. Coll. -Patton Clay Mfg. Co. .................18.5
+    <entry><switch number="6162">6162</switch> .... Junc. Patton Branch No. l*......................  <distance milepost= "18.2">18.2</distance></entry>
+    <entry><switch number="6164">6164</switch> 
+        Patton Clay Mfg. Co.t ................................  <distance milepost= "18.5">18.5</distance></entry>
+    <entry>Patton Clay Mfg. Co. Coll. -Patton Clay Mfg. Co. .................<distance milepost= "18.5">18.5</distance></entry>
 
-6165 .... Jc. Flanigan Coll. No. 9t (Pa. Div. N. Y. C. R. RJ.......................... 19.2 
+    <entry><switch number="6165">6165</switch> .... Jc. Flanigan Coll. No. 9t (Pa. Div. N. Y. C. R. RJ..........................  <distance milepost= "19.2">19.2</distance></entry>
 </branch>
-6022 .... Thomas' Mill, Pa. .................................... 20.6 
+<entry><switch number="6022">6022</switch> .... Thomas' Mill, Pa. ....................................  <distance milepost= "20.6">20.6</distance></entry>
 
 
 
@@ -449,67 +522,67 @@ Dist.from
 Cresson 
 
 
-6826 ... Hastings Branch Jct. (Junc. Hastings Br.l* 25.7 
-6170 .... Storage[l .................................................. 25.9 
-6172 .... Miller Run Coll. No. 2 (A. R. Radomsky) 28.1 
-6l72A ... Hastings Coll. No. l (Hastings Fuel Co.) 29.3 
-6173 ... Red Top Coll. (Mccombie Coal Co.)........ 29.3 
-6176 ... Miller Run Coll. No. 3 CBeunier C. M. Co.) 29.8 
-6178 ... Rich Hill Coils. Nos. l &amp; 2 (Rich Hill Coal Co.) ........................................ 29.8 
+<entry><switch number="6826">6826</switch> ... Hastings Branch Jct. (Junc. Hastings Br.l*  <distance milepost= "25.7">25.7</distance></entry>
+<entry><switch number="6170">6170</switch> .... Storage[l ..................................................  <distance milepost= "25.9">25.9</distance></entry>
+<entry><switch number="6172">6172</switch> .... Miller Run Coll. No. 2 (A. R. Radomsky)  <distance milepost= "28.1">28.1</distance></entry>
+<entry><switch number="6l72A">6l72A</switch> ... Hastings Coll. No. l (Hastings Fuel Co.)  <distance milepost= "29.3">29.3</distance></entry>
+<entry><switch number="6173">6173</switch> ... Red Top Coll. (Mccombie Coal Co.)........  <distance milepost= "29.3">29.3</distance></entry>
+<entry><switch number="6176">6176</switch> ... Miller Run Coll. No. 3 CBeunier C. M. Co.)  <distance milepost= "29.8">29.8</distance></entry>
+<entry><switch number="6178">6178</switch> ... Rich Hill Coils. Nos. l &amp; 2 (Rich Hill Coal Co.) ........................................  <distance milepost= "29.8">29.8</distance></entry>
 
-6179
- Hastings, Pa. (Strittmatter Bros., Inc.).. 30.1 
-" (Storage)l ...................................... 30.4 
-" (Station and James McNelist)........ 30.5 
-6181 
- D-11 Coll. (James O'Rourke).................. 30.8 
- Oak Ridge Coll. No. 4 (McGraw-Bindley Coal Co.) ................................ 30.8 
- Bernard Coll. No. 12 (John Bernard)...... 30.8 
-6183 .. Lanark Coll. No. l (Lanark Coal M. Co.) 31.4
- ... End of Hastings Branch*.......................... 31.7 
+<entry><switch number="6179">6179</switch>
+    Hastings, Pa. (Strittmatter Bros., Inc.)..  <distance milepost= "30.1">30.1</distance></entry>
+<entry>" (Storage)l ......................................  <distance milepost= "30.4">30.4</distance></entry>
+<entry>" (Station and James McNelist)........  <distance milepost= "30.5">30.5</distance></entry>
+<entry><switch number="6181">6181</switch> 
+    D-11 Coll. (James O'Rourke)..................  <distance milepost= "30.8">30.8</distance></entry>
+<entry>Oak Ridge Coll. No. 4 (McGraw-Bindley Coal Co.) ................................  <distance milepost= "30.8">30.8</distance></entry>
+<entry>Bernard Coll. No. 12 (John Bernard)......  <distance milepost= "30.8">30.8</distance></entry>
+<entry><switch number="6183">6183</switch> .. Lanark Coll. No. l (Lanark Coal M. Co.) <distance milepost= "31.4">31.4</distance></entry>
+<entry>... End of Hastings Branch*..........................  <distance milepost= "31.7">31.7</distance></entry>
  
  
-.... "RE" Block Station.................................. 26.2 
-6028 
-i Westover, Pa. (Station)............................ 27.9 
-" (Armour Leather Co.) .................... 28.5 
-6033 ... Five Points, Pa. (Station)*........................ 31.5 
-6034 .... The Cremar Company................................ 33.0 
+<entry>.... "RE" Block Station..................................  <distance milepost= "26.2">26.2</distance></entry>
+<entry><switch number="6028">6028</switch> 
+    i Westover, Pa. (Station)............................  <distance milepost= "27.9">27.9</distance></entry>
+<entry>" (Armour Leather Co.) ....................  <distance milepost= "28.5">28.5</distance></entry>
+<entry><switch number="6033">6033</switch> ... Five Points, Pa. (Station)*........................  <distance milepost= "31.5">31.5</distance></entry>
+<entry><switch number="6034">6034</switch> .... The Cremar Company................................  <distance milepost= "33.0">33.0</distance></entry>
 
 
- La Jose, Pa. (Junc. La Jose Branch)...... 34.7 
+<entry>La Jose, Pa. (Junc. La Jose Branch)......  <distance milepost= "34.7">34.7</distance></entry>
  
-LZ " (Car Load Delivery Siding).............. 35.2 
-" (Storage No. 1J II.............................. 35.4 
+<entry>LZ " (Car Load Delivery Siding)..............  <distance milepost= "35.2">35.2</distance></entry>
+<entry>" (Storage No. 1J II..............................  <distance milepost= "35.4">35.4</distance></entry>
 
-B 51 ... Ames, Pa.* (End of portion of La Jose Br. terminating south of La Jose* and Springfield Coll. No. 5 (Springfield C. M. Co.)............ 37.5 
-LZ .. La Jose, Pa. (Station).............................. 34.7 
-6036 .... G. &amp; S. Coll. No. 3 (Godin &amp; Sarickslt.... 35.7 
-.... Ostend, Pa. (Station)*.............................. 37.9 
-6037 ... Mahaffey Junc., Pa. (Interchange Track N. Y. C. R. R.)[........................ 38.3 
-.... "HM" Block Station.................................. 38.6 
-6039 ... Mahaffey Junc. Pa. (Junc. N.Y.C.R.R.J*.. 38.6 
+<entry><switch number="B 51">B 51</switch> ... Ames, Pa.* (End of portion of La Jose Br. terminating south of La Jose* and Springfield Coll. No. 5 (Springfield C. M. Co.)............  <distance milepost= "37.5">37.5</distance></entry>
+<entry><switch number="LZ">LZ</switch> .. La Jose, Pa. (Station)..............................  <distance milepost= "33.0">34.7</distance></entry>
+<entry><switch number="6036">6036</switch> .... G. &amp; S. Coll. No. 3 (Godin &amp; Sarickslt....  <distance milepost= "35.7">35.7</distance></entry>
+<entry>.... Ostend, Pa. (Station)*..............................  <distance milepost= "37.9">37.9</distance></entry>
+<entry><switch number="6037">6037</switch> ... Mahaffey Junc., Pa. (Interchange Track N. Y. C. R. R.)[........................  <distance milepost= "38.3">38.3</distance></entry>
+<entry>.... "HM" Block Station..................................  <distance milepost= "38.6">38.6</distance></entry>
+<entry><switch number="6039">6039</switch> ... Mahaffey Junc. Pa. (Junc. N.Y.C.R.R.J*..  <distance milepost= "38.6">38.6</distance></entry>
 MS 
 
 <branch name ="McGees">
- McGees, Pa. (Junc. McGees Branch)........ 40.5 
-" (Storage and Car Load Delivery).... 40.5 
+    <entry>McGees, Pa. (Junc. McGees Branch)........  <distance milepost= "40.5">40.5</distance></entry>
+    <entry>" (Storage and Car Load Delivery)....  <distance milepost= "40.5">40.5</distance></entry>
 
 <branch name="Glen Campbell">
-6209 ... Junc. Glen Campbell Branch*.................... 47.8 
-6207 .... Junc. McCoy Run Branch*........................ 47.9 
-6230 .... Lampke Coll. No. 1 (Lampke Bros.) and end of McCoy Run Br................. 50.0 
+    <entry><switch number="6209">6209</switch> ... Junc. Glen Campbell Branch*....................  <distance milepost= "47.8">47.8</distance></entry>
+    <entry><switch number="6207">6207</switch> .... Junc. McCoy Run Branch*........................  <distance milepost= "33.0">47.9</distance></entry>
+    <entry><switch number="6230">6230</switch>  .... Lampke Coll. No. 1 (Lampke Bros.) and end of McCoy Run Br.................  <distance milepost= "50.0">50.0</distance></entry>
 
 
-6207 .... Junc. Brady Run Siding.......................... 47.9 
-6236 .... Glen Campbell, Pa. (Car Load Delivery).... 48.0 
-.... End of Glen Campbell Branch*.................. 48.l 
+    <entry><switch number="6207">6207</switch> .... Junc. Brady Run Siding..........................  <distance milepost= "47.9">47.9</distance></entry>
+    <entry><switch number="6236">6236</switch> .... Glen Campbell, Pa. (Car Load Delivery)....  <distance milepost= "48.0">48.0</distance></entry>
+    <entry>.... End of Glen Campbell Branch*..................  <distance milepost= "48.l">48.l</distance></entry>
 </branch>
 
 <branch name="Sutter">
-82ll { Junc. Suter Branch*.................................. 48.2 
-End of Suter Branch*................................ 48.6 
-.... End of McGees Branch*............................ 48.3 
+    <entry><switch number="82ll">82ll</switch> { Junc. Suter Branch*..................................  <distance milepost= "48.2">48.2</distance></entry>
+    <entry>End of Suter Branch*................................  <distance milepost= "48.6">48.6</distance></entry>
+    <entry>.... End of McGees Branch*............................  <distance milepost= "48.3">48.3</distance></entry>
 </branch>
 </branch>
 
@@ -523,64 +596,64 @@ CRESSON BRANCH-Continued
 
 Dist.from 
 Cresson 
-
+<!--break-->
 <branch name="Mahaffey">
-MS .... McGees, Pa. (Junc. Mahaffey Branch).... 40.6 
-B 61 .... Mahaffey, Pa. (Car Load Delivery)............ 42.2 
-.... End of Mahaffey Branch*.......................... 42.4 
+    <entry><switch number="MS">MS</switch> .... McGees, Pa. (Junc. Mahaffey Branch)....  <distance milepost= "40.6">40.6</distance></entry>
+    <entry><switch number="B 61">B 61</switch> .... Mahaffey, Pa. (Car Load Delivery)............  <distance milepost= "42.2">42.2</distance></entry>
+    <entry>.... End of Mahaffey Branch*..........................  <distance milepost= "42.4">42.4</distance></entry>
 </branch>
 
-MS ... McGees, Pa. (Station).............................. 40.B 
-B 63 ... Bear Run Junc. Storage II.......................... 42.4 
+<entry><switch number="MS">MS</switch> ... McGees, Pa. (Station)..............................  <distance milepost= "40.B">40.B</distance></entry>
+<entry><switch number="B 63">B 63</switch> ... Bear Run Junc. Storage II..........................  <distance milepost= "42.4">42.4</distance></entry>
 
 <branch name="Bear Run">
-B 64 ... Junc. Bear Run Branch*............................ 42.7 
-B113A .... Banks Coll. No. 2 (Western Bituminous  Coal Corp.) ............................ 45.1 
-B115 .... Superior Coll. No. 1 (J. C. Clark Estate) 46.1 
-"' .... End of Bear Run Branch.......................... 46.2 
+    <entry><switch number="B 64">B 64</switch> ... Junc. Bear Run Branch*............................  <distance milepost= "42.7">42.7</distance></entry>
+    <entry><switch number="B113A">B113A</switch> .... Banks Coll. No. 2 (Western Bituminous  Coal Corp.) ............................  <distance milepost= "45.1">45.1</distance></entry>
+    <entry><switch number="B115">B115</switch> .... Superior Coll. No. 1 (J. C. Clark Estate)  <distance milepost= "46.1">46.1</distance></entry>
+    <entry>"' .... End of Bear Run Branch..........................  <distance milepost= "46.2">46.2</distance></entry>
 </branch>
 
-B66 ... Sidney, Pa. (Station).............................. 43.4 
-B70 ... Hillman, Pa. (Storage)............................ 46.2 
+<entry><switch number="B66">B66</switch> ... Sidney, Pa. (Station)..............................  <distance milepost= "43.4">43.4</distance></entry>
+<entry><switch number="B70">B70</switch> ... Hillman, Pa. (Storage)............................  <distance milepost= "46.2">46.2</distance></entry>
 
 <branch name="Hillman">
-B71 
- Hillman, Pa. (Storage)............................ 46.5 
-l " (Junc. Hillman Branch).................. 46.8 
-.... End of Hillman Branch............................ 48.8 
+    <entry><switch number="B71">B71</switch> 
+        Hillman, Pa. (Storage)............................  <distance milepost= "46.5">46.5</distance></entry>
+    <entry><switch number="l">l</switch> " (Junc. Hillman Branch)..................  <distance milepost= "46.8">46.8</distance></entry>
+    <entry>.... End of Hillman Branch............................  <distance milepost= "48.8">48.8</distance></entry>
 </branch>
 
-B72 ... Hillman, Pa. (Station)................................ 47.0 
-.... Bowersville, Pa. (Station)*........................ 47.7 
-.... Eibel, Pa. (Station)*.................................. 50.8 
-B84 ... Cloe, Pa. (Station).................................... 53.4 
+<entry><switch number="B72">B72</switch> ... Hillman, Pa. (Station)................................  <distance milepost= "47.0">47.0</distance></entry>
+<entry>.... Bowersville, Pa. (Station)*........................  <distance milepost= "47.7">47.7</distance></entry>
+<entry>.... Eibel, Pa. (Station)*..................................  <distance milepost= "50.8">50.8</distance></entry>
+<entry><switch number="B84">B84</switch> ... Cloe, Pa. (Station)....................................  <distance milepost= "53.4">53.4</distance></entry>
 
 <branch name= "Elk Run">
-B85 ... Junc. Elk Run Branch*.............................. 55.2 
-B159 .... Elk Run Trestle.......................................... 55.6 
-B163 .... Anita, Pa. (Car Load Delivery).................. 59.0 
-B182 .... Anita Coll. No. 1 (Anita C. M. Co.)........ 60.2 
-.... End of Elk Run Branch............................ 60.5 
+    <entry><switch number="B85">B85</switch> ... Junc. Elk Run Branch*..............................  <distance milepost= "55.2">55.2</distance></entry>
+    <entry><switch number="B159">B159</switch> .... Elk Run Trestle..........................................  <distance milepost= "55.6">55.6</distance></entry>
+    <entry><switch number="B163">B163</switch> .... Anita, Pa. (Car Load Delivery)..................  <distance milepost= "59.0">59.0/distance></entry>
+    <entry><switch number="B182">B182</switch> .... Anita Coll. No. 1 (Anita C. M. Co.)........  <distance milepost= "60.2">60.2</distance></entry>
+    <entry>.... End of Elk Run Branch............................  <distance milepost= "60.5">60.5</distance></entry>
 </branch>
+<!--break-->
     
-    
-B86
-Punxsutawney, Pa. (American Oil Co.) .... 55.6 
-" (Car Load Delivery)........................ 55.6 
-" (Kurtz Lumber Co.)........................ 55.6 
-" (Warehouse) .................................. 55.6 
-" (Station) ...................................... 55.6 
-" (General Delivery and Sinclair Refining Co. No. 1 tl.......................... 55.9 
-" (Hoffman Bros. Drilling Co.) .......... 55.9 
-" (Punxsutawney Brewing Co., Punxsutawney Beef &amp; Provision Co. and Mahoning Valley Milling Co.) ........................................ 56.2 
+<entry><switch number="B86">B86</switch>
+    Punxsutawney, Pa. (American Oil Co.) ....  <distance milepost= "55.6">55.6</distance></entry>
+<entry>" (Car Load Delivery)........................ <distance milepost= " 55.6"> 55.6</distance></entry>
+<entry>" (Kurtz Lumber Co.)........................  <distance milepost= "55.6">55.6</distance></entry>
+<entry>" (Warehouse) ..................................  <distance milepost= "55.6">55.6</distance></entry>
+<entry>" (Station) ......................................  <distance milepost= "55.6">55.6</distance></entry>
+<entry>" (General Delivery and Sinclair Refining Co. No. 1 tl..........................  <distance milepost= "55.9">55.9</distance></entry>
+<entry>" (Hoffman Bros. Drilling Co.) ..........  <distance milepost= "55.9">55.9</distance></entry>
+<entry>" (Punxsutawney Brewing Co., Punxsutawney Beef &amp; Provision Co. and Mahoning Valley Milling Co.) ........................................  <distance milepost= "56.2">56.2</distance></entry>
 
 
-B89 .... Lindsey, Pa. .............................................. 57.4 
-B93 .... Horatio, Pa. ............................................ 59.9 
-.... Mundorf, Pa. .......................................... 61.4 
-B96 .... Lindsey Coll. No. 8 (A. L. Light)............ 61.8 
-B100 .... Fordham, Pa. .......................................... 63.6 
-.... End of Cresson Branch............................ 63.7 
+<entry><switch number="B89">B89</switch> .... Lindsey, Pa. ..............................................  <distance milepost= "57.4">57.4</distance></entry>
+<entry><switch number="B93">B93</switch> .... Horatio, Pa. ............................................  <distance milepost= "59.9">59.9</distance></entry>
+<entry>.... Mundorf, Pa. ..........................................  <distance milepost= "61.4">61.4</distance></entry>
+<entry><switch number="B96">B96</switch> .... Lindsey Coll. No. 8 (A. L. Light)............  <distance milepost= "61.8">61.8</distance></entry>
+<entry><switch number="B100">B100</switch> .... Fordham, Pa. ..........................................  <distance milepost= "63.6">63.6</distance></entry>
+<entry>.... End of Cresson Branch............................  <distance milepost= "63.7">63.7</distance></entry>
 
 
 
@@ -596,117 +669,117 @@ Dist.from
 Cresson 
  
  
-Cresson, Pa. (Junc. Main Line)*................ 0.3 
-339
-" (Yard)l .......................................... 0.4 
-" (Fry Milling Co.)............................ 0.4 
-338 ... Penna. Coll. No. 7 (Penna. C. &amp; C. Corp.lt 0.9 
-6255 .... Syberton, Pa. ............................................ 4.5 
-6257 .... Amsbry, Pa............................................... 7.0 
-6258 .... Penna. Coll. No. 8-Passing Sidingll........ 8.0 
-6260 ... Ashville, Pa. .............................................. 9.0 
-6262 ... Dysart, Pa. (Carload Delivery).................. 12.0 
-6283 ... Condron, Pa. (Condron Passing Siding)II.... 13.2 
+<entry>Cresson, Pa. (Junc. Main Line)*................  <distance milepost= "0.3">0.3</distance></entry>
+<switch number="339">339</switch>
+<entry>" (Yard)l ..........................................  <distance milepost= "0.4">0.4</distance></entry>
+<entry>=" (Fry Milling Co.)............................  <distance milepost= "0.4">0.4</distance></entry>
+<entry><switch number="338">338</switch> ... Penna. Coll. No. 7 (Penna. C. &amp; C. Corp.lt  <distance milepost= "0.9">0.9</distance></entry>
+<entry><switch number="6255">6255</switch> .... Syberton, Pa. ............................................  <distance milepost= "4.5">4.5</distance></entry>
+<entry><switch number="6257">6257</switch> .... Amsbry, Pa............................................... <distance milepost= "7.0 ">7.0 </distance></entry>
+<entry><switch number="6258">6258</switch> .... Penna. Coll. No. 8-Passing Sidingll........  <distance milepost= "8.0">8.0</distance></entry>
+<entry><switch number="6260">6260</switch> ... Ashville, Pa. ..............................................  <distance milepost= "9.0">9.0</distance></entry>
+<entry><switch number="6262">6262</switch> ... Dysart, Pa. (Carload Delivery)..................  <distance milepost= "12.0">12.0</distance></entry>
+<entry><switch number="6283">82ll</switch> ... Condron, Pa. (Condron Passing Siding)II....  <distance milepost= "13.2">13.2</distance></entry>
 
 <branch name="Stevens">
-6263A .. Junction Stevens Branch.......................... 13.3 
-6288 ... Laurel Run Coll. No. 2 (Laurel Run Coal Mining Co.) ............................ 13.8 
+    <entry><switch number="6263A">6263A</switch> .. Junction Stevens Branch..........................  <distance milepost= "13.3">13.3</distance></entry>
+    <entry><switch number="6288">6288</switch> ... Laurel Run Coll. No. 2 (Laurel Run Coal Mining Co.) ............................  <distance milepost= "13.8">13.8</distance></entry>
 </branch>
 
-6264A .. Harbison-Walker Co. No. lt...................... 13.9 
-6265 .... Dean, Pa. .................................................. 14.4 
-6265A .. Big Run Coll. No. 7 (Beunier C. M. Co.).. 14.8 
-6266 
- Ridge Coll. No. 8 (Ridge Mining Co.)........ 15.2 
- Rutter Coll. No. 1 (Daugherty Coal Co.) 15.2 
-6269 .... Frugality, Pa. (Station)............................ 17.1 
-6271 .... Hughes Coll. No. 2 (Forks Coal Co.)........ 17.8 
-6275 .... Peerless Coll. (Beacon Coal Co.).............. 18.8 
-.... Van 0rmer, Pa.*........................................ 18.9 
-6275A .. Bland Coll. (Bland Bros. Coal Co.).......... 19.1 
-6277 .... Fallen Timber, Pa..................................... 19.5 
-6278 .... Apple Coll. (Apple Bros.)........................ 19.7 
-6280 .... Flinton, Pa. (Station)................................ 22.0 
-6281 .... Colonial Coll. (Northern Cambria Coal Co.) 22.4 
-6284 .... Victor Hill Coll. No. 1 (J. W. Laing)...... 23.6 
-
+<entry><switch number="6264A">6264A</switch> .. Harbison-Walker Co. No. lt......................  <distance milepost= "13.9">13.9</distance></entry>
+<entry><switch number="6265">6265</switch> .... Dean, Pa. ..................................................  <distance milepost= "14.4">14.4</distance></entry>
+<entry><switch number="6265A">6265A</switch> .. Big Run Coll. No. 7 (Beunier C. M. Co.)..  <distance milepost= "14.8">14.8</distance></entry>
+<entry><switch number="6266">6266</switch> 
+    Ridge Coll. No. 8 (Ridge Mining Co.)........  <distance milepost= "15.2">15.2</distance>
+    Rutter Coll. No. 1 (Daugherty Coal Co.)  <distance milepost= "15.2">15.2</distance></entry>
+<entry><switch number="6269">6269</switch> .... Frugality, Pa. (Station)............................  <distance milepost= "17.1">17.1</distance></entry>
+<entry><switch number="6271">6271</switch> .... Hughes Coll. No. 2 (Forks Coal Co.)........  <distance milepost= "17.8">17.8</distance></entry>
+<entry><switch number="6275">6275</switch> .... Peerless Coll. (Beacon Coal Co.)..............  <distance milepost= "18.8">18.8</distance></entry>
+<entry>.... Van 0rmer, Pa.*........................................  <distance milepost= "18.9">18.9</distance></entry>
+<entry><switch number="82ll">6275A</switch> .. Bland Coll. (Bland Bros. Coal Co.)..........  <distance milepost= "19.1">19.1</distance></entry>
+<entry><switch number="82ll">6277</switch> .... Fallen Timber, Pa.....................................  <distance milepost= "19.5">19.5</distance></entry>
+<entry><switch number="82ll">6278</switch> .... Apple Coll. (Apple Bros.)........................  <distance milepost= "19.7">19.7</distance></entry>
+<entry><switch number="82ll">6280</switch> .... Flinton, Pa. (Station)................................  <distance milepost= "22.0">22.0</distance></entry>
+<entry><switch number="82ll">6281</switch> .... Colonial Coll. (Northern Cambria Coal Co.)  <distance milepost= "22.4">22.4</distance></entry>
+<entry><switch number="82ll">6284</switch> .... Victor Hill Coll. No. 1 (J. W. Laing)......  <distance milepost= "23.6">23.6</distance></entry>
+<!--break-->
 <branch name="Hagerty">
-6285 
- Coalport, Pa. (Station).............................. 24.6 
-" (Junction Hegarty Branch)*............ 25.0 
-6298 .... Oakland Coll. No. 2 (Samuel Hegarty's Son)t ...................................... 25.5 
-.... Rosebud, Pa.* ..................................... ..... 25.2 
+    <entry><switch number="6285">6285</switch> 
+        Coalport, Pa. (Station)..............................  <distance milepost= "24.6">24.6</distance></entry>
+    <entry>" (Junction Hegarty Branch)*............  <distance milepost= "25.0">25.0</distance></entry>
+    <entry><switch number="82ll">6298</switch> .... Oakland Coll. No. 2 (Samuel Hegarty's Son)t ......................................  <distance milepost= "25.5">25.5</distance></entry>
+    <entry>.... Rosebud, Pa.* ..................................... .....  <distance milepost= "25.2">25.2</distance></entry>
 </branch>
     
     
 IR
-Irvona, Pa. (Hiram Swank's Sonslt............ 26.5 
-" (Jc. Penna. Div.-N.Y.C.R.R.)...... 26.5 
-" (Storage) ...................................... 26.6 
-" (Station) ...................................... 26.9 
-" (Junction Mayes Branch).............. 26.9 
-" (Nugent Coll. No. 2 (Nugent Mining Co.) ........................................ 26.9 
+<entry>Irvona, Pa. (Hiram Swank's Sonslt............  <distance milepost= "26.5">26.5</distance></entry>
+<entry>" (Jc. Penna. Div.-N.Y.C.R.R.)......  <distance milepost= "26.5">26.5</distance></entry>
+<entry>" (Storage) ......................................  <distance milepost= "26.6">26.6</distance></entry>
+<entry>" (Station) ......................................  <distance milepost= "26.9">26.9</distance></entry>
+<entry>" (Junction Mayes Branch)..............  <distance milepost= "26.9">26.9</distance></entry>
+<entry>" (Nugent Coll. No. 2 (Nugent Mining Co.) ........................................ <distance milepost= "26.9">26.9</distance></entry> 
 
 
-216 
+<!--216 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
-PITTSBURGH DIVISION-Continued 
+PITTSBURGH DIVISION-Continued -->
 
-
+<!--break-->
 Dist.from 
 Cresson 
 
 
-B42 
- Junction Mayes and Bellwood Branches*.. 27.4 
- Junction Pine Run Sidingll........................ 27.4 
-IR .. .Irvona, Pa. (Storage)II.............................. 27.2 
+<switch number="82ll">B42</switch> 
+<entry>>Junction Mayes and Bellwood Branches*..  <distance milepost= "27.4">27.4</distance></>
+    <entry>Junction Pine Run Sidingll........................  <distance milepost= "27.4">27.4</distance></entry>
+    <entry>IR .. .Irvona, Pa. (Storage)II..............................  <distance milepost= "27.2">27.2</distance></entry>
 
 <branch name="South Witmer">
-B43 ... Jnnction South Witmer Branch* 27.0
-.... End of South Witmer Branch-.*.................. 30.0 
+    <entry><switch number="B43">B43</switch> ... Jnnction South Witmer Branch* <distance milepost= "27.0">27.0</distance></entry>
+    <entry>.... End of South Witmer Branch-.*..................  <distance milepost= "30.0">30.0</distance></entry>
 </branch>
     
 IR
- Irvona, Pa. (Station).................................. 27 .0 
-" (Junction Irvona Branch)*.............. 26.9 
-" (Storage) ii ...................................... 27.1 
+    <entry>Irvona, Pa. (Station)..................................  <distance milepost= "27 .0">27 .0</distance></entry>
+    <entry>" (Junction Irvona Branch)*..............  <distance milepost= "48.2">48.2</distance></entry>
+    <entry>" (Storage) ii ......................................  <distance milepost= "27.1">27.1</distance></entry>
 
-B48
-Berwindale, Pa. (Berwindale Ice Co.)...... 30.6 
-" (Delivery) ........................................ 30.9 
-" (End of Mayes Branch)*......................· 30.9 
-B41 .. Victor Hill Coll. No. 2 (J. W. Laing)........ 28.6 
-.... Blain City, Pa.*.......................................... 28.7 
+    <entry><switch number="B48">B48</switch>
+        Berwindale, Pa. (Berwindale Ice Co.)......  <distance milepost= "30.6">30.6</distance></entry>
+    <entry>" (Delivery) ........................................  <distance milepost= "30.9">30.9</distance></entry>
+    <entry>" (End of Mayes Branch)*......................·  <distance milepost= "30.9">30.9</distance></entry>
+    <entry><switch number="B41">B41</switch> .. Victor Hill Coll. No. 2 (J. W. Laing)........  <distance milepost= "28.6">28.6</distance></entry>
+    <entry>.... Blain City, Pa.*..........................................  <distance milepost= "28.7">28.7</distance></entry>
 
-B38
- Coalport, Pa. (Station)''............................· 29.3 
-" (Cambria Smokeless Coll. No. 1 Imperial Coal Corp.)................ 29.3 
-B36 .... 0akland Coll. No. 3 (S. Hegarty's Sons) 29.8 
-.... Heverly, Pa.* ............................................ 31.6 
-B31 .... Cammos Coll. No. 1 (Middle C. Co.)........ 31.7 
-B28 ... Utahville, Pa.* .......................................... 33.2 
+    <entry><switch number="B38">B38</switch>
+        Coalport, Pa. (Station)''............................·  <distance milepost= "29.3">29.3</distance></entry>
+    <entry>" (Cambria Smokeless Coll. No. 1 Imperial Coal Corp.)................  <distance milepost= "29.3">29.3</distance></entry>
+    <entry><switch number="B36">B36</switch> .... 0akland Coll. No. 3 (S. Hegarty's Sons)  <distance milepost= "29.8">29.8</distance></entry>
+    <entry>.... Heverly, Pa.* ............................................  <distance milepost= "31.6">31.6</distance></entry>
+    <entry><switch number="B31">B31</switch> .... Cammos Coll. No. 1 (Middle C. Co.)........  <distance milepost= "31.7">31.7</distance></entry>
+    <entry><switch number="B28">B28</switch> ... Utahville, Pa.* ..........................................  <distance milepost= "33.2">33.2</distance></entry>
 
-B23
-Glasgow, Pa. (J.C. Hommer &amp; Sons)........ 36.0 
-" (Station) ........................................ 36.1 
-" (Cambria Mills Coll. No. 4-Cambria Mills Coal Co.).................. 36.0 
-B17 .... Mountaindale, Pa. (Station)* .................... 37.8
+    <entry><switch number="B23">B23</switch>
+        Glasgow, Pa. (J.C. Hommer &amp; Sons)........  <distance milepost= "36.0">36.0</distance></entry>
+    <entry>" (Station) ........................................  <distance milepost= "36.1">36.1</distance></entry>
+    <entry>" (Cambria Mills Coll. No. 4-Cambria Mills Coal Co.)..................  <distance milepost= "36.0">36.0</distance></entry>
+    <entry><switch number="B17">B17</switch> .... Mountaindale, Pa. (Station)* .................... <distance milepost= "37.8">37.8</distance></entry>
 
 
-B12 
- Blandburg, Pa. (Station)............................ 39.5 
-" (End of Bellwood Br.).................... 39.5 
-" (Junction Stroud Branch).............. 39.5 
+    <entry><switch number="B12">B12</switch> 
+        Blandburg, Pa. (Station)............................  <distance milepost= "39.5">39.5</distance></entry>
+    <entry>" (End of Bellwood Br.)....................  <distance milepost= "39.5">39.5</distance></entry>
+    <entry>" (Junction Stroud Branch)..............  <distance milepost= "39.5">39.5</distance></entry>
 
 <branch name="Stroud">
-B128 ... Harbison-Walker Co. No. 2...................... 40.5 
-B133 .... Hughes Coll. No. 3 (Forks Coal Co.)........ 41.1 
- .... End of Stroud Branch*.............................. 41.7 
+    <entry><switch number="B128">B128</switch> ... Harbison-Walker Co. No. 2......................  <distance milepost= "40.5">40.5</distance></entry>
+    <entry><switch number="B133">B133</switch> .... Hughes Coll. No. 3 (Forks Coal Co.)........  <distance milepost= "41.1">41.1</distance></entry>
+    <entry>.... End of Stroud Branch*..............................  <distance milepost= "41.7">41.7</distance></entry>
 </branch>
 
-
+<!--break-->
 
 
 
@@ -721,21 +794,21 @@ Altoona
 (Pass.Sta.) 
 
 
-342 ... Lilly, Pa. (North Storage)...................... 16.7 
-342A.... " (Station) ........................................ 17.5 
+    <entry><switch number="342">342</switch> ... Lilly, Pa. (North Storage)......................  <distance milepost= "16.7">16.7</distance></entry>
+    <entry><switch number="342A">342A</switch>.... " (Station) ........................................  <distance milepost= "17.52">17.5</distance></entry>
 
 <branch name="Lilly">
-5221 .... Junction Lilly Branch.............................. 17.6 
-5226 ... Sonman Coll. No. 2 (W. H. Piper &amp; Co.) 18.2 
-5228 .... Lilly Coll. No. 3 (C. A. Hughes Coal Co.) 18.7 
-.... End of Lilly Branch.................................. 19.3 
+    <entry><switch number="5221">5221</switch> .... Junction Lilly Branch..............................  <distance milepost= "17.6">17.6</distance></entry>
+    <entry><switch number="5226">5226</switch> ... Sonman Coll. No. 2 (W. H. Piper &amp; Co.)  <distance milepost= "18.2">18.2</distance></entry>
+    <entry><switch number="5228">5228</switch> .... Lilly Coll. No. 3 (C. A. Hughes Coal Co.)  <distance milepost= "18.7">18.7</distance></entry>
+    <entry>.... End of Lilly Branch..................................  <distance milepost= "19.3">19.3</distance></entry>
 </branch>
 
-342B ... Lilly, Pa. (South Storage)...................... 18.0 
-.... Cassandra, Pa. (Station)*.......................... 19.3 
-345 ... East Connection Ben's Creek Branch*J!.... 20.0 
-346 ... Portage, Pa. (Passenger Station).............. 21.4 
-347 .... Junc. Ben's Creek Branch-West Conn..... 22.0 
+    <entry><switch number="342B">342B</switch> ... Lilly, Pa. (South Storage)......................  <distance milepost= "18.0">18.0</distance></entry>
+    <entry>.... Cassandra, Pa. (Station)*..........................  <distance milepost= "19.3">19.3</distance></entry>
+    <entry><switch number="345">345</switch> ... East Connection Ben's Creek Branch*J!....  <distance milepost= "20.0">20.0</distance></entry>
+    <entry><switch number="346">346</switch> ... Portage, Pa. (Passenger Station)..............  <distance milepost= "21.4">21.4</distance></entry>
+    <entry><switch number="347">347</switch> .... Junc. Ben's Creek Branch-West Conn.....  <distance milepost= "22.0">22.0</distance></entry>
 
 <distance_heading>
 Via Via 
@@ -744,55 +817,55 @@ Conn. Conn.
 </distance_heading>
 
 <branch name= "Ben's Creek">
-347
-Junc. Ben's Creek Branch-West 
-Conn. ............................ 22.0 22.4 
-Old Line Storage.......................... 22.0 22.4 
+    <entry><switch number="347">347</switch>
+        Junc. Ben's Creek Branch-West 
+        <entry>>Conn. ............................  <distance milepost= "22.0 22.4">22.0 22.4</distance></entry>
+        <entry>Old Line Storage..........................  <distance milepost= "22.0 22.4">22.0 22.4</distance></entry>
 
-5235 ... Keystone Lumber Co. t .................... 22.8 21.6 
-5236 .... Storage Nos. 1 &amp; 211...................... 22.8 21.6 
-5237 .... Portage, Pa. (Freight Station and Delivery) ........................ 22.8 21.6 
+        <entry><switch number="5235">5235</switch> ... Keystone Lumber Co. t ....................  <distance milepost= "22.8 21.6">22.8 21.6</distance></entry>
+        <entry><switch number="5235">5235</switch> .... Storage Nos. 1 &amp; 211......................  <distance milepost= "22.8 21.6">22.8 21.6</distance></entry>
+        <entry><switch number="5237">5237</switch> .... Portage, Pa. (Freight Station and Delivery) ........................  <distance milepost= "22.8 21.6">22.8 21.6</distance></entry>
 
 <branch name="Martin">
-5256 ... Portage, Pa. (Junction Martin Br.) 22.9 21.5 
-5258 ... Portage Coll. No. 4 (Johnstown C. &amp; C. Co.).......... ........... 23.7 22.3 
-5261A .... Portage Coll. No. 6 (Johnstown C. E &amp; C. Co)...................... 24.2 22.9 
-5262 ... Portage Coll. No. 2 (Johnstown C. E &amp; C. Co).........................24.5 23.2
-5269 ... Portage Coll. No. 10 (Johnstown C. &amp; C. Co.)...................... 25.4 24.0 
-5272 ... Penker Coll. No. 1 (Portage-Kittanning Coal Co.).............. 25.5 24.1 
-5281 ... End of Martin Branch.................. 25.3 24.4 
+    <entry><switch number="5256">5256</switch> ... Portage, Pa. (Junction Martin Br.)  <distance milepost= "22.9 21.5">22.9 21.5</distance></entry>
+    <entry><switch number="5258">5258</switch> ... Portage Coll. No. 4 (Johnstown C. &amp; C. Co.).......... ...........  <distance milepost= "23.7 22.3">23.7 22.3</distance></entry>
+    <entry><switch number="5261A">5261A</switch> .... Portage Coll. No. 6 (Johnstown C. E &amp; C. Co)......................  <distance milepost= "24.2 22.9">24.2 22.9</distance></entry>
+    <entry><switch number="5262">5262</switch> ... Portage Coll. No. 2 (Johnstown C. E &amp; C. Co).........................<distance milepost= "24.5 23.2">24.5 23.2</distance></entry>
+    <entry><switch number="5269">5269</switch> ... Portage Coll. No. 10 (Johnstown C. &amp; C. Co.)......................  <distance milepost= "25.4 24.0">25.4 24.0</distance></entry>
+    <entry><switch number="5272">5272</switch> ... Penker Coll. No. 1 (Portage-Kittanning Coal Co.)..............  <distance milepost= "25.5 24.1">25.5 24.1</distance></entry>
+    <entry><switch number="5281">5281</switch> ... End of Martin Branch..................  <distance milepost= "25.3 24.4">25.3 24.4</distance></entry>
 </branch>
-
+<!--break-->
 <branch name="Sonman">
-5250 ... Junction Sonman Branch................ 23.4 21.0 
-5251 .... Sonman Shaft &amp; Slope Coll. and Wilmore Coll. No. 3 (Son E.,: l man Shaft Coal Co.)........ 23.8 21.4 
-5252 .... Penker Coll. No. 2 (Portage-Kittanning Coal Co.) .... 24.3 21.9 
-5253 ... End of Sonman Branch*.................. 24.0 21.5 
+    <entry><switch number="5250">5250</switch> ... Junction Sonman Branch................  <distance milepost= "23.4 21.0">23.4 21.0</distance></entry>
+    <entry><switch number="5251">5251</switch> .... Sonman Shaft &amp; Slope Coll. and Wilmore Coll. No. 3 (Son E.,: l man Shaft Coal Co.)........  <distance milepost= "23.8 21.4">23.8 21.4</distance></entry>
+    <entry><switch number="5252">5252</switch> .... Penker Coll. No. 2 (Portage-Kittanning Coal Co.) ....  <distance milepost= "24.3 21.9">24.3 21.9</distance></entry>
+    <entry><switch number="5253">5253</switch> ... End of Sonman Branch*..................  <distance milepost= "24.0 21.5">24.0 21.5</distance></entry>
 </branch>
 
-345 .... East Connection Ben's Creek Br.).... 24.4 20.0 
-5243 ... Hughes Coll. No. 4 (C. A. Hughes &amp; Co.) .......................... 25.4 21.0 
-5246A ... Ben's Creek Valley Coll. (Ben's Creek Valley Coal Co.) 25.5 21.4 
-5249 .... End of Ben's Creek Branch............ 25.7 21.6 
+        <entry><switch number="345">345</switch> .... East Connection Ben's Creek Br.)....  <distance milepost= "24.4 20.0">24.4 20.0</distance></entry>
+        <entry><switch number="5243">5243</switch> ... Hughes Coll. No. 4 (C. A. Hughes &amp; Co.) ..........................  <distance milepost= "25.4 21.0">25.4 21.0</distance></entry>
+        <entry><switch number="5246A">5246A</switch> ... Ben's Creek Valley Coll. (Ben's Creek Valley Coal Co.)  <distance milepost= "25.5 21.4">25.5 21.4</distance></entry>
+        <entry><switch number="5249">5249</switch> .... End of Ben's Creek Branch............  <distance milepost= "25.7 21.6">25.7 21.6</distance></entry>
 </branch>
 
-349 .. .Wilmore, Pa. (Power House)...................... 23.5 
-... .Wilmore, Pa. (Passenger Station)............ 23.9 
-352 ... Summerhill, Pa. (Station)........................ 26.2  
+    <entry><switch number="349">349</switch> .. .Wilmore, Pa. (Power House)......................  <distance milepost= "23.5">23.5</distance></entry>
+    <entry>... .Wilmore, Pa. (Passenger Station)............  <distance milepost= "23.9">23.9</distance></entry>
+    <entry><switch number="352">352</switch> ... Summerhill, Pa. (Station)........................   <distance milepost= "26.2">26.2</distance></entry>
 
 <branch name="Summer Hill">
-353 ... " (Jc. Summerhill Br.-East Conn.) 26.4 
-5292 ... Penna. Coll. No.1 (Hand Coal Co.)........27.5
-5293 ... Priscilla Coll. No. l (Hand Coal Co.)...... 28.1 
-5295 .... Argyle Coll. No. 4 (Argyle Coal Co.)........ 28.3 
-353A .... Jc. Summerhill Br. (West Conn.)............· 28.4 
+    <entry><switch number="353">353</switch> ... " (Jc. Summerhill Br.-East Conn.)  <distance milepost= "26.4">26.4</distance></entry>
+    <entry><switch number="5292">5292</switch> ... Penna. Coll. No.1 (Hand Coal Co.)........<distance milepost= "27.5">27.5</distance></entry>
+    <entry><switch number="5293">5293</switch> ... Priscilla Coll. No. l (Hand Coal Co.)......  <distance milepost= "28.1">28.1</distance></entry>
+    <entry><switch number="5295">5295</switch> .... Argyle Coll. No. 4 (Argyle Coal Co.)........  <distance milepost= "48.2">28.3</distance></entry>
+    <entry><switch number="353A">353A</switch> .... Jc. Summerhill Br. (West Conn.)............·  <distance milepost= "28.4">28.4</distance></entry>
 </branch>
 
 <branch name="South Fork">
-354 ... East Junc. (South Fork Branch).............. 26.6 
-F4 ... South Fork, Pa. (Penna. Lumber &amp; Const. Co.)................................ 28.3 
+    <entry><switch number="354">354</switch> ... East Junc. (South Fork Branch)..............  <distance milepost= "26.6">26.6</distance></entry>
+    <entry><switch number="F4">F4</switch> ... South Fork, Pa. (Penna. Lumber &amp; Const. Co.)................................  <distance milepost= "28.3">28.3</distance></entry>
 
-
+<!--break-->
 
 218 
 CENTRAL REGION-Continued 
@@ -803,71 +876,71 @@ Dist.from
 Altoona 
 (Pass. Sta.) 
 
-South Fork, Pa. (F-4-F Stineman Coll. No. 4-Stineman C. &amp; C. Co.)........ 28.4 
+    <entry>South Fork, Pa. (F-4-F Stineman Coll. No. 4-Stineman C. &amp; C. Co.)........  <distance milepost= "28.4">28.4</distance></entry>
 
 <branch name="Stineman Siding">
-F4
-" (F-4-G Stineman Coll. No. 2 F 4 Stineman C. &amp; C. Co.).............. 28.4 
-" (F-4-H Stineman Coll. No. 1 Stineman C. M. Co.)................ 28.4 
-" (F-4-I Riverside Coll. No.1 --Adams Fuel corp.)............28.4
+    <entry><switch number="F4">F4</switch>
+        <entry>" (F-4-G Stineman Coll. No. 2 F 4 Stineman C. &amp; C. Co.)..............  <distance milepost= "28.4">28.4</distance></entry>
+        <entry>" (F-4-H Stineman Coll. No. 1 Stineman C. M. Co.)................  <distance milepost= "28.4">28.4</distance></entry>
+        <entry>" (F-4-I Riverside Coll. No.1 --Adams Fuel corp.)............<distance milepost= "28.4">28.4</distance></entry>
 </branch>
 
-F 5 ... South Fork, Pa. (Storage) II........................ 28.6 
-F 7 ... Flenner Coll. No. I-Priscilla Coal Co.).. 29.0 
-F 7 A .... Hughes Coll. 5 (South Fork Bit. C. Co.).... 29.0 
-.... St. Michael, Pa. (Station)*........................ 30.8 
-F 9 .... Maryland Shaft Coll. (Maryland Coal Co. of Penna.) .............................. 30.9 
-F IO ... Eureka Stores (St. Michael Store).......... 30.9 
-LV ... Lovett Yard, Pa.11...................................... 31.3 
-F 11 ... Creslo, Pa. (Station).................................. 31.6 
-F 12 ... Lovett, Pa. (Storage) ............................ 32.2 
+    <entry><switch number="F 5">F 5</switch> ... South Fork, Pa. (Storage) II........................  <distance milepost= "28.6">28.6</distance></entry>
+    <entry><switch number="F 7">F 7</switch> ... Flenner Coll. No. I-Priscilla Coal Co.)..  <distance milepost= "29.0">29.0</distance></entry>
+    <entry><switch number="F 7 A>F 7 A</switch> .... Hughes Coll. 5 (South Fork Bit. C. Co.)....  <distance milepost= "29.0">29.0</distance></entry>
+    <entry>.... St. Michael, Pa. (Station)*........................ <distance milepost= "30.8 ">30.8 </distance></entry>
+    <entry><switch number="F 9">F 9</switch> .... Maryland Shaft Coll. (Maryland Coal Co. of Penna.) ..............................  <distance milepost= "30.9">30.9</distance></entry>
+    <entry><switch number="F IO">F IO</switch> ... Eureka Stores (St. Michael Store)..........  <distance milepost= "30.9">30.9</distance></entry>
+    <entry><switch number="LV">LV</switch> ... Lovett Yard, Pa.11......................................  <distance milepost= "31.3">31.3</distance></entry>
+    <entry><switch number="F 11">F 11</switch> ... Creslo, Pa. (Station)..................................  <distance milepost= "31.6">31.6</distance></entry>
+    <entry><switch number="F 12">F 12</switch> ... Lovett, Pa. (Storage) ............................  <distance milepost= "32.2">32.2</distance></entry>
 
 <branch name= "Beaver">
-F 13 ... Junc. Beaver Branch.............................. 32.3 
-
+    <entry><switch number="82ll">F 13</switch> ... Junc. Beaver Branch..............................  <distance milepost= "32.3">32.3</distance></entry>
+<!--break-->
 <branch name="llanfair">
-F 50 ... Junc. Llanfair Branch............................ 32.3 
-F 53 ... Dunlo, Pa. (Station)................................ 35.4 
-F 58 ... Windber Coll. No. 5 (Windber Hy-Grade C. M. Co.)............................... 36.4 
-F 59 ... Krayne Coll. No. 1 (Tony Obreza)............ 37.1 
-F 60 ... Henriette Coll. No. 2 (Henriette C. M. Co. and Jennings Coll. No. 2-B. Anderson) .............................. 37.2 
-F 61 ... End of Llanfair Branch.............................. 37.4 
+    <entry><switch number="F 50">F 50</switch> ... Junc. Llanfair Branch............................  <distance milepost= "32.3">32.3</distance></entry>
+    <entry><switch number="F 53">F 53</switch> ... Dunlo, Pa. (Station)................................  <distance milepost= "35.4">35.4</distance></entry>
+    <entry><switch number="F 58">F 58</switch> ... Windber Coll. No. 5 (Windber Hy-Grade C. M. Co.)...............................  <distance milepost= "36.4">36.4</distance></entry>
+    <entry><switch number="F 59">F 59</switch> ... Krayne Coll. No. 1 (Tony Obreza)............  <distance milepost= "37.1">37.1</distance></entry>
+    <entry><switch number="F 60">F 60</switch> ... Henriette Coll. No. 2 (Henriette C. M. Co. and Jennings Coll. No. 2-B. Anderson) ..............................  <distance milepost= "37.2">37.2</distance></entry>
+    <entry><switch number="F 61">F 61</switch> ... End of Llanfair Branch..............................  <distance milepost= "37.4">37.4</distance></entry>
 </branch>
     
-.... Ruthford, Pa. (Station)*............................ 33.5 
-F 68A ... Courtwright Coll. No. 1 (Boucher-Courtwright Coal Co.) ...................... 35.0 
-F 69 ... Logan Coll. No. 6 (Johnstown C. &amp; C. Co.) 35.2 
-F 7) .... Lloydell, Pa. (Station)............................ 35.5 
-F 73 .. Lloydell, Pa. (Carload Delivery and Lloydell Coll. No. 1-H. J. Hudec)........ 35.6 
-F 74 .. Lloydell, Pa. (Logan Coll. No. 4-Johnstown C. &amp; C. Co.) ..... .............. 35.4 
-F 78 ... Burkett Coll. No. 1 (A. R. Burkettlt.......... 36.9 
-F 79 .. End of Beaver Branch................................ 37.1 
+    <entry>.... Ruthford, Pa. (Station)*............................  <distance milepost= "33.5">33.5</distance></entry>
+    <entry><switch number="F 68A">F 68A</switch> ... Courtwright Coll. No. 1 (Boucher-Courtwright Coal Co.) ......................  <distance milepost= "35.0">35.0</distance></entry>
+    <entry><switch number="F 69">F 69</switch> ... Logan Coll. No. 6 (Johnstown C. &amp; C. Co.)  <distance milepost= "35.2">35.2</distance></entry>
+    <entry><switch number="F 7)">F 7)</switch> .... Lloydell, Pa. (Station)............................  <distance milepost= "35.5">35.5</distance></entry>
+    <entry><switch number="F 73">F 73</switch> .. Lloydell, Pa. (Carload Delivery and Lloydell Coll. No. 1-H. J. Hudec)........  <distance milepost= "35.6">35.6</distance></entry>
+    <entry><switch number="F 74">F 74</switch> .. Lloydell, Pa. (Logan Coll. No. 4-Johnstown C. &amp; C. Co.) ..... ..............  <distance milepost= "35.4">35.4</distance></entry>
+    <entry><switch number="F 78">F 78</switch> ... Burkett Coll. No. 1 (A. R. Burkettlt..........  <distance milepost= "36.9">36.9</distance></entry>
+    <entry><switch number="F 79">F 79</switch> .. End of Beaver Branch................................  <distance milepost= "37.1">37.1</distance></entry>
 </branch>
 
-F 14 ... Lovett, Pa. (Station and G. H. Millert)...... 32.4 
-F 15 ... Salix, Pa. (Station).................................... 35.7 
-F 18 ... Elton. Pa. (Station).................................. 38.2 
+    <entry><switch number="F 14">F 14</switch> ... Lovett, Pa. (Station and G. H. Millert)......  <distance milepost= "32.4">32.4</distance></entry>
+    <entry><switch number="F 15">F 15</switch> ... Salix, Pa. (Station)....................................  <distance milepost= "35.7">35.7</distance></entry>
+    <entry><switch number="F 18">F 18</switch> ... Elton. Pa. (Station)..................................  <distance milepost= "38.2">38.2</distance></entry>
 
 <branch name="Paint Creek">
-F 21 .... Junction Paint Creek Branch.................. 41.4 
-F 90 .. Plug Track (Paint Creek Storage) .......... 41.6 
+    <entry><switch number="F 21">F 21</switch> .... Junction Paint Creek Branch..................  <distance milepost= "41.4">41.4</distance></entry>
+    <entry><switch number="F 90">F 90</switch> .. Plug Track (Paint Creek Storage) ..........  <distance milepost= "41.6">41.6</distance></entry>
 
 <branch name="Eureka No. 37">
-F 91 .... Junc. Eureka Branch No. 37 ...................... 41.7 
+    <entry><switch number="F 91">F 91</switch> .... Junc. Eureka Branch No. 37 ......................  <distance milepost= "41.7">41.7</distance></entry>
 
 <branch name="Eureka No. 40 Siding">
-F 92 ... Junc. Eureka No. 40 Siding........................ 41.8 
-F 94 ... Eureka Coll. No. 40 (B.-W. C. M. Co.)...... 42.2 
-F 95 ... Eureka Stores (No. 40 Store).................. 42.2 
-F 96 ... End of Eureka No. 40 Siding.................... 42.4 
+    <entry><switch number="F 92">F 92</switch> ... Junc. Eureka No. 40 Siding........................  <distance milepost= "41.8">41.8</distance></entry>
+    <entry><switch number="F 94">F 94</switch> ... Eureka Coll. No. 40 (B.-W. C. M. Co.)......  <distance milepost= "42.2">42.2</distance></entry>
+    <entry><switch number="F 95">F 95</switch> ... Eureka Stores (No. 40 Store)..................  <distance milepost= "42.2">42.2</distance></entry>
+    <entry><switch number="F 96">F 96</switch> ... End of Eureka No. 40 Siding....................  <distance milepost= "42.4">42.4</distance></entry>
 </branch>
 
-F 93 .... Shaffer Coll. (Shaffer &amp; Sons).................. 42.2 
-F 98A ... Veil Coll. No. 1 (Raloh L. Vei1)................ 42.3 
-F 99 ... Eureka Coll. No. 37 (B.-W. C. M. Co.).... 42.9 
-F 100 ... End of Eureka Branch No. 37.................... 43.1
+    <entry><switch number="F 93">F 93</switch> .... Shaffer Coll. (Shaffer &amp; Sons)..................  <distance milepost= "42.2">42.2</distance></entry>
+    <entry><switch number="F 98A">F 98A</switch> ... Veil Coll. No. 1 (Raloh L. Vei1)................  <distance milepost= "42.3">42.3</distance></entry>
+    <entry><switch number="F 99">F 99</switch> ... Eureka Coll. No. 37 (B.-W. C. M. Co.)....  <distance milepost= "42.9">42.9</distance></entry>
+    <entry><switch number="F 100">F 100</switch> ... End of Eureka Branch No. 37.................... <distance milepost= "43.1">43.1</distance></entry>
 </branch>
-
+<!--break-->
 
 219 
 CENTRAL REGION-Continued 
@@ -879,66 +952,66 @@ Altoona
 
 
 <branch name="Shade Creek">
-F 102 .... Junc. Shade Creek Branch)........................ 42.1 
-F 103 ... Reitz Coll. No. 5 (Reitz Coal Co.)jl.......... 42.9 
-F 110 .... Seanor, Pa.* ............................................ 47.6 
-F 112A .. "B" Quality Coll. No. 6 ("B" Quality Coal Co.) ........................................ 49.4 
-F 112B .. Hillsboro, Pa. ............................................ 51.4 
-F 113 ... "B" Quality Coll. No. 7 ("B" Quality Coal Co.) ........................................ 51.4 
-.... Huskin, Pa. ................................................ 53.3 
-F 114 ... Thermal Coll. No. 11 (Lenox Coal Co.).... 53.3 
-F 115 .... Huskin Run Siding, Pa. (Passing)II............ 53.4 
-F 117  Miller Run, Pa........................................... 55.5 
-(Troy Coll.-H. Sheesley).............. 55.5 
-F 118 ... Arrow Col ls. Nos. 1 &amp; 2 (Arrow Coal Mining Co.) .................................. 56.1 
-F 119 ... Loyalhanna Coll. No. 6 (Loyalhanna C. &amp; C. Co.) ........................................ 57.0 
+    <entry><switch number="F 102">F 102</switch> .... Junc. Shade Creek Branch)........................  <distance milepost= "42.1">42.1</distance></entry>
+    <entry><switch number="F 103">F 103</switch> ... Reitz Coll. No. 5 (Reitz Coal Co.)jl..........  <distance milepost= "42.9">42.9</distance></entry>
+    <entry><switch number="F 110">F 110</switch> .... Seanor, Pa.* ............................................  <distance milepost= "47.6">47.6</distance></entry>
+    <entry><switch number="F 112A">F 112A</switch> .. "B" Quality Coll. No. 6 ("B" Quality Coal Co.) ........................................  <distance milepost= "49.4">49.4</distance></entry>
+    <entry><switch number="F 112B">F 112B</switch> .. Hillsboro, Pa. ............................................  <distance milepost= "51.4">51.4</distance></entry>
+    <entry><switch number="F 113">F 113</switch> ... "B" Quality Coll. No. 7 ("B" Quality Coal Co.) ........................................  <distance milepost= "51.4">51.4</distance></entry>
+    <entry>.... Huskin, Pa. ................................................  <distance milepost= "53.3">53.3</distance></entry>
+    <entry><switch number="F 114">F 114</switch> ... Thermal Coll. No. 11 (Lenox Coal Co.)....  <distance milepost= "53.3">53.3</distance></entry>
+    <entry><switch number="F 115">F 115</switch> .... Huskin Run Siding, Pa. (Passing)II............  <distance milepost= "53.4">53.4</distance></entry>
+    <entry><switch number="F 117">F 117</switch>  Miller Run, Pa...........................................  <distance milepost= "55.5">55.5</distance></entry>
+    <entry>(Troy Coll.-H. Sheesley)..............  <distance milepost= "55.5">55.5</distance></entry>
+    <entry><switch number="F 118">F 118</switch> ... Arrow Col ls. Nos. 1 &amp; 2 (Arrow Coal Mining Co.) ..................................  <distance milepost= "56.1">56.1</distance></entry>
+    <entry><switch number="F 119">F 119</switch> ... Loyalhanna Coll. No. 6 (Loyalhanna C. &amp; C. Co.) ........................................  <distance milepost= "57.0">57.0</distance></entry>
 
 <branch name="Reitz">
-F 120 ... Junc. Reitz Branch.................................. 57.0 
+    <entry><switch number="F 120">F 120</switch> ... Junc. Reitz Branch..................................  <distance milepost= "57.0">57.0.2</distance></entry>
 
 <branch name= "McGregor Siding">
-F 126 ... Junc. McGregor Siding............................ 57.3 
-F 127 .... Reitz Coll. No. 2 (Reitz Coal Co.)............ 57.4 
-F 127 A .. Little Valley Pit No. 2 (Little Valley Coal Co.) ........................................ 57.4 
-F 129 ... End of McGregor Siding.......................... 57.7
+    <entry><switch number="F 126">F 126</switch> ... Junc. McGregor Siding............................  <distance milepost= "57.3">57.3</distance></entry>
+    <entry><switch number="F 127">F 127</switch> .... Reitz Coll. No. 2 (Reitz Coal Co.)............  <distance milepost= "57.4">57.4</distance></entry>
+    <entry><switch number="F 127 A">F 127 A</switch> .. Little Valley Pit No. 2 (Little Valley Coal Co.) ........................................  <distance milepost= "57.4">57.4</distance></entry>
+    <entry><switch number="F 129">F 129</switch> ... End of McGregor Siding.......................... <distance milepost= "57.7">57.7</distance></entry>
 </branch>
     
-F 131 .... End of Reitz Branch*................................ 58.1
+    <entry><switch number="F 131">F 131</switch> .... End of Reitz Branch*................................ <distance milepost= "58.1">58.1</distance></entry>
 </branch>
 
-F 123 ... Cairnbrook, Pa. (Station).......................... 57.3 
-.... North Leg Wye........................................ 57.4 
-.... South Leg Wye........................................ 57.5 
-F 124 ... Loyalhanna No. 7 (Loyalhanna C. &amp; C. Co.) ........................................ 58.2 
-F 125 ... Reitz Coll. No. 4 (Reitz Coal Co.)............ 58.7 
-F 125A .. Central City Siding.................................... 59.3 
-.... Central City, Pa. (Station)*...................... 59.4 
-F 132 ... Reitz Coll. No. 3 (Reitz Coal Co.)............ 59.6 
-F 132A .. Huskin Coll. No. 3 (Huskin Coal Mining Co.) ........................................ 59.6 
-F 133 ... End of Shade Creek Branch*...................... 61.8 
+    <entry><switch number="F 123">F 123</switch> ... Cairnbrook, Pa. (Station)..........................  <distance milepost= "57.3">57.3</distance></entry>
+    <entry> .... North Leg Wye........................................  <distance milepost= "57.4">57.4</distance></entry>
+    <entry>  .... South Leg Wye........................................  <distance milepost= "57.5">57.5</distance></entry>
+    <entry><switch number="F 124">F 124</switch>  ... Loyalhanna No. 7 (Loyalhanna C. &amp; C. Co.) ........................................  <distance milepost= "58.2">58.2</distance></entry>
+    <entry><switch number="F 125">F 125</switch>  ... Reitz Coll. No. 4 (Reitz Coal Co.)............  <distance milepost= "58.7">58.7</distance></entry>
+    <entry><switch number="F 125A">F 125A</switch>  .. Central City Siding....................................  <distance milepost= "59.3">59.3</distance></entry>
+    <entry>.... Central City, Pa. (Station)*......................  <distance milepost= "59.4">59.4</distance></entry>
+    <entry><switch number="F 132">F 132</switch>  ... Reitz Coll. No. 3 (Reitz Coal Co.)............  <distance milepost= "59.6">59.6</distance></entry>
+    <entry><switch number="F 132A">F 132A</switch> .. Huskin Coll. No. 3 (Huskin Coal Mining Co.) ........................................  <distance milepost= "59.6">59.6</distance></entry>
+    <entry><switch number="F 133">F 133</switch> ... End of Shade Creek Branch*......................  <distance milepost= "61.8">61.8</distance></entry>
+</branch><!--break-->
+
+    <entry><switch number="F 133A">F 133A</switch> .Huskin Coll. No. 6 (Huskin C. M. Co.)......  <distance milepost= "59.8">59.8</distance></entry>
+    <entry><switch number="F 136">F 136</switch>.. Eureka Coll. No. 30 (Berwind-White C. M. Co.) ........................................  <distance milepost= "42.7">42.7</distance></entry>
+    <entry><switch number="F 137">F 137</switch> . End of Paint Creek Branch........................  <distance milepost= "43.0">43.0</distance></entry>
 </branch>
 
-F 133A .Huskin Coll. No. 6 (Huskin C. M. Co.)...... 59.8 
-F 136 .. Eureka Coll. No. 30 (Berwind-White C. M. Co.) ........................................ 42.7 
-F 137 . End of Paint Creek Branch........................ 43.0 
-</branch>
-
-.... Scalp Level, Pa.*...................................... 42.1 
-F 25 .. .Windber Lumber Co. and J. E. Crisman t.... 42.8 
+    <entry>.... Scalp Level, Pa.*......................................  <distance milepost= "42.1">42.1</distance></entry>
+    <entry><switch number="F 25">F 25</switch> .. .Windber Lumber Co. and J. E. Crisman t....  <distance milepost= "42.8">42.8</distance></entry>
 
 <branch name="Windber">
-F 27 ... Junc. Windber Branch............................ 43.1 
-F 144 ... Eureka Stores No.  ................................ 43.2 
-F 145 .... Eureka Coll. No. 35 (B.-W. C. M. Co.) 
-(Branch) .................................. 43.6 
-.... Eureka No. 35, Pa................................... 43.7.· 
-F 148 .... Eureka Coll. No. 36 (B.-W. C. M. Co.) 
-(Branch) .................................. 44.4 
-.... Eureka No. 36, Pa................................... 44.5 
-.... Eureka No. 41, Pa................................... 45.2 
-F 152 .... Eureka Coll. No. 42 (B.-W. C. M. Co.).... 47.0 
-.... Eureka No. 42, Pa. (Station)...........................· 47.2 
-F 153 .... End of Windber Branch.............................. 47.4 
+    <entry><switch number="F 27">F 27</switch> ... Junc. Windber Branch............................  <distance milepost= "43.1">43.1</distance></entry>
+    <entry><switch number="F 144">F 144</switch> ... Eureka Stores No.  ................................  <distance milepost= "43.2">43.2</distance></entry>
+    <entry><switch number="F 145">F 145</switch> .... Eureka Coll. No. 35 (B.-W. C. M. Co.) </entry>
+    <entry>(Branch) ..................................  <distance milepost= "43.6">43.6</distance></entry>
+    <entry>.... Eureka No. 35, Pa................................... .· <distance milepost= "43.7">43.7</distance></entry>
+    <entry><switch number="F 148">F 148</switch> .... Eureka Coll. No. 36 (B.-W. C. M. Co.) </entry>
+    <entry>(Branch) ..................................  <distance milepost= "44.4">44.4</distance></entry>
+    <entry>.... Eureka No. 36, Pa...................................  <distance milepost= "44.5">44.5</distance></entry>
+    <entry> .... Eureka No. 41, Pa...................................  <distance milepost= "45.2">45.2</distance></entry>
+    <entry><switch number="F 152">F 152</switch>  .... Eureka Coll. No. 42 (B.-W. C. M. Co.)....  <distance milepost= "47.0">47.0</distance></entry>
+    <entry>.... Eureka No. 42, Pa. (Station)...........................·  <distance milepost= "47.2">47.2</distance></entry>
+    <entry><switch number="F 153">F 153</switch>   .... End of Windber Branch..............................  <distance milepost= "47.4">47.4</distance></entry>
 </branch>
 
 
@@ -949,160 +1022,159 @@ PITTSBURGH DIVISION-Continued
 
 Dist.from 
 Altoona 
-(Pass.Sta.) 
+(Pass.Sta.) <!--break-->
 
-F 29 .... Windber, Pa. (Storage)II............................ 43.3 
-F 3O .... Windber, Pa. (Freight Station).................. 43.3 
+    <entry><switch number="F 29">F 29</switch> .... Windber, Pa. (Storage)II............................  <distance milepost= "43.3">43.3</distance></entry>
+    <entry><switch number="F 3O">F 3O</switch> .... Windber, Pa. (Freight Station)..................  <distance milepost= "43.3">43.3</distance></entry>
 
 <branch name="Windber Siding">
-F 31 .... North Leg Windber Wye .......................... 43.3 
-F 155 ... .Weaver &amp; Berkey...................................... 43.3 
+    <entry><switch number="F 31">F 31</switch> .... North Leg Windber Wye ..........................  <distance milepost= "43.3">43.3</distance></entry>
+    <entry><switch number="F 155">F 155</switch> ... .Weaver &amp; Berkey......................................  <distance milepost= "43.3">43.3</distance></entry>
 
-F158
-Berwind-White C. M. Co.-Car Shopst.... 43.4 
-McNeil Coll. No. 1 (McNeil Coal Co.)...... 43.4 
-Peerage Coll. No. 1 (H. Quinnlt ................ 43.4 
+    <entry><switch number="F158">F158</switch>
+        Berwind-White C. M. Co.-Car Shopst....  <distance milepost= "43.4">43.4</distance></entry>
+    <entry>McNeil Coll. No. 1 (McNeil Coal Co.)......  <distance milepost= "43.4">43.4</distance></entry>
+    <entry>Peerage Coll. No. 1 (H. Quinnlt ................  <distance milepost= "43.4">43.4</distance></entry>
 </branch>
 
-F 33 .... South Leg Windber Wye.......................... 43.5 
-F 34 .... Windber Brick Co.t.................................... 43.9 
-F 35 .... Windber Coll. No. 1 (C. E. Schooley)........ 44.0 
-F 35A .... Berwind-White C. M. Co. (Power Plant).. 44.0 
-F 36 ... .Windber Coll. No. 2 (Windber Hy-Grade C. M. Co.)................................ 44.5 
-F 36C .... "B" Quality Coll. No. 3 ("B" Quality Coal Co.) ........................................ 46.4 
-F 36E .... Krayn Coll. No. 4 (Conbro Coal Co.)...... 46.4 
-F 36D .... Jennings Coll. No. 1 CB. Andersonlt.......... 46.5 
-F 37 .... End of South Fork Branch II........................ 46.9 
+    <entry><switch number="F 33">F 33</switch> .... South Leg Windber Wye..........................  <distance milepost= "43.5">43.5</distance></entry>
+    <entry><switch number="F 34">F 34</switch> .... Windber Brick Co.t....................................  <distance milepost= "43.9">43.9</distance></entry>
+    <entry><switch number="F 35">F 35</switch> .... Windber Coll. No. 1 (C. E. Schooley)........  <distance milepost= "44.0">44.0</distance></entry>
+    <entry><switch number="F 35A">F 35A</switch> .... Berwind-White C. M. Co. (Power Plant)..  <distance milepost= "44.0">44.0</distance></entry>
+    <entry><switch number="F 36">F 36</switch> ... .Windber Coll. No. 2 (Windber Hy-Grade C. M. Co.)................................  <distance milepost= "44.5">44.5</distance></entry>
+    <entry><switch number="F 36C">F 36C</switch> .... "B" Quality Coll. No. 3 ("B" Quality Coal Co.) ........................................  <distance milepost= "46.4">46.4</distance></entry>
+    <entry><switch number="F 36E">F 36E</switch> .... Krayn Coll. No. 4 (Conbro Coal Co.)......  <distance milepost= "46.4">46.4</distance></entry>
+    <entry><switch number="F 36D">F 36D</switch> .... Jennings Coll. No. 1 CB. Andersonlt..........  <distance milepost= "46.5">46.5</distance></entry>
+    <entry><switch number="F 37">F 37</switch> .... End of South Fork Branch II........................  <distance milepost= "46.9">46.9</distance></entry>
 </branch>
 
-.... Ehrenfield, Pa.* ........................................ 27.2 
-354A .... South Fork, Pa. (Station)i........................ 28.1 
-355
-355 { South Fork, Pa. West Junc. South Fork Br.)*.................. 28.4 
-" (Manufacturers Water Co.)............ 28.8 
-" (Storage-North Side) ................ 28.8 
-359 .... Mineral Point, Pa....................................... 30.7 
-357 .... Smokeless Colleries Nos. 1 &amp; 2 (Mineral Point Coal Co.)........................ 31.7 
+    <entry>.... Ehrenfield, Pa.* ........................................  <distance milepost= "27.2">27.2</distance></entry>
+    <entry><switch number="354A">354A</switch> .... South Fork, Pa. (Station)i........................  <distance milepost= "28.1">28.1</distance></entry>
+    <entry><switch number="355">355</switch>
+        <entry><switch number="355">355</switch> { South Fork, Pa. West Junc. South Fork Br.)*..................  <distance milepost= "28.4">28.4.2</distance></entry>
+        <entry>" (Manufacturers Water Co.)............  <distance milepost= "28.8">28.8</distance></entry>
+        <entry>" (Storage-North Side) ................  <distance milepost= "28.8">28.8</distance></entry>
+        <entry><switch number="359">359</switch> .... Mineral Point, Pa.......................................  <distance milepost= "30.7">30.7</distance></entry>
+        <entry><switch number="357">357</switch> .... Smokeless Colleries Nos. 1 &amp; 2 (Mineral Point Coal Co.)........................  <distance milepost= "31.7">31.7</distance></entry>
 
 <branch name="Johnston">
 V
-Conemaugh, Pa. (Stationl)........................ 35.0 
-" (Shop) II .......................................... 35.1 
-" (Work Train)l ................................ 35.2 
-" (Scales) .......................................... 35.7 
-" (Jc. Johnstown Branch)*ji.............. 35.7 
+    <entry>Conemaugh, Pa. (Stationl)........................  <distance milepost= "35.0">35.0.2</distance></entry>
+    <entry>" (Shop) II ..........................................  <distance milepost= "35.1">35.1</distance></entry>
+    <entry>" (Work Train)l ................................  <distance milepost= "35.2">35.2</distance></entry>
+    <entry>" (Scales) ..........................................  <distance milepost= "35.7">35.7</distance></entry>
+    <entry>" (Jc. Johnstown Branch)*ji..............  <distance milepost= "35.7">35.7</distance></entry>
 
-5300
-Johnstown, Pa. (Atlantic Refining Co. No. 3) .................................... 35.8 
-" (Junction Conemaugh &amp; Black Lick 5300 R. R.) II ...................................... 35.8 
-5304 Johnstown, Pa. (Freight Station)i............ 37.2 
-" (Junc. B. &amp; 0. R. R.)*...................... 37.3 
-5305 .... Johnstown &amp; Stony Creek R.R................... 38.4 
-</branch>
+    <entry><switch number="5300">5300</switch>
+    <entry>Johnstown, Pa. (Atlantic Refining Co. No. 3) .................................... 35.8 <distance milepost= "48.2">48.2</distance></entry>
+    <entry>" (Junction Conemaugh &amp; Black Lick 5300 R. R.) II ...................................... 35.8 <distance milepost= "48.2">48.2</distance></entry>
+    <entry><switch number="5304">5304</switch> Johnstown, Pa. (Freight Station)i............ 37.2 <distance milepost= "48.2">48.2</distance></entry>
+    <entry>" (Junc. B. &amp; 0. R. R.)*...................... 37.3 <distance milepost= "48.2">48.2</distance></entry>
+    <entry><switch number="5305">5305</switch> .... Johnstown &amp; Stony Creek R.R................... 38.4 <distance milepost= "48.2">48.2</distance></entry>
+</branch> <!--break-->
 
-362 
-Johnstown, Pa. (Atlantic Refining Co. Sub-Station No. 3).......................... 35.8
-" (American Stores Co.) .................... 36.4 
-" (H. Swank's Sons).......................... 36.7 
-363
-Johnstown, Pa. (Passenger Station)*ji...... 37.4 
-" (Haws Refractories Nos. 1 &amp; 2 and Shaft Coll.-Haws Refractories Co.) ........................................ 38.0 
-" (Pittsburgh Brewing Co.) .............. 38.3 
-" (J. W. Walters No. 1 and Ferguson Packing Co.) .......................... 38.5 
-" (J. W. Walters No. 2).................... 38.6 
-" (Pennsylvania Electric Co. No. 1).. 38.7 
-364
-Morrellville, Pa. (Yard)............................ 38.9 
-" (Junc. Conemaugh &amp; Black Lick R. R.)* .................................... 38.9 
-" (Conemaugh Lumber Co.).............. 39.1 
-* (Davis Brake Beam Co.)................ 39.2 
-" (City of Johnstown)........................ 39.3 
+    <entry><switch number="362">362</switch> 
+        Johnstown, Pa. (Atlantic Refining Co. Sub-Station No. 3).......................... <distance milepost= "35.8">35.8</distance></entry>
+        <entry>" (American Stores Co.) ....................  <distance milepost= "36.4">36.4</distance></entry>
+        <entry>" (H. Swank's Sons)..........................  <distance milepost= "36.7">36.7</distance></entry>
+        <entry><switch number="363">363</switch>
+            Johnstown, Pa. (Passenger Station)*ji......  <distance milepost= "37.4">37.4</distance></entry>
+        <entry>" (Haws Refractories Nos. 1 &amp; 2 and Shaft Coll.-Haws Refractories Co.) ........................................  <distance milepost= "38.0">38.0</distance></entry>
+        <entry>" (Pittsburgh Brewing Co.) ..............  <distance milepost= "38.3">38.3</distance></entry>
+        <entry>" (J. W. Walters No. 1 and Ferguson Packing Co.) ..........................  <distance milepost= "38.5">38.5</distance></entry>
+        <entry>" (J. W. Walters No. 2)....................  <distance milepost= "38.6">38.6</distance></entry>
+        <entry>" (Pennsylvania Electric Co. No. 1)..  <distance milepost= "38.7">38.7</distance></entry>
+        <entry><switch number="364">364</switch>
+            Morrellville, Pa. (Yard)............................  <distance milepost= "38.9">38.9</distance></entry>
+        <entry>" (Junc. Conemaugh &amp; Black Lick R. R.)* ....................................  <distance milepost= "38.9">38.9</distance></entry>
+        <entry>" (Conemaugh Lumber Co.)..............  <distance milepost= "39.1">39.1</distance></entry>
+        <entry>* (Davis Brake Beam Co.)................  <distance milepost= "39.2">39.2</distance></entry>
+        <entry>" (City of Johnstown)........................  <distance milepost= "39.3">39.3</distance></entry>
 
-
+<!--break-->
 
 
 221 
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
-PITTSBURGH DIVISION-Continued 
+PITTSBURGH DIVISION-Continued
 
 Dist.from 
 Altoona 
 (Pass.Sta.) 
 
 
-365 .... Sheridan, Pa. (Junc. Sang Hollow Ext.- East Conn.) ............................ 39.8 
-53O8 .... Laurel Run Yardji and Junc. Conemaugh &amp; Black Lick R. R.)........................ 40.8 
-5312 
-... Diamond Smokeless Collieries Nos. 1 &amp; 2 
-(Imperial Coal Company) ........ .. 45.8
-5313A .. Penn Public Corporation Siding No. 3t ..... . 48.3
-5314 .... Penelec Colliery (Penelec Coal Co.) ......... . 48.5
-378 .... Conpitt Junction (Junc. Pgh. Div. Main Line and Conemaugh Division)* .... .. 53.7
-366
-Sheridan, Pa. ("SG" Storage) ............... . 39.9
-" (Brown-Fayro Co.) ....................... . 40.0
-" (Triangle Clay Products Co.) ......... . 40.1
+        <entry><switch number="365">365</switch> .... Sheridan, Pa. (Junc. Sang Hollow Ext.- East Conn.) ............................  <distance milepost= "39.8">39.8</distance></entry>
+        <entry><switch number="53O8">53O8</switch> .... Laurel Run Yardji and Junc. Conemaugh &amp; Black Lick R. R.)........................  <distance milepost= "40.8">40.8</distance></entry>
+        <entry><switch number="5312">5312</switch> 
+        <entry>... Diamond Smokeless Collieries Nos. 1 &amp; 2 
+        <entry>(Imperial Coal Company) ........ .. <distance milepost= "45.8">45.8</distance></entry>
+        <entry><switch number="5313A">5313A</switch> .. Penn Public Corporation Siding No. 3t ..... . <distance milepost= "48.3">48.3</distance></entry>
+        <entry><switch number="5314">5314</switch> .... Penelec Colliery (Penelec Coal Co.) ......... . <distance milepost= "48.5">48.5</distance></entry>
+            <entry><switch number="378">378</switch> .... Conpitt Junction (Junc. Pgh. Div. Main Line and Conemaugh Division)* .... .. <distance milepost= "53.7">53.7</distance></entry>
+        <entry><switch number="366">366</switch>
+            <entry>Sheridan, Pa. ("SG" Storage) ............... . <distance milepost= "39.9">39.9</distance></entry>
+            <entry>" (Brown-Fayro Co.) ....................... . <distance milepost= "40.0">40.0</distance></entry>
+            <entry>" (Triangle Clay Products Co.) ......... . <distance milepost= "40.1">40.1</distance></entry>
 
-372 .... Seward, Pa. (Station) ............................ .. 46.8
-373 .... Seward Smokeless Coll. (F. J. Kenny) .. .. 47.3
+            <entry><switch number="372">372</switch> .... Seward, Pa. (Station) ............................ .. <distance milepost= "46.8">46.8</distance></entry>
+            <entry><switch number="373">373</switch> .... Seward Smokeless Coll. (F. J. Kenny) .. .. <distance milepost= "47.3">47.3</distance></entry>
 
-377
-New Florence, Pa. (Station) ................... . 50.9
-" (New Florence Lumber Co. and New Florence Flour Mill) .............. .. 51.1
+            <entry><switch number="377">377</switch>
+                New Florence, Pa. (Station) ................... . <distance milepost= "50.9">50.9</distance></entry>
+            <entry>" (New Florence Lumber Co. and New Florence Flour Mill) .............. .. <distance milepost= "51.1">51.1</distance></entry>
 
 <branch name="New Florence">
-377 A .... Junc. New Florence Branch*ji .................. .. 51.2
-5325 .... Cinder Dump Sidingff.·.·.·.· .. .·.· ..................... . 51.3
-5326 .... Fairfield Coll. (Fairfield Coal &amp; Coke Co.) 54.4
-5327 .... Lockport Coll. No. 1 (Bolivar C. &amp; C. Co.J and Turner Coll. (H. A. Turner Coal Co.) ............................... . 54.7
-5329 .... End of New Florence Br. and Public Dely. 55.5
+    <entry><switch number="377 A">377 A</switch> .... Junc. New Florence Branch*ji .................. .. <distance milepost= "51.2">51.2</distance></entry>
+    <entry><switch number="5325">5325</switch> .... Cinder Dump Sidingff.·.·.·.· .. .·.· ..................... . <distance milepost= "51.3">51.3</distance></entry>
+    <entry><switch number="5326">5326</switch> .... Fairfield Coll. (Fairfield Coal &amp; Coke Co.) <distance milepost= "54.4">54.4</distance></entry>
+    <entry><switch number="5327">5327</switch> .... Lockport Coll. No. 1 (Bolivar C. &amp; C. Co.J and Turner Coll. (H. A. Turner Coal Co.) ............................... . <distance milepost= "54.7">54.7</distance></entry>
+    <entry><switch number="5329">5329</switch> .... End of New Florence Br. and Public Dely. <distance milepost= "55.5">55.5</distance></entry>
 </branch>
-
-378 .... Conpitt Junc. (Junc. Pgh. Div., Sang Hollow Ext.-West Conn. and Conemaugh Division) ................... . 53.0
-.... Lockport, Pa. (Station) .......................... .. 54.9
-382 .... Penn Refractories Co.t ............................. . 55.9
+<!--break-->
+            <entry><switch number="82ll">378</switch> .... Conpitt Junc. (Junc. Pgh. Div., Sang Hollow Ext.-West Conn. and Conemaugh Division) ................... . <distance milepost= "53.0">53.0</distance></entry>
+            <entry>.... Lockport, Pa. (Station) .......................... .. <distance milepost= "54.9">54.9</distance></entry>
+            <entry><switch number="382">382</switch> .... Penn Refractories Co.t ............................. . <distance milepost= "55.9">55.9</distance></entry>
 
 BO
- Bolivar, Pa. (Station) .............................. .. 56.5
-" (Garfield Refractories Co. No. 2) ... . 56.8
-" (St. Clair Supply Co. No. 1) ......... . 56.8
-" (V. Keck Supply Co.) ................... . 56.8
-" (Standard Steel &amp; Wire Co.) ....... . 56.8
+            <entry>Bolivar, Pa. (Station) .............................. .. <distance milepost= "56.5">56.5</distance></entry>
+            <entry>" (Garfield Refractories Co. No. 2) ... . <distance milepost= "56.8">56.8</distance></entry>
+            <entry>" (St. Clair Supply Co. No. 1) ......... . <distance milepost= "56.8">56.8</distance></entry>
+            <entry>" (V. Keck Supply Co.) ................... . <distance milepost= "56.8">56.8</distance></entry>
+            <entry>" (Standard Steel &amp; Wire Co.) ....... . <distance milepost= "56.8">56.8</distance></entry>
 
-387 .... Torrance, Pa. (Storage) ......................... . 61.5
+            <entry><switch number="387">387</switch> .... Torrance, Pa. (Storage) ......................... . <distance milepost= "61.5">61.5</distance></entry>
 BI 
-Torrance, Pa. (Station) ............................. . 61.6
-" (Junction Conemaugh Div.).......... . 61.7
+                 <entry>Torrance, Pa. (Station) ............................. . 61.6<distance milepost= "48.2">48.2</distance></entry>
+            <entry>" (Junction Conemaugh Div.).......... . <distance milepost= "61.7">61.7</distance></entry>
 
-388 ... Torrance, Pa. (Torrance State Hospita1) 61.8
+            <entry><switch number="388">388</switch> ... Torrance, Pa. (Torrance State Hospita1) <distance milepost= "61.8">61.8</distance></entry>
 
-390 
-Gray, Pa. (Gray Stone Quarries Co.) ...... .. 63.5
-" (Station)* .................................. .. 63.5
+            <entry><switch number="390">390</switch> 
+                Gray, Pa. (Gray Stone Quarries Co.) ...... .. <distance milepost= "63.5">63.5.2</distance></entry>
+            <entry>" (Station)* .................................. .. <distance milepost= "63.5">63.5</distance></entry>
 
-391 .... Graff Coils. Nos. 1 &amp; 2 (Westmoreland Mining Co.) ........................... . 65.0
-392----Hillslde, Pa. ............................................. . 65.5
-393A .... Seger Coll. No. 1 (Atlantic Crushed Coke Co.) ....................................... . 67.1
-393 .... Millwood, Pa. .......................................... .. 67.3
+            <entry><switch number="391">391</switch> .... Graff Coils. Nos. 1 &amp; 2 (Westmoreland Mining Co.) ........................... . <distance milepost= "65.0">65.0</distance></entry>
+            <entry><switch number="392">392</switch>----Hillslde, Pa. ............................................. . <distance milepost= "65.5">65.5</distance></entry>
+            <entry><switch number="393A">393A</switch> .... Seger Coll. No. 1 (Atlantic Crushed Coke Co.) ....................................... . <distance milepost= "67.1">67.1</distance></entry>
+            <entry><switch number="393">393</switch> .... Millwood, Pa. .......................................... .. <distance milepost= "67.3">67.3</distance></entry>
 
 D
-Derry, Pa. (Scales) .................................. .. 68.7
-(Statlon) .................................. .. 68.9
-" (Westinghouse Electric &amp; Mfg. Co. No. l) ................................... . 69.0
-" (Geo. Mowry &amp; Co.) ..................... . 
-
+            <entry>Derry, Pa. (Scales) .................................. .. <distance milepost= "68.7">68.7</distance></entry>
+            <entry>(Statlon) .................................. .. <distance milepost= "68.9">68.9</distance></entry>
+            <entry>" (Westinghouse Electric &amp; Mfg. Co. No. l) ................................... . <distance milepost= "69.0">69.0</distance></entry>
+                 <entry>" (Geo. Mowry &amp; Co.) ..................... . </entry>
 
     <branch name="Bradenville">
-397 .... Junc. Bradenville Branch ...................... .. 70.5
+        <entry><switch number="397">397</switch> .... Junc. Bradenville Branch ...................... .. <distance milepost= "70.5">70.5</distance></entry>
 
-5333
-Saxman Coll. (Saxman Fuel Co.) ............ .. 72.4
-Plonier Coll. (Plonler Fuel Co.) ............... . 72.4
+        <entry><switch number="5333">5333</switch>
+            Saxman Coll. (Saxman Fuel Co.) ............ .. <distance milepost= "72.4">72.4</distance></entry>
+        <entry>Plonier Coll. (Plonler Fuel Co.) ............... . <distance milepost= "72.4">72.4</distance></entry>
 
-5335 ... Superior Coll. No. 2 (Westmoreland Co.) 73.0
-5338 .... Atlantic Coll. (Atlantic Crushed Coke Co.) 74.2
-5341 .... End of Bradenville Branch ...................... .. 74.4
+        <entry><switch number="5335">5335</switch> ... Superior Coll. No. 2 (Westmoreland Co.) <distance milepost= "73.0">73.0</distance></entry>
+        <entry><switch number="5338">5338</switch> .... Atlantic Coll. (Atlantic Crushed Coke Co.) <distance milepost= "74.2">74.2</distance></entry>
+        <entry><switch number="5341">5341</switch> .... End of Bradenville Branch ...................... .. <distance milepost= "74.4">74.4</distance></entry>
     </branch>
 
 
@@ -1115,76 +1187,77 @@ PITTSBURGH DIVISION-Continued
 Dist.from 
 Altoona 
 (Pass.Sta.) 
+<!--break-->
 
-
-398A .... Bradenville, Pa. (Duquesne Coll.-Beatty Coal Co.) ................................ 71.2 
-399M .... Saxman Tail Track-Storage ll.................. 72.8 
-399F .... Saxman Water Station ll............................ 72.8 
+            <entry><switch number="398A">398A</switch> .... Bradenville, Pa. (Duquesne Coll.-Beatty Coal Co.) ................................  <distance milepost= "71.2">71.2</distance></entry>
+            <entry><switch number="399M">399M</switch> .... Saxman Tail Track-Storage ll..................  <distance milepost= "72.8">72.8</distance></entry>
+            <entry><switch number="399F">399F</switch> .... Saxman Water Station ll............................  <distance milepost= "72.8">72.8</distance></entry>
 
 <branch name="Superior Spur">
-399E .... McFeely Brick Co. No. l t.......................... 72.9 
-399F .... McFeely Brick Co. No. 2 t.......................... 73.0 
-399G .... Vanadium-Alloys Steel Co. t...................... 73.0 
-399D .... Anchor Drawn Steel Co. t.......................... 73.3 
+    <entry><switch number="399E">399E</switch> .... McFeely Brick Co. No. l t..........................  <distance milepost= "72.9">72.9</distance></entry>
+    <entry><switch number="399F">399F</switch>  .... McFeely Brick Co. No. 2 t..........................  <distance milepost= "73.0">73.0</distance></entry>
+    <entry><switch number="399G">399G</switch> .... Vanadium-Alloys Steel Co. t......................  <distance milepost= "73.0">73.0</distance></entry>
+    <entry><switch number="399D">399D</switch> .... Anchor Drawn Steel Co. t..........................  <distance milepost= "73.3">73.3</distance></entry>
 </branch>
 
-400....
-      Latrobe, Pa. (Junc. Ligonier Val. R. R.) 73.3 
-      (Pohland Bros.).......................... 73.4
-      (Shirey Coll.--Small Coal Co.)............. 73.4
-      (Station).................................. 73.8
+            <entry><switch number="82ll">400</switch>....
+                Latrobe, Pa. (Junc. Ligonier Val. R. R.)  <distance milepost= "73.3">73.3</distance></entry>
+            <entry>(Pohland Bros.).......................... <distance milepost= "73.4">73.4</distance></entry>
+            <entry>(Shirey Coll.--Small Coal Co.)............. <distance milepost= "73.4">73.4</distance></entry>
+            <entry>(Station).................................. <distance milepost= "73.8">73.8</distance></entry>
 
 <branch name="Unity">
-401 .... Junction Unity Branch*jt............................ 74.3 
-5345 .... Monastery Coke Works CH. C. Frick C. Co.) 74.4 
-5346 .... Beatty Colliery (Mt. Pleasant Coke Co.l and Buck Coll. (Latrobe-Western Fuel Co.) (Branch) .................. 74.4 
-5346A .. Ruth Coils. Nos. 1 &amp; 2 (Westmoreland-Fayette Coal &amp; Coke Co.)........ 74.4 
-5348 .... Latrobe Ice &amp; Provision Co. .................... 74.6 
-5349 .... Atlantic Refining Co. No. 4 (Latrobe Distributing Station) .................. 74.7 
+    <entry><switch number="82ll">401</switch> .... Junction Unity Branch*jt............................  <distance milepost= "74.3">74.3</distance></entry>
+    <entry><switch number="82ll">5345</switch> .... Monastery Coke Works CH. C. Frick C. Co.)  <distance milepost= "74.4">74.4</distance></entry>
+    <entry><switch number="82ll">5346</switch> .... Beatty Colliery (Mt. Pleasant Coke Co.l and Buck Coll. (Latrobe-Western Fuel Co.) (Branch) ..................  <distance milepost= "74.4">74.4</distance></entry>
+    <entry><switch number="82ll">5346A</switch> .. Ruth Coils. Nos. 1 &amp; 2 (Westmoreland-Fayette Coal &amp; Coke Co.)........  <distance milepost= "74.4">74.4</distance></entry>
+    <entry><switch number="82ll">5348</switch>  .... Latrobe Ice &amp; Provision Co. ....................  <distance milepost= "74.6">74.6</distance></entry>
+    <entry><switch number="82ll">5349</switch> .... Atlantic Refining Co. No. 4 (Latrobe Distributing Station) ..................  <distance milepost= "74.7">74.7</distance></entry>
 
-Latrobe, Pa. (Junc. Ligonier Val. R.R. ) 73.3 
+    <entry>Latrobe, Pa. (Junc. Ligonier Val. R.R. )  <distance milepost= "73.3">73.3.2</distance></entry>
 
-401 .... Junction Unity Branch*jt............................ 74.3 
-5345 .... Monastery Coke Works CH. C. Frick C. Co.) t 74.4 
-5346 .... Beatty Colliery (Mt. Pleasant Coke Co.) and Buck Coll. (Latrobe-Western Fuel Co.) (Branch)  .................. 74.4 
-5346A .. Ruth Coils. Nos. 1 &amp; 2 (Westmoreland-~ Fayette Coal &amp; Coke Co.)........ 74.4 
-5348 .... Latrobe Ice &amp; Provision Co.  .................... 74.6 
-5349 .... Atlantic Refining Co. No. 4 (Latrobe Distributing Station)  .................. 74.7 
+    <entry><switch number="401">401</switch> .... Junction Unity Branch*jt............................  <distance milepost= "74.3">74.3</distance></entry>
+    <entry><switch number="5345">5345</switch>  .... Monastery Coke Works CH. C. Frick C. Co.) t  <distance milepost= "74.4">74.4</distance></entry>
+    <entry><switch number="5346">5346</switch>  .... Beatty Colliery (Mt. Pleasant Coke Co.) and Buck Coll. (Latrobe-Western Fuel Co.) (Branch)  ..................  <distance milepost= "74.4">74.4</distance></entry>
+    <entry><switch number="5346A">5346A</switch>  .. Ruth Coils. Nos. 1 &amp; 2 (Westmoreland-~ Fayette Coal &amp; Coke Co.)........  <distance milepost= "74.4">74.4</distance></entry>
+    <entry><switch number="5348">5348</switch>   .... Latrobe Ice &amp; Provision Co.  ....................  <distance milepost= "74.6">74.6</distance></entry>
+    <entry><switch number="5349">5349</switch> .... Atlantic Refining Co. No. 4 (Latrobe Distributing Station)  ..................  <distance milepost= "74.7">74.7</distance></entry>
 
+<!--break-->
 
-5347 .... Geo. C. Anderson &amp; Sons, Inc. .................. 74.6 
-5350 .... American Locomotive Co.t........................ 74.7 
-5351 .... Unity Branch Siding.................................. 74.7 
-5352 .... Dorothy Coke Works (H. C. Frick Coke Co.) ...................................... 75.2 
-5353 .... Mud Siding  .......................................... 75.3 
-5354 .... St. Vincent, Pa. (Sinclair Refining Co. No. 2)  .................................... 75.5 
-5354A .. South Union Coll. No. 3 (Unity Coal Co.) 75.8 
-5355 .... St. Xavier, Pa. .......................................... 76.6 
+    <entry><switch number="5347">5347</switch> .... Geo. C. Anderson &amp; Sons, Inc. ..................  <distance milepost= "74.6">74.6</distance></entry>
+    <entry><switch number="5350">5350</switch>   .... American Locomotive Co.t........................  <distance milepost= "74.7">74.7</distance></entry>
+    <entry><switch number="5351">5351</switch>  .... Unity Branch Siding..................................  <distance milepost= "74.7">74.7</distance></entry>
+    <entry><switch number="5352">5352</switch>    .... Dorothy Coke Works (H. C. Frick Coke Co.) ......................................  <distance milepost= "75.2">75.2</distance></entry>
+    <entry><switch number="5353">5353</switch> .... Mud Siding  ..........................................  <distance milepost= "75.3">75.3</distance></entry>
+    <entry><switch number="5354">5354</switch>  .... St. Vincent, Pa. (Sinclair Refining Co. No. 2)  ....................................  <distance milepost= "75.5">75.5</distance></entry>
+    <entry><switch number="5354A">5354A</switch> .. South Union Coll. No. 3 (Unity Coal Co.)  <distance milepost= "75.8">75.8</distance></entry>
+    <entry><switch number="5355">5355</switch>  .... St. Xavier, Pa. ..........................................  <distance milepost= "76.6">76.6</distance></entry>
 
 <branch name="Lippincott">
-5356 .... Junc. Lippincott Branch*.......................... 77.8 
-5358 .... Hostetter, Pa. .......................................... 78.7 
-5358A .. End of Lippincott Branch.......................... 78.9 
+    <entry><switch number="5356">5356</switch> .... Junc. Lippincott Branch*..........................  <distance milepost= "77.8">77.8</distance></entry>
+    <entry><switch number="5358">5358</switch> .... Hostetter, Pa. ..........................................  <distance milepost= "78.7">78.7</distance></entry>
+    <entry><switch number="5358A">5358A</switch> .. End of Lippincott Branch..........................  <distance milepost= "78.9">78.9</distance></entry>
 </branch>
 
-5359 .... Jamison Coll. No. 21 (Jamison C. &amp; C. Co.) 79.0 
+    <entry><switch number="5359">5359</switch> .... Jamison Coll. No. 21 (Jamison C. &amp; C. Co.)  <distance milepost= "79.0">79.0</distance></entry>
 
-5357 
-Jamison Coll. No. 20-Jamison Coal &amp; Coke Co.) ................................ 80.5 
- Latta ........................................................ 80.6 
-5357B .. End of Unity Branch ................................ 80.5 
+    <entry><switch number="5357">5357</switch> 
+        Jamison Coll. No. 20-Jamison Coal &amp; Coke Co.) ................................  <distance milepost= "80.5">80.5</distance></entry>
+    <entry>Latta ........................................................  <distance milepost= "80.6">80.6</distance></entry>
+    <entry><switch number="5357B">5357B</switch> .. End of Unity Branch ................................  <distance milepost= "80.5">80.5</distance></entry>
 </branch>
     
-401A .... West End Coils. Nos. 2, 3 &amp; 4 (City Coal Co.) ........................................ 74.7 
+            <entry><switch number="401A">401A</switch> .... West End Coils. Nos. 2, 3 &amp; 4 (City Coal Co.) ........................................  <distance milepost= "74.7">74.7</distance></entry>
 
 <branch name="Alexandria">
-403A .... Junc. Alexandria Branch-East Conn. ...... 77.0 
-5371 .... Storage Sidings-Old Line...................... 77.7 
-406A .... Donohoe, Pa. (Junc. Alexandria Br. West Leg "Y") .................................. 79.1 
-5373 .... Donohoe, Pa. (Storage)............................ 79.1 
-.... Sowash, Pa. ............................................ 80.0 
-.... Winthrop, Pa. ........................................ 81.1 
-5375 .. Lennodo, Pa. (Storage) 11............................ 82.4 
+    <entry><switch number="403A">403A</switch> .... Junc. Alexandria Branch-East Conn. ......  <distance milepost= "77.0">77.0</distance></entry>
+    <entry><switch number="5371">5371</switch> .... Storage Sidings-Old Line......................  <distance milepost= "77.7">77.7</distance></entry>
+    <entry><switch number="406A">406A</switch> .... Donohoe, Pa. (Junc. Alexandria Br. West Leg "Y") ..................................  <distance milepost= "79.1">79.1</distance></entry>
+    <entry><switch number="5373">5373</switch> .... Donohoe, Pa. (Storage)............................  <distance milepost= "79.1">79.1</distance></entry>
+    <entry>.... Sowash, Pa. ............................................  <distance milepost= "80.0">80.0</distance></entry>
+    <entry>.... Winthrop, Pa. ........................................  <distance milepost= "81.1">81.1</distance></entry>
+    <entry><switch number="5375">5375</switch> .. Lennodo, Pa. (Storage) 11............................  <distance milepost= "82.4">82.4</distance></entry>
 
 
 223 
@@ -1196,71 +1269,71 @@ Dist.from
 Altoona' 
 (Pass.Sta.) 
 
-5376 .. Junc. Jamison Branch............................ 82.7 
-5389 .. Jamison Coll. No. 2 (Jamison C. &amp; C. Co.) 84.1 
-5390 ... Hannastown, Pa. (Station)........................ 84.3 
-5391 ... Jamison Coll. No. 1 (Jamison C. &amp; C. Co.) 85.5 
-.... Forbes Road, Pa. ...................................... 85.7 
-5393 .. End of Jamison Branch.............................. 86.4 
-5377  Crabtree, Pa. .......................................... 83.2 
-" (Hannastown Supply Co. No. 4) ...... 83.2 
-.... Greenwald, Pa. ...................................... 83.9 
-5381 ... New Alexandria, Pa. (Station).................. 87.1 
-5385 ... Salem Coils. (Keystone C. &amp; C. Co.).......... 87.8 
-.... AIisworth, Pa. ........................................ 88.0 
-5387 ( Hall Coll. No. 4 (C. M. Hal1).................... 88.6 
-( William Penn Coll. (Adam Eidemiller)...... 88.6 
-5388 ... Dundale, Pa. ............................................ 88.5 
-5383 ... End of Main Track Alexandria Br. .......... 87.3 
+    <entry><switch number="5376">5376</switch> .. Junc. Jamison Branch............................  <distance milepost= "82.7">82.7</distance></entry>
+    <entry><switch number="5389">5389</switch> .. Jamison Coll. No. 2 (Jamison C. &amp; C. Co.)  <distance milepost= "84.1">84.1</distance></entry>
+    <entry><switch number="5390">5390</switch> ... Hannastown, Pa. (Station)........................  <distance milepost= "84.3">84.3</distance></entry>
+    <entry><switch number="5391">5391</switch> ... Jamison Coll. No. 1 (Jamison C. &amp; C. Co.)  <distance milepost= "85.5">85.5</distance></entry>
+    <entry>.... Forbes Road, Pa. ......................................  <distance milepost= "85.7">85.7</distance></entry>
+    <entry><switch number="5393">5393</switch> .. End of Jamison Branch..............................  <distance milepost= "86.4">86.4</distance></entry>
+    <entry><switch number="5377">5377</switch>  Crabtree, Pa. ..........................................  <distance milepost= "48.2">83.2</distance></entry>
+    <entry>" (Hannastown Supply Co. No. 4) ......  <distance milepost= "83.2">83.2</distance></entry>
+    <entry>.... Greenwald, Pa. ......................................  <distance milepost= "83.9">83.9</distance></entry>
+    <entry><switch number="5381">5381</switch> ... New Alexandria, Pa. (Station)..................  <distance milepost= "87.1">87.1</distance></entry>
+    <entry><switch number="5385">5385</switch> ... Salem Coils. (Keystone C. &amp; C. Co.)..........  <distance milepost= "87.8">87.8</distance></entry>
+    <entry>.... AIisworth, Pa. ........................................  <distance milepost= "88.0">88.0</distance></entry>
+    <entry><switch number="5387">5387</switch> ( Hall Coll. No. 4 (C. M. Hal1)....................  <distance milepost= "88.6">88.6</distance></entry>
+    <entry>( William Penn Coll. (Adam Eidemiller)......  <distance milepost= "88.6">88.6</distance></entry>
+    <entry><switch number="5388">5388</switch> ... Dundale, Pa. ............................................  <distance milepost= "88.5">88.5</distance></entry>
+    <entry><switch number="5383">5383</switch> ... End of Main Track Alexandria Br. ..........  <distance milepost= "87.3">87.3</distance></entry>
 </branch>
 
-406 .... Donohoe, Pa. (Station).............................. 78.9 
-406A .... Donohoe, Pa. (Junc. Alexandria Br. West Leg "Y") .................................. 79.1 
-407 .... George, Pa. (Siding).................................. 79.9 
-407C .... Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.) 81.l 
-408A .... Passenger Sidings Nos. 0, 1 &amp; 2 .......... 82.2 
-407C .... Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.) 81.l 
+            <entry><switch number="406">406</switch> .... Donohoe, Pa. (Station)..............................  <distance milepost= "78.9">78.9</distance></entry>
+            <entry><switch number="406A">406A</switch> .... Donohoe, Pa. (Junc. Alexandria Br. West Leg "Y") ..................................  <distance milepost= "79.1">79.1</distance></entry>
+            <entry><switch number="407">407</switch> .... George, Pa. (Siding)..................................  <distance milepost= "79.9">79.9</distance></entry>
+            <entry><switch number="407C">407C</switch> .... Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.)  <distance milepost= "81.l">81.l</distance></entry>
+            <entry><switch number="408A">408A</switch> .... Passenger Sidings Nos. 0, 1 &amp; 2 ..........  <distance milepost= "82.2">82.2</distance></entry>
+            <entry><switch number="407C">407C</switch> .... Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.)  <distance milepost= "81.l">81.l</distance></entry>
 
 <branch name="Southwest">
-408A .... Passenger Sidings Nos. 0, 1 &amp; 211:j:j!:.......... 82.2 
+    <entry><switch number="408A">408A</switch> .... Passenger Sidings Nos. 0, 1 &amp; 211:j:j!:..........  <distance milepost= "82.2">82.2</distance></entry>
 
-sw .... south-west Junc. (Junc. South-west Br.) 82.4 
+    <entry><switch number="sw">sw</switch> .... south-west Junc. (Junc. South-west Br.)  <distance milepost= "82.4">82.4</distance></entry>
 
 Dist. from 
 S'th-west 
 Junction 
 
-5501 .... E. Greensburg, Pa. (St. Clair Supply Co. No. 2) .................................... 0.3 
+    <entry><switch number="5501">5501</switch> .... E. Greensburg, Pa. (St. Clair Supply Co. No. 2) ....................................  <distance milepost= "0.3">0.3</distance></entry>
 </branch>
 
-5502 .... Junc. Pittsburgh and Monongahela Divisions* .................................. 0.4
+            <entry><switch number="5502">5502</switch> .... Junc. Pittsburgh and Monongahela Divisions* .................................. <distance milepost= "0.4">0.4</distance></entry>
 
-410
-Greensburg, Pa. (Passenger Station)...... 83.1 
-" (George Fox)................................ 83.4 
-" (Freight-House and Local Dely.).... 83.4 
-" (Greensburg Transfer Co.).............. 83.4 
-" (Greensburg Produce Co. and Rubino Produce Co.) .......................... 83.4 
-" (Charley Bros.) .............................. 83.4 
-" (Wilson &amp; Co.).............................. 83.4 
-" (Hudson &amp; Kuhns and Armour &amp; Co.) ........................................ 83.4 
-" Radebaugh, Pa. (Delivery).......................... 84.9 
+            <entry><switch number="410">410</switch>
+                Greensburg, Pa. (Passenger Station)......  <distance milepost= "83.1">83.1</distance></entry>
+            <entry>" (George Fox)................................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" (Freight-House and Local Dely.)....  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" (Greensburg Transfer Co.)..............  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" (Greensburg Produce Co. and Rubino Produce Co.) ..........................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" (Charley Bros.) ..............................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" (Wilson &amp; Co.)..............................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" (Hudson &amp; Kuhns and Armour &amp; Co.) ........................................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" Radebaugh, Pa. (Delivery)..........................  <distance milepost= "84.9">84.9</distance></entry>
 
-412 
-" Radebaugh, Pa. (Delivery).......................... 84.9 
-" (Station) ...................................... 85.0  
-" (Storage)  .................................... 85.1 
-RA .... Radebaugh, Pa. (Junc. Radebaugh Br.)...... 85.8 
-.... Junc. Radebaugh Br.-Monongahela Division .................................. 86.0 
+            <switch number="412">412</switch> 
+            <entry>" Radebaugh, Pa. (Delivery)..........................  <distance milepost= "84.9">84.9</distance></entry>
+            <entry>" (Station) ......................................   <distance milepost= "85.0">85.0</distance></entry>
+            <entry>" (Storage)  ....................................  <distance milepost= "85.1">85.1</distance></entry>
+            <entry><switch number="RA">RA</switch> .... Radebaugh, Pa. (Junc. Radebaugh Br.)......  <distance milepost= "85.8">85.8</distance></entry>
+            <entry>.... Junc. Radebaugh Br.-Monongahela Division ..................................  <distance milepost= "86.0">86.0</distance></entry>
 
-414 { Grapeville, PA (Westmoreland Glass Co.)...86.6
+            <entry><switch number="414">414</switch> { Grapeville, PA (Westmoreland Glass Co.)...<distance milepost= "86.6">86.6</distance></entry>
     { (Station)
 
 <branch name="Brush Creek">
-414A .... Junction Brush Creek Branch .................. 87.l 
-5339 .... Semler Co.t .............................................. 87.3 
-5340 .... Caplan Iron &amp; Steel Co.  ........................ 87.6 
-5841 .... End of Brush Creek Branch........................ 87.7 
+    <entry><switch number="82ll">414A</switch>  .... Junction Brush Creek Branch ..................  <distance milepost= "87.l">87.l</distance></entry>
+    <entry><switch number="82ll">5339</switch> .... Semler Co.t ..............................................  <distance milepost= "87.3">87.3</distance></entry>
+    <entry><switch number="82ll">5340</switch>  .... Caplan Iron &amp; Steel Co.  ........................  <distance milepost= "87.6">87.6</distance></entry>
+    <entry><switch number="82ll">5841</switch> .... End of Brush Creek Branch........................  <distance milepost= "87.7">87.7</distance></entry>
 </branch>
 
 224 
@@ -1273,61 +1346,61 @@ Altoona
 (Pass.Sta.) 
 
 <branch name="Bull Run">
-415
-Jeannette, Pa. (Station).......................... 87.2 
-" (Junc. Bull Run Branch) ................ 87.4 
-" (Penna. Lumber Co.) ...................... 87.5 
-" (Ft. Pitt Mine Equipment Co.) ...... 87.6 
-" (T. H. Stough &amp; Co.)...................... 87.7 
-" (Jeannette Shade &amp; Novelty Co.).. 87 .8 
-" (Truxell Foundry Co.).................... 87.8 
-" (Jeannette Concrete Block Co.) ...... 87.9 
-" (Elliott Company) ........................ 88.1 
-" (End of Bull Run Branch).............. 88.3 
+    <entry><switch number="415">415</switch>
+        Jeannette, Pa. (Station)..........................  <distance milepost= "87.2">87.2</distance></entry>
+    <entry>" (Junc. Bull Run Branch) ................  <distance milepost= "87.4">87.4</distance></entry>
+    <entry>" (Penna. Lumber Co.) ......................  <distance milepost= "87.5">87.5</distance></entry>
+    <entry>" (Ft. Pitt Mine Equipment Co.) ......  <distance milepost= "87.6">87.6</distance></entry>
+    <entry>" (T. H. Stough &amp; Co.)......................  <distance milepost= "87.7">87.7</distance></entry>
+    <entry>" (Jeannette Shade &amp; Novelty Co.)..  <distance milepost= "87.8">87.8</distance></entry>
+    <entry>" (Truxell Foundry Co.)....................  <distance milepost= "87.8">87.8</distance></entry>
+    <entry>" (Jeannette Concrete Block Co.) ......  <distance milepost= "87.9">87.9</distance></entry>
+    <entry>" (Elliott Company) ........................  <distance milepost= "88.1">88.1</distance></entry>
+    <entry>" (End of Bull Run Branch)..............  <distance milepost= "88.3">88.3</distance></entry>
 </branch>
 
-" (Junc. Jeannette Branch).............. 87.6 
-" (American Window Glass Co. Nos. 1, 2 &amp; 3-Mixhouse) .................. 87.8 
-" (City Siding-Public Delivery)........ 87.8 
-" (McKee Glass Co. No. I-Material Siding ) .................................... 87.9 
-" (McKee Glass Co. No. 2) ................ 88.0 
-" (American Window Glass Co. No. 4 Lower Producer Sidings Nos. 1 &amp; 2)...................................... 88.0 
-" (McKee Glass Co. No. 3 - Warehouse) .................................... 88.4 
-" (Jeannette Glass Co.).................... 88.4 
-" (Jeannette Lumber Co.) ................ 88.4 
-" (Pennsylvania Rubber Co.) ............ 88.8 
-" (End of Jeannette Branch)............ 88.9 
-" (Public Delivery) ............................ 87.5 
-" (American Window Glass Co. No. 5 Warehouse) .................... 87.7 
-" (Ft. Pitt Brewing Co.).................... 87.7 
-" (Keystone Supply Co.).................... 87.7 
-" (Storage and Public Delivery)........ 87.7 
+            <entry>" (Junc. Jeannette Branch)..............  <distance milepost= "87.6">87.6</distance></entry>
+            <entry>" (American Window Glass Co. Nos. 1, 2 &amp; 3-Mixhouse) ..................  <distance milepost= "87.8">87.8</distance></entry>
+            <entry>" (City Siding-Public Delivery)........  <distance milepost= "87.8">87.8</distance></entry>
+            <entry>" (McKee Glass Co. No. I-Material Siding ) ....................................  <distance milepost= "87.9">87.9</distance></entry>
+            <entry>" (McKee Glass Co. No. 2) ................  <distance milepost= "88.0">88.0</distance></entry>
+            <entry>" (American Window Glass Co. No. 4 Lower Producer Sidings Nos. 1 &amp; 2)......................................  <distance milepost= "88.0">88.0</distance></entry>
+            <entry>" (McKee Glass Co. No. 3 - Warehouse) ....................................  <distance milepost= "88.4">88.4</distance></entry>
+            <entry>" (Jeannette Glass Co.)....................  <distance milepost= "88.4">88.4</distance></entry>
+            <entry>" (Jeannette Lumber Co.) ................  <distance milepost= "88.4">88.4</distance></entry>
+            <entry>" (Pennsylvania Rubber Co.) ............  <distance milepost= "88.8">88.8</distance></entry>
+            <entry>" (End of Jeannette Branch)............  <distance milepost= "88.9">88.9</distance></entry>
+            <entry>" (Public Delivery) ............................  <distance milepost= "87.5">87.5</distance></entry>
+            <entry>" (American Window Glass Co. No. 5 Warehouse) ....................  <distance milepost= "87.7">87.7</distance></entry>
+            <entry>" (Ft. Pitt Brewing Co.)....................  <distance milepost= "87.7">87.7</distance></entry>
+            <entry>" (Keystone Supply Co.)....................  <distance milepost= "87.7">87.7</distance></entry>
+            <entry>" (Storage and Public Delivery)........  <distance milepost= "87.7">87.7</distance></entry>
 
 <!--AJR- Yes, that is correct switch 415 covers all of that-->
 
-416
-Penn, Pa. (Lee, Thompson, Fawcett &amp; Co., H &amp; H Foundry Machine Co. and Penn Farm Bureau Co-operative Association) ............................ 88.5 
-" (Station) ...................................... 88.7 
-" (Hockensmith Wheel &amp; Mine Car  Company) .............................. 88.8 
+            <entry><switch number="416">416</switch>
+                Penn, Pa. (Lee, Thompson, Fawcett &amp; Co., H &amp; H Foundry Machine Co. and Penn Farm Bureau Co-operative Association) ............................  <distance milepost= "88.5">88.5</distance></entry>
+            <entry>" (Station) ......................................  <distance milepost= "88.7">88.7</distance></entry>
+            <entry>" (Hockensmith Wheel &amp; Mine Car  Company) ..............................  <distance milepost= "88.8">88.8</distance></entry>
 
-417
-Manor, Pa. (West Penn Railways Co. Pow. Plant ) ............................ 89.9 
-" (Station ) ...................................... 90.2 
-" (Carload Delivery) .......................... 90.3 
+            <entry><switch number="417">417</switch>
+                Manor, Pa. (West Penn Railways Co. Pow. Plant ) ............................  <distance milepost= "89.9">89.9</distance></entry>
+            <entry>" (Station ) ......................................  <distance milepost= "90.2">90.2</distance></entry>
+            <entry>" (Carload Delivery) ..........................  <distance milepost= "90.3">90.3</distance></entry>
 
 <branch name="Manor">
-4l7A .... Manor, Pa. (Jc. Manor Branch).............. 90.8 
-5413 .... Biddle, Pa. (Storage) .............................. 91.0 
-5414 .... Manor, Pa. (Grable Supply Co.)................ 91.2 
-5416 ... Benolite Corp) ........................................ 92.1 
-5417 .... Harrison City, Pa ....................................... 93.1 
-5418 .... McCollough Coll. (Westmoreland Coal Co.) 93.5 
-5419 .... Clark's Crossing, Pa................................... 94.3 
-5422 .... Claridge, Pa. ............................................ 95.0 
-5427 .... End of Manor Branch*.............................. 95.4 
+    <entry><switch number="4l7A">4l7A</switch> .... Manor, Pa. (Jc. Manor Branch)..............  <distance milepost= "90.8">90.8</distance></entry>
+    <entry><switch number="5413">5413</switch> .... Biddle, Pa. (Storage) ..............................  <distance milepost= "91.0">91.0</distance></entry>
+    <entry><switch number="5414">5414</switch> .... Manor, Pa. (Grable Supply Co.)................  <distance milepost= "91.2">91.2</distance></entry>
+    <entry><switch number="5416">5416</switch> ... Benolite Corp) ........................................  <distance milepost= "92.1">92.1</distance></entry>
+    <entry><switch number="5417">5417</switch>  .... Harrison City, Pa .......................................  <distance milepost= "93.1">93.1</distance></entry>
+    <entry><switch number="5418">5418</switch>  .... McCollough Coll. (Westmoreland Coal Co.)  <distance milepost= "93.5">93.5</distance></entry>
+    <entry><switch number="5419">5419</switch>  .... Clark's Crossing, Pa...................................  <distance milepost= "94.3">94.3</distance></entry>
+    <entry><switch number="5422">5422</switch>  .... Claridge, Pa. ............................................ <distance milepost= "95.0">95.0</distance></entry> 
+    <entry><switch number="5427">5427</switch>  .... End of Manor Branch*..............................  <distance milepost= "95.4">95.4</distance></entry>
 </branch>
 
-418 .... Biddle Coll. (Westmoreland Shaft-W. C. Co.) ...................................... 91.3 
+            <entry><switch number="418">418</switch> .... Biddle Coll. (Westmoreland Shaft-W. C. Co.) ......................................  <distance milepost= "91.3">91.3</distance></entry>
 
 
 225 
@@ -1340,76 +1413,76 @@ Altoona
 (Pass.Sta.) 
 
 <branch name="Youghioheny">
-419 ... Shafton, Pa. (Jc. Youghiogheny Br.)...... 91.4 
+    <entry><switch number="419">419</switch> ... Shafton, Pa. (Jc. Youghiogheny Br.)......  <distance milepost= "91.4">91.4</distance></entry>
 
-5900
-Shafton, Pa. (Westmoreland Coal Co. Car Shops)  .................................. 91.6 
-" (Storage)  ...................................... 91.6 
-" (Irwin Foundry &amp; Mine Car Co.).... 91.6 
+    <switch number="82ll">5900</switch>
+        Shafton, Pa. (Westmoreland Coal Co. Car Shops)  ..................................  <distance milepost= "91.6">91.6</distance></entry>
+    <entry>" (Storage)  ......................................  <distance milepost= "91.6">91.6</distance></entry>
+    <entry>" (Irwin Foundry &amp; Mine Car Co.)....  <distance milepost= "91.6">91.6</distance></entry>
 
-5901
-Irwin, Pa. (Storage)/1................................ 92.3 
-" (Irwin Concrete Block &amp; Brick Co.) 92.3 
+            <entry><switch number="5901">5901</switch>
+                Irwin, Pa. (Storage)/1................................  <distance milepost= "92.3.2">92.3</distance></entry>
+    <entry>" (Irwin Concrete Block &amp; Brick Co.)  <distance milepost= "92.3">92.3</distance></entry>
 
-5901A
-Irwin, Pa. (H. M. Pringle &amp; Sons)............ 92.7 
-" (Storage)  ...................................... 92.9 
-" (R. R. Sensenich) .......................... 92.9 
-" (General Delivery) .......................... 93.2 
-" (Storage)  ...................................... 93.5 
-" ( Horace De Angelis) ...................... 93.6 
-" (Penn-Ri1)on Co.) ........................ 93.6
+            <entry><switch number="5901A">5901A</switch>
+                Irwin, Pa. (H. M. Pringle &amp; Sons)............  <distance milepost= "92.7">92.7</distance></entry>
+            <entry>" (Storage)  ......................................  <distance milepost= "92.9.2">92.9</distance></entry>
+            <entry> " (R. R. Sensenich) ..........................  <distance milepost= "92.9">92.9</distance></entry>
+            <entry> " (General Delivery) ..........................  <distance milepost= "93.2">93.2</distance></entry>
+            <entry> " (Storage)  ......................................  <distance milepost= "93.5">93.5</distance></entry>
+            <entry> " ( Horace De Angelis) ......................  <distance milepost= "93.6">93.6</distance></entry>
+            <entry> " (Penn-Ri1)on Co.) ........................ <distance milepost= "93.6">93.6</distance></entry>
 
 
-5902 ... Adams Colliery (Westmoreland Coal Co.) 93.7 
-5905 ... Cereal, Pa. (Jersey Cereal Co. Nos. 1 &amp; 2) 94.6 
-5905A .. End of Youghiogheny Branch*.................. 94.6 
+            <entry><switch number="5902">5902</switch> ... Adams Colliery (Westmoreland Coal Co.)  <distance milepost= "93.7">93.7</distance></entry>
+            <entry><switch number="5905">5905</switch>  ... Cereal, Pa. (Jersey Cereal Co. Nos. 1 &amp; 2)  <distance milepost= "94.6">94.6</distance></entry>
+            <entry><switch number="5905A">5905A</switch> .. End of Youghiogheny Branch*..................  <distance milepost= "94.6">94.6</distance></entry>
 </branch>
 
-.... Shafton, Pa. (Station).......................... 91.6 
-... .Irwin, Pa. (Station)................................ 92.5 
-420A ... " (Warehouse) .................................... 92.5 
-420B.... " (Local Delivery) .............................. 92.6 
-421 .... Larimer, Pa. (Station)............................ 93.6 
-422 ... Ardara, Pa. (Station).............................. 94.8 
+            <entry>>.... Shafton, Pa. (Station)..........................  <distance milepost= "91.6">91.6</distance></entry>
+            <entry>... .Irwin, Pa. (Station)................................  <distance milepost= "92.5">92.5</distance></entry>
+            <entry><switch number="420A">420A</switch> ... " (Warehouse) ....................................  <distance milepost= "92.5">92.5</distance></entry>
+            <entry><switch number="420B">420B</switch>.... " (Local Delivery) ..............................  <distance milepost= "92.6">92.6</distance></entry>
+            <entry><switch number="421">421</switch> .... Larimer, Pa. (Station)............................  <distance milepost= "93.6">93.6</distance></entry>
+            <entry><switch number="422">422</switch> ... Ardara, Pa. (Station)..............................  <distance milepost= "94.8">94.8</distance></entry>
 
 <branch name="Turtle Creek">
-424 
-( Trafford, Pa. (Station)............................ 96.9 
-" (Junc. Turtle Creek Branch).......... 97.0 
+    <entry><switch number="424">424</switch> 
+        ( Trafford, Pa. (Station)............................  <distance milepost= "96.9">96.9</distance></entry>
+    <entry> (Junc. Turtle Creek Branch)..........  <distance milepost= "97.0">97.0</distance></entry>
 
-5432
-Trafford, Pa. (Storage for Westinghouse Foundry Co.)  .......................... 97.4 
-" (Jc. Westinghouse Inter-works Ry. No. 5) .................................... 97.4 
-" (Public Delivery) ............................ 97.4 
+    <entry><switch number="5432">5432</switch>
+        Trafford, Pa. (Storage for Westinghouse Foundry Co.)  ..........................  <distance milepost= "97.4">97.4</distance></entry>
+    <entry>" (Jc. Westinghouse Inter-works Ry. No. 5) ....................................  <distance milepost= "97.4">97.4.2</distance></entry>
+    <entry>" (Public Delivery) ............................  <distance milepost= "97.4">97.4</distance></entry>
 
-.... North Trafford, Pa. (Station).................. 97.4 
-5433 
- North Trafford, Pa. (Passenger Storage) 97.9 
-" (Linde Air Products Co.)................ 98.2 
+    <entry>.... North Trafford, Pa. (Station)..................  <distance milepost= "97.4">97.4</distance></entry>
+    <entry><switch number="5433">5433</switch> 
+        North Trafford, Pa. (Passenger Storage)  <distance milepost= "97.9">97.9</distance></entry>
+    <entry>" (Linde Air Products Co.)................  <distance milepost= "98.2">98.2</distance></entry>
 
-5434
- Blackburn, Pa. (Station)............................ 98.2 
-" (Public Delivery and Hilda Coll. Morocco &amp; Warren Coal Co.).. 98.4 
-" (Storage Nos. 1 &amp; 2) .................... 98.4 
-" (Houston-Starr Co. No. l).............. 98.9 
+    <entry><switch number="5434">5434</switch>
+        Blackburn, Pa. (Station)............................ .2 <distance milepost= "98">98</distance></entry>
+    <entry>" (Public Delivery and Hilda Coll. Morocco &amp; Warren Coal Co.)..  <distance milepost= "98.4">98.4</distance></entry>
+    <entry>" (Storage Nos. 1 &amp; 2) ....................  <distance milepost= "98.4">98.4</distance></entry>
+    <entry>" (Houston-Starr Co. No. l)..............  <distance milepost= "98.9">98.9</distance></entry>
 
-5437 .... Saunders, Pa ............................................. 100.3 
+    <entry><switch number="5437">5437</switch> .... Saunders, Pa .............................................  <distance milepost= "100.3">100.3</distance></entry>
 
 <branch name="Lyons Run">
- 5439 .... Junction Lyons Run Branch .................. 100.5 
-5450C .. End of Lyons Run Branch. ................ 104.3 
+    <entry><switch number="5439">5439</switch> .... Junction Lyons Run Branch ..................  <distance milepost= "100.5">100.5</distance></entry>
+    <entry><switch number="5450C">5450C</switch> .. End of Lyons Run Branch. ................  <distance milepost= "104.3">104.3</distance></entry>
 </branch>
 
-5441 .... Murraysville, Pa. (Station and Murraysville Lumber Co.) ............................ 102.9 
-5447 .... Newlinsburg, Pa ....................................... 104.3 
-5447 .... Remaley, Pa. (Public Delivery- Export Milling Co.) ............................ 106.4 
+    <entry><switch number="5441">5441</switch> .... Murraysville, Pa. (Station and Murraysville Lumber Co.) ............................  <distance milepost= "102.9">102.9</distance></entry>
+    <entry><switch number="5447">5447</switch>  .... Newlinsburg, Pa .......................................  <distance milepost= "104.3">104.3</distance></entry>
+    <entry><switch number="5447">5447</switch> .... Remaley, Pa. (Public Delivery- Export Milling Co.) ............................  <distance milepost= "106.4">106.4</distance></entry>
 
 EX
-Export, Pa. (Export Lumber Co.) ............ 106.8 
-" (Station) ...................................... 106.9 
-" (Export Coll.-Westmoreland Coal EX Co.)ji: ...................................... 107.1 
-" (Westmoreland Coal Co.-Material Track) .................. . .............. 107.3 
+    <entry>Export, Pa. (Export Lumber Co.) ............  <distance milepost= "106.8">106.8</distance></entry>
+    <entry>" (Station) ......................................  <distance milepost= "106.9">106.9</distance></entry>
+    <entry>" (Export Coll.-Westmoreland Coal EX Co.)ji: ......................................  <distance milepost= "107.1">107.1</distance></entry>
+    <entry>" (Westmoreland Coal Co.-Material Track) .................. . ..............  <distance milepost= "107.3">107.3</distance></entry>
 
 
 226 
@@ -1422,77 +1495,77 @@ Dist.from
 Altoona 
 (Pass.Sta.) 
 
-5451
-White Valley, Pa. (Passing Sidinglll .......... 107.9 
-" (Manordale Gas &amp; Oil Co.) ............ 107.9 
-" (Station) ........................................ 108.2 
+    <entry><switch number="5451">5451</switch>
+        White Valley, Pa. (Passing Sidinglll ..........  <distance milepost= "107.9">107.9</distance></entry>
+    <entry>" (Manordale Gas &amp; Oil Co.) ............  <distance milepost= "107.9">107.9</distance></entry>
+    <entry>" (Station) ........................................  <distance milepost= "108.2">108.2</distance></entry>
 
-5453 .... Delmont Siding .......................................... 108.5 
-5453B .. Delmont, Pa ............................................. 109.9 
-5453C ... Thos. G. Taylor  ........................................ 109.9 
-5454 ... Nancy Coll. No. 3 (Yough. Fuel Co.) ........ 110.0 
-5457 ... Slickville Coll. (Irwin Gas Coal Corp.) ...... 114.3 
-... Slickville, Pa. (Station) .......................... 114.4 
-5458 ... Irwin Gas Coal Coll. No. 1 Irwin Gas Coal Co.) ........................................ 114.8 
-.... Elrico, Pa. .............................................. 115.4 
-5459 ... Irwin Gas Coal Coll. No. 2 (Irwin Gas Coal Co.) .......................................... 115.7 
-5459A. .. Louise Coll. No. 1 (Loyalhanna Fuel Co.) 115.9 
-5459B ... Louise Coll. No. 2 (Loyalhanna Fuel Co.) 116.1 
-5459C ... Seanor Coll. (Seanor Fuel Co.) ................ 118.3 
-6421A. .. Junction Conemaugh Div. ........................ 118.9 
+    <entry><switch number="5453">5453</switch> .... Delmont Siding ..........................................  <distance milepost= "108.5">108.5</distance></entry>
+    <entry><switch number="5453B">5453B</switch> .. Delmont, Pa .............................................  <distance milepost= "109.9">109.9</distance></entry>
+    <entry><switch number="5453C">5453C</switch> ... Thos. G. Taylor  ........................................  <distance milepost= "109.9">109.9</distance></entry>
+    <entry><switch number="5454">5454</switch>  ... Nancy Coll. No. 3 (Yough. Fuel Co.) ........  <distance milepost= "110.0">110.0</distance></entry>
+    <entry><switch number="5457">5457</switch> ... Slickville Coll. (Irwin Gas Coal Corp.) ......  <distance milepost= "114.3">114.3</distance></entry>
+    <entry>... Slickville, Pa. (Station) ..........................  <distance milepost= "114.4">114.4</distance></entry>
+    <entry><switch number="5458">5458</switch> ... Irwin Gas Coal Coll. No. 1 Irwin Gas Coal Co.) ........................................  <distance milepost= "114.8">114.8</distance></entry>
+    <entry>.... Elrico, Pa. ..............................................  <distance milepost= "115.4">115.4</distance></entry>
+    <entry><switch number="5459">5459</switch> ... Irwin Gas Coal Coll. No. 2 (Irwin Gas Coal Co.) ..........................................  <distance milepost= "115.7">115.7</distance></entry>
+    <entry><switch number="5459A">5459A</switch>. .. Louise Coll. No. 1 (Loyalhanna Fuel Co.)  <distance milepost= "115.9.2">115.9</distance></entry>
+    <entry><switch number="5459B">5459B</switch> ... Louise Coll. No. 2 (Loyalhanna Fuel Co.)  <distance milepost= "116.1">116.1</distance></entry>
+    <entry><switch number="5459C">5459C</switch> ... Seanor Coll. (Seanor Fuel Co.) ................  <distance milepost= "118.3">118.3</distance></entry>
+    <entry><switch number="6421A">6421A</switch> . .. Junction Conemaugh Div. ........................  <distance milepost= "118.9">118.9</distance></entry>
 </branch>
 
-.... Eastward Advance Yard (Cavittsville Yard) 96.1 
+            <entry>.... Eastward Advance Yard (Cavittsville Yard)  <distance milepost= "96.1">96.1</distance></entry>
 
 <branch name="East Pittsburgh">
-424 .... Trafford, Pa. (Junc. East Pittsburgh Br.)...... 97.0 
-5460 ... Junc. Westinghouse Interworks Ry. No. 4)..... 97.4 
-5462 ... Pitcairn, Pa. (Warehouse)........................ 98.5 
-5463 .... Van Ormer Brick Co. and Lesher Lumber &amp; Supply Co.) .............................. 98.6 
-5464 ... Junction East Pittsburgh Branch Conn ....... 100.8 
-5466 .. Junc. Westinghouse Interworks Ry. No. 3) 100.8 
+    <entry><switch number="424">424</switch> .... Trafford, Pa. (Junc. East Pittsburgh Br.)......  <distance milepost= "97.0">97.0</distance></entry>
+    <entry><switch number="5460">5460</switch> ... Junc. Westinghouse Interworks Ry. No. 4).....  <distance milepost= "97.4">97.4</distance></entry>
+    <entry><switch number="5462">5462</switch> ... Pitcairn, Pa. (Warehouse)........................  <distance milepost= "48.2">98.5</distance></entry>
+    <entry><switch number="5463">5463</switch> .... Van Ormer Brick Co. and Lesher Lumber &amp; Supply Co.) ..............................  <distance milepost= "98.6">98.6</distance></entry>
+    <entry><switch number="5464">5464</switch> ... Junction East Pittsburgh Branch Conn .......  <distance milepost= "100.8">100.8</distance></entry>
+    <entry><switch number="5466">5466</switch> .. Junc. Westinghouse Interworks Ry. No. 3)  <distance milepost= "100.8">100.8</distance></entry>
 
-5467
-Turtle Creek, Pa. (Westinghouse Electric &amp; Mfg. Co. No. 4) .................... 101.0 
-" (East Pittsburgh Freight Station) .... 101.1  
-" (Warehouse) ................................ 101.1 
+    <entry><switch number="5467">5467</switch>
+        Turtle Creek, Pa. (Westinghouse Electric &amp; Mfg. Co. No. 4) ....................  <distance milepost= "101.0">101.0</distance></entry>
+    <entry>" (East Pittsburgh Freight Station) ....   <distance milepost= "101.1">101.1</distance></entry>
+    <entry>" (Warehouse) ................................  <distance milepost= "101.1">101.1</distance></entry>
 
-5468 ... Junc. Westinghouse Interworks Ry. No. 2) 101.2 
-5469 ... Westinghouse Electric &amp; Manufacturing Co. No. 2-Test Track ............ 101.3 
-5469 ... Westinghouse Electric &amp; Manufacturing Co. No. 2-Test Track  ............ 101.3 
-5470 ... Knabe Bros. and Rutter Bros. Lumber Co.) 101.3 
-5472 ... Westinghouse Electric &amp; Mfg. Co. No. 3) .. 101.9 
-5473 ... Westinghouse Electric &amp; Mfg. Co. No. 5) .. 102.1 
-5474 ... Westinghouse Electric &amp; Mfg. Co. No. 6) .. 102.2 
-5476 ... Junc. Westinghouse Interworks Ry. No. 1) 102.2 
-5480 ... Edgar Thomson Steel Works (Carnegie-Illinois Steel Corp.)(Junc. Union R. R .l) ...................................... 102.5 
+    <entry><switch number="5468">5468</switch> ... Junc. Westinghouse Interworks Ry. No. 2)  <distance milepost= "101.2">101.2</distance></entry>
+    <entry><switch number="5469">5469</switch> ... Westinghouse Electric &amp; Manufacturing Co. No. 2-Test Track ............  <distance milepost= "101.3">101.3</distance></entry>
+    <entry><switch number="5469">5469</switch>  ... Westinghouse Electric &amp; Manufacturing Co. No. 2-Test Track  ............  <distance milepost= "101.3">101.3</distance></entry>
+    <entry><switch number="5470">5470</switch>  ... Knabe Bros. and Rutter Bros. Lumber Co.)  <distance milepost= "101.3">101.3</distance></entry>
+    <entry><switch number="5470">5470</switch>   ... Westinghouse Electric &amp; Mfg. Co. No. 3) ..  <distance milepost= "101.9">101.9</distance></entry>
+    <entry><switch number="5473">5473</switch>  ... Westinghouse Electric &amp; Mfg. Co. No. 5) ..  <distance milepost= "102.1">102.1</distance></entry>
+    <entry><switch number="5474">5474</switch>   ... Westinghouse Electric &amp; Mfg. Co. No. 6) ..  <distance milepost= "102.2">102.2</distance></entry>
+    <entry><switch number="5476">5476</switch>   ... Junc. Westinghouse Interworks Ry. No. 1)  <distance milepost= "102.2">102.2</distance></entry>
+    <entry><switch number="5480">5480</switch>  ... Edgar Thomson Steel Works (Carnegie-Illinois Steel Corp.)(Junc. Union R. R .l) ......................................  <distance milepost= "102.5">102.5</distance></entry>
 </branch>
 
-425
- Pitcairn, Pa. (Station).......................... 98.4 
-" (Scales - Regular North - Emerl gency South) .......................... 98.4 
+            <entry><switch number="425">425</switch>
+                Pitcairn, Pa. (Station)..........................  <distance milepost= "98.4">98.4</distance></entry>
+            <entry>" (Scales - Regular North - Emerl gency South) ..........................  <distance milepost= "98.4">98.4</distance></entry>
 
 
-PT ... Pitcairn, Pa. (Pitcairn Transfer) IIJ............ 98.6
+            <entry>PT ... Pitcairn, Pa. (Pitcairn Transfer) IIJ............ <distance milepost= "98.6">98.6</distance></entry>
 
 P
-Pitcairn, Pa. (Yard ).............................. 98.8 
-" (Shop ) ........................................ 99.1 
+            <entry>Pitcairn, Pa. (Yard )..............................  <distance milepost= "98.8">98.8</distance></entry>
+            <entry>" (Shop ) ........................................  <distance milepost= "99.1">99.1</distance></entry>
 
-427
-Wilmerding, Pa. (Station )J ...................... 100.1 
-" (Junc. E. Pittsburgh Br. Conn.)J ...... 100.5 
-" (Westinghouse Air Brake Co.) ........ 100.6 
-" (Junc. East Pittsburgh Br.) .............. 100.8 
+            <entry><switch number="427">427</switch>
+                Wilmerding, Pa. (Station )J ......................  <distance milepost= "100.1">100.1</distance></entry>
+            <entry>" (Junc. E. Pittsburgh Br. Conn.)J ......  <distance milepost= "100.5">100.5</distance></entry>
+            <entry>" (Westinghouse Air Brake Co.) ........  <distance milepost= "100.6">100.6</distance></entry>
+            <entry>" (Junc. East Pittsburgh Br.) ..............  <distance milepost= "100.8">100.8</distance></entry>
 
 
-.... Turtle Creek, Pa. (Passenger Station)''' ...... 101.2 
+            <entry>.... Turtle Creek, Pa. (Passenger Station)''' ......  <distance milepost= "101.2">101.2</distance></entry>
 
 <branch name="Port Perry">
-428 ... Junc. Port Perry BranchJ .......................... 101.3 
-PB ... Junc. B. &amp; 0. R. R.11 .................................. 102.5 
-428A. .... Junc. Port Perry Br. Monongahela Div.* .... 102.6 
-TO .... Junc. Port Perry Br. Monongahela Div. and Main Line Monongahela Div. II .... 103.5 
+    <entry><switch number="428">428</switch> ... Junc. Port Perry BranchJ .......................... <distance milepost= "101.3">101.3</distance></entry> 
+    <entry><switch number="PB">PB</switch> ... Junc. B. &amp; 0. R. R.11 ..................................  <distance milepost= "102.5">102.5</distance></entry>
+    <entry><switch number="428A">428A</switch>. .... Junc. Port Perry Br. Monongahela Div.* ....  <distance milepost= "102.6">102.6</distance></entry>
+    <entry><switch number="TO">TO</switch>  .... Junc. Port Perry Br. Monongahela Div. and Main Line Monongahela Div. II ....  <distance milepost= "103.5">103.5</distance></entry>
 </branch>
 
 
@@ -1508,70 +1581,70 @@ Altoona
 (Pass.Sta.) 
 
 
-EP .... East Pittsburgh, Pa. (Station)  ................ 101.7 
-429 ... Brinton U Junction ................................ 102.2 
-430 ... Bessemer, Pa. (Station) .......................... 103.0 
-431 .... Braddock, Pa. (Station) .......................... 103.8 
+            <entry><switch number="EP">EP</switch> .... East Pittsburgh, Pa. (Station)  ................  <distance milepost= "101.7">101.7</distance></entry>
+            <entry><switch number="429">429</switch> ... Brinton U Junction ................................  <distance milepost= "102.2">102.2</distance></entry>
+            <entry><switch number="430">430</switch> ... Bessemer, Pa. (Station) ..........................  <distance milepost= "103.0">103.0</distance></entry>
+            <entry><switch number="431">431</switch> .... Braddock, Pa. (Station) ..........................  <distance milepost= "103.8">103.8</distance></entry>
 
-431A
-Copeland, Pa. (Station)................... 104.3 
-" (Mccrady-Rodgers Co. No. l)t ........ 104.3 
-" (Sommerfeld Machine Co.) ............ 104.3 
+            <entry><switch number="431A">431A</switch>
+                Copeland, Pa. (Station)...................  <distance milepost= "48104.3.2">104.3</distance></entry>
+            <entry>" (Mccrady-Rodgers Co. No. l)t ........  <distance milepost= "104.3">104.3</distance></entry>
+            <entry>" (Sommerfeld Machine Co.) ............  <distance milepost= "104.3">104.3</distance></entry>
 
-432 .... Hawkins, Pa. (Station)J* ........................ 104.9 
+            <entry><switch number="432">432</switch> .... Hawkins, Pa. (Station)J* ........................  <distance milepost= "104.9">104.9</distance></entry>
 
-EP .... East Pittsburgh, Pa. (Station) ................ 101.7 
-429 ... Brinton U Junction ................................ 102.2 
-430 ... Bessemer, Pa. (Station) .......................... 103.0 
-431 .... Braddock, Pa. (Station) .......................... 103.8
+            <entry><switch number="EP">EP</switch> .... East Pittsburgh, Pa. (Station) ................  <distance milepost= "101.7">101.7</distance></entry>
+            <entry><switch number="429">429</switch> ... Brinton U Junction ................................  <distance milepost= "102.2">102.2</distance></entry>
+            <entry><switch number="430">430</switch> ... Bessemer, Pa. (Station) ..........................  <distance milepost= "103.0">103.0</distance></entry>
+            <entry><switch number="431">431</switch> .... Braddock, Pa. (Station) .......................... <distance milepost= "103.8">103.8</distance></entry>
 
 
-431A
-" Copeland, Pa. (Station).................. 104.3 
-" (Mccrady-Rodgers Co. No. l) ........ 104.3 
-" (Sommerfeld Machine Co.) ............ 104.3 
+            <entry><switch number="82ll">431A</switch>
+                <entry>" Copeland, Pa. (Station)..................  <distance milepost= "104.3">104.3</distance></entry>
+                <entry>" (Mccrady-Rodgers Co. No. l) ........  <distance milepost= "104.3">104.3</distance></entry>
+                <entry>" (Sommerfeld Machine Co.) ............  <distance milepost= "104.3">104.3</distance></entry>
 
-432 .... Hawkins, Pa. (Station) ........................ 104.9
+                <entry><switch number="432">432</switch> .... Hawkins, Pa. (Station) ........................ <distance milepost= "104.9">104.9</distance></entry>
 
-433 Swissvale, Pa. (Nicholson &amp; Co.) ............ 105.0
-" (Geo. W. Wurzell)  .......................... 105.0 
-" (Koppers Co. and Koppers Products Co.) 105.0 l  
-" (Pittsburgh Waste Co. and Vesuvius Crucible Co.) .......................... 105.4 
-" (Pgh. Lamp, Brass &amp; Glass Co.) .... 105.5
-" (Station) ...................................... 105.8 
-" (Union Switch &amp; Signal Co.) .......... 105.9 
+                <entry><switch number="433">433</switch> Swissvale, Pa. (Nicholson &amp; Co.) ............ <distance milepost= "105.0">105.0</distance></entry>
+                <entry>" (Geo. W. Wurzell)  ..........................  <distance milepost= "48.2">105.0</distance></entry>
+                <entry>" (Koppers Co. and Koppers Products Co.)  l  <distance milepost= "105.0">105.0</distance></entry>
+                <entry>" (Pittsburgh Waste Co. and Vesuvius Crucible Co.) ..........................  <distance milepost= "105.4">105.4</distance></entry>
+                <entry>" (Pgh. Lamp, Brass &amp; Glass Co.) .... <distance milepost= "105.5">105.5</distance></entry>
+                <entry>" (Station) ......................................  <distance milepost= "105.8">105.8</distance></entry>
+                <entry>" (Union Switch &amp; Signal Co.) ..........  <distance milepost= "105.9">105.9</distance></entry>
 
-434C Edgewood, Pa. (Keller Bros. No. 1) .......... 106.5 
-" (Station) .................................... 106.6 
+                <entry><switch number="434C">434C</switch> Edgewood, Pa. (Keller Bros. No. 1) ..........  <distance milepost= "106.5">106.5</distance></entry>
+                <entry>" (Station) ....................................  <distance milepost= "106.6">106.6</distance></entry>
 
-434 Wilkinsburg, Pa. (Penna. Water Co.) ...... 106.9 
-" (City Ice &amp; Fuel Co.) ...................... 106.9
-" (Passenger Station) .................... 107.1 
-" (Warehouse and Delivery) ................ 107.5 
+                <entry><switch number="434">434</switch> Wilkinsburg, Pa. (Penna. Water Co.) ......  <distance milepost= "106.9">106.9</distance></entry>
+                <entry>" (City Ice &amp; Fuel Co.) ...................... <distance milepost= "106.9">106.9</distance></entry>
+                <entry>" (Passenger Station) ....................  <distance milepost= "107.1">107.1</distance></entry>
+                <entry>" (Warehouse and Delivery) ................  <distance milepost= "48.2">107.5</distance></entry>
 
-435 Wilkinsburg, Pa. (Mccrady-Rodgers Co. 
-" No 2: Textor Lumber Co. and Edward Eiler Lumber Co.) ...... 107.5 
-" (Calorizing Co.) ............................ 107.6 
-" (Pittsburgh Equitable Meter Co. No. 3)  107.8 
-" (Stirling Lumber Co.) .................... 107.8 
-" (Peoples Natural Gas Co. and Atlantic Refining Co. No. 5) ........ 107.7 
-" (North Delivery Yard) ...................... 107.8 
-" (Wilkins Oil &amp; Gas Co.) .................. 107.6 
-" (Donato, Ardolino Stone Co.) ........ 107.7 
-" (Houston-Starr Co. No. 2) ............ 107.7 
-" (Consolidated Ice Factory No. 8) .... 107.7 
-" (Bell Telephone Co. of Pa. and Booth &amp; Flinn, Ltd.) .......................... 107.8 
-" (Chevrolet Motor Co.) .................... 107.8 
-" (Automatic Gas Steam Radiator Co.) ........................................ 107.8 
-" (W. G. Balph Co.) .......................... 107.8 
-" (Warren-Ehret Co.) ...................... 107.8 
-" (D. J. Kennedy) .............................. 107.9 
-" (Pittsburgh Corrugated Paper Box Co.) ........................................ 107.9 
-" (Superior Railway Products Co.) .... 107.9 
-" (Lawson Mfg. Co.) ........................ 108.0 
-" (Pittsburgh Equitable Meter Co. No. 1) .................................... 108.1 
-" (Pittsburgh Equitable Meter Co . No. 2) .................................... 108.1 
-.... Homewood, Pa. (Station) ...........................108.3 
+                <entry><switch number="435">435</switch> Wilkinsburg, Pa. (Mccrady-Rodgers Co. 
+                    <entry>" No 2: Textor Lumber Co. and Edward Eiler Lumber Co.) ......  <distance milepost= "107.5">107.5</distance></entry>
+                    <entry>" (Calorizing Co.) ............................  <distance milepost= "107.6">107.6</distance></entry>
+                    <entry>" (Pittsburgh Equitable Meter Co. No. 3)   <distance milepost= "107.8">107.8</distance></entry>
+                    <entry>" (Stirling Lumber Co.) ....................  <distance milepost= "107.8">107.8</distance></entry>
+                    <entry>" (Peoples Natural Gas Co. and Atlantic Refining Co. No. 5) ........  <distance milepost= "107.7">107.7</distance></entry>
+                    <entry>" (North Delivery Yard) ......................  <distance milepost= "107.8">107.8</distance></entry>
+                    <entry>" (Wilkins Oil &amp; Gas Co.) ..................  <distance milepost= "107.6">107.6</distance></entry>
+                    <entry>" (Donato, Ardolino Stone Co.) ........  <distance milepost= "107.7">107.7</distance></entry>
+                    <entry>" (Houston-Starr Co. No. 2) ............  <distance milepost= "107.7">107.7</distance></entry>
+                    <entry>" (Consolidated Ice Factory No. 8) ....  <distance milepost= "107.7">107.7</distance></entry>
+                    <entry>" (Bell Telephone Co. of Pa. and Booth &amp; Flinn, Ltd.) ..........................  <distance milepost= "107.8">107.8</distance></entry>
+                    <entry>" (Chevrolet Motor Co.) ....................  <distance milepost= "107.8.2">107.8</distance></entry>
+                    <entry>" (Automatic Gas Steam Radiator Co.) ........................................  <distance milepost= "107.8">107.8</distance></entry>
+                    <entry>" (W. G. Balph Co.) ..........................  <distance milepost= "107.8">107.8</distance></entry>
+                    <entry>" (Warren-Ehret Co.) ......................  <distance milepost= "107.8">107.8</distance></entry>
+                    <entry>" (D. J. Kennedy) ..............................  <distance milepost= "107.9">107.9</distance></entry>
+                    <entry>" (Pittsburgh Corrugated Paper Box Co.) ........................................  <distance milepost= "107.9">107.9</distance></entry>
+                    <entry>" (Superior Railway Products Co.) ....  <distance milepost= "107.9">107.9</distance></entry>
+                    <entry>" (Lawson Mfg. Co.) ........................  <distance milepost= "108.0">108.0</distance></entry>
+                    <entry>" (Pittsburgh Equitable Meter Co. No. 1) .................................... <distance milepost= "108.1">108.1</distance></entry> 
+                    <entry>" (Pittsburgh Equitable Meter Co . No. 2) ....................................  <distance milepost= "108.1">108.1</distance></entry>
+                    <entry>.... Homewood, Pa. (Station) .......................... <distance milepost= "108.3">108.3</distance></entry>
 
 228 
 CENTRAL REGION 
@@ -1582,57 +1655,57 @@ Altoona
 (Pass.Sta.) 
 
 <branch name="Brilliant">
-436
-East Liberty, Pa. (Westinghouse Electric &amp; Mfg. Co. No. 7l ........................ 108.5 
-" (Kenny Transfer Co.) .................... 108.5 
-" (The Lind Co.) .............................. 108.5 
-" (H. J. Heinz Co.) ............................ 108.5 
-" (Great Atlantic &amp; Pacific Tea Co.) 108.5 
-" (Jc. Brilliant Br., East Leg "Y") .... 108.6 
-" (Asphalt Siding No. 1-City of Pittsburgh lt ............................ 108.6 
-" (Jc. Brilliant Br., West Leg "Y") .. 108.8 
+    <entry><switch number="436">436</switch>
+        East Liberty, Pa. (Westinghouse Electric &amp; Mfg. Co. No. 7l ........................  <distance milepost= "108.5">108.5</distance></entry>
+    <entry>" (Kenny Transfer Co.) ....................  <distance milepost= "108.5">108.5</distance></entry>
+    <entry>" (The Lind Co.) ..............................  <distance milepost= "108.5">108.5</distance></entry>
+    <entry>" (H. J. Heinz Co.) ............................  <distance milepost= "108.5">108.5</distance></entry>
+    <entry>" (Great Atlantic &amp; Pacific Tea Co.)  <distance milepost= "108.5">108.5</distance></entry>
+    <entry>" (Jc. Brilliant Br., East Leg "Y") ....  <distance milepost= "108.6">108.6</distance></entry>
+    <entry>" (Asphalt Siding No. 1-City of Pittsburgh lt ............................  <distance milepost= "108.6">108.6</distance></entry>
+    <entry>" (Jc. Brilliant Br., West Leg "Y") ..  <distance milepost= "108.8">108.8</distance></entry>
 
-436C .. Monarch Oil Co. and Sterling Oil Co. No.2 109.2 
-436B .. A. J. Brown &amp; Sons .................................. 109.4 
-.. Junc. Lines to Coleman Yard and Aspinwall................ ll0.5 
-COL ... Coleman, Pa. (Yard) ................................ 111.6
+    <entry><switch number="436C">436C</switch> .. Monarch Oil Co. and Sterling Oil Co. No.2  <distance milepost= "109.2">109.2</distance></entry>
+    <entry><switch number="436B">436B</switch> .. A. J. Brown &amp; Sons ..................................  <distance milepost= "109.4">109.4</distance></entry>
+    <entry>.. Junc. Lines to Coleman Yard and Aspinwall................  <distance milepost= "ll0.5">ll0.5</distance></entry>
+    <entry><switch number="COL">COL</switch> ... Coleman, Pa. (Yard) ................................ <distance milepost= "111.6">111.6</distance></entry>
 
-6502A ... Aspinwall, Pa. (Jc. Brilliant Br., East Leg "Y") ...................................... 111.6 
-6503 ... Guyasuta, Pa. (Jc. Brilliant Br., West Leg "Y") ........................................ 111.5 
+    <entry><switch number="6502A">6502A</switch> ... Aspinwall, Pa. (Jc. Brilliant Br., East Leg "Y") ......................................  <distance milepost= "111.6">111.6</distance></entry>
+    <entry><switch number="6503">6503</switch> ... Guyasuta, Pa. (Jc. Brilliant Br., West Leg "Y") ........................................  <distance milepost= "111.5">111.5</distance></entry>
 </branch>
     
 EL
-East Liberty, Pa. (Railway Express Agency).................................. 108.9 
-" (Beers Coal Co.) ............................ 108.9 
-" (Mutual Supply Co.) ...................... 108.9 
-" (Pittsburgh Coal Co. Yard No. 6) .. 108.9 
-" (United Drug Co.) .......................... 108.9 
-" (General Electric Co.) .................... 108.9 
-" (National Biscuit Co.) .................... 108.9 
-" (Fried &amp; Reineman Packing Co. No. 2)  108.9 
-" (East Liberty Coal &amp; Coke Co.) ...... 108.9 
-" (Heiry Bros.) ................................ 108.9 
-" (Wm. J. Roberts Co.) .................... 108.9 
-" (Fried &amp; Reineman Packing Co. No. l) .................................... 109.0 
-" (Universal Lumber &amp; Builders Supply Co.) .................................. 109.0 
-" (Beckwith Machinery Co. No. l) .... 109.0 
-" (Beckwith Machinery Co. No. 2) .... 109.0 
-" (Westinghouse Electric &amp; Mfg. Co. No.8) .................................... 109.1 
-" (Westinghouse Electric &amp; Mfg. Co. No. 9) .................................... 109.1 
-" (City of Pittsburgh) ...................... 109.1 
-" (Kirby Transfer &amp; Storage Co.) ...... 109.2 
-" (Freight Station) .......................... 109.2 
-" (Eastward Conn. Brilliant Branch Passenger) ................................ 109.2 
-" (Keller Bros. No. 2) ...................... 109.3 
-" (Brushton Coal Co.) ...................... 109.3 
-" (Duquesne Electric &amp; Mfg. Co.) .... 109.3 
-" (Passenger Station)*.ji: .................... 109.3 
+                    <entry>East Liberty, Pa. (Railway Express Agency)..................................  <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (Beers Coal Co.) ............................  <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (Mutual Supply Co.) ......................  <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (Pittsburgh Coal Co. Yard No. 6) ..  <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (United Drug Co.) ..........................  <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (General Electric Co.) ....................  <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (National Biscuit Co.) ....................  <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (Fried &amp; Reineman Packing Co. No. 2)   <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (East Liberty Coal &amp; Coke Co.) ......  <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (Heiry Bros.) ................................  <distance milepost= "108.9">108.9.2</distance></entry>
+                    <entry>" (Wm. J. Roberts Co.) ....................  <distance milepost= "108.9">108.9</distance></entry>
+                    <entry>" (Fried &amp; Reineman Packing Co. No. l) ....................................  <distance milepost= "109.0">109.0.2</distance></entry>
+                    <entry>" (Universal Lumber &amp; Builders Supply Co.) ..................................  <distance milepost= "109.0">109.0</distance></entry>
+                    <entry>" (Beckwith Machinery Co. No. l) ....  <distance milepost= "109.0">109.0</distance></entry>
+                    <entry>" (Beckwith Machinery Co. No. 2) ....  <distance milepost= "109.0">109.0</distance></entry>
+                    <entry>" (Westinghouse Electric &amp; Mfg. Co. No.8) ....................................  <distance milepost= "109.1">109.1</distance></entry>
+                    <entry>" (Westinghouse Electric &amp; Mfg. Co. No. 9) .................................... <distance milepost= "109.1">109.1</distance></entry>
+                    <entry>" (City of Pittsburgh) ......................  <distance milepost= "109.1">109.1</distance></entry>
+                    <entry>" (Kirby Transfer &amp; Storage Co.) ......  <distance milepost= "109.2">109.2</distance></entry>
+                    <entry>" (Freight Station) ..........................  <distance milepost= "109.2">109.2</distance></entry>
+                    <entry>" (Eastward Conn. Brilliant Branch Passenger) ................................  <distance milepost= "109.2">109.2</distance></entry>
+                    <entry>" (Keller Bros. No. 2) ......................  <distance milepost= "109.3">109.3</distance></entry>
+                    <entry>" (Brushton Coal Co.) ......................  <distance milepost= "109.3">109.3</distance></entry>
+                    <entry>" (Duquesne Electric &amp; Mfg. Co.) ....  <distance milepost= "109.3">109.3</distance></entry>
+                    <entry>" (Passenger Station)*.ji: ....................  <distance milepost= "109.3">109.3</distance></entry>
 
-" (Liberty Baking Co., Pittsburgh Transfer &amp; Storage Co. and United Paper Co.) .................... 109.7 
-" (Pittsburgh Auto Spring Co.) ........ 110.0 
-" (Hahn Furniture Co. Warehouses Nos. 1 &amp; 2) .............................. 110.0 
-" (Frank &amp; Seder Warehouse) .......... 110.0 
-" (Frank &amp; Seder Warehouse  .......... 110.0 
+                    <entry>" (Liberty Baking Co., Pittsburgh Transfer &amp; Storage Co. and United Paper Co.) ....................  <distance milepost= "109.7">109.7</distance></entry>
+                    <entry>" (Pittsburgh Auto Spring Co.) ........  <distance milepost= "110.0">110.0</distance></entry>
+                    <entry>" (Hahn Furniture Co. Warehouses Nos. 1 &amp; 2) ..............................  <distance milepost= "110.0">110.0</distance></entry>
+                    <entry>" (Frank &amp; Seder Warehouse) ..........  <distance milepost= "110.0">110.0</distance></entry>
+                    <entry>" (Frank &amp; Seder Warehouse  ..........  <distance milepost= "110.0">110.0</distance></entry>
 
 229 
 CENTRAL REGION-Continued 
@@ -1642,59 +1715,58 @@ PITTSBURGH DIVISION-Continued
 Dist. from Altoona 
 (Pass.Sta.)
 
-.... Roup, Pa. (Station) .................................. 110.2 
+                    <entry>.... Roup, Pa. (Station) ..................................  <distance milepost= "110.2">110.2</distance></entry>
 
-437
-East Liberty, Pa. (John Sexton Co.) ........ 110.5 
-" (J. A. Williams &amp; Co., Pittsburgh Stopper Co. and Bamberger Krauss &amp; Co.) .......................... 110.5 
-" (Amberson Avenue Public Delivery ---Carload Delivery only) ............ 110.5 
-" (Meyers Flour Co.) ........................ 110.5 
-" (Shadyside Pass. Station) .............. 110.7 
-" (Ford Motor Co.) .......................... 110.8 
-" (Felix Half, Toyad Co. and Standard Furniture Co.) ........................ 110.8 
-" (Federated Metals Corp.) .............. 111.1 
-" (Gulf Oil Corp.) .............................. 111.2 
+                    <entry><switch number="437">437</switch>
+                        East Liberty, Pa. (John Sexton Co.) ........  <distance milepost= "110.5">110.5</distance></entry>
+                    <entry>" (J. A. Williams &amp; Co., Pittsburgh Stopper Co. and Bamberger Krauss &amp; Co.) ..........................  <distance milepost= "110.5">110.5</distance></entry>
+                    <entry>" (Amberson Avenue Public Delivery ---Carload Delivery only) ............  <distance milepost= "110.5">110.5</distance></entry>
+                    <entry>" (Meyers Flour Co.) ........................  <distance milepost= "110.5">110.5</distance></entry>
+                    <entry>" (Shadyside Pass. Station) ..............  <distance milepost= "110.7">110.7</distance></entry>
+                    <entry>" (Ford Motor Co.) ..........................  <distance milepost= "110.8">110.8</distance></entry>
+                    <entry>" (Felix Half, Toyad Co. and Standard Furniture Co.) ........................  <distance milepost= "110.8">110.8</distance></entry>
+                    <entry>" (Federated Metals Corp.) ..............  <distance milepost= "111.1">111.1</distance></entry>
+                    <entry>" (Gulf Oil Corp.) ..............................  <distance milepost= "111.2">111.2</distance></entry>
 
 <branch name="Deny Siding">
-439 .... Pittsburgh, Pa. (Junc. Denny Siding) ........ 111.9 
-438.... " (Junc. B. &amp; 0. R. R.) .................. 112.1
-439
-....Pittsburgh, Pa. (Commercial Sash &amp; Door Co. and Loose-Wiles Biscuit Co.) 112.1 
-" (H. Kalson) .................................. 112.3 
-" (Ward Baking Co.) ........................ 112.3 
-" (Pittsburgh Gage &amp; Supply Co.) .... 112.4 
-" (Gimbel Bros.) .............................. 112.5
+    <entry><switch number="439">439</switch> .... Pittsburgh, Pa. (Junc. Denny Siding) ........  <distance milepost= "111.9">111.9</distance></entry>
+    <entry><switch number="438">438</switch>.... " (Junc. B. &amp; 0. R. R.) .................. <distance milepost= "112.1">112.1</distance></entry>
+    <entry><switch number="439">439</switch>
+        ....Pittsburgh, Pa. (Commercial Sash &amp; Door Co. and Loose-Wiles Biscuit Co.)  <distance milepost= "112.1">112.1</distance></entry>
+    <entry>" (H. Kalson) ..................................  <distance milepost= "112.3">112.3</distance></entry>
+    <entry>" (Ward Baking Co.) ........................  <distance milepost= "112.3">112.3</distance></entry>
+    <entry>" (Pittsburgh Gage &amp; Supply Co.) ....  <distance milepost= "112.4">112.4</distance></entry>
+    <entry>" (Gimbel Bros.) .............................. <distance milepost= "112.5">112.5</distance></entry>
 </branch>
     
- 439A
- Pittsburgh, Pa. (33d Street Delivery) ...... 112.0 
-" (Junction Coal Co.) ........................ 112.0 
-" (Alex. Black Coal Co., Lim.) .......... 112.1 
-" (Power House No. 2) ...................... 112.2 
-" (28th Street Shop) ...................... 112.5 
-440 ... Pittsburgh, Pa. (26th St. Electric Crane) 112.8 
-440C.... " (Power House No. l) .................... 113.7 
-OD.... " (United States Post 0ffice ) ............ 113.8 
-441A.... " (Junc. Pittsburgh and Panhandle Divisions) .................................. 114.1 
-1B
-Pittsburgh, Pa., South Side (Junc. Panhandle Div.) ............................ 114.8 
-" (Carson St. Station and Public Delivery) .................................... 114.9 
-OB ... Pittsburgh, Pa., South Side (23d St. Station) .......................................... 118.1 
-441B " (Junc., Eastern Div.).................... 114.1 
-AC " (Junc. Conemaugh Div. P. R. R.) ...... 114.8 
-IA " (Island Avenue - East and West Bound Freight Yard) .................. 116.8 
-CW ... Conway, Pa ............................................... 136.8 
-441C ... Pittsburgh, Pa. (Jc. Conemaugh Div.) ...... 112.7 
-Z " (43d Street Yard and Local Tracks) 114.3 
-A28.... " (Penna. R. R. Produce Term.) .......... 113.6 
-A23 .... " (16th St. and Freight House Yard) .. 113.8 
-OD.... " (Penna. Station): .......................... 113.8
-
+                    <entry><switch number="439A">439A</switch>
+                        Pittsburgh, Pa. (33d Street Delivery) ......  <distance milepost= "112.0">112.0</distance></entry>
+                    <entry>" (Junction Coal Co.) ........................  <distance milepost= "112.0">112.0</distance></entry>
+                    <entry>" (Alex. Black Coal Co., Lim.) ..........  <distance milepost= "112.1">112.1</distance></entry>
+                    <entry>" (Power House No. 2) ......................  <distance milepost= "112.2">112.2</distance></entry>
+                    <entry>" (28th Street Shop) ......................  <distance milepost= "112.5">112.5</distance></entry>
+                    <entry><switch number="440">440</switch> ... Pittsburgh, Pa. (26th St. Electric Crane)  <distance milepost= "112.8">112.8</distance></entry>
+                    <entry><switch number="440C">440C</switch>.... " (Power House No. l) ....................  <distance milepost= "113.7">113.7</distance></entry>
+                    <entry><switch number="OD">OD</switch>.... " (United States Post 0ffice ) ............  <distance milepost= "113.8">113.8</distance></entry>
+                    <entry><switch number="441A">441A</switch>.... " (Junc. Pittsburgh and Panhandle Divisions) ..................................  <distance milepost= "114.1">114.1</distance></entry>
+                    <entry><switch number="1B">1B</switch>
+                        Pittsburgh, Pa., South Side (Junc. Panhandle Div.) ............................  <distance milepost= "114.8">114.8</distance></entry>
+                    <entry>" (Carson St. Station and Public Delivery) ....................................  <distance milepost= "114.9">114.9.2</distance></entry>
+                    <entry><switch number="OB">OB</switch> ... Pittsburgh, Pa., South Side (23d St. Station) ..........................................  <distance milepost= "118.1">118.1</distance></entry>
+                    <entry><switch number="441B">441B</switch> " (Junc., Eastern Div.)....................  <distance milepost= "114.1">114.1</distance></entry>
+                    <entry><switch number="AC">AC</switch> " (Junc. Conemaugh Div. P. R. R.) ......  <distance milepost= "114.8">114.8</distance></entry>
+                    <entry><switch number="IA">IA</switch> " (Island Avenue - East and West Bound Freight Yard) ..................  <distance milepost= "48116.8.2">116.8</distance></entry>
+                    <entry><switch number="CW">CW</switch> ... Conway, Pa ...............................................  <distance milepost= "136.8">136.8</distance></entry>
+                    <entry><switch number="441C">441C</switch> ... Pittsburgh, Pa. (Jc. Conemaugh Div.) ......  <distance milepost= "112.7">112.7</distance></entry>
+                    <entry><switch number="Z">Z</switch> " (43d Street Yard and Local Tracks)  <distance milepost= "114.3">114.3</distance></entry>
+                    <entry><switch number="A28">A28</switch>.... " (Penna. R. R. Produce Term.) ..........  <distance milepost= "113.6">113.6</distance></entry>
+                    <entry><switch number="A23">A23</switch> .... " (16th St. and Freight House Yard) ..  <distance milepost= "113.8">113.8</distance></entry>
+                    <entry><switch number="OD">OD</switch>.... " (Penna. Station): .......................... <distance milepost= "113.8">113.8</distance></entry>
 <branch name="Duquesne Way Elevated">
-442 .... " (Jc. Duquesne Way Elevated Br.) .. 114.0 
-443
-Pittsburgh, Pa. (Duquesne Freight Station Delivery) ................................ 114.9 
-" (Duquesne Frt. Sta. Short St. Ex.) 114.8 
+    <entry><switch number="442">442</switch> .... " (Jc. Duquesne Way Elevated Br.) ..  <distance milepost= "114.0">114.0</distance></entry>
+    <entry><switch number="443">443</switch>
+        <entry><switch number="82ll"></switch>Pittsburgh, Pa. (Duquesne Freight Station Delivery) ................................  <distance milepost= "114.9">114.9</distance></entry>
+                                     <entry>" (Duquesne Frt. Sta. Short St. Ex.)  <distance milepost= "114.8">114.8</distance></entry>
 </branch>
 <!-- ABC: Cleaned up from 1470 until end, replaced &amps, replaced letters after ) such as ")t" with Regex-->
 
