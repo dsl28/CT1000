@@ -184,145 +184,72 @@ Cresson
     <entry><location type="siding" name="Storage No.1">(Storage No. 1)</location> .............................. <distance milepost= "42.0">42.0</distance></entry>
     <entry><location type="siding" name="Storage No.2">     (Storage No. 2)</location> .............................. <distance milepost= "42.5">42.5</distance></entry>
 </switch>
+</branch>
 
+   
 <switch number="6318">6318
-<<<<<<< HEAD
-    <location type="siding" name="storage no.3 south side">Black Lick, Pa. (Storage No. 3-South Side)</location> ...................................... 42.6 
-    <location type="junction" name="Conemaugh Division"> (Junc. Conemaugh Div.)</location>.................. 42.9 
-    <location type= "station" name = "Black Lick">" (Station)</location> ........................................ 43.0 
+    <entry><location type="siding" name="Storage No.3 Southside">Black Lick, Pa. (Storage No. 3-South Side)</location>......................................  <distance milepost= "42.6">42.6</distance></entry>
+    <entry><location type="junction" name="Conemaugh Division">" (Junc. Conemaugh Div.)</location>.................. <distance milepost= "42.9">42.9</distance></entry>
+    <entry><location type= "station" name = "Black Lick"> (Station)</location> ........................................ <distance milepost= "43.0">43.0</distance></entry>
 </switch>
-</branch>
 
-    
-    6007.... <location type="place name">Loretto Road, Pa.</location>.................................... 6.9 
 
-6012
-    <location type="siding" name="Bradley Junction storage/passing">Bradley Junc., Pa. (Storage Passing)</location> ...... 11.1 
-    <location type= "station" name = "Bradley Junction">" (Station)</location> ........................................ 11.3 
-    <location type="junction" name="Susquehanna extension">" (Jc. Susquehanna Ex)</location>.................... 11.3 
-
-6089....<location type="siding" name="Dishart, Pa. (Storage-Passing)">Dishart, Pa. (Storage-Passing)</location> .............. 14.7 
-6090....<location type="siding" name="Tunnel (Storage)">Tunnel (Storage)</location>  .................................... 15.6 
-6092... <location type="place name">Carrolltown, Pa.</location> ........................................ 16.9 
-6O92F ..<location type="industry" name="Bakerton Coll. No. 1 (Bakerton Coal Co.)" itype="coal">Bakerton Coll. No. 1 (Bakerton Coal Co.)</location> 17.3 
-6O92A .. <location type="industry" name="Navy Smokeless Coll. (Mccombie Coal Co.)" itype="coal">Navy Smokeless Coll. (Mccombie Coal Co.)</location> 17.6 
-6O92B .. <location type="industry" name="Peerless Coll. No. 1 (Mccardell Coal Co.)" itype="coal">Peerless Coll. No. 1 (Mccardell Coal Co.)</location> 18.2 
-=======
-<switch number="6318">6318</switch>
-    <entry>Black Lick, Pa. (Storage No. 3-South 
-     Sidell[ ......................................  <distance milepost= "42.6">42.6</distance></entry>
-        <entry>" (Junc. Conemaugh Div.).................. <distance milepost= "42.9">42.9</distance></entry>
-        <entry>" (Station) ........................................ <distance milepost= "43.0">43.0</distance></entry>
-
-</branch>
-
-<entry><switch number="6007">6007</switch>.... Loretto Road, Pa..................................... <distance milepost= "6.9">6.9</distance></entry>
+    <entry><switch number="6007">6007</switch>.... <location type="place name">Loretto Road, Pa.</location>.................................... <distance milepost= "6.9">6.9</distance></entry>
 
 <switch number="6012">6012</switch>
-<entry>Bradley Junc., Pa. (Storage Passing) ii...... <distance milepost= "11.1">11.1</distance></entry>
-<entry>" (Station) ........................................ <distance milepost= "11.3">11.3</distance></entry>
-<entry>" (Jc. Susquehanna ExU.................... <distance milepost= "11.3">11.3</distance></entry>
->>>>>>> 8e63d6193d7d099fd296c8ea1bb1530571a345fc
+    <entry><location type="siding" name="Bradley Junction storage/passing">Bradley Junc., Pa. (Storage Passing)</location>  <distance milepost= "11.1">11.1</distance></entry>
+    <entry>" <location type= "station" name = "Bradley Junction">" (Station)</location><distance milepost= "11.3">11.3</distance></entry>
+    <entry>"<location type="junction" name="Susquehanna extension">" (Jc. Susquehanna Ex)</location><distance milepost= "11.3">11.3</distance></entry>
 
-<entry><switch number="6089">6089</switch>....Dishart, Pa. (Storage-Passing) I!.............. <distance milepost= "14.7">14.7</distance></entry>
-<entry><switch number="6090">6090</switch>.... Tunnel (Storage) II .................................... <distance milepost= "15.6">15.6</distance></entry>
-<entry><switch number="6092">6092</switch>... Carrolltown, Pa. ........................................ <distance milepost= "16.9">16.9</distance></entry>
-<entry><switch number="6O92F">6O92F</switch> .Bakerton Coll. No. 1 (Bakerton Coal Co.)  <distance milepost= "17.3">17.3</distance></entry>
-<entry><switch number="6O92A">6O92A</switch> .. Navy Smokeless Coll. (Mccombie Coal Co.)  <distance milepost= "17.6">17.6</distance></entry>
 
-<branch name= "Luther">
-<<<<<<< HEAD
-6092C .. <location type="junction" name="Luther Branch">Junction Luther Branch</location>.......................... 18.3 
-6112 ... <location type="industry" name="Sterling Coll. No. 2 (Sterling Coal Co.)" itype="coal">Sterling Coll. No. 2 (Sterling Coal Co.)</location>.. 18.7 
-6113 ... <location type="industry" name="Reed Coll. No. 1 (Reed C. M. Co.)" itype="coal">Reed Coll. No. 1 (Reed C. M. Co.)</location>.......... 18.7 
-.... End of Luther Branch.............................. 18.8 
-</branch>
-
-6O92D <location type="industry" name="Heisley Coll. No. 2 (Heisley Coal Co.)" itype="coal">Heisley Coll. No. 2 (Heisley Coal Co.)</location>...... 18.4 
-6O92E .. <location type="place name">Bakerton, Pa.</location> ............................................ 18.6 
-    6O93A .. <location type="industry" name="Miller Run Coll. No. 1 (Mccombie Coal Co.)" itype="coal">Miller Run Coll. No. 1 (Mccombie Coal Co.)</location> ........................................ 19.6 
-
-<branch name= "Sterling">
-6O93B .. <location type="junction" name="Sterling Branch">Junction Sterling Branch</location> ........................ 19.8 
-6116 
-... <location type="industry" name="Sterling Coll. No. 1 (Sterling Coal Co)" itype="coal">Sterling Coll. No. 1 (Sterling Coal Co)</location>.... 20.7 
-.... End Sterling Branch................................ 20.8 
-</branch>
-
-6O93C .. <location type="industry" name="Lancashire Coll. No. 1 (Barnes Coal Co.)" itype="coal">Lancashire Coll. No. 1 (Barnes Coal Co.)</location> 20.2 
-6O93E .. <location type="siding" name="Benton, Pa. Storage/passing">Benton, Pa. (Storage-Passing)</location> .............. 20.9 
-6O93F .. <location type="industry" name="Reilly Coll. (Joseph H. Reilly Coal Co.)" itype="coal">Reilly Coll. (Joseph H. Reilly Coal Co.)</location>.... 21.5 
-6O94B .. <location type="industry" name="Atlantic Refining Co. No. 1" itype="Oil">Atlantic Refining Co. No. 1</location> ...................... 21.6 
-6095 .... <location type="junction" name="Cambria County Railroad, Pennsylvania Division of New York Central Railroad">Jc. Cambria Co. R. R. (Pa. Div.-N. Y. C. R. R.)</location> ...................................... 21.7 
-
-6096
-    <location type= "station" name = "Spangler">Spangler, Pa. (Station)</location>.............................. 21.8 
-    <location type="siding" name="Spangler, Pa. Storage">" (Storage)</location> ...................................... 21.8 
-
-    <location type="industry" name="Lauderbach-Griest Co" itype="Misc."><!--AJR: I looked up the compnay they were a grocery supplier, not sure how to classify that-->" (Lauderbach-Griest Co)</location> .............. 22.1 
-6O97 .... <location type="industry" name="E. F. Dumm" itype="Private Customer">Spangler, Pa. (E. F. Dumm)</location> .................... 22.3 
-6098 .... <location type="place name">Summit Track </location> ........................................ 22.4 
-6O99 .... <location type="junction" name="West Branch no.1 Pennsylvania Division of New York Central Railroad">West Branch No. 1 (Penna. Div.-N. Y. C. R. RY)</location> ...................................... 22.7 
-6O99A <location type="siding" name="Spandberg Siding">Sandberg Siding</location>  .................................... 22.9 
-
-<branch name="Walnut Run">
-6100
-    <location type="siding" name="Barnesboro, Pa. storage">Barnesboro, Pa. (Storage)</location> ..................... 23.0 
-    <location type="Station" name="Barnesboro"> (Station-Jc. Walnut Run Br.)</location>...... 23.4 
-    <location type="industry" name="Barnesboro Lumber company" itype="Lumber">" (Barnesboro Lumber Co.)</location>.............. 23.5 
-
-6134 ... <location type="industry" name="Byrnes Coll. No. 1 (Dill, Stephens &amp; Byrnes)" itype="coal">Byrnes Coll. No. 1 (Dill, Stephens &amp; Byrnes)</location> .................................. 24.3 
-6136 ... <location type="industry" name="Penna. Coll. No. 4 (Penna. C. &amp; C. Corp.)" itype="coal">Penna. Coll. No. 4 (Penna. C. &amp; C. Corp.)</location> 24.6
-6137 ... <location type="industry" name="Thermal Coll. No. 7 (Press Coal Co.)" itype="coal">Thermal Coll. No. 7 (Press Coal Co.)</location> ...... 24.9
-6138 .. <location type="industry" name="Cymbria Coll. (Patton C. M. Co.)" itype="coal">Cymbria Coll. (Patton C. M. Co.)</location>.............. 25.3 
-6139 .... End of Walnut Run Branch...................... 25.4
-=======
-    <entry><switch number="6O92B">6O92B</switch> .. Peerless Coll. No. 1 (Mccardell Coal Co.) <distance milepost= "18.2">18.2</distance></entry>
-    <entry><switch number="6092C">6092C</switch> .. Junction Luther Branch* ..........................  <distance milepost= "18.3">43.0</distance></entry>
-    <entry><switch number="6112">6112</switch> ... Sterling Coll. No. 2 (Sterling Coal Co.)..  <distance milepost= "18.7">18.7</distance></entry>
-    <entry><switch number="6113">6113</switch> ... Reed Coll. No. 1 (Reed C. M. Co.)..........  <distance milepost= "18.7">18.7</distance></entry>
+    <entry><switch number="6089">6089</switch><location type="siding" name="Dishart, Pa. (Storage-Passing)">Dishart, Pa. (Storage-Passing)</location> <distance milepost= "14.7">14.7</distance></entry>
+    <entry><switch number="6090"></switch><location type="siding" name="Tunnel (Storage)">Tunnel (Storage)</location>................................... <distance milepost= "15.6">15.6</distance></entry>
+    <entry><switch number="6092">6092</switch><location type="place name">Carrolltown, Pa.</location> ....................... <distance milepost= "16.9">16.9</distance></entry>
+    <entry><switch number="6O92F">6O92F</switch> <location type="industry" name="Bakerton Coll. No. 1 (Bakerton Coal Co.)" itype="coal">Bakerton Coll. No. 1 (Bakerton Coal Co.)</location>   <distance milepost= "17.3">17.3</distance></entry>
+    <entry><switch number="6O92A">6O92A</switch><location type="industry" name="Navy Smokeless Coll. (Mccombie Coal Co.)" itype="coal">Navy Smokeless Coll. (Mccombie Coal Co.)</location>  <distance milepost= "17.6">17.6</distance></entry>
+    <entry><switch number="6O92B">6O92B</switch><location type="industry" name="Peerless Coll. No. 1 (Mccardell Coal Co.)" itype="coal">Peerless Coll. No. 1 (Mccardell Coal Co.)</location> <distance milepost= "18.2">18.2</distance></entry>
+    <entry><switch number="6092C">6092C</switch><location type="junction" name="Luther Branch">Junction Luther Branch</location><distance milepost= "18.3">43.0</distance></entry>
+    <entry><switch number="6112">6112</switch> <location type="industry" name="Sterling Coll. No. 2 (Sterling Coal Co.)" itype="coal">Sterling Coll. No. 2 (Sterling Coal Co.)</location>  <distance milepost= "18.7">18.7</distance></entry>
+    <entry><switch number="6113">6113</switch> <location type="industry" name="Reed Coll. No. 1 (Reed C. M. Co.)" itype="coal"> Reed Coll. No. 1 (Reed C. M. Co.)</location><distance milepost= "18.7">18.7</distance></entry>
     <entry>.... End of Luther Branch*..............................  <distance milepost= "18.8">18.8</distance></entry>
-</branch>
 
-<entry><switch number="6O92D">6O92D</switch> .Heisley Coll. No. 2 (Heisley Coal Co.)......  <distance milepost= "18.4">18.4</distance></entry>
-<entry><switch number="6O92E">6O92E</switch> .. Bakerton, Pa. ............................................  <distance milepost= "18.6">18.6</distance></entry>
-<entry><switch number="6O93A">6O93A</switch> .. Miller Run Coll. No. 1 (Mccombie Coal Co.) ........................................  <distance milepost= "19.6">19.6</distance></entry>
-
+    <entry><switch number="6O92D">6O92D</switch> <location type="industry" name="Heisley Coll. No. 2 (Heisley Coal Co.)" itype="coal">Heisley Coll. No. 2 (Heisley Coal Co.)</location><distance milepost= "18.4">18.4</distance></entry>
+    <entry><switch number="6O92E">6O92E</switch> <location type="place name">Bakerton, Pa.</location>  <distance milepost= "18.6">18.6</distance></entry>
+    <entry><switch number="6O93A">6O93A</switch> <location type="industry" name="Miller Run Coll. No. 1 (Mccombie Coal Co.)" itype="coal"> Miller Run Coll. No. 1 (Mccombie Coal Co.)</location> <distance milepost= "19.6">19.6</distance></entry>
+    
 <branch name= "Sterling">
-    <entry><switch number="6O93B">6O93B</switch> .. Junction Sterling Branch* ........................  <distance milepost= "19.8">19.8</distance></entry>
-    <entry><switch number="6116">6116</switch> 
-        ... Sterling Coll. No. 1 (Sterling Coal Co)....  <distance milepost= "20.7">20.7</distance></entry>
+    <entry><switch number="6O93B">6O93B</switch> ..<location type="junction" name="Sterling Branch"> Junction Sterling Branch</location> ........................  <distance milepost= "19.8">19.8</distance></entry>
+    <entry><switch number="6116">6116</switch> <location type="industry" name="Sterling Coll. No. 1 (Sterling Coal Co)" itype="coal">Sterling Coll. No. 1 (Sterling Coal Co)</location>  <distance milepost= "20.7">20.7</distance></entry>
     <entry>.... End Sterling Branch*................................  <distance milepost= "20.8">20.8</distance></entry>
 </branch>
 
-<entry><switch number="6O93C">6O93C</switch>  .. Lancashire Coll. No. 1 (Barnes Coal Co.)  <distance milepost= "20.2">20.2</distance></entry>
-<entry><switch number="6O93E">6O93E</switch>  .. Benton, Pa. (Storage-Passing) II.............. <distance milepost= "20.9">20.9</distance></entry>
-<entry><switch number="6O93F">6O93F</switch>  .. Reilly Coll. (Joseph H. Reilly Coal Co.)....  <distance milepost= "21.5">21.5</distance></entry>
-<entry><switch number="6O94B">6O94B</switch>  .. Atlantic Refining Co. No. 1 t......................  <distance milepost= "21.6">21.6</distance></entry>
-<entry><switch number="6095">6095</switch>  .... Jc. Cambria Co. R. R. (Pa. Div.-N. Y. C. R. R.)* ......................................  <distance milepost= "21.7">21.7</distance></entry>
+    <entry><switch number="6O93C">6O93C</switch>  <location type="industry" name="Lancashire Coll. No. 1 (Barnes Coal Co.)" itype="coal">Lancashire Coll. No. 1 (Barnes Coal Co.)</location> <distance milepost= "20.2">20.2</distance></entry>
+    <entry><switch number="6O93E">6O93E</switch>  <location type="siding" name="Benton, Pa. Storage/passing">Benton, Pa. (Storage-Passing)</location> <distance milepost= "20.9">20.9</distance></entry>
+    <entry><switch number="6O93F">6O93F</switch>  <location type="industry" name="Reilly Coll. (Joseph H. Reilly Coal Co.)" itype="coal">Reilly Coll. (Joseph H. Reilly Coal Co.)</location>  <distance milepost= "21.5">21.5</distance></entry>
+    <entry><switch number="6O94B">6O94B</switch>  <location type="industry" name="Atlantic Refining Co. No. 1" itype="Oil">Atlantic Refining Co. No. 1</location>  <distance milepost= "21.6">21.6</distance></entry>
+    <entry><switch number="6095">6095</switch>  <location type="junction" name="Cambria County Railroad, Pennsylvania Division of New York Central Railroad">Jc. Cambria Co. R. R. (Pa. Div.-N. Y. C. R. R.)</location>  <distance milepost= "21.7">21.7</distance></entry>
 
 <switch number="6096">6096</switch>
-<entry>Spangler, Pa. (Station).............................. 21.8 <distance milepost= "21.8">21.8</distance></entry>
-<entry>" (Storage))! ...................................... 21.8 <distance milepost= "21.8">21.8</distance></entry>
+    <entry><location type= "station" name = "Spangler">Spangler, Pa. (Station)</location> 21.8 <distance milepost= "21.8">21.8</distance></entry>
+    <entry><location type="siding" name="Spangler, Pa. Storage">" (Storage)</location>" (Storage))! ...................................... 21.8 <distance milepost= "21.8">21.8</distance></entry>
 
-<entry>" (Lauderbach-Griest Co) ..............  <distance milepost= "22.1">22.1</distance></entry>
-<entry><switch number="6O97">6O97</switch>  .... Spangler, Pa. CE. F. Dumm) ....................  <distance milepost= "22.3">22.3</distance></entry>
-<entry><switch number="6098">6098</switch>  ... Summit Track II ........................................  <distance milepost= "22.4">22.4</distance></entry>
-<entry><switch number="6O99">6O99</switch>  .... West Branch No. 1 (Penna. Div.-N. Y. C. R. RY)* ......................................  <distance milepost= "22.7">22.7</distance></entry>
-<entry><switch number="6O99A">6O99A</switch>  .Sandberg Siding ll ....................................  <distance milepost= "22.9">22.9</distance></entry>
+    <entry><location type="industry" name="Lauderbach-Griest Co" itype="Misc.">" (Lauderbach-Griest Co)</location> ..............  <distance milepost= "22.1">22.1</distance></entry>
+    <entry><switch number="6O97">6O97</switch>  <location type="industry" name="E. F. Dumm" itype="Private Customer">Spangler, Pa. (E. F. Dumm)</location>  <distance milepost= "22.3">22.3</distance></entry>
+    <entry><switch number="6098">6098</switch>  <location type="place name">Summit Track </location>  <distance milepost= "22.4">22.4</distance></entry>
+    <entry><switch number="6O99">6O99</switch> <location type="junction" name="West Branch no.1 Pennsylvania Division of New York Central Railroad">West Branch No. 1 (Penna. Div.-N. Y. C. R. RY)</location> <distance milepost= "22.7">22.7</distance></entry>
+    <entry><switch number="6O99A">6O99A</switch>  <location type="siding" name="Spandberg Siding">Sandberg Siding</location>  <distance milepost= "22.9">22.9</distance></entry>
 
 <branch name="Walnut Run">
     <switch number="6100">6100</switch>
-    <entry>Barnesboro, Pa. (Storage) II......................  <distance milepost= "23.0">23.0</distance></entry>
-    <entry>" (Station-Jc. Walnut Run Br.)......  <distance milepost= "23.0">23.0</distance></entry>
-    <entry>" (Barnesboro Lumber Co.)..............  <distance milepost= "23.5">23.5</distance></entry>
+    <entry><location type="siding" name="Barnesboro, Pa. storage">Barnesboro, Pa. (Storage)</location> <distance milepost= "23.0">23.0</distance></entry>
+    <entry>" <location type="Station" name="Barnesboro"> (Station-Jc. Walnut Run Br.)</location>  <distance milepost= "23.0">23.0</distance></entry>
+    <entry>"  <location type="industry" name="Barnesboro Lumber company" itype="Lumber">(Barnesboro Lumber Co.)</location> <distance milepost= "23.5">23.5</distance></entry>
 
-    <entry><switch number="6134">6134</switch> ... Byrnes Coll. No. 1 (Dill, Stephens &amp; Byrnes) ..................................  <distance milepost= "24.3">24.3</distance></entry>
-    <entry><switch number="6136">6136</switch> ... Penna. Coll. No. 4 (Penna. C. &amp; C. Corp.) <distance milepost= "24.6">24.6</distance></entry>
-    <entry><switch number="6137">6137</switch> ... Thermal Coll. No. 7 (Press Coal Co.) ...... <distance milepost= "24.9">24.9</distance></entry>
-    <entry><switch number="6138">6138</switch> .. Cymbria Coll. (Patton C. M. Co.)..............  <distance milepost= "25.3">25.3</distance></entry>
-    <entry><switch number="6139">6139</switch>  .... End of Walnut Run Branch*...................... <distance milepost= "25.4">25.4</distance></entry>
->>>>>>> 8e63d6193d7d099fd296c8ea1bb1530571a345fc
+    <entry><switch number="6134">6134</switch> <location type="industry" name="Byrnes Coll. No. 1 (Dill, Stephens &amp; Byrnes)" itype="coal">Byrnes Coll. No. 1 (Dill, Stephens &amp; Byrnes)</location>.................................  <distance milepost= "24.3">24.3</distance></entry>
+    <entry><switch number="6136">6136</switch> <location type="industry" name="Penna. Coll. No. 4 (Penna. C. &amp; C. Corp.)" itype="coal">Penna. Coll. No. 4 (Penna. C. &amp; C. Corp.)</location> <distance milepost= "24.6">24.6</distance></entry>
+    <entry><switch number="6137">6137</switch> <location type="industry" name="Thermal Coll. No. 7 (Press Coal Co.)" itype="coal">Thermal Coll. No. 7 (Press Coal Co.)</location><distance milepost= "24.9">24.9</distance></entry>
+    <entry><switch number="6138">6138</switch> <location type="industry" name="Cymbria Coll. (Patton C. M. Co.)" itype="coal">Cymbria Coll. (Patton C. M. Co.)</location>.  <distance milepost= "25.3">25.3</distance></entry>
+    <entry><switch number="6139">6139</switch>  .... End of Walnut Run Branch...................... <distance milepost= "25.4">25.4</distance></entry>
 </branch>
 
 
@@ -631,7 +558,7 @@ Cresson
 <branch name= "Elk Run">
     <entry><switch number="B85">B85</switch> ... Junc. Elk Run Branch*..............................  <distance milepost= "55.2">55.2</distance></entry>
     <entry><switch number="B159">B159</switch> .... Elk Run Trestle..........................................  <distance milepost= "55.6">55.6</distance></entry>
-    <entry><switch number="B163">B163</switch> .... Anita, Pa. (Car Load Delivery)..................  <distance milepost= "59.0">59.0/distance></entry>
+    <entry><switch number="B163">B163</switch> .... Anita, Pa. (Car Load Delivery)..................  <distance milepost= "59.0">59.0</distance></entry>
     <entry><switch number="B182">B182</switch> .... Anita Coll. No. 1 (Anita C. M. Co.)........  <distance milepost= "60.2">60.2</distance></entry>
     <entry>.... End of Elk Run Branch............................  <distance milepost= "60.5">60.5</distance></entry>
 </branch>
@@ -732,7 +659,7 @@ Cresson
 
 
 <switch number="82ll">B42</switch> 
-<entry>>Junction Mayes and Bellwood Branches*..  <distance milepost= "27.4">27.4</distance></>
+<entry>>Junction Mayes and Bellwood Branches*..  <distance milepost= "27.4">27.4</distance></entry>
     <entry>Junction Pine Run Sidingll........................  <distance milepost= "27.4">27.4</distance></entry>
     <entry>IR .. .Irvona, Pa. (Storage)II..............................  <distance milepost= "27.2">27.2</distance></entry>
 
@@ -843,6 +770,7 @@ Conn. Conn.
     <entry><switch number="5253">5253</switch> ... End of Sonman Branch*..................  <distance milepost= "24.0 21.5">24.0 21.5</distance></entry>
 </branch>
 
+<branch>
         <entry><switch number="345">345</switch> .... East Connection Ben's Creek Br.)....  <distance milepost= "24.4 20.0">24.4 20.0</distance></entry>
         <entry><switch number="5243">5243</switch> ... Hughes Coll. No. 4 (C. A. Hughes &amp; Co.) ..........................  <distance milepost= "25.4 21.0">25.4 21.0</distance></entry>
         <entry><switch number="5246A">5246A</switch> ... Ben's Creek Valley Coll. (Ben's Creek Valley Coal Co.)  <distance milepost= "25.5 21.4">25.5 21.4</distance></entry>
