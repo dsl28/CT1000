@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ct1000schema.rnc" type="application/relax-ng-compact-syntax"?>
 <CT1000>
 
 208
@@ -19,7 +20,7 @@ Altoona
     <entry><location type="junction" name= "MIddle Division">(Junc. Middle Div.)</location>...................... <distance milepost= "1.0">1.0</distance></entry>
 </switch> 
     <entry><switch number="333">333</switch> .... <location type="siding" name="Car Shop Siding">Kittanning Point, Pa.</location>(Shop Car Siding) <distance milepost= "5.8"> 5.8 </distance></entry>
-    <entry><swithc number= "335">335</swithc> .... <location type= "industry" name= "Pennsylvania Colliery Number 2" itype="coal">Penna. Coll. No. 2 (Penna. C. &amp; C. Corp.)</location> <distance milepost="10.7">10.7</distance> </entry>
+    <entry><switch number= "335">335</switch> .... <location type= "industry" name= "Pennsylvania Colliery Number 2" itype="coal">Penna. Coll. No. 2 (Penna. C. &amp; C. Corp.)</location> <distance milepost="10.7">10.7</distance> </entry>
 
 <branch name= "New Portage">
     <measure from= "New Portage Junction">
@@ -35,11 +36,11 @@ New Portage Jc.
     <entry><switch number= "335A">335A</switch> .... <location type= "junction" name= "East End Tunnel">East End Tunnel (Junc. Main Line)</location>l!ji:...... <distance milepost= "14.9">14.9</distance></entry>
 </branch>
 
-<meausre from= "Altoona">
+<measure from= "Altoona">
 Dist.from
 Altoona
 (Pass. Sta.)
-</meausre>
+</measure>
 
 <switch number= "335A">335A
     <entry><location type="siding">East End Tunnel, Pa. (Storage)</location> 11.............. <distance milepost= "10.6">10.6</distance> </entry>
