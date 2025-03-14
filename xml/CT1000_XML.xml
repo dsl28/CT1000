@@ -2,7 +2,7 @@
 <?xml-model href="ct1000schema.rnc" type="application/relax-ng-compact-syntax"?>
 <CT1000>
 
-208
+<page n="208">208</page>
 <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
@@ -815,7 +815,7 @@ Altoona
 
     <entry><switch number="F 5">F 5</switch> ... South Fork, Pa. (Storage) II........................  <distance milepost= "28.6">28.6</distance></entry>
     <entry><switch number="F 7">F 7</switch> ... Flenner Coll. No. I-Priscilla Coal Co.)..  <distance milepost= "29.0">29.0</distance></entry>
-    <entry><switch number="F 7 A>F 7 A</switch> .... Hughes Coll. 5 (South Fork Bit. C. Co.)....  <distance milepost= "29.0">29.0</distance></entry>
+    <entry><switch number="F 7 A">F 7 A</switch> .... Hughes Coll. 5 (South Fork Bit. C. Co.)....  <distance milepost= "29.0">29.0</distance></entry>
     <entry>.... St. Michael, Pa. (Station)*........................ <distance milepost= "30.8 ">30.8 </distance></entry>
     <entry><switch number="F 9">F 9</switch> .... Maryland Shaft Coll. (Maryland Coal Co. of Penna.) ..............................  <distance milepost= "30.9">30.9</distance></entry>
     <entry><switch number="F IO">F IO</switch> ... Eureka Stores (St. Michael Store)..........  <distance milepost= "30.9">30.9</distance></entry>
