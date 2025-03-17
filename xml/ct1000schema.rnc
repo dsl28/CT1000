@@ -1,14 +1,10 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = CT1000
-<<<<<<< HEAD
+
 CT1000 = element CT1000 { (page| page_heading| distance | measure | switch)* }
 page = element page { n, xsd:integer }
 n = attribute n {xsd:integer}
-=======
-CT1000 = element CT1000 { (page| page_heading| distance) }
-page = element page { xsd:integer }
->>>>>>> 9c67490d88939d3cffa72aba2061ef69028be04c
 page_heading = element page_heading {text}
 measure = element measure { (from | text)* }
 from = attribute from {text}
