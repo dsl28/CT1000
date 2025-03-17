@@ -1,14 +1,15 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = CT1000
-CT1000 = element CT1000 { (page| page_heading| distance | measure | switch) }
-page = element page { xsd:integer }
+CT1000 = element CT1000 { (page| page_heading| distance | measure | switch)* }
+page = element page { n, xsd:integer }
+n = attribute n {xsd:integer}
 page_heading = element page_heading {text}
-measure = element measure { from }
+measure = element measure { (from | text)* }
 from = attribute from {text}
-switch = element switch { number }
-number = attribute number { xsd:integer }   #Please see if this is correct, DSL. 
-entry = element entry {text}
+switch = element switch { number ,text , entry* }
+number = attribute number { text }   #Please see if this is correct, DSL. 
+entry = element entry {(switch| location| text)*}
 location = element location { type, name, itype }
 type = attribute type {text}
 name = attribute name {text}
