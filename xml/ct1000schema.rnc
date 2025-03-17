@@ -1,10 +1,10 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = CT1000
-CT1000 = element CT1000
+CT1000 = element CT1000 { (page| page_heading| distance) }
 page = element page { xsd:integer }
-page_heading = text page_heading
-distance = element distance { from }
+page_heading = element page_heading {text}
+measure = element measure { from }
 from = attribute from {text}
 switch = element switch { number }
 number = attribute number { xsd:integer }   #Please see if this is correct, DSL. 
@@ -13,12 +13,10 @@ location = element location { type, name, itype }
 type = attribute type {text}
 name = attribute name {text}
 itype = attribute itype {text}
-measure = element measure { milepost }
+distance = element distance { milepost }
 milepost = attribute milepost { xsd:integer }
 branch = element branch { name }
-name = attribute name {text}
 secondary_route = element secondary_route { name }
-name = attribute name {text}
 distance_heading = element distance_heading {text}
 
 
