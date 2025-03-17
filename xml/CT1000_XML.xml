@@ -92,7 +92,7 @@ Dist.from
 Cresson 
 </measure>
 
-    <entry><switch number= "339">339</switch> .... <location type= "junction">Cresson, Pa. ("Y" Junc. Main Line)</location>........ <distnace milepost= "0">.0</distnace> </entry>
+    <entry><switch number= "339">339</switch> .... <location type= "junction">Cresson, Pa. ("Y" Junc. Main Line)</location>........ <distance milepost= "0">.0</distance> </entry>
 
 <switch number= "6001">6001</switch>
     <entry><location type="place name">Cresson, Pa.</location>  </entry>
@@ -102,7 +102,7 @@ Cresson
     <entry><location type="place name">Luckett, Pa</location> ............................................ <distance milepost= "2.1">2.1</distance> </entry>
 
 <switch number= "6003">6003</switch>
-    <entry> <location type= "siding" name= "Munster, Pa.">Munster, Pa. (Storage-Passing) </location>............ <distnce milepost= "2.8">2.8</distnce></entry>
+    <entry> <location type= "siding" name= "Munster, Pa.">Munster, Pa. (Storage-Passing) </location>............ <distance milepost= "2.8">2.8</distance></entry>
     <entry> <location type= "industry" itype= "Carload Delivery">(Carload Delivery)</location> .......................... <distance milepost= "2.8">2.8</distance> </entry>
     <entry> <location type= "station" name = "Munster">(Station) </location>....................................... <distance milepost= "3.6">3.6</distance> </entry>
     <entry> <location type= "place name"> Noel, Pa.</location> ................"................................ <distance milepost= "5.0">5.0</distance> </entry>

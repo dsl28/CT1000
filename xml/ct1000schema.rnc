@@ -2,23 +2,31 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = CT1000
 
-CT1000 = element CT1000 { (page| page_heading| distance | measure | switch)* }
+CT1000 = element CT1000 { (page| page_heading| distance | measure | switch| entry| branch| measure|secondary_route|text)* }
 page = element page { n, xsd:integer }
-n = attribute n {xsd:integer}
+n = attribute n {text}
 page_heading = element page_heading {text}
+
 measure = element measure { (from | text)* }
 from = attribute from {text}
 switch = element switch { number ,text , entry* }
-number = attribute number { text }   #Please see if this is correct, DSL. 
-entry = element entry {(switch| location| text)*}
-location = element location { type, name, itype }
+number = attribute number { text }   
+
+entry = element entry {(switch| location| distance |text)*}
+
+location = element location { (type| name| itype| text|distance)* }
 type = attribute type {text}
 name = attribute name {text}
 itype = attribute itype {text}
-distance = element distance { milepost }
-milepost = attribute milepost { xsd:integer }
-branch = element branch { name }
-secondary_route = element secondary_route { name }
+
+distance = element distance { (milepost|text)* }
+milepost = attribute milepost { text }
+
+branch = element branch { (name| measure|entry|switch|branch|page|subsidiary|text)* }
+
+subsidiary= element subsidiary{(name|branch|entry|text*)}
+
+secondary_route = element secondary_route { (name| entry)* }
 distance_heading = element distance_heading {text}
 
 
