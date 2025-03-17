@@ -2,7 +2,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = CT1000
 
-CT1000 = element CT1000 { (page| page_heading| distance | measure | switch| entry| branch| measure|secondary_route|text)* }
+CT1000 = element CT1000 { (page| page_heading| distance | measure | switch| entry| branch| measure|secondary_route|distance_heading|text)* }
 page = element page { n, xsd:integer }
 n = attribute n {text}
 page_heading = element page_heading {text}
@@ -24,7 +24,7 @@ milepost = attribute milepost { text }
 
 branch = element branch { (name| measure|entry|switch|branch|page|subsidiary|text)* }
 
-subsidiary= element subsidiary{(name|branch|entry|text*)}
+subsidiary= element subsidiary{(name|branch|entry|page|text*)}
 
 secondary_route = element secondary_route { (name| entry)* }
 distance_heading = element distance_heading {text}
