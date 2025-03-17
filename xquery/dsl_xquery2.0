@@ -1,0 +1,9 @@
+xquery version "3.1";
+
+declare variable $source-file := 
+doc('../xml/CT1000/?select=*.xml')
+
+let $branch := //branch[descendant::entry[@type="station"]
+return $branch
+
+order by $branch descending
