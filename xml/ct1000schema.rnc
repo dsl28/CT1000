@@ -1,7 +1,7 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = CT1000
-CT1000 = element CT1000 { (page| page_heading| distance) }
+CT1000 = element CT1000 { (page| page_heading| distance | measure | switch) }
 page = element page { xsd:integer }
 page_heading = element page_heading {text}
 measure = element measure { from }
