@@ -751,7 +751,7 @@ Conn. Conn.
         <entry><switch number="5235">5235</switch> ... Keystone Lumber Co. t ....................  <distance milepost= "22.8 21.6">22.8 21.6</distance></entry>
         <entry><switch number="5235">5235</switch> .... Storage Nos. 1 &amp; 211......................  <distance milepost= "22.8 21.6">22.8 21.6</distance></entry>
         <entry><switch number="5237">5237</switch> .... Portage, Pa. (Freight Station and Delivery) ........................  <distance milepost= "22.8 21.6">22.8 21.6</distance></entry>
-
+</branch>
 <branch name="Martin">
     <entry><switch number="5256">5256</switch> ... Portage, Pa. (Junction Martin Br.)  <distance milepost= "22.9 21.5">22.9 21.5</distance></entry>
     <entry><switch number="5258">5258</switch> ... Portage Coll. No. 4 (Johnstown C. &amp; C. Co.).......... ...........  <distance milepost= "23.7 22.3">23.7 22.3</distance></entry>
@@ -1696,6 +1696,7 @@ Dist. from Altoona
         <entry><switch number="82ll"></switch>Pittsburgh, Pa. (Duquesne Freight Station Delivery) ................................  <distance milepost= "114.9">114.9</distance></entry>
                                      <entry>" (Duquesne Frt. Sta. Short St. Ex.)  <distance milepost= "114.8">114.8</distance></entry>
 </branch>
+
 <!-- ABC: Cleaned up from 1470 until end, replaced &amps, replaced letters after ) such as ")t" with Regex-->
 
 </CT1000>
