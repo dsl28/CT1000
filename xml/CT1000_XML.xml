@@ -9,11 +9,11 @@ WESTERN PENNSYLVANIA DIVISION-Continued
 PITTSBURGH DIVISION
 </page_heading>
 
-<distance from= "Altoona">
+<measure from= "Altoona">
 Dist.from
 Altoona
 (Pass. Sta.)
-</distance>
+</measure>
     
 <switch number= "1A">1A
     <entry><location type="station" name= "Altoona">Altoona, Pa. </location>(Passenger Station)............ .<distance milepost= "0.1">0 l "</distance></entry>
