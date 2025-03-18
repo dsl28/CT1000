@@ -22,9 +22,9 @@ itype = attribute itype {text}
 distance = element distance { (milepost|text)* }
 milepost = attribute milepost { text }
 
-branch = element branch { (name| measure|entry|switch|branch|page|subsidiary|text)* }
+branch = element branch { (name|measure|entry|switch|branch|page|subsidiary|page_heading|text)* }
 
-subsidiary= element subsidiary{(name|branch|entry|page|siding|switch|text)*}
+subsidiary= element subsidiary{(name|branch|entry|page|siding|switch|page_heading|measure|text)*}
 siding = element siding{(name|entry)*}
 
 secondary_route = element secondary_route { (name| entry)* }

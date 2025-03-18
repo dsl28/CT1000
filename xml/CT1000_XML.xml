@@ -169,13 +169,14 @@ Cresson
 
 
 <page n="210">210</page> 
-CENTRAL REGION-Continued 
+    <page_heading>CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
-CRESSON BRANCH-Continued 
-
+CRESSON BRANCH-Continued </page_heading>
+    <measure from= "Cresson">
 Dist. from 
 Cresson 
+    </measure>
 
 <switch number="JP"> JP  <!-- These two letter designations that appear on the far left indicate tower controled switches, in railroad jargon, these are operated remotely not by the train crews, they get treated the same as the others for XML markup -AJR-->
     <entry><location type="junction" name="Baltimore and Ohio Railroad">Josephine, Pa. (Junction B.&amp;O.R.R.)</location>...... <distance milepost= "41.8">41.8</distance></entry>
@@ -254,13 +255,16 @@ Cresson
 
 
 <page n="211">211</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued  
 CRESSON BRANCH-Continued
-
+    </page_heading>
+    <measure from= "Cresson">
 Dist.from 
 Cresson 
+    </measure>
 
 <branch name="Susquehanna Extension">
     <branch name="Porter Run">
@@ -287,9 +291,11 @@ Cresson
     <entry><switch number="6106">6106</switch> ... <location type="junction" name="Emigh Run Branch, Pennsylvania Division of New York Central Railroad">Jc. Emigh Run Br. (Pa. Div. N.Y.C.R.R.)</location> <distance milepost="27.1">27.1</distance></entry>
     <entry><switch number="61O7">61O7</switch> .... <location type="industry" name="Kinport Coll. No. 1 (Hastings Coal &amp; Coke Co.)" itype="coal">Kinport Coll. No. 1 (Hastings Coal &amp; Coke Co.)</location> ...................................... .. <distance milepost= "27.4">27.4</distance></entry>
     <entry><switch number="6108">6108</switch> ... <location type="junction" name="Cherry Tree and Dixonville Railroad">Cherry Tree ("Y" Junc. C. T. &amp; Dixonville R.R.)</location> ...................................... .. <distance milepost= "28.7">28.7</distance></entry>
-
+    
+<measure from= "CherryTree Y"> <!--Mlee I cant put the "" around Y-->
 Dist.from 
 CherryTree"Y" 
+</measure>
 
 <subsidiary name="Cherry Tree and Dixonville Railroad">
     <entry><switch number="6602">6602</switch> ... <location type="siding" name="Cherry Tree, Pa. (Storage)">Cherry Tree, Pa. (Storage)</location>......................  <distance milepost= "0.3">0.3</distance></entry>
@@ -337,13 +343,18 @@ CherryTree"Y"
 
 
 <page n="212">212</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
 CRESSON BRANCH-Continued
+    </page_heading>
 
-Dist.from 
-CherryTree"Y" 
+    <measure from= "CherryTree Y"> <!--Mlee I cant put the "" around Y-->
+        Dist.from 
+        CherryTree"Y" 
+    </measure>
+    
 <branch name="Possum Glory">
     <entry><switch number="6621">6621</switch> .... <location type="jucntion" name="Possum Glory Branch">Wandin, Pa. (Junc. Possum Glory Branch)</location>  <distance milepost= "13.1">13.1</distance></entry>
     <entry><switch number="6662">6662</switch> .... <location type="place name">Pine Flats, Pa.</location>..........................................  <distance milepost= "16.4">16.4</distance></entry>
@@ -401,9 +412,10 @@ CherryTree"Y"
     <entry>.... End of C. T. &amp; D. R. R.*............................  <distance milepost= "21.8">21.8</distance></entry>
 </subsidiary>
     
+    <measure from= "Cresson">
     Dist.from 
     Cresson 
-    
+    </measure>
     
 <switch number="6108">6108</switch>
     <entry> <location type="station" name="Cherry Tree">Cherry Tree, Pa. (Station)</location>......................  <distance milepost= "28.8">28.8</distance></entry>
@@ -441,14 +453,18 @@ CherryTree"Y"
 
 
 <page n='213'>213</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
 CRESSON BRANCH-Continued 
+    </page_heading>
+    
 
-
+    <measure from= "Cresson">
 Dist.from 
 Cresson 
+    </measure>
 
 
 <entry><switch number="6826">6826</switch> ... Hastings Branch Jct. (Junc. Hastings Br.l*  <distance milepost= "25.7">25.7</distance></entry>
@@ -517,15 +533,18 @@ MS
 
 
 <page n="214">214</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
 CRESSON BRANCH-Continued 
+    </page_heading>
 
-
-Dist.from 
-Cresson 
-<!--break-->
+    <measure from= "Cresson">
+        Dist.from 
+        Cresson 
+    </measure>
+    
 <branch name="Mahaffey">
     <entry><switch number="MS">MS</switch> .... McGees, Pa. (Junc. Mahaffey Branch)....  <distance milepost= "40.6">40.6</distance></entry>
     <entry><switch number="B 61">B 61</switch> .... Mahaffey, Pa. (Car Load Delivery)............  <distance milepost= "42.2">42.2</distance></entry>
@@ -588,14 +607,17 @@ Cresson
 
 
 <page n="215">215</page>
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
 IRVONA BRANCH 
+</page_heading>
 
-
-Dist.from 
-Cresson 
+    <measure from= "Cresson">
+        Dist.from 
+        Cresson 
+    </measure> 
  
  
 <entry>Cresson, Pa. (Junc. Main Line)*................  <distance milepost= "0.3">0.3</distance></entry>
@@ -651,13 +673,16 @@ IR
 
 
 <page n="216">216</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued -->
+    </page_heading>
 
-<!--break-->
-Dist.from 
-Cresson 
+    <measure from= "Cresson">
+        Dist.from 
+        Cresson 
+    </measure> 
 
 
 <switch number="82ll">B42</switch> 
@@ -713,14 +738,17 @@ IR
 
 
 <page n="217">217</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
+</page_heading>
 
-
-Dist.from 
-Altoona 
-(Pass.Sta.) 
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
 
     <entry><switch number="342">342</switch> ... Lilly, Pa. (North Storage)......................  <distance milepost= "16.7">16.7</distance></entry>
@@ -798,13 +826,17 @@ Conn. Conn.
 <!--break-->
 
 <page n="218">218</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
+    </page_heading>
 
-Dist.from 
-Altoona 
-(Pass. Sta.) 
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
     <entry>South Fork, Pa. (F-4-F Stineman Coll. No. 4-Stineman C. &amp; C. Co.)........  <distance milepost= "28.4">28.4</distance></entry>
 
@@ -873,12 +905,17 @@ Altoona
 <!--break-->
 
 <page n="219">219</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
-Dist.from 
-Altoona 
-(Pass.Sta.) 
+    </page_heading>
+
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure> 
 
 
 <branch name="Shade Creek">
@@ -945,14 +982,18 @@ Altoona
 </branch>
 
 
-<page n="220">220</page> 
+<page n="220">220</page>
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
+    </page_heading>
 
-Dist.from 
-Altoona 
-(Pass.Sta.) <!--break-->
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
     <entry><switch number="F 29">F 29</switch> .... Windber, Pa. (Storage)II............................  <distance milepost= "43.3">43.3</distance></entry>
     <entry><switch number="F 3O">F 3O</switch> .... Windber, Pa. (Freight Station)..................  <distance milepost= "43.3">43.3</distance></entry>
@@ -1025,13 +1066,17 @@ V
 
 
 <page n="221">221</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued
+    </page_heading>
 
-Dist.from 
-Altoona 
-(Pass.Sta.) 
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
 
         <entry><switch number="365">365</switch> .... Sheridan, Pa. (Junc. Sang Hollow Ext.- East Conn.) ............................  <distance milepost= "39.8">39.8</distance></entry>
@@ -1109,15 +1154,18 @@ D
 
 
 <page n="222">222</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued
+</page_heading>
 
-
-Dist.from 
-Altoona 
-(Pass.Sta.) 
-<!--break-->
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
+    
 
             <entry><switch number="398A">398A</switch> .... Bradenville, Pa. (Duquesne Coll.-Beatty Coal Co.) ................................  <distance milepost= "71.2">71.2</distance></entry>
             <entry><switch number="399M">399M</switch> .... Saxman Tail Track-Storage ll..................  <distance milepost= "72.8">72.8</distance></entry>
@@ -1191,13 +1239,18 @@ Altoona
 
 
 <page n="223">223</page> <!-- ABC: doing line 1191 and down -->
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
+    </page_heading>
 
-Dist.from 
-Altoona' 
-(Pass.Sta.) 
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
+    
 
     <entry><switch number="5376">5376</switch> .. <location type="junction" name="Junc. Jamison Branch">Junc. Jamison Branch</location>............................  <distance milepost= "82.7">82.7</distance></entry>
     <entry><switch number="5389">5389</switch> .. <location type="industry" name="Jamison Coll. No. 2" itype="coal">Jamison Coll. No. 2</location> (Jamison C. &amp; C. Co.)  <distance milepost= "84.1">84.1</distance></entry>
@@ -1229,9 +1282,11 @@ Altoona'
 
     <entry><switch number="sw">sw</switch> .... south-west Junc. (Junc. South-west Br.)  <distance milepost= "82.4">82.4</distance></entry>
 
+    <measure from= "South-west Junction">
 Dist. from 
-S'th-west 
+South-west 
 Junction 
+    </measure>
 
     <entry><switch number="5501">5501</switch> .... E. Greensburg, Pa. (St. Clair Supply Co. No. 2) ....................................  <distance milepost= "0.3">0.3</distance></entry>
 </branch>
@@ -1267,13 +1322,17 @@ Junction
 </branch>
 
 <page n="224">224</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
+    </page_heading>
  
-Dist.from 
-Altoona 
-(Pass.Sta.) 
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
 <branch name="Bull Run">
     <entry><switch number="415">415</switch></entry>
@@ -1334,13 +1393,17 @@ Altoona
 
 
 <page n="225">225</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
+</page_heading>
 
-Dist.from 
-Altoona 
-(Pass.Sta.) 
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
 <branch name="Youghioheny">
     <entry><switch number="419">419</switch> ... Shafton, Pa. (Jc. Youghiogheny Br.)......  <distance milepost= "91.4">91.4</distance></entry>
@@ -1416,14 +1479,18 @@ EX
 
 
 <page n="226">226</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
+    </page_heading>
 
 
-Dist.from 
-Altoona 
-(Pass.Sta.) 
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
     <entry><switch number="5451">5451</switch></entry>
        <entry> White Valley, Pa. (Passing Sidinglll ..........  <distance milepost= "107.9">107.9</distance></entry>
@@ -1502,13 +1569,17 @@ P
     <!-- end of cleaned up document. Markup stop here until furhter notice -->
     <!-- ABC: Seperating sub locations with:" (location here)-->
 <page n="227">227</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
+</page_heading>
 
-Dist.from 
-Altoona 
-(Pass.Sta.) 
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
 
             <entry><switch number="EP">EP</switch> .... East Pittsburgh, Pa. (Station)  ................  <distance milepost= "101.7">101.7</distance></entry>
@@ -1577,12 +1648,17 @@ Altoona
                     <entry>.... Homewood, Pa. (Station) .......................... <distance milepost= "108.3">108.3</distance></entry>
 
 <page n="228">228</page> 
+    <page_heading>
 CENTRAL REGION 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
-Dist.from 
-Altoona 
-(Pass.Sta.) 
+    </page_heading>
+
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
 <branch name="Brilliant">
     <entry><switch number="436">436</switch></entry>
@@ -1638,12 +1714,17 @@ EL
                     <entry>" (Frank &amp; Seder Warehouse  ..........  <distance milepost= "110.0">110.0</distance></entry>
 
 <page n="229">229</page> 
+    <page_heading>
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued
+    </page_heading>
 
-Dist. from Altoona 
-(Pass.Sta.)
+    <measure from= "Altoona">
+        Dist.from
+        Altoona
+        (Pass. Sta.)
+    </measure>
 
                     <entry>.... Roup, Pa. (Station) ..................................  <distance milepost= "110.2">110.2</distance></entry>
 
