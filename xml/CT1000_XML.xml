@@ -296,7 +296,7 @@ CherryTree"Y"
     <entry><switch number="6604">6604</switch>....  <location type="industry" name="McKeages" itype="delivery">(McKeages Delivery)</location> ......................  <distance milepost= "0.5">0.5</distance></entry>
     <entry><switch number="6606">6606</switch> ... <location type="place name">Cush Cushion, Pa.</location> ......................................  <distance milepost= "3.4">3.4</distance></entry>
     
-    <entry><switch number="6110">6110</switch> </entry>
+<switch number="6110">6110</switch>
     <entry><location type="siding" name="Fleming Summit, Pa. (Storage-Passing)">Fleming Summit, Pa. (Storage-Passing)</location>  <distance milepost= "5.4">5.4</distance></entry>
     <entry>" <location type="station" name="Fleming Summit">(Station)</location> ........................................  <distance milepost= "5.8">5.8</distance></entry>
 
