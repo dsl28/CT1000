@@ -264,71 +264,72 @@ Cresson
 
 <branch name="Susquehanna Extension">
     <branch name="Porter Run">
-        <entry><switch number="61OOA">61OOA</switch> .. Barnesboro, Pa. (Sterling Oil Co. No. l)..  <distance milepost= "23.5">23.5</distance></entry>
-        <entry><switch number="6101">6101</switch> .... Barnesboro Bilkeryt ..................................  <distance milepost= "23.5">23.5</distance></entry>
-        <entry><switch number="6101A">6101A</switch> .. Junction Porter Run Br.*..........................  <distance milepost= "23.7">23.7</distance></entry>
-        <entry><switch number="6140">6140</switch> ... Delta Coll. (Duncan-Spangler C. Co.)......  <distance milepost= "24.3">24.3</distance></entry>
-        <entry><switch number="6141">6141</switch> .... Lancashire Coils. Nos. 2 &amp; 3 (Barnes &amp; Tucker) and Porter Coll. No. 1 t  <distance milepost= "24.3">24.3</distance></entry>
+        <entry><switch number="61OOA">61OOA</switch> .. <location type="industry" name="Sterling Oil Compnay" itype="oil">Barnesboro, Pa. (Sterling Oil Co. No. l)</location>..  <distance milepost= "23.5">23.5</distance></entry>
+        <entry><switch number="6101">6101</switch> ....<location type="industry" name="Barnesboro Bakery" itype="Bakery"> Barnesboro Bakery</location> ..................................  <distance milepost= "23.5">23.5</distance></entry>
+        <entry><switch number="6101A">6101A</switch> .. <location type="junction" name="Porter Run Branch">Junction Porter Run Br.</location>..........................  <distance milepost= "23.7">23.7</distance></entry>
+        <entry><switch number="6140">6140</switch> ... <location type="industry" name="Delta Coll. (Duncan-Spangler C. Co.)" itype="coal">Delta Coll. (Duncan-Spangler C. Co.)</location>......  <distance milepost= "24.3">24.3</distance></entry>
+        <entry><switch number="6141">6141</switch> .... <location type="industry" name="Lancashire Coils. Nos. 2 &amp; 3 (Barnes &amp; Tucker) and Porter Coll. No. 1" itype="coal">Lancashire Coils. Nos. 2 &amp; 3 (Barnes &amp; Tucker) and Porter Coll. No. 1</location>   <distance milepost= "24.3">24.3</distance></entry>
         <entry>. .. .. End of Porter Run Branch*......................  <distance milepost= "24.8">24.8</distance></entry>
     </branch>
     <branch name="Gardner Run">
-        <entry><switch number="6147">6147</switch> .... Junction Gardner Run Branch* ................ .. <distance milepost= "23.7">23.7</distance></entry>
+        <entry><switch number="6147">6147</switch> .... <location type="junction" name="Gardner Run Branch">Junction Gardner Run Branch</location> ................ .. <distance milepost= "23.7">23.7</distance></entry>
         <entry>.... End of Gardner Run Branch* .................. .. <distance milepost= "24.7">24.7</distance></entry>
     </branch>
     <branch name="Moss Creek">
-        <entry><switch number="61O3">61O3</switch> .... Garman Coll. No. 1 (Garman Coal Co.) .. .. <distance milepost= "24.9">24.9</distance></entry>
-        <entry><switch number="61O3A">61O3A</switch>  .. Junc. Moss Creek Branch* ...................... .. <distance milepost= "25.3">25.3</distance></entry>
-        <entry><switch number="6120">6120</switch> .. Woodland Coll. (Deringer Bros.) ............ .. <distance milepost= "25.8">25.8</distance></entry>
-        <entry><switch number="612OB">612OB</switch> .. Butterworth Coll. (Butterworth Coal Co.) <distance milepost= "26.0">26.0</distance></entry>
-        <entry><switch number="6121">6121</switch> .... Penna. Calls. Nos. 5 &amp; 6 (Penna. C. &amp; C. Corporation) ........................ .. <distance milepost= "27.3">27.3</distance></entry>
-        <entry>.... End of Moss Creek Branch* ..................... . <distance milepost= "27.4">27.4</distance></entry>
+        <entry><switch number="61O3">61O3</switch> .... <location type="industry" name="Garman Coll. No. 1 (Garman Coal Co.)" itype="coal">Garman Coll. No. 1 (Garman Coal Co.</location>) .. .. <distance milepost= "24.9">24.9</distance></entry>
+        <entry><switch number="61O3A">61O3A</switch>  .. <location type="junction" name="Moss Creek Branch">Junc. Moss Creek Branch</location> ...................... .. <distance milepost= "25.3">25.3</distance></entry>
+        <entry><switch number="6120">6120</switch> .. <location type="industry" name="Woodland Coll. (Derigner Bros.)" itype="coal">Woodland Coll. (Deringer Bros.)</location> ............ .. <distance milepost= "25.8">25.8</distance></entry>
+        <entry><switch number="612OB">612OB</switch> ..<location type="industry" name="Butterworth Coll. (Butterworth Coal Co." itype="coal"> Butterworth Coll. (Butterworth Coal Co.)</location> <distance milepost= "26.0">26.0</distance></entry>
+        <entry><switch number="6121">6121</switch> .... <location type="industry" name="Penna Collieries 5 and 6 (Pennsylvania Coal and Coke Corporation" itype="coal">Penna. Colls. Nos. 5 &amp; 6 (Penna. C. &amp; C. Corporation)</location> ........................ .. <distance milepost= "27.3">27.3</distance></entry>
+        <entry>.... End of Moss Creek Branch ..................... . <distance milepost= "27.4">27.4</distance></entry>
     </branch>
-    <entry><switch number="6104">6104</switch> ... Garman, Pa ............................................. .. <distance milepost= "25.7">25.7</distance></entry>
-    <entry><switch number="6106">6106</switch> ... Jc. Emigh Run Br. (Pa. Div. N.Y.C.R.R.l* </entry>
-    <entry><switch number="61O7">61O7</switch> .... Kinport Coll. No. 1 (Hastings Coal &amp; Coke Co.) ...................................... .. <distance milepost= "27.4">27.4</distance></entry>
-    <entry><switch number="6108">6108</switch> ... Cherry Tree ("Y" Junc. C. T. &amp; Dixonville R.R.) ...................................... .. <distance milepost= "28.7">28.7</distance></entry>
+    <entry><switch number="6104">6104</switch> ... <location type="place name">Garman, Pa.</location> ............................................. .. <distance milepost= "25.7">25.7</distance></entry>
+    <entry><switch number="6106">6106</switch> ... <location type="junction" name="Emigh Run Branch, Pennsylvania Division of New York Central Railroad"></location>Jc. Emigh Run Br. (Pa. Div. N.Y.C.R.R.) <distance milepost="27.1">27.1</distance></entry>
+    <entry><switch number="61O7">61O7</switch> .... <location type="industry" name="Kinport Coll. No. 1 (Hastings Coal &amp; Coke Co.)" itype="coal">Kinport Coll. No. 1 (Hastings Coal &amp; Coke Co.)</location> ...................................... .. <distance milepost= "27.4">27.4</distance></entry>
+    <entry><switch number="6108">6108</switch> ... <location type="junction" name="Cherry Tree and Dixonville Railroad">Cherry Tree ("Y" Junc. C. T. &amp; Dixonville R.R.)</location> ...................................... .. <distance milepost= "28.7">28.7</distance></entry>
 
 Dist.from 
 CherryTree"Y" 
 
 <subsidiary name="Cherry Tree and Dixonville Railroad">
-    <entry><switch number="6602">6602</switch> ... Cherry Tree, Pa. (Storage) 11......................  <distance milepost= "0.3">0.3</distance></entry>
-    <entry><switch number="6604">6604</switch>.... " (McKeages Delivery) ......................  <distance milepost= "0.5">0.5</distance></entry>
-    <entry><switch number="6606">6606</switch> ... Cush Cushion, Pa. ......................................  <distance milepost= "3.4">3.4</distance></entry>
+    <entry><switch number="6602">6602</switch> ... <location type="siding" name="Cherry Tree, Pa. (Storage)">Cherry Tree, Pa. (Storage)</location>......................  <distance milepost= "0.3">0.3</distance></entry>
+    <entry><switch number="6604">6604</switch>....  <location type="industry" name="McKeages" itype="delivery">(McKeages Delivery)</location> ......................  <distance milepost= "0.5">0.5</distance></entry>
+    <entry><switch number="6606">6606</switch> ... <location type="place name">Cush Cushion, Pa.</location> ......................................  <distance milepost= "3.4">3.4</distance></entry>
+    
     <entry><switch number="6110">6110</switch> </entry>
-    <entry>Fleming Summit, Pa. (Storage-Passing)11  <distance milepost= "5.4">5.4</distance></entry>
-    <entry>" (Stat:on) ........................................  <distance milepost= "5.8">5.8</distance></entry>
+    <entry><location type="siding" name="Fleming Summit, Pa. (Storage-Passing)">Fleming Summit, Pa. (Storage-Passing)</location>  <distance milepost= "5.4">5.4</distance></entry>
+    <entry>" <location type="station" name="Fleming Summit">(Station)</location> ........................................  <distance milepost= "5.8">5.8</distance></entry>
 
-    <entry><switch number="6612">6612</switch> .... Purchase Line, Pa. (Delivery)....................  <distance milepost= "7.9">7.9</distance></entry>
-    <entry>Purchase Line, Pa.''.................................. <distance milepost= "8.7">8.7</distance></entry>
-    <entry><switch number="6613">6613</switch> .... Commodore Coils. Nos. 1 &amp; 2 (Clearfield Bituminous Coal Corp.)............  <distance milepost= "10.2">10.2</distance></entry>
+    <entry><switch number="6612">6612</switch> .... <location type="industry" name="Puchase Line, Pa." itype="delivery">Purchase Line, Pa. (Delivery)</location>....................  <distance milepost= "7.9">7.9</distance></entry>
+    <entry><location type="place name">Purchase Line, Pa.</location>.................................. <distance milepost= "8.7">8.7</distance></entry>
+    <entry><switch number="6613">6613</switch> .... <location type="industry" name="Commodore Coils. Nos. 1 &amp; 2 (Clearfield Bituminous Coal Corp.)" itype="coal">Commodore Coils. Nos. 1 &amp; 2 (Clearfield Bituminous Coal Corp.)</location>............  <distance milepost= "10.2">10.2</distance></entry>
     
     <entry><switch number="6614">6614</switch></entry>
-    <entry>Commodore, Pa. (Station)..........................  <distance milepost= "10.2">10.2</distance></entry>
-    <entry>" (J. W. Henry)................................  <distance milepost= "10.3">10.3</distance></entry>
+    <entry><location type="station" name="Commodore">Commodore, Pa. (Station)</location>..........................  <distance milepost= "10.2">10.2</distance></entry>
+    <entry>" <location type="industry" name="J. W. Henry" itype="misc">(J. W. Henry)</location>................................  <distance milepost= "10.3">10.3</distance></entry>
 
-    <entry><switch number="6615">6615</switch> ... Commodore, Pa. ........................................  <distance milepost= "10.6">10.6</distance></entry>
+    <entry><switch number="6615">6615</switch> ... <location type="place name">Commodore, Pa.</location> ........................................  <distance milepost= "10.6">10.6</distance></entry>
 
 
-    <entry><switch number="66l5A">66l5A</switch> .. Junc. Gallaher Branch*..............................  <distance milepost= "10.6">10.6</distance></entry>
-    <entry><switch number="6657">6657</switch>  .... Andora Coll. No. 1 (Andora Coal Co.)......  <distance milepost= "10.9">10.9</distance></entry>
-    <entry><switch number="6658">6658</switch> ... Pleasant Valley Coll. No. 1 (Estep Bros. C. M. Co.)................................  <distance milepost= "11.0">11.0</distance></entry>
+    <entry><switch number="66l5A">66l5A</switch> .. <location type="junction" name="Gallaher Branch">Junc. Gallaher Branch</location>.............................  <distance milepost= "10.6">10.6</distance></entry>
+    <entry><switch number="6657">6657</switch>  ....<location type="industry" name="Andora Coll. No. 1 (Andora Coal Co.)" itype="coal"> Andora Coll. No. 1 (Andora Coal Co.)</location>......  <distance milepost= "10.9">10.9</distance></entry>
+    <entry><switch number="6658">6658</switch> ... <location type="industry" name="Pleasant Valley Coll. No. 1 (Estep Bros. C. M. Co.)" itype="coal">Pleasant Valley Coll. No. 1 (Estep Bros. C. M. Co.)</location>................................  <distance milepost= "11.0">11.0</distance></entry>
     <entry>....  .... End of Gallaher Branch*..........................  <distance milepost= "11.0">11.0</distance></entry>
 
 
-    <entry><switch number="6617">6617</switch> .... Starford, Pa. ............................................  <distance milepost= "11.3">11.3</distance></entry>
-    <entry><switch number="6619">6619</switch> ... Glenside Coll. No. 6 (James C. M. Co.)..  <distance milepost= "12.1">12.1</distance></entry>
+    <entry><switch number="6617">6617</switch> .... <location type="place name">Starford, Pa.</location> ............................................  <distance milepost= "11.3">11.3</distance></entry>
+    <entry><switch number="6619">6619</switch> ... <location type="industry" name="Glenside Coll. No. 6 (James C. M. Co.)" itype="coal">Glenside Coll. No. 6 (James C. M. Co.)</location>..  <distance milepost= "12.1">12.1</distance></entry>
 
 <branch name="Shanktown">
     <entry><switch number="6620">6620</switch></entry>
-    <entry>.... Shanktown, Pa. (Station)*........................  <distance milepost= "12.2">12.2</distance></entry>
-    <entry>" (Storage-Passing)II ......................  <distance milepost= "12.4">12.4</distance></entry>
-    <entry>" (Junc. Shanktown Br.)....................  <distance milepost= "12.7">12.7</distance></entry>
+    <entry>.... <location type="station" name="Shanktown">Shanktown, Pa. (Station)</location>........................  <distance milepost= "12.2">12.2</distance></entry>
+    <entry>" <location type="siding" name="Shanktown, Pa. (Storage-Passing)">(Storage-Passing</location>......................  <distance milepost= "12.4">12.4</distance></entry>
+    <entry>" <location type="junction" name="Shanktown Branch">(Junc. Shanktown Br.)</location>....................  <distance milepost= "12.7">12.7</distance></entry>
 
-    <entry><switch number="6652">6652</switch> .. '..Shanktown, Pa. (Carload Delivery)............ <distance milepost= "13.2">13.2</distance> Ji </entry>
-    <entry><switch number="6653">6653</switch> ... Glenside Coll. No. 3 (Glenside Coal Co.).. <distance milepost= "13.3">13.3</distance> </entry>
-    <entry><switch number="6654">6654</switch> .... Harve-Mack Coll. No. 2 (Harve-Mack Coal Co.) ................. <distance milepost= "13.3">13.3</distance> </entry>
-    <entry><switch number="6655">6655</switch>.... Harve-Mack Coll. No. 3 (Harve-Mack Coal Co.) .................. <distance milepost= "13.6">13.6</distance> </entry>
+    <entry><switch number="6652">6652</switch> .. <location type="industry" name="Shanktown, Pa." itype="delivery">Shanktown, Pa. (Carload Delivery)</location>............ <distance milepost= "13.2">13.2</distance> Ji </entry>
+    <entry><switch number="6653">6653</switch> ... <location type="industry" name="Glenside Coll. No. 3 (Glenside Coal Co.)">Glenside Coll. No. 3 (Glenside Coal Co.)</location>.. <distance milepost= "13.3">13.3</distance> </entry>
+    <entry><switch number="6654">6654</switch> .... <location type="Harve-Mack Coll. No. 2 (Harve-Mack Coal Co.)">Harve-Mack Coll. No. 2 (Harve-Mack Coal Co.)</location> ................. <distance milepost= "13.3">13.3</distance> </entry>
+    <entry><switch number="6655">6655</switch>.... <location type="Harve-Mack Coll. No. 3 (Harve-Mack Coal Co.)">Harve-Mack Coll. No. 3 (Harve-Mack Coal Co.)</location> .................. <distance milepost= "13.6">13.6</distance> </entry>
     <entry>.... End of Shanktown Br.*..............................  <distance milepost= "13.6">13.6</distance></entry>
 </branch>
 
