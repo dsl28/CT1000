@@ -17,7 +17,7 @@ Altoona
     
 <switch number= "1A">1A
     <entry><location type="station" name= "Altoona">Altoona, Pa. </location>(Passenger Station)............ .<distance milepost= "0.1">0 l "</distance></entry>
-    <entry><location type="junction" name= "MIddle Division">(Junc. Middle Div.)</location>...................... <distance milepost= "1.0">1.0</distance></entry>
+    <entry><location type="junction" name= "Middle Division">(Junc. Middle Div.)</location>...................... <distance milepost= "1.0">1.0</distance></entry>
 </switch> 
     <entry><switch number="333">333</switch> .... <location type="siding" name="Car Shop Siding">Kittanning Point, Pa.</location>(Shop Car Siding) <distance milepost= "5.8"> 5.8 </distance></entry>
     <entry><switch number= "335">335</switch> .... <location type= "industry" name= "Pennsylvania Colliery Number 2" itype="coal">Penna. Coll. No. 2 (Penna. C. &amp; C. Corp.)</location> <distance milepost="10.7">10.7</distance> </entry>
@@ -1190,7 +1190,7 @@ Altoona
     <entry><switch number="5375">5375</switch> .. Lennodo, Pa. (Storage) 11............................  <distance milepost= "82.4">82.4</distance></entry>
 
 
-<page n="223">223</page> 
+<page n="223">223</page> <!-- ABC: doing line 1191 and down -->
 CENTRAL REGION-Continued 
 WESTERN PENNSYLVANIA DIVISION-Continued 
 PITTSBURGH DIVISION-Continued 
@@ -1199,22 +1199,22 @@ Dist.from
 Altoona' 
 (Pass.Sta.) 
 
-    <entry><switch number="5376">5376</switch> .. Junc. Jamison Branch............................  <distance milepost= "82.7">82.7</distance></entry>
-    <entry><switch number="5389">5389</switch> .. Jamison Coll. No. 2 (Jamison C. &amp; C. Co.)  <distance milepost= "84.1">84.1</distance></entry>
-    <entry><switch number="5390">5390</switch> ... Hannastown, Pa. (Station)........................  <distance milepost= "84.3">84.3</distance></entry>
-    <entry><switch number="5391">5391</switch> ... Jamison Coll. No. 1 (Jamison C. &amp; C. Co.)  <distance milepost= "85.5">85.5</distance></entry>
-    <entry>.... Forbes Road, Pa. ......................................  <distance milepost= "85.7">85.7</distance></entry>
+    <entry><switch number="5376">5376</switch> .. <location type="junction" name="Junc. Jamison Branch">Junc. Jamison Branch</location>............................  <distance milepost= "82.7">82.7</distance></entry>
+    <entry><switch number="5389">5389</switch> .. <location type="industry" name="Jamison Coll. No. 2" itype="coal">Jamison Coll. No. 2</location> (Jamison C. &amp; C. Co.)  <distance milepost= "84.1">84.1</distance></entry>
+    <entry><switch number="5390">5390</switch> ... <location type="station" name="Hannastown, Pa. (Station)">Hannastown, Pa. (Station)</location> ........................  <distance milepost= "84.3">84.3</distance></entry>
+    <entry><switch number="5391">5391</switch> ... <location type="industry" name="Jamison Coll. No. 1 (Jamison C. &amp; C. Co.)" itype="coal">Jamison Coll. No. 1 (Jamison C. &amp; C. Co.)</location>  <distance milepost= "85.5">85.5</distance></entry>
+    <entry><location type="place name" name="Forbes Road, Pa.">Forbes Road, Pa.</location> ......................................  <distance milepost= "85.7">85.7</distance></entry>
     <entry><switch number="5393">5393</switch> .. End of Jamison Branch..............................  <distance milepost= "86.4">86.4</distance></entry>
-    <entry><switch number="5377">5377</switch>  Crabtree, Pa. ..........................................  <distance milepost= "48.2">83.2</distance></entry>
-    <entry>" (Hannastown Supply Co. No. 4) ......  <distance milepost= "83.2">83.2</distance></entry>
-    <entry>.... Greenwald, Pa. ......................................  <distance milepost= "83.9">83.9</distance></entry>
-    <entry><switch number="5381">5381</switch> ... New Alexandria, Pa. (Station)..................  <distance milepost= "87.1">87.1</distance></entry>
-    <entry><switch number="5385">5385</switch> ... Salem Coils. (Keystone C. &amp; C. Co.)..........  <distance milepost= "87.8">87.8</distance></entry>
-    <entry>.... AIisworth, Pa. ........................................  <distance milepost= "88.0">88.0</distance></entry>
-    <entry><switch number="5387">5387</switch> ( Hall Coll. No. 4 (C. M. Hal1)....................  <distance milepost= "88.6">88.6</distance></entry>
-    <entry>( William Penn Coll. (Adam Eidemiller)......  <distance milepost= "88.6">88.6</distance></entry>
-    <entry><switch number="5388">5388</switch> ... Dundale, Pa. ............................................  <distance milepost= "88.5">88.5</distance></entry>
-    <entry><switch number="5383">5383</switch> ... End of Main Track Alexandria Br. ..........  <distance milepost= "87.3">87.3</distance></entry>
+    <entry><switch number="5377">5377</switch>  <location type="place name" name="Crabtree, Pa.">Crabtree, Pa.</location> ..........................................  <distance milepost= "48.2">83.2</distance></entry>
+    <entry><location type="industry" name="Hannastown Supply Co. No. 4" itype="hardware">(Hannastown Supply Co. No. 4)</location> ......  <distance milepost= "83.2">83.2</distance></entry>
+    <entry><location type="place name" name="Greenwald, Pa.">Greenwald, Pa.</location> ......................................  <distance milepost= "83.9">83.9</distance></entry>
+    <entry><switch number="5381">5381</switch> ... <location type="station" name="New Alexandria, Pa. (Station)">New Alexandria, Pa. (Station)</location>..................  <distance milepost= "87.1">87.1</distance></entry>
+    <entry><switch number="5385">5385</switch> ... <location type="industry" name="Salem Coils. (Keystone C. &amp; C. Co.)" itype="steel">Salem Coils. (Keystone C. &amp; C. Co.)</location>..........  <distance milepost= "87.8">87.8</distance></entry>
+    <entry><location type="place name" name=">Alisworth, Pa.">Alisworth, Pa.</location> ........................................  <distance milepost= "88.0">88.0</distance></entry>
+    <entry><switch number="5387">5387</switch><location type="industry" name="Hall Coll. No. 4 (C. M. Hal1" itype="coal">( Hall Coll. No. 4 (C. M. Hal1)</location>....................  <distance milepost= "88.6">88.6</distance></entry>
+    <entry><location type="industry" name="William Penn Coll. (Adam Eidemiller)" itype="coal">( William Penn Coll. (Adam Eidemiller)</location>......  <distance milepost= "88.6">88.6</distance></entry>
+    <entry><switch number="5388">5388</switch><location type="place name" name="Dundale, Pa.">Dundale, Pa.</location> ............................................  <distance milepost= "88.5">88.5</distance></entry>
+    <entry><switch number="5383">5383</switch>End of Main Track Alexandria Br. ..........  <distance milepost= "87.3">87.3</distance></entry>
 </branch>
 
             <entry><switch number="406">406</switch> .... Donohoe, Pa. (Station)..............................  <distance milepost= "78.9">78.9</distance></entry>
