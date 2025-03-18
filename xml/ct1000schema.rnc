@@ -24,7 +24,8 @@ milepost = attribute milepost { text }
 
 branch = element branch { (name| measure|entry|switch|branch|page|subsidiary|text)* }
 
-subsidiary= element subsidiary{(name|branch|entry|page|text*)}
+subsidiary= element subsidiary{(name|branch|entry|page|siding|text)*}
+siding = element siding{(name|entry)*}
 
 secondary_route = element secondary_route { (name| entry)* }
 distance_heading = element distance_heading {text}
