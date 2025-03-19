@@ -853,7 +853,7 @@ PITTSBURGH DIVISION-Continued
     <entry>.... <location type= "station" name="St. Michael, Pa. (Station)"></location>St. Michael, Pa. (Station)*........................ <distance milepost= "30.8 ">30.8 </distance></entry>
     <entry><switch number="F 9">F 9</switch> .... <location type= "industry" name="Maryland Shaft Coll. (Maryland Coal Co. of Penna." itype="coal"></location>Maryland Shaft Coll. (Maryland Coal Co. of Penna.) ..............................  <distance milepost= "30.9">30.9</distance></entry>
     <entry><switch number="F IO">F IO</switch> ... <location type= "industry" name="Eureka Stores (St. Michael Store)" itype= "private customer"></location>Eureka Stores (St. Michael Store)..........  <distance milepost= "30.9">30.9</distance></entry>
-    <entry><switch number="LV">LV</switch> ... Lovett Yard, Pa.11......................................  <distance milepost= "31.3">31.3</distance></entry>
+    <entry><switch number="LV">LV</switch> ... <location type= "siding" name= "Lovett Yard, Pa."></location>Lovett Yard, Pa.11......................................  <distance milepost= "31.3">31.3</distance></entry>
     <entry><switch number="F 11">F 11</switch> ... <location type= "station" name="Creslo, Pa. (Station)"></location>Creslo, Pa. (Station)..................................  <distance milepost= "31.6">31.6</distance></entry>
     <entry><switch number="F 12">F 12</switch> ... <location type= "siding" name= "Lovett, Pa. (Storage)"></location>Lovett, Pa. (Storage) ............................  <distance milepost= "32.2">32.2</distance></entry>
 
@@ -945,39 +945,39 @@ PITTSBURGH DIVISION-Continued
     
     <entry><switch number="F 131">F 131</switch> .... End of Reitz Branch*................................ <distance milepost= "58.1">58.1</distance></entry>
 </branch>
-<!-- Ending here for tonight 3/18/25 DSL -->
-    <entry><switch number="F 123">F 123</switch> ... Cairnbrook, Pa. (Station)..........................  <distance milepost= "57.3">57.3</distance></entry>
+
+    <entry><switch number="F 123">F 123</switch> ... <location type= "station" name= "Cairnbrook, Pa. (Station)"></location>Cairnbrook, Pa. (Station)..........................  <distance milepost= "57.3">57.3</distance></entry>
     <entry> .... North Leg Wye........................................  <distance milepost= "57.4">57.4</distance></entry>
     <entry>  .... South Leg Wye........................................  <distance milepost= "57.5">57.5</distance></entry>
-    <entry><switch number="F 124">F 124</switch>  ... Loyalhanna No. 7 (Loyalhanna C. &amp; C. Co.) ........................................  <distance milepost= "58.2">58.2</distance></entry>
-    <entry><switch number="F 125">F 125</switch>  ... Reitz Coll. No. 4 (Reitz Coal Co.)............  <distance milepost= "58.7">58.7</distance></entry>
-    <entry><switch number="F 125A">F 125A</switch>  .. Central City Siding....................................  <distance milepost= "59.3">59.3</distance></entry>
-    <entry>.... Central City, Pa. (Station)*......................  <distance milepost= "59.4">59.4</distance></entry>
-    <entry><switch number="F 132">F 132</switch>  ... Reitz Coll. No. 3 (Reitz Coal Co.)............  <distance milepost= "59.6">59.6</distance></entry>
-    <entry><switch number="F 132A">F 132A</switch> .. Huskin Coll. No. 3 (Huskin Coal Mining Co.) ........................................  <distance milepost= "59.6">59.6</distance></entry>
+    <entry><switch number="F 124">F 124</switch>  ... <location type= "industry" name= "Loyalhanna No. 7 (Loyalhanna C. &amp; C. Co.)" itype= "coal"></location>Loyalhanna No. 7 (Loyalhanna C. &amp; C. Co.) ........................................  <distance milepost= "58.2">58.2</distance></entry>
+    <entry><switch number="F 125">F 125</switch>  ... <location type= "industry" name= "Reitz Coll. No. 4 (Reitz Coal Co.)" itype= "coal"></location>Reitz Coll. No. 4 (Reitz Coal Co.)............  <distance milepost= "58.7">58.7</distance></entry>
+    <entry><switch number="F 125A">F 125A</switch>  .. <location type= "siding" name= "Central City Siding"></location>Central City Siding....................................  <distance milepost= "59.3">59.3</distance></entry>
+    <entry>....                                         <location type= "station" name= "Central City, Pa. (Station)"></location>Central City, Pa. (Station)*......................  <distance milepost= "59.4">59.4</distance></entry>
+    <entry><switch number="F 132">F 132</switch>  ... <location type= "industry" name= "Reitz Coll. No. 3 (Reitz Coal Co.)" itype= "coal"></location>Reitz Coll. No. 3 (Reitz Coal Co.)............  <distance milepost= "59.6">59.6</distance></entry>
+    <entry><switch number="F 132A">F 132A</switch> .. <location type= "industry" name= "Huskin Coll. No. 3 (Huskin Coal Mining Co.)" itype= "coal"></location>Huskin Coll. No. 3 (Huskin Coal Mining Co.) ........................................  <distance milepost= "59.6">59.6</distance></entry>
     <entry><switch number="F 133">F 133</switch> ... End of Shade Creek Branch*......................  <distance milepost= "61.8">61.8</distance></entry>
 </branch><!--break-->
 
-    <entry><switch number="F 133A">F 133A</switch> .Huskin Coll. No. 6 (Huskin C. M. Co.)......  <distance milepost= "59.8">59.8</distance></entry>
-    <entry><switch number="F 136">F 136</switch>.. Eureka Coll. No. 30 (Berwind-White C. M. Co.) ........................................  <distance milepost= "42.7">42.7</distance></entry>
+    <entry><switch number="F 133A">F 133A</switch> .<location type= "industry" name= "Huskin Coll. No. 6 (Huskin C. M. Co.)" itype= "coal"></location>Huskin Coll. No. 6 (Huskin C. M. Co.)......  <distance milepost= "59.8">59.8</distance></entry>
+    <entry><switch number="F 136">F 136</switch>.. <location type= "industry" name= "Eureka Coll. No. 30 (Berwind-White C. M. Co.)" itype= "coal"></location>Eureka Coll. No. 30 (Berwind-White C. M. Co.) ........................................  <distance milepost= "42.7">42.7</distance></entry>
     <entry><switch number="F 137">F 137</switch> . End of Paint Creek Branch........................  <distance milepost= "43.0">43.0</distance></entry>
 </branch>
 
-    <entry>.... Scalp Level, Pa.*......................................  <distance milepost= "42.1">42.1</distance></entry>
-    <entry><switch number="F 25">F 25</switch> .. .Windber Lumber Co. and J. E. Crisman t....  <distance milepost= "42.8">42.8</distance></entry>
+    <entry>.... <location type= "place name" name= "Scalp Level, Pa."></location>Scalp Level, Pa.*......................................  <distance milepost= "42.1">42.1</distance></entry>
+    <entry><switch number="F 25">F 25</switch> .. .<location type= "industry" name= "Windber Lumber Co. and J. E. Crisman" itype= "lumber"></location>Windber Lumber Co. and J. E. Crisman ....  <distance milepost= "42.8">42.8</distance></entry>
 
 <branch name="Windber">
-    <entry><switch number="F 27">F 27</switch> ... Junc. Windber Branch............................  <distance milepost= "43.1">43.1</distance></entry>
-    <entry><switch number="F 144">F 144</switch> ... Eureka Stores No.  ................................  <distance milepost= "43.2">43.2</distance></entry>
-    <entry><switch number="F 145">F 145</switch> .... Eureka Coll. No. 35 (B.-W. C. M. Co.) </entry>
+    <entry><switch number="F 27">F 27</switch> ... <location type= "junction" name= "Junc. Windber Branch"></location>Junc. Windber Branch............................  <distance milepost= "43.1">43.1</distance></entry>
+    <entry><switch number="F 144">F 144</switch> ... <location type= "industry" name= "Eureka Stores No. 1" itype= "private customer"></location>Eureka Stores No. 1  ................................  <distance milepost= "43.2">43.2</distance></entry>
+    <entry><switch number="F 145">F 145</switch> .... <location type= "industry" name= "Eureka Coll. No. 35 (B.-W. C. M. Co.)" itype= "coal"></location>Eureka Coll. No. 35 (B.-W. C. M. Co.) </entry>
     <entry>(Branch) ..................................  <distance milepost= "43.6">43.6</distance></entry>
-    <entry>.... Eureka No. 35, Pa................................... .· <distance milepost= "43.7">43.7</distance></entry>
-    <entry><switch number="F 148">F 148</switch> .... Eureka Coll. No. 36 (B.-W. C. M. Co.) </entry>
+    <entry>.... <location type= "place name" name= "Eureka No. 35, Pa"></location>Eureka No. 35, Pa................................... .· <distance milepost= "43.7">43.7</distance></entry>
+    <entry><switch number="F 148">F 148</switch> .... <location type= "industry" name= "Eureka Coll. No. 36 (B.-W. C. M. Co.)" itype= "coal"></location>Eureka Coll. No. 36 (B.-W. C. M. Co.) </entry>
     <entry>(Branch) ..................................  <distance milepost= "44.4">44.4</distance></entry>
-    <entry>.... Eureka No. 36, Pa...................................  <distance milepost= "44.5">44.5</distance></entry>
-    <entry> .... Eureka No. 41, Pa...................................  <distance milepost= "45.2">45.2</distance></entry>
-    <entry><switch number="F 152">F 152</switch>  .... Eureka Coll. No. 42 (B.-W. C. M. Co.)....  <distance milepost= "47.0">47.0</distance></entry>
-    <entry>.... Eureka No. 42, Pa. (Station)...........................·  <distance milepost= "47.2">47.2</distance></entry>
+    <entry>.... <location type= "place name" name= "Eureka No. 36, Pa"></location>Eureka No. 36, Pa...................................  <distance milepost= "44.5">44.5</distance></entry>
+    <entry> .... <location type= "place name" name= "Eureka No. 41, Pa"></location>Eureka No. 41, Pa...................................  <distance milepost= "45.2">45.2</distance></entry>
+    <entry><switch number="F 152">F 152</switch>  .... <location type= "industry" name= "Eureka Coll. No. 42 (B.-W. C. M. Co.)" itype= "coal"></location>Eureka Coll. No. 42 (B.-W. C. M. Co.)....  <distance milepost= "47.0">47.0</distance></entry>
+    <entry>.... <location type= "station" name= "Eureka No. 42, Pa. (Station)"></location>Eureka No. 42, Pa. (Station)...........................·  <distance milepost= "47.2">47.2</distance></entry>
     <entry><switch number="F 153">F 153</switch>   .... End of Windber Branch..............................  <distance milepost= "47.4">47.4</distance></entry>
 </branch>
 
@@ -995,19 +995,19 @@ PITTSBURGH DIVISION-Continued
         (Pass. Sta.)
     </measure>
 
-    <entry><switch number="F 29">F 29</switch> .... Windber, Pa. (Storage)II............................  <distance milepost= "43.3">43.3</distance></entry>
-    <entry><switch number="F 3O">F 3O</switch> .... Windber, Pa. (Freight Station)..................  <distance milepost= "43.3">43.3</distance></entry>
+    <entry><switch number="F 29">F 29</switch> .... <location type= "siding" name= "Windber, Pa. (Storage)"></location>Windber, Pa. (Storage)............................  <distance milepost= "43.3">43.3</distance></entry>
+    <entry><switch number="F 3O">F 3O</switch> .... <location type= "freight station" name="Windber, Pa. (Freight Station)"></location>Windber, Pa. (Freight Station)..................  <distance milepost= "43.3">43.3</distance></entry>
 
 <branch name="Windber Siding">
     <entry><switch number="F 31">F 31</switch> .... North Leg Windber Wye ..........................  <distance milepost= "43.3">43.3</distance></entry>
-    <entry><switch number="F 155">F 155</switch> ... .Weaver &amp; Berkey......................................  <distance milepost= "43.3">43.3</distance></entry>
+    <entry><switch number="F 155">F 155</switch> ... .<location type= "industry" name= "Weaver &amp; Berkey" itype= "private customer"></location>Weaver &amp; Berkey......................................  <distance milepost= "43.3">43.3</distance></entry>
 
     <entry><switch number="F158">F158</switch></entry>
-    <entry>>Berwind-White C. M. Co.-Car Shopst....  <distance milepost= "43.4">43.4</distance></entry>
-    <entry>McNeil Coll. No. 1 (McNeil Coal Co.)......  <distance milepost= "43.4">43.4</distance></entry>
-    <entry>Peerage Coll. No. 1 (H. Quinnlt ................  <distance milepost= "43.4">43.4</distance></entry>
+    <entry>> <location type= "industry" name= "Berwind-White C. M. Co.-Car Shops" itype= "private customer"></location>Berwind-White C. M. Co.-Car Shops ....  <distance milepost= "43.4">43.4</distance></entry>
+    <entry><location type= "industry" name= "McNeil Coll. No. 1 (McNeil Coal Co.)" itype= "coal"></location>McNeil Coll. No. 1 (McNeil Coal Co.)......  <distance milepost= "43.4">43.4</distance></entry>
+    <entry><location type= "industry" name= "Peerage Coll. No. 1 (H. Quinn)" itype= "coal"></location>Peerage Coll. No. 1 (H. Quinn) ................  <distance milepost= "43.4">43.4</distance></entry>
 </branch>
-
+<!-- break dsl -->
     <entry><switch number="F 33">F 33</switch> .... South Leg Windber Wye..........................  <distance milepost= "43.5">43.5</distance></entry>
     <entry><switch number="F 34">F 34</switch> .... Windber Brick Co.t....................................  <distance milepost= "43.9">43.9</distance></entry>
     <entry><switch number="F 35">F 35</switch> .... Windber Coll. No. 1 (C. E. Schooley)........  <distance milepost= "44.0">44.0</distance></entry>
