@@ -31,7 +31,7 @@ New Portage Jc.
     <entry><switch number= "5107">5107 </switch>.... <location type="junction" name= "East End New Portage Branch">East End New Portage Br. (Jc. Petersburg Br., Mid. Div.)</location>................................ <distance milepost= "0.1">0.1</distance> </entry>
     <entry><switch number= "5202">5205 </switch>.... <location type="passing track" name= "Mule Shoe">Mule Shoe, Pa. (Passing)</location>llji:...................... <distance milepost= "6.6">6.6</distance></entry>
     <entry><switch number= "5210"> 5210</switch> .... <location type="passing track" name ="Patch">Patch, Pa. (Passing)</location>llji:.............................. <distance milepost= "14.0">14.0</distance></entry>
-    <entry><switch number= "5211">5211</switch> .... <location type= "industry" name= "Bennignton B colliery, Argyle Coal Company" itype= "coal">Bennington "B" Coll. (Argyle Coal Co.)</location>t.. <distance milepost= "14.3">14.3</distance></entry>
+    <entry><switch number= "5211">5211</switch> .... <location type= "industry" name= "Bennington B colliery, Argyle Coal Company" itype= "coal">Bennington "B" Coll. (Argyle Coal Co.)</location>t.. <distance milepost= "14.3">14.3</distance></entry>
     <entry><switch number= "5212">5212</switch> .... <location type= "industry" name= "Tunnel Colliery, Argyle Coal Company" itype= "coal">Tunnel Coll. (Argyle Coal Co.)</location>t................ <distance milepost= "14.4">14.4</distance></entry>
     <entry><switch number= "335A">335A</switch> .... <location type= "junction" name= "East End Tunnel">East End Tunnel (Junc. Main Line)</location>l!ji:...... <distance milepost= "14.9">14.9</distance></entry>
 </branch>
@@ -838,68 +838,68 @@ PITTSBURGH DIVISION-Continued
         (Pass. Sta.)
     </measure>
 
-    <entry>South Fork, Pa. (F-4-F Stineman Coll. No. 4-Stineman C. &amp; C. Co.)........  <distance milepost= "28.4">28.4</distance></entry>
+    <entry>South Fork, Pa. <location type= "industry" name= "F-4-F Stineman Coll. No. 4-Stineman C. &amp; C. Co." itype="coal"></location>(F-4-F Stineman Coll. No. 4-Stineman C. &amp; C. Co.)........  <distance milepost= "28.4">28.4</distance></entry>
 
 <branch name="Stineman Siding">
     <entry><switch number="F4">F4</switch></entry>
-        <entry>" (F-4-G Stineman Coll. No. 2 F 4 Stineman C. &amp; C. Co.)..............  <distance milepost= "28.4">28.4</distance></entry>
-        <entry>" (F-4-H Stineman Coll. No. 1 Stineman C. M. Co.)................  <distance milepost= "28.4">28.4</distance></entry>
-        <entry>" (F-4-I Riverside Coll. No.1 --Adams Fuel corp.)............<distance milepost= "28.4">28.4</distance></entry>
+    <entry>" <location type="industry" name="F-4-G Stineman Coll. No. 2 F 4 Stineman C. &amp; C. Co." itype="coal"></location>(F-4-G Stineman Coll. No. 2 F 4 Stineman C. &amp; C. Co.)..............  <distance milepost= "28.4">28.4</distance></entry>
+    <entry>" <location type= "industry" name= "F-4-H Stineman Coll. No. 1 Stineman C. M. Co." itype= "coal"></location>(F-4-H Stineman Coll. No. 1 Stineman C. M. Co.)................  <distance milepost= "28.4">28.4</distance></entry>
+    <entry>" <location type= "industry" name= "F-4-I Riverside Coll. No.1 --Adams Fuel Corp." itype="coal"></location>(F-4-I Riverside Coll. No.1 --Adams Fuel Corp.)............<distance milepost= "28.4">28.4</distance></entry>
 </branch>
 
-    <entry><switch number="F 5">F 5</switch> ... South Fork, Pa. (Storage) II........................  <distance milepost= "28.6">28.6</distance></entry>
-    <entry><switch number="F 7">F 7</switch> ... Flenner Coll. No. I-Priscilla Coal Co.)..  <distance milepost= "29.0">29.0</distance></entry>
-    <entry><switch number="F 7 A">F 7 A</switch> .... Hughes Coll. 5 (South Fork Bit. C. Co.)....  <distance milepost= "29.0">29.0</distance></entry>
-    <entry>.... St. Michael, Pa. (Station)*........................ <distance milepost= "30.8 ">30.8 </distance></entry>
-    <entry><switch number="F 9">F 9</switch> .... Maryland Shaft Coll. (Maryland Coal Co. of Penna.) ..............................  <distance milepost= "30.9">30.9</distance></entry>
-    <entry><switch number="F IO">F IO</switch> ... Eureka Stores (St. Michael Store)..........  <distance milepost= "30.9">30.9</distance></entry>
+    <entry><switch number="F 5">F 5</switch> ... <location type= "siding" name= "South Fork, Pa. (Storage)"></location>South Fork, Pa. (Storage) II........................  <distance milepost= "28.6">28.6</distance></entry>
+    <entry><switch number="F 7">F 7</switch> ... <location type= "industry" name= "Flenner Coll. No. I-Priscilla Coal Co." itype= "coal"></location>Flenner Coll. No. I-Priscilla Coal Co.)..  <distance milepost= "29.0">29.0</distance></entry>
+    <entry><switch number="F 7 A">F 7 A</switch> .... <location type= "industry" name="Hughes Coll. 5 (South Fork Bit. C. Co." itype= "coal"></location>Hughes Coll. 5 (South Fork Bit. C. Co.)....  <distance milepost= "29.0">29.0</distance></entry>
+    <entry>.... <location type= "station" name="St. Michael, Pa. (Station)"></location>St. Michael, Pa. (Station)*........................ <distance milepost= "30.8 ">30.8 </distance></entry>
+    <entry><switch number="F 9">F 9</switch> .... <location type= "industry" name="Maryland Shaft Coll. (Maryland Coal Co. of Penna." itype="coal"></location>Maryland Shaft Coll. (Maryland Coal Co. of Penna.) ..............................  <distance milepost= "30.9">30.9</distance></entry>
+    <entry><switch number="F IO">F IO</switch> ... <location type= "industry" name="Eureka Stores (St. Michael Store)" itype= "private customer"></location>Eureka Stores (St. Michael Store)..........  <distance milepost= "30.9">30.9</distance></entry>
     <entry><switch number="LV">LV</switch> ... Lovett Yard, Pa.11......................................  <distance milepost= "31.3">31.3</distance></entry>
-    <entry><switch number="F 11">F 11</switch> ... Creslo, Pa. (Station)..................................  <distance milepost= "31.6">31.6</distance></entry>
-    <entry><switch number="F 12">F 12</switch> ... Lovett, Pa. (Storage) ............................  <distance milepost= "32.2">32.2</distance></entry>
+    <entry><switch number="F 11">F 11</switch> ... <location type= "station" name="Creslo, Pa. (Station)"></location>Creslo, Pa. (Station)..................................  <distance milepost= "31.6">31.6</distance></entry>
+    <entry><switch number="F 12">F 12</switch> ... <location type= "siding" name= "Lovett, Pa. (Storage)"></location>Lovett, Pa. (Storage) ............................  <distance milepost= "32.2">32.2</distance></entry>
 
 <branch name= "Beaver">
-    <entry><switch number="82ll">F 13</switch> ... Junc. Beaver Branch..............................  <distance milepost= "32.3">32.3</distance></entry>
+    <entry><switch number="82ll">F 13</switch> ... <location type= "junction" name= "Junc. Beaver Branch"></location>Junc. Beaver Branch..............................  <distance milepost= "32.3">32.3</distance></entry>
 <!--break-->
-<branch name="llanfair">
-    <entry><switch number="F 50">F 50</switch> ... Junc. Llanfair Branch............................  <distance milepost= "32.3">32.3</distance></entry>
-    <entry><switch number="F 53">F 53</switch> ... Dunlo, Pa. (Station)................................  <distance milepost= "35.4">35.4</distance></entry>
-    <entry><switch number="F 58">F 58</switch> ... Windber Coll. No. 5 (Windber Hy-Grade C. M. Co.)...............................  <distance milepost= "36.4">36.4</distance></entry>
-    <entry><switch number="F 59">F 59</switch> ... Krayne Coll. No. 1 (Tony Obreza)............  <distance milepost= "37.1">37.1</distance></entry>
-    <entry><switch number="F 60">F 60</switch> ... Henriette Coll. No. 2 (Henriette C. M. Co. and Jennings Coll. No. 2-B. Anderson) ..............................  <distance milepost= "37.2">37.2</distance></entry>
+<branch name="Llanfair">
+    <entry><switch number="F 50">F 50</switch> ... <location type= "junction" name= "Junc. Llanfair Branch"></location>Junc. Llanfair Branch............................  <distance milepost= "32.3">32.3</distance></entry>
+    <entry><switch number="F 53">F 53</switch> ... <location type= "station" name= "Dunlo, Pa. (Station)"></location>Dunlo, Pa. (Station)................................  <distance milepost= "35.4">35.4</distance></entry>
+    <entry><switch number="F 58">F 58</switch> ... <location type= "industry" name= "Windber Coll. No. 5 (Windber Hy-Grade C. M. Co.)" itype="coal"></location>Windber Coll. No. 5 (Windber Hy-Grade C. M. Co.)...............................  <distance milepost= "36.4">36.4</distance></entry>
+    <entry><switch number="F 59">F 59</switch> ... <location type= "industry" name= "Krayne Coll. No. 1 (Tony Obreza)" itype= "coal"></location>Krayne Coll. No. 1 (Tony Obreza)............  <distance milepost= "37.1">37.1</distance></entry>
+    <entry><switch number="F 60">F 60</switch> ... <location type= "industry" name= "Henriette Coll. No. 2 (Henriette C. M. Co. and Jennings Coll. No. 2-B. Anderson)" itype= "coal"></location>Henriette Coll. No. 2 (Henriette C. M. Co. and Jennings Coll. No. 2-B. Anderson) ..............................  <distance milepost= "37.2">37.2</distance></entry>
     <entry><switch number="F 61">F 61</switch> ... End of Llanfair Branch..............................  <distance milepost= "37.4">37.4</distance></entry>
 </branch>
     
-    <entry>.... Ruthford, Pa. (Station)*............................  <distance milepost= "33.5">33.5</distance></entry>
-    <entry><switch number="F 68A">F 68A</switch> ... Courtwright Coll. No. 1 (Boucher-Courtwright Coal Co.) ......................  <distance milepost= "35.0">35.0</distance></entry>
-    <entry><switch number="F 69">F 69</switch> ... Logan Coll. No. 6 (Johnstown C. &amp; C. Co.)  <distance milepost= "35.2">35.2</distance></entry>
-    <entry><switch number="F 7)">F 7)</switch> .... Lloydell, Pa. (Station)............................  <distance milepost= "35.5">35.5</distance></entry>
-    <entry><switch number="F 73">F 73</switch> .. Lloydell, Pa. (Carload Delivery and Lloydell Coll. No. 1-H. J. Hudec)........  <distance milepost= "35.6">35.6</distance></entry>
-    <entry><switch number="F 74">F 74</switch> .. Lloydell, Pa. (Logan Coll. No. 4-Johnstown C. &amp; C. Co.) ..... ..............  <distance milepost= "35.4">35.4</distance></entry>
-    <entry><switch number="F 78">F 78</switch> ... Burkett Coll. No. 1 (A. R. Burkettlt..........  <distance milepost= "36.9">36.9</distance></entry>
+    <entry>.... <location type= "station" name= "Ruthford, Pa. (Station)"></location>Ruthford, Pa. (Station)*............................  <distance milepost= "33.5">33.5</distance></entry>
+    <entry><switch number="F 68A">F 68A</switch> ... <location type= "industry" name= "Courtwright Coll. No. 1 (Boucher-Courtwright Coal Co.)" itype= "coal"></location>Courtwright Coll. No. 1 (Boucher-Courtwright Coal Co.) ......................  <distance milepost= "35.0">35.0</distance></entry>
+    <entry><switch number="F 69">F 69</switch> ... <location type= "industry" name= "Logan Coll. No. 6 (Johnstown C. &amp; C. Co.)" itype="coal"></location>Logan Coll. No. 6 (Johnstown C. &amp; C. Co.)  <distance milepost= "35.2">35.2</distance></entry>
+    <entry><switch number="F 7)">F 7)</switch> .... <location type= "station" name= "Lloydell, Pa. (Station)"></location>Lloydell, Pa. (Station)............................  <distance milepost= "35.5">35.5</distance></entry>
+    <entry><switch number="F 73">F 73</switch> .. <location type= "industry" name= "Lloydell, Pa. (Carload Delivery and Lloydell Coll. No. 1-H. J. Hudec)" itype= "Carload Delivery"></location>Lloydell, Pa. (Carload Delivery and Lloydell Coll. No. 1-H. J. Hudec)........  <distance milepost= "35.6">35.6</distance></entry>
+    <entry><switch number="F 74">F 74</switch> .. <location type= "industry" name="Lloydell, Pa. (Logan Coll. No. 4-Johnstown C. &amp; C. Co.)" itype= "coal"></location>Lloydell, Pa. (Logan Coll. No. 4-Johnstown C. &amp; C. Co.) ..... ..............  <distance milepost= "35.4">35.4</distance></entry>
+    <entry><switch number="F 78">F 78</switch> ... <location type= "industry" name= "Burkett Coll. No. 1 (A. R. Burkett)" itype= "coal"></location>Burkett Coll. No. 1 (A. R. Burkett)..........  <distance milepost= "36.9">36.9</distance></entry>
     <entry><switch number="F 79">F 79</switch> .. End of Beaver Branch................................  <distance milepost= "37.1">37.1</distance></entry>
 </branch>
 
-    <entry><switch number="F 14">F 14</switch> ... Lovett, Pa. (Station and G. H. Millert)......  <distance milepost= "32.4">32.4</distance></entry>
-    <entry><switch number="F 15">F 15</switch> ... Salix, Pa. (Station)....................................  <distance milepost= "35.7">35.7</distance></entry>
-    <entry><switch number="F 18">F 18</switch> ... Elton. Pa. (Station)..................................  <distance milepost= "38.2">38.2</distance></entry>
+    <entry><switch number="F 14">F 14</switch> ... <location type= "station" name= "Lovett, Pa. (Station and G. H. Millert)" itype= "private customer"></location>Lovett, Pa. (Station and G. H. Millert)......  <distance milepost= "32.4">32.4</distance></entry>
+    <entry><switch number="F 15">F 15</switch> ... <location type= "station" name= "Salix, Pa. (Station)"></location>Salix, Pa. (Station)....................................  <distance milepost= "35.7">35.7</distance></entry>
+    <entry><switch number="F 18">F 18</switch> ... <location type= "station" name= "Elton. Pa."></location>Elton. Pa. (Station)..................................  <distance milepost= "38.2">38.2</distance></entry>
 
 <branch name="Paint Creek">
-    <entry><switch number="F 21">F 21</switch> .... Junction Paint Creek Branch..................  <distance milepost= "41.4">41.4</distance></entry>
-    <entry><switch number="F 90">F 90</switch> .. Plug Track (Paint Creek Storage) ..........  <distance milepost= "41.6">41.6</distance></entry>
+    <entry><switch number="F 21">F 21</switch> .... <location type= "junction" name= "Junction Paint Creek Branch"></location>Junction Paint Creek Branch..................  <distance milepost= "41.4">41.4</distance></entry>
+    <entry><switch number="F 90">F 90</switch> .. <location type= "siding" name= "Plug Track (Paint Creek Storage)"></location>Plug Track (Paint Creek Storage) ..........  <distance milepost= "41.6">41.6</distance></entry>
 
 <branch name="Eureka No. 37">
-    <entry><switch number="F 91">F 91</switch> .... Junc. Eureka Branch No. 37 ......................  <distance milepost= "41.7">41.7</distance></entry>
+    <entry><switch number="F 91">F 91</switch> .... <location type= "junction" name= "Junc. Eureka Branch No. 37"></location>Junc. Eureka Branch No. 37 ......................  <distance milepost= "41.7">41.7</distance></entry>
 
 <branch name="Eureka No. 40 Siding">
-    <entry><switch number="F 92">F 92</switch> ... Junc. Eureka No. 40 Siding........................  <distance milepost= "41.8">41.8</distance></entry>
-    <entry><switch number="F 94">F 94</switch> ... Eureka Coll. No. 40 (B.-W. C. M. Co.)......  <distance milepost= "42.2">42.2</distance></entry>
-    <entry><switch number="F 95">F 95</switch> ... Eureka Stores (No. 40 Store)..................  <distance milepost= "42.2">42.2</distance></entry>
+    <entry><switch number="F 92">F 92</switch> ... <location type= "junction" name= "Junc. Eureka No. 40 Siding"></location>Junc. Eureka No. 40 Siding........................  <distance milepost= "41.8">41.8</distance></entry>
+    <entry><switch number="F 94">F 94</switch> ... <location type= "industry" name= "Eureka Coll. No. 40 (B.-W. C. M. Co.)" itype= "coal"></location>Eureka Coll. No. 40 (B.-W. C. M. Co.)......  <distance milepost= "42.2">42.2</distance></entry>
+    <entry><switch number="F 95">F 95</switch> ... <location type= "industry" name= "Eureka Stores (No. 40 Store)" itype= "private customer"></location>Eureka Stores (No. 40 Store)..................  <distance milepost= "42.2">42.2</distance></entry>
     <entry><switch number="F 96">F 96</switch> ... End of Eureka No. 40 Siding....................  <distance milepost= "42.4">42.4</distance></entry>
 </branch>
 
-    <entry><switch number="F 93">F 93</switch> .... Shaffer Coll. (Shaffer &amp; Sons)..................  <distance milepost= "42.2">42.2</distance></entry>
-    <entry><switch number="F 98A">F 98A</switch> ... Veil Coll. No. 1 (Raloh L. Vei1)................  <distance milepost= "42.3">42.3</distance></entry>
-    <entry><switch number="F 99">F 99</switch> ... Eureka Coll. No. 37 (B.-W. C. M. Co.)....  <distance milepost= "42.9">42.9</distance></entry>
+    <entry><switch number="F 93">F 93</switch> .... <location type= "industry" name= "Shaffer Coll. (Shaffer &amp; Sons)" itype= "coal"></location>Shaffer Coll. (Shaffer &amp; Sons)..................  <distance milepost= "42.2">42.2</distance></entry>
+    <entry><switch number="F 98A">F 98A</switch> ... <location type= "industry" name= "Veil Coll. No. 1 (Ralph L. Vei1)" itype= "coal"></location>Veil Coll. No. 1 (Ralph L. Vei1)................  <distance milepost= "42.3">42.3</distance></entry>
+    <entry><switch number="F 99">F 99</switch> ... <location type= "industry" name= "Eureka Coll. No. 37 (B.-W. C. M. Co.)" itype= "coal"></location>Eureka Coll. No. 37 (B.-W. C. M. Co.)....  <distance milepost= "42.9">42.9</distance></entry>
     <entry><switch number="F 100">F 100</switch> ... End of Eureka Branch No. 37.................... <distance milepost= "43.1">43.1</distance></entry>
 </branch>
 <!--break-->
@@ -916,7 +916,7 @@ PITTSBURGH DIVISION-Continued
         Altoona
         (Pass. Sta.)
     </measure> 
-
+     <!-- Starting here tomorrow 3/18/25 DSL -->
 
 <branch name="Shade Creek">
     <entry><switch number="F 102">F 102</switch> .... Junc. Shade Creek Branch)........................  <distance milepost= "42.1">42.1</distance></entry>
