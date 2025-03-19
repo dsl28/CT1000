@@ -916,36 +916,36 @@ PITTSBURGH DIVISION-Continued
         Altoona
         (Pass. Sta.)
     </measure> 
-     <!-- Starting here tomorrow 3/18/25 DSL -->
+     
 
 <branch name="Shade Creek">
-    <entry><switch number="F 102">F 102</switch> .... Junc. Shade Creek Branch)........................  <distance milepost= "42.1">42.1</distance></entry>
-    <entry><switch number="F 103">F 103</switch> ... Reitz Coll. No. 5 (Reitz Coal Co.)jl..........  <distance milepost= "42.9">42.9</distance></entry>
-    <entry><switch number="F 110">F 110</switch> .... Seanor, Pa.* ............................................  <distance milepost= "47.6">47.6</distance></entry>
-    <entry><switch number="F 112A">F 112A</switch> .. "B" Quality Coll. No. 6 ("B" Quality Coal Co.) ........................................  <distance milepost= "49.4">49.4</distance></entry>
-    <entry><switch number="F 112B">F 112B</switch> .. Hillsboro, Pa. ............................................  <distance milepost= "51.4">51.4</distance></entry>
-    <entry><switch number="F 113">F 113</switch> ... "B" Quality Coll. No. 7 ("B" Quality Coal Co.) ........................................  <distance milepost= "51.4">51.4</distance></entry>
-    <entry>.... Huskin, Pa. ................................................  <distance milepost= "53.3">53.3</distance></entry>
-    <entry><switch number="F 114">F 114</switch> ... Thermal Coll. No. 11 (Lenox Coal Co.)....  <distance milepost= "53.3">53.3</distance></entry>
-    <entry><switch number="F 115">F 115</switch> .... Huskin Run Siding, Pa. (Passing)II............  <distance milepost= "53.4">53.4</distance></entry>
-    <entry><switch number="F 117">F 117</switch>  Miller Run, Pa...........................................  <distance milepost= "55.5">55.5</distance></entry>
-    <entry>(Troy Coll.-H. Sheesley)..............  <distance milepost= "55.5">55.5</distance></entry>
-    <entry><switch number="F 118">F 118</switch> ... Arrow Col ls. Nos. 1 &amp; 2 (Arrow Coal Mining Co.) ..................................  <distance milepost= "56.1">56.1</distance></entry>
-    <entry><switch number="F 119">F 119</switch> ... Loyalhanna Coll. No. 6 (Loyalhanna C. &amp; C. Co.) ........................................  <distance milepost= "57.0">57.0</distance></entry>
+    <entry><switch number="F 102">F 102</switch> .... <location type= "junction" name= "Junc. Shade Creek Branch"></location>Junc. Shade Creek Branch........................  <distance milepost= "42.1">42.1</distance></entry>
+    <entry><switch number="F 103">F 103</switch> ... <location type= "industry" name= "Reitz Coll. No. 5 (Reitz Coal Co.)" itype= "coal"></location>Reitz Coll. No. 5 (Reitz Coal Co.)..........  <distance milepost= "42.9">42.9</distance></entry>
+    <entry><switch number="F 110">F 110</switch> .... <location type= "place name" name= "Seanor, Pa."></location>Seanor, Pa.* ............................................  <distance milepost= "47.6">47.6</distance></entry>
+    <entry><switch number="F 112A">F 112A</switch> .. <location type= "industry" name= "B Quality Coll. No. 6 (B Quality Coal Co.)" itype= "coal"></location>"B" Quality Coll. No. 6 ("B" Quality Coal Co.) ........................................  <distance milepost= "49.4">49.4</distance></entry>
+    <entry><switch number="F 112B">F 112B</switch> .. <location type= "place name" name= "Hillsboro, Pa."></location>Hillsboro, Pa. ............................................  <distance milepost= "51.4">51.4</distance></entry>
+    <entry><switch number="F 113">F 113</switch> ... <location type= "industry" name="B Quality Coll. No. 7 (B Quality Coal Co.)" itype= "coal"></location>B" Quality Coll. No. 7 ("B" Quality Coal Co.) ........................................  <distance milepost= "51.4">51.4</distance></entry>
+    <entry>.... <location type= "place name" name= "Huskin, Pa."></location>Huskin, Pa. ................................................  <distance milepost= "53.3">53.3</distance></entry>
+    <entry><switch number="F 114">F 114</switch> ... <location type= "industry" name= "Thermal Coll. No. 11 (Lenox Coal Co.)" itype= "coal"></location>Thermal Coll. No. 11 (Lenox Coal Co.)....  <distance milepost= "53.3">53.3</distance></entry>
+    <entry><switch number="F 115">F 115</switch> .... <location type= "siding" name= "Huskin Run Siding, Pa. (Passing)"></location>Huskin Run Siding, Pa. (Passing)II............  <distance milepost= "53.4">53.4</distance></entry>
+    <entry><switch number="F 117">F 117</switch>  <location type= "place name" name= "Miller Run, Pa"></location>Miller Run, Pa...........................................  <distance milepost= "55.5">55.5</distance></entry>
+    <entry>                                        <location type= "industry" name= "(Troy Coll.-H. Sheesley)" itype= "coal"></location>(Troy Coll.-H. Sheesley)..............  <distance milepost= "55.5">55.5</distance></entry>
+    <entry><switch number="F 118">F 118</switch> ... <location type= "industry" name= "Arrow Colls. Nos. 1 &amp; 2 (Arrow Coal Mining Co.)" itype= "coal"></location>Arrow Colls. Nos. 1 &amp; 2 (Arrow Coal Mining Co.) ..................................  <distance milepost= "56.1">56.1</distance></entry>
+    <entry><switch number="F 119">F 119</switch> ... <location type= "industry" name= "Loyalhanna Coll. No. 6 (Loyalhanna C. &amp; C. Co.)" itype= "coal"></location>Loyalhanna Coll. No. 6 (Loyalhanna C. &amp; C. Co.) ........................................  <distance milepost= "57.0">57.0</distance></entry>
 
 <branch name="Reitz">
-    <entry><switch number="F 120">F 120</switch> ... Junc. Reitz Branch..................................  <distance milepost= "57.0">57.0.2</distance></entry>
+    <entry><switch number="F 120">F 120</switch> ... <location type= "junction" name= "Junc. Reitz Branch"></location>Junc. Reitz Branch..................................  <distance milepost= "57.0">57.0.2</distance></entry>
 
 <branch name= "McGregor Siding">
-    <entry><switch number="F 126">F 126</switch> ... Junc. McGregor Siding............................  <distance milepost= "57.3">57.3</distance></entry>
-    <entry><switch number="F 127">F 127</switch> .... Reitz Coll. No. 2 (Reitz Coal Co.)............  <distance milepost= "57.4">57.4</distance></entry>
-    <entry><switch number="F 127 A">F 127 A</switch> .. Little Valley Pit No. 2 (Little Valley Coal Co.) ........................................  <distance milepost= "57.4">57.4</distance></entry>
+    <entry><switch number="F 126">F 126</switch> ... <location type= "junction" name= "Junc. McGregor Siding"></location>Junc. McGregor Siding............................  <distance milepost= "57.3">57.3</distance></entry>
+    <entry><switch number="F 127">F 127</switch> .... <location type= "industry" name= "Reitz Coll. No. 2 (Reitz Coal Co.)" itype= "coal"></location>Reitz Coll. No. 2 (Reitz Coal Co.)............  <distance milepost= "57.4">57.4</distance></entry>
+    <entry><switch number="F 127 A">F 127 A</switch> .. <location type= "industry" name= "Little Valley Pit No. 2 (Little Valley Coal Co.)" itype= "coal"></location>Little Valley Pit No. 2 (Little Valley Coal Co.) ........................................  <distance milepost= "57.4">57.4</distance></entry>
     <entry><switch number="F 129">F 129</switch> ... End of McGregor Siding.......................... <distance milepost= "57.7">57.7</distance></entry>
 </branch>
     
     <entry><switch number="F 131">F 131</switch> .... End of Reitz Branch*................................ <distance milepost= "58.1">58.1</distance></entry>
 </branch>
-
+<!-- Ending here for tonight 3/18/25 DSL -->
     <entry><switch number="F 123">F 123</switch> ... Cairnbrook, Pa. (Station)..........................  <distance milepost= "57.3">57.3</distance></entry>
     <entry> .... North Leg Wye........................................  <distance milepost= "57.4">57.4</distance></entry>
     <entry>  .... South Leg Wye........................................  <distance milepost= "57.5">57.5</distance></entry>
