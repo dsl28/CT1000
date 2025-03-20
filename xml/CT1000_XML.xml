@@ -1270,17 +1270,17 @@ PITTSBURGH DIVISION-Continued
     <entry><switch number="5383">5383</switch>End of Main Track Alexandria Br. ..........  <distance milepost= "87.3">87.3</distance></entry>
 </branch>
 
-            <entry><switch number="406">406</switch> .... Donohoe, Pa. (Station)..............................  <distance milepost= "78.9">78.9</distance></entry>
-            <entry><switch number="406A">406A</switch> .... Donohoe, Pa. (Junc. Alexandria Br. West Leg "Y") ..................................  <distance milepost= "79.1">79.1</distance></entry>
-            <entry><switch number="407">407</switch> .... George, Pa. (Siding)..................................  <distance milepost= "79.9">79.9</distance></entry>
-            <entry><switch number="407C">407C</switch> .... Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.)  <distance milepost= "81.l">81.l</distance></entry>
-            <entry><switch number="408A">408A</switch> .... Passenger Sidings Nos. 0, 1 &amp; 2 ..........  <distance milepost= "82.2">82.2</distance></entry>
-            <entry><switch number="407C">407C</switch> .... Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.)  <distance milepost= "81.l">81.l</distance></entry>
-
+    <entry><switch number="406">406</switch><location type="station" name="Donohoe, Pa. (Station)">Donohoe, Pa. (Station)</location>..............................  <distance milepost= "78.9">78.9</distance></entry>
+    <entry><switch number="406A">406A</switch><location type="junction" name="Donohoe, Pa. (Junc. Alexandria Br. West Leg 'Y')">Donohoe, Pa. (Junc. Alexandria Br. West Leg "Y")</location> ..................................  <distance milepost= "79.1">79.1</distance></entry>
+    <entry><switch number="407">407</switch><location type="siding" name="George, Pa. (Siding)">George, Pa. (Siding)</location>..................................  <distance milepost= "79.9">79.9</distance></entry>
+    <entry><switch number="407C">407C</switch><location type="industry" name="Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.)" itype="coal">Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.)</location>  <distance milepost= "81.l">81.l</distance></entry>
+    <entry><switch number="408A">408A</switch><location type="siding" name="Passenger Sidings Nos. 0, 1 &amp; 2">Passenger Sidings Nos. 0, 1 &amp; 2</location> ..........  <distance milepost= "82.2">82.2</distance></entry>
+    <entry><switch number="407C">407C</switch><location type="industry" name="Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.)" itype="coal">Crow's Nest Siding and Crow's Nest Colliery (Keystone Coal &amp; Coke Co.)</location>  <distance milepost= "81.l">81.l</distance></entry>
+    
 <branch name="Southwest">
-    <entry><switch number="408A">408A</switch> .... Passenger Sidings Nos. 0, 1 &amp; 211:j:j!:..........  <distance milepost= "82.2">82.2</distance></entry>
+    <entry><switch number="408A">408A</switch><location type="siding" name="Passenger Sidings Nos. 0, 1 &amp; 2">Passenger Sidings Nos. 0, 1 &amp; 2</location> ..........  <distance milepost= "82.2">82.2</distance></entry>
 
-    <entry><switch number="sw">sw</switch> .... south-west Junc. (Junc. South-west Br.)  <distance milepost= "82.4">82.4</distance></entry>
+    <entry><switch number="sw">sw</switch><location type="junction" name="South-west Junc. (Junc. South-west Br.)">South-west Junc. (Junc. South-west Br.)</location>  <distance milepost= "82.4">82.4</distance></entry>
 
     <measure from= "South-west Junction">
 Dist. from 
@@ -1288,36 +1288,36 @@ South-west
 Junction 
     </measure>
 
-    <entry><switch number="5501">5501</switch> .... E. Greensburg, Pa. (St. Clair Supply Co. No. 2) ....................................  <distance milepost= "0.3">0.3</distance></entry>
+    <entry><switch number="5501">5501</switch><location type="industry" name="E. Greensburg, Pa. (St. Clair Supply Co. No. 2)" itype="supplies">E. Greensburg, Pa. (St. Clair Supply Co. No. 2)</location> ....................................  <distance milepost= "0.3">0.3</distance></entry>
 </branch>
 
             <entry><switch number="5502">5502</switch> .... Junc. Pittsburgh and Monongahela Divisions* .................................. <distance milepost= "0.4">0.4</distance></entry>
 
             <entry><switch number="410">410</switch></entry>
-    <entry>Greensburg, Pa. (Passenger Station)......  <distance milepost= "83.1">83.1</distance></entry>
-            <entry>" (George Fox)................................  <distance milepost= "83.4">83.4</distance></entry>
-            <entry>" (Freight-House and Local Dely.)....  <distance milepost= "83.4">83.4</distance></entry>
-            <entry>" (Greensburg Transfer Co.)..............  <distance milepost= "83.4">83.4</distance></entry>
-            <entry>" (Greensburg Produce Co. and Rubino Produce Co.) ..........................  <distance milepost= "83.4">83.4</distance></entry>
-            <entry>" (Charley Bros.) ..............................  <distance milepost= "83.4">83.4</distance></entry>
-            <entry>" (Wilson &amp; Co.)..............................  <distance milepost= "83.4">83.4</distance></entry>
-            <entry>" (Hudson &amp; Kuhns and Armour &amp; Co.) ........................................  <distance milepost= "83.4">83.4</distance></entry>
-            <entry>" Radebaugh, Pa. (Delivery)..........................  <distance milepost= "84.9">84.9</distance></entry>
+            <entry><location type="station" name="Greensburg, Pa. (Passenger Station)">Greensburg, Pa. (Passenger Station)</location>......  <distance milepost= "83.1">83.1</distance></entry>
+            <entry>" <location type="industry" name="(George Fox)">(George Fox)</location>................................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" <location type="industry" name="(Freight-House and Local Dely.)">(Freight-House and Local Dely.)</location>....  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" <location type="industry" name="(Greensburg Transfer Co.">(Greensburg Transfer Co.</location>)..............  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" <location type="industry" name="(Greensburg Produce Co. and Rubino Produce Co.)">(Greensburg Produce Co. and Rubino Produce Co.)</location> ..........................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" <location type="industry" name="(Charley Bros.)">(Charley Bros.)</location> ..............................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" <location type="industry" name="(Wilson &amp; Co.)">(Wilson &amp; Co.)</location>..............................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" <location type="industry" name="(Hudson &amp; Kuhns and Armour &amp; Co.)">(Hudson &amp; Kuhns and Armour &amp; Co.)</location> ........................................  <distance milepost= "83.4">83.4</distance></entry>
+            <entry>" <location type="place name" name="Radebaugh, Pa. (Delivery)">Radebaugh, Pa. (Delivery)</location>..........................  <distance milepost= "84.9">84.9</distance></entry>
 
             <switch number="412">412</switch> 
-            <entry>" Radebaugh, Pa. (Delivery)..........................  <distance milepost= "84.9">84.9</distance></entry>
-            <entry>" (Station) ......................................   <distance milepost= "85.0">85.0</distance></entry>
-            <entry>" (Storage)  ....................................  <distance milepost= "85.1">85.1</distance></entry>
-            <entry><switch number="RA">RA</switch> .... Radebaugh, Pa. (Junc. Radebaugh Br.)......  <distance milepost= "85.8">85.8</distance></entry>
+            <entry>" <location type="place name" name="Radebaugh, Pa. (Delivery)">Radebaugh, Pa. (Delivery)</location>..........................  <distance milepost= "84.9">84.9</distance></entry>
+            <entry>" <location type="station" name="(Station)">(Station)</location> ......................................   <distance milepost= "85.0">85.0</distance></entry>
+            <entry>" <location type="storage" name="(Storage)">(Storage)</location>  ....................................  <distance milepost= "85.1">85.1</distance></entry>
+            <entry><switch number="RA">RA</switch><location type="junction" name="Radebaugh, Pa. (Junc. Radebaugh Br.)">Radebaugh, Pa. (Junc. Radebaugh Br.)</location>......  <distance milepost= "85.8">85.8</distance></entry>
             <entry>.... Junc. Radebaugh Br.-Monongahela Division ..................................  <distance milepost= "86.0">86.0</distance></entry>
 
             <entry><switch number="414">414</switch> { Grapeville, PA (Westmoreland Glass Co.)...<distance milepost= "86.6">86.6</distance></entry>
     { (Station)
 
 <branch name="Brush Creek">
-    <entry><switch number="82ll">414A</switch>  .... Junction Brush Creek Branch ..................  <distance milepost= "87.l">87.l</distance></entry>
-    <entry><switch number="82ll">5339</switch> .... Semler Co.t ..............................................  <distance milepost= "87.3">87.3</distance></entry>
-    <entry><switch number="82ll">5340</switch>  .... Caplan Iron &amp; Steel Co.  ........................  <distance milepost= "87.6">87.6</distance></entry>
+    <entry><switch number="82ll">414A</switch><location type="junction" name="Junction Brush Creek Branch">Junction Brush Creek Branch</location> ..................  <distance milepost= "87.l">87.l</distance></entry>
+    <entry><switch number="82ll">5339</switch><location type="industry" name="Semler Co.">Semler Co.</location> ..............................................  <distance milepost= "87.3">87.3</distance></entry>
+    <entry><switch number="82ll">5340</switch><location type="industry" name="Caplan Iron &amp; Steel Co." itype="steel">Caplan Iron &amp; Steel Co.</location>  ........................  <distance milepost= "87.6">87.6</distance></entry>
     <entry><switch number="82ll">5841</switch> .... End of Brush Creek Branch........................  <distance milepost= "87.7">87.7</distance></entry>
 </branch>
 
@@ -1336,15 +1336,15 @@ PITTSBURGH DIVISION-Continued
 
 <branch name="Bull Run">
     <entry><switch number="415">415</switch></entry>
-    <entry> Jeannette, Pa. (Station)..........................  <distance milepost= "87.2">87.2</distance></entry>
-    <entry>" (Junc. Bull Run Branch) ................  <distance milepost= "87.4">87.4</distance></entry>
-    <entry>" (Penna. Lumber Co.) ......................  <distance milepost= "87.5">87.5</distance></entry>
-    <entry>" (Ft. Pitt Mine Equipment Co.) ......  <distance milepost= "87.6">87.6</distance></entry>
-    <entry>" (T. H. Stough &amp; Co.)......................  <distance milepost= "87.7">87.7</distance></entry>
-    <entry>" (Jeannette Shade &amp; Novelty Co.)..  <distance milepost= "87.8">87.8</distance></entry>
-    <entry>" (Truxell Foundry Co.)....................  <distance milepost= "87.8">87.8</distance></entry>
-    <entry>" (Jeannette Concrete Block Co.) ......  <distance milepost= "87.9">87.9</distance></entry>
-    <entry>" (Elliott Company) ........................  <distance milepost= "88.1">88.1</distance></entry>
+    <entry><location type="station" name="Jeannette, Pa. (Station)">Jeannette, Pa. (Station)</location>..........................  <distance milepost= "87.2">87.2</distance></entry>
+    <entry>" <location type="junction" name="(Junc. Bull Run Branch)">(Junc. Bull Run Branch)</location> ................  <distance milepost= "87.4">87.4</distance></entry>
+    <entry>" <location type="industry" name="(Penna. Lumber Co.)" itype="lumber">(Penna. Lumber Co.)</location> ......................  <distance milepost= "87.5">87.5</distance></entry>
+    <entry>" <location type="industry" name="(Ft. Pitt Mine Equipment Co.)" itype="equipment">(Ft. Pitt Mine Equipment Co.)</location> ......  <distance milepost= "87.6">87.6</distance></entry>
+    <entry>" <location type="industry" name="(T. H. Stough &amp; Co.)">(T. H. Stough &amp; Co.)</location>......................  <distance milepost= "87.7">87.7</distance></entry>
+    <entry>" <location type="industry" name="(Jeannette Shade &amp; Novelty Co.)">(Jeannette Shade &amp; Novelty Co.)</location>..  <distance milepost= "87.8">87.8</distance></entry>
+    <entry>" <location type="industry" name="(Truxell Foundry Co.)">(Truxell Foundry Co.)</location>....................  <distance milepost= "87.8">87.8</distance></entry>
+    <entry>" <location type="industry" name="(Jeannette Concrete Block Co.)" itype="concrete">(Jeannette Concrete Block Co.)</location> ......  <distance milepost= "87.9">87.9</distance></entry>
+    <entry>" <location type="industry" name="(Elliott Company)">(Elliott Company)</location> ........................  <distance milepost= "88.1">88.1</distance></entry>
     <entry>" (End of Bull Run Branch)..............  <distance milepost= "88.3">88.3</distance></entry>
 </branch>
 
