@@ -815,7 +815,7 @@ Conn. Conn.
     <entry><switch number="353">353</switch> ... "<location type="junction" name="Summerhil Branch, East Connection"> (Jc. Summerhill Br.-East Conn.)</location>  <distance milepost= "26.4">26.4</distance></entry>
     <entry><switch number="5292">5292</switch> ... <location type="industry" name="Penna. Coll. No.1 (Hand Coal Co.)" itype="coal">Penna. Coll. No.1 (Hand Coal Co.)</location>........<distance milepost= "27.5">27.5</distance></entry>
     <entry><switch number="5293">5293</switch> ... <location type="industry" name="Priscilla Coll. No. l (Hand Coal Co.)" itype="coal">Priscilla Coll. No. l (Hand Coal Co.)</location>......  <distance milepost= "28.1">28.1</distance></entry>
-    <entry><switch number="5295">5295</switch> .... <location type="industry" name="Argyle Coll. No. 4 (Argyle Coal Co.)" itype="coal">Argyle Coll. No. 4 (Argyle Coal Co.)</location>........  <distance milepost= "48.2">28.3</distance></entry>
+    <entry><switch number="5295">5295</switch> .... <location type="industry" name="Argyle Coll. No. 4 (Argyle Coal Co.)" itype="coal">Argyle Coll. No. 4 (Argyle Coal Co.)</location>........  <distance milepost= "28.3">28.3</distance></entry>
     <entry><switch number="353A">353A</switch> .... <location type="junction" name="Summerhil Branch, West Connection">Jc. Summerhill Br. (West Conn.)</location>............·  <distance milepost= "28.4">28.4</distance></entry>
 </branch>
 

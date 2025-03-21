@@ -1,7 +1,6 @@
-
-declare variable $data := collection('/Users/maris/Desktop/github/CT1000/xml/?select=CT1000_XML.xml');
-
-
+xquery version"3.1";
+declare option saxon:output"method=html";
+declare variable $data := collection('../xml/?select=CT1000_XML.xml');
 
 <html>
 <head>
@@ -20,7 +19,7 @@ declare variable $data := collection('/Users/maris/Desktop/github/CT1000/xml/?se
             for $entry in $data//CT1000//entry[location/@itype = "coal"]
             let $distance := xs:decimal($entry/distance/@milepost)
             where $distance <= 20.0 
-              and matches(string($entry/switch/@number), "^3[0-9]{2}$")
+              and matches(string($entry/switch/@number), "3[0-9]{2}")
             order by $distance ascending
             return 
                 <tr>
