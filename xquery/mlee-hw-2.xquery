@@ -1,6 +1,6 @@
 xquery version"3.1";
 declare option saxon:output"method=html";
-declare variable $data := collection('../xml/?select=CT1000_XML.xml');
+declare variable $data := doc('../xml/?select=CT1000_XML.xml');
 
 <html>
 <head>
