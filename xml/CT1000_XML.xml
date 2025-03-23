@@ -1441,41 +1441,41 @@ PITTSBURGH DIVISION-Continued
 
 <branch name="Turtle Creek">
     <entry><switch number="424">424</switch> </entry>
-       <entry> ( Trafford, Pa. (Station)............................  <distance milepost= "96.9">96.9</distance></entry>
-    <entry> (Junc. Turtle Creek Branch)..........  <distance milepost= "97.0">97.0</distance></entry>
+    <entry> <location type="station" name="(Trafford, Pa. (Station)">(Trafford, Pa. (Station)</location>............................  <distance milepost= "96.9">96.9</distance></entry>
+    <entry> <location type="jucntion" name="(Junc. Turtle Creek Branch)">(Junc. Turtle Creek Branch)</location>..........  <distance milepost= "97.0">97.0</distance></entry>
 
     <entry><switch number="5432">5432</switch></entry>
-    <entry>Trafford, Pa. (Storage for Westinghouse Foundry Co.)  ..........................  <distance milepost= "97.4">97.4</distance></entry>
-    <entry>" (Jc. Westinghouse Inter-works Ry. No. 5) ....................................  <distance milepost= "97.4">97.4.2</distance></entry>
-    <entry>" (Public Delivery) ............................  <distance milepost= "97.4">97.4</distance></entry>
+    <entry><location type="station" name="Trafford, Pa. (Storage for Westinghouse Foundry Co.)">Trafford, Pa. (Storage for Westinghouse Foundry Co.)</location>  ..........................  <distance milepost= "97.4">97.4</distance></entry>
+    <entry>" <location type="junction" name="(Jc. Westinghouse Inter-works Ry. No. 5)">(Jc. Westinghouse Inter-works Ry. No. 5)</location> ....................................  <distance milepost= "97.4">97.4.2</distance></entry>
+    <entry>" <location type="industry" name="(Public Delivery)">(Public Delivery)</location> ............................  <distance milepost= "97.4">97.4</distance></entry>
 
-    <entry>.... North Trafford, Pa. (Station)..................  <distance milepost= "97.4">97.4</distance></entry>
+    <entry>.... <location type="station" name="North Trafford, Pa. (Station)">North Trafford, Pa. (Station)</location>..................  <distance milepost= "97.4">97.4</distance></entry>
     <entry><switch number="5433">5433</switch> </entry>
-    <entry>North Trafford, Pa. (Passenger Storage)  <distance milepost= "97.9">97.9</distance></entry>
-    <entry>" (Linde Air Products Co.)................  <distance milepost= "98.2">98.2</distance></entry>
+    <entry><location type="storage=" name="North Trafford, Pa. (Passenger Storage)">North Trafford, Pa. (Passenger Storage)</location>  <distance milepost= "97.9">97.9</distance></entry>
+    <entry>" <location type="industry" name="(Linde Air Products Co.)">(Linde Air Products Co.)</location>................  <distance milepost= "98.2">98.2</distance></entry>
 
     <entry><switch number="5434">5434</switch></entry>
-    <entry>Blackburn, Pa. (Station)............................ .2 <distance milepost= "98">98</distance></entry>
-    <entry>" (Public Delivery and Hilda Coll. Morocco &amp; Warren Coal Co.)..  <distance milepost= "98.4">98.4</distance></entry>
-    <entry>" (Storage Nos. 1 &amp; 2) ....................  <distance milepost= "98.4">98.4</distance></entry>
-    <entry>" (Houston-Starr Co. No. l)..............  <distance milepost= "98.9">98.9</distance></entry>
+    <entry><location type="station" name="Blackburn, Pa. (Station)">Blackburn, Pa. (Station)</location>............................ .2 <distance milepost= "98">98</distance></entry>
+    <entry>" <location type="industry" name="(Public Delivery and Hilda Coll. Morocco &amp; Warren Coal Co.)" itype="coal">(Public Delivery and Hilda Coll. Morocco &amp; Warren Coal Co.)</location>..  <distance milepost= "98.4">98.4</distance></entry>
+    <entry>" <location type="storage" name="(Storage Nos. 1 &amp; 2)">(Storage Nos. 1 &amp; 2)</location> ....................  <distance milepost= "98.4">98.4</distance></entry>
+    <entry>" <location type="industry" name="(Houston-Starr Co. No. l)">(Houston-Starr Co. No. l)</location>..............  <distance milepost= "98.9">98.9</distance></entry>
 
-    <entry><switch number="5437">5437</switch> .... Saunders, Pa .............................................  <distance milepost= "100.3">100.3</distance></entry>
+    <entry><switch number="5437">5437</switch> .... <location type="place name" name="Saunders, Pa">Saunders, Pa</location> .............................................  <distance milepost= "100.3">100.3</distance></entry>
 
 <branch name="Lyons Run">
-    <entry><switch number="5439">5439</switch> .... Junction Lyons Run Branch ..................  <distance milepost= "100.5">100.5</distance></entry>
+    <entry><switch number="5439">5439</switch> .... <location type="junction" name="Junction Lyons Run Branch">Junction Lyons Run Branch</location> ..................  <distance milepost= "100.5">100.5</distance></entry>
     <entry><switch number="5450C">5450C</switch> .. End of Lyons Run Branch. ................  <distance milepost= "104.3">104.3</distance></entry>
 </branch>
 
-    <entry><switch number="5441">5441</switch> .... Murraysville, Pa. (Station and Murraysville Lumber Co.) ............................  <distance milepost= "102.9">102.9</distance></entry>
-    <entry><switch number="5447">5447</switch>  .... Newlinsburg, Pa .......................................  <distance milepost= "104.3">104.3</distance></entry>
-    <entry><switch number="5447">5447</switch> .... Remaley, Pa. (Public Delivery- Export Milling Co.) ............................  <distance milepost= "106.4">106.4</distance></entry>
+    <entry><switch number="5441">5441</switch> .... <location type="industry" name="Murraysville, Pa. (Station and Murraysville Lumber Co.)" itype="lumber">Murraysville, Pa. (Station and Murraysville Lumber Co.)</location> ............................  <distance milepost= "102.9">102.9</distance></entry>
+    <entry><switch number="5447">5447</switch> .... <location type="place name" name="Newlinsburg, Pa">Newlinsburg, Pa</location> .......................................  <distance milepost= "104.3">104.3</distance></entry>
+    <entry><switch number="5447">5447</switch> .... <location type="industry" name="Remaley, Pa. (Public Delivery- Export Milling Co.)">Remaley, Pa. (Public Delivery- Export Milling Co.)</location> ............................  <distance milepost= "106.4">106.4</distance></entry>
 
 EX
-    <entry>Export, Pa. (Export Lumber Co.) ............  <distance milepost= "106.8">106.8</distance></entry>
-    <entry>" (Station) ......................................  <distance milepost= "106.9">106.9</distance></entry>
-    <entry>" (Export Coll.-Westmoreland Coal EX Co.)ji: ......................................  <distance milepost= "107.1">107.1</distance></entry>
-    <entry>" (Westmoreland Coal Co.-Material Track) .................. . ..............  <distance milepost= "107.3">107.3</distance></entry>
+    <entry><location type="industry" name="Export, Pa. (Export Lumber Co.)" itype="lumber">Export, Pa. (Export Lumber Co.)</location> ............  <distance milepost= "106.8">106.8</distance></entry>
+    <entry>" <location type="station" name="(Station)">(Station)</location> ......................................  <distance milepost= "106.9">106.9</distance></entry>
+    <entry>" <location type="industry" name="(Export Coll.-Westmoreland Coal EX Co.)" itype="coal">(Export Coll.-Westmoreland Coal EX Co.)</location> ......................................  <distance milepost= "107.1">107.1</distance></entry>
+    <entry>" <location type="industry" name="(Westmoreland Coal Co.-Material Track)" itype="coal">(Westmoreland Coal Co.-Material Track)</location> .................. . ..............  <distance milepost= "107.3">107.3</distance></entry>
 
 
 <page n="226">226</page> 
@@ -1493,9 +1493,9 @@ PITTSBURGH DIVISION-Continued
     </measure>
 
     <entry><switch number="5451">5451</switch></entry>
-       <entry> White Valley, Pa. (Passing Sidinglll ..........  <distance milepost= "107.9">107.9</distance></entry>
-    <entry>" (Manordale Gas &amp; Oil Co.) ............  <distance milepost= "107.9">107.9</distance></entry>
-    <entry>" (Station) ........................................  <distance milepost= "108.2">108.2</distance></entry>
+    <entry> <location type="passing" name="White Valley, Pa. (Passing Siding)">White Valley, Pa. (Passing Siding)</location> ..........  <distance milepost= "107.9">107.9</distance></entry>
+    <entry>" <location type="industry" name="(Manordale Gas &amp; Oil Co.)" itype="gas">(Manordale Gas &amp; Oil Co.)</location> ............  <distance milepost= "107.9">107.9</distance></entry>
+    <entry>" <location type="station" name="station">(Station)</location> ........................................  <distance milepost= "108.2">108.2</distance></entry>
 
     <entry><switch number="5453">5453</switch> .... Delmont Siding ..........................................  <distance milepost= "108.5">108.5</distance></entry>
     <entry><switch number="5453B">5453B</switch> .. Delmont, Pa .............................................  <distance milepost= "109.9">109.9</distance></entry>
