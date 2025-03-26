@@ -777,37 +777,35 @@ Conn. Conn.
 <branch name= "Ben's Creek">
     <entry><switch number="347">347</switch></entry>
 
-   
-    <entry><location type="junction" name="Ben's Creek Branch, West Connection">Junc. Ben's Creek Branch-West Conn.</location> ............................  <distance milepost= "22.0 22.4">22.0 22.4</distance></entry>
-    <entry><location type="siding" name="Old Line Storage">Old Line Storage</location>..........................  <distance milepost= "22.0 22.4">22.0 22.4</distance></entry>
+    <entry><location type="junction" name="Ben's Creek Branch, West Connection">Junc. Ben's Creek Branch-West Conn.</location> ............................  <distance milepostW= "22.0" milepostE= "22.4">22.0 22.4</distance></entry>
+    <entry><location type="siding" name="Old Line Storage">Old Line Storage</location>..........................  <distance milepostW= "22.0" milepostE= "22.4" >22.0 22.4</distance></entry>
 
-    <entry><switch number="5235">5235</switch> ... <location type="industry" name="Keystone Lumber Co." itype="lumber">Keystone Lumber Co.</location>  ....................  <distance milepost= "22.8 21.6">22.8 21.6</distance></entry>
-    <entry><switch number="5235">5235</switch> .... <location type="siding" name="storage 1 and 2">Storage Nos. 1 &amp; 2 </location>......................  <distance milepost= "22.8 21.6">22.8 21.6</distance></entry>
-    <entry><switch number="5237">5237</switch> ....<location type="industry" name="Portage Freight station and Delivery" itype="misc.">Portage, Pa. (Freight Station and Delivery)</location> ........................  <distance milepost= "22.8 21.6">22.8 21.6</distance></entry>
+    <entry><switch number="5235">5235</switch> ... <location type="industry" name="Keystone Lumber Co." itype="lumber">Keystone Lumber Co.</location>  ....................  <distance milepostW= "22.8" milepostE= "21.6" >22.8 21.6</distance></entry>
+    <entry><switch number="5235">5235</switch> .... <location type="siding" name="storage 1 and 2">Storage Nos. 1 &amp; 2 </location>......................  <distance milepostW= "22.8" milepostE= "21.6" >22.8 21.6</distance></entry>
+    <entry><switch number="5237">5237</switch> ....<location type="industry" name="Portage Freight station and Delivery" itype="misc.">Portage, Pa. (Freight Station and Delivery)</location> ........................ <distance milepostW= "22.8" milepostE= "21.6">22.8 21.6</distance></entry>
 </branch>
 <branch name="Martin">
-    <entry><switch number="5256">5256</switch> ...<location type="junction" name="Martin Branch"> Portage, Pa. (Junction Martin Br.)</location>  <distance milepost= "22.9 21.5">22.9 21.5</distance></entry>
-    <entry><switch number="5258">5258</switch> ...<location type="industry" name="Portage Coll. No. 4 (Johnstown C. &amp; C. Co.)" itype="coal">Portage Coll. No. 4 (Johnstown C. &amp; C. Co.)</location>.......... ...........  <distance milepost= "23.7 22.3">23.7 22.3</distance></entry>
-    <entry><switch number="5261A">5261A</switch> .<location type="industry" name="Portage Coll. No. 6 (Johnstown C. &amp; C. Co.)" itype="coal">Portage Coll. No. 6 (Johnstown C. E &amp; C. Co)</location>......................  <distance milepost= "24.2 22.9">24.2 22.9</distance></entry>
-    <entry><switch number="5262">5262</switch> ...<location type="industry" name="Portage Coll. No. 2 (Johnstown C. &amp; C. Co.)" itype="coal">Portage Coll. No. 2 (Johnstown C. E &amp; C. Co)</location>.........................<distance milepost= "24.5 23.2">24.5 23.2</distance></entry>
-    <entry><switch number="5269">5269</switch> ...<location type="industry" name="Portage Coll. No. 10 (Johnstown C. &amp; C. Co.)" itype="coal">Portage Coll. No. 10 (Johnstown C. &amp; C. Co.)</location>......................  <distance milepost= "25.4 24.0">25.4 24.0</distance></entry>
-    <entry><switch number="5272">5272</switch> ...<location type="industry" name="Penker Coll. No. 1 (Portage-Kittanning Coal Co.)" itype="coal">Penker Coll. No. 1 (Portage-Kittanning Coal Co.)</location>..............  <distance milepost= "25.5 24.1">25.5 24.1</distance></entry>
-    <entry><switch number="5281">5281</switch> ... End of Martin Branch..................  <distance milepost= "25.3 24.4">25.3 24.4</distance></entry>
+    <entry><switch number="5256">5256</switch> ...<location type="junction" name="Martin Branch"> Portage, Pa. (Junction Martin Br.)</location>  <distance milepostW= "22.9" milepostE= "21.5">22.9 21.5</distance></entry>
+    <entry><switch number="5258">5258</switch> ...<location type="industry" name="Portage Coll. No. 4 (Johnstown C. &amp; C. Co.)" itype="coal">Portage Coll. No. 4 (Johnstown C. &amp; C. Co.)</location>.......... ...........   <distance milepostW= "23.7" milepostE= "22.3">23.7 22.3</distance></entry>
+    <entry><switch number="5261A">5261A</switch> .<location type="industry" name="Portage Coll. No. 6 (Johnstown C. &amp; C. Co.)" itype="coal">Portage Coll. No. 6 (Johnstown C. E &amp; C. Co)</location>......................  <distance milepostW= "24.2" milepostE= "22.9">24.2 22.9</distance></entry>
+    <entry><switch number="5262">5262</switch> ...<location type="industry" name="Portage Coll. No. 2 (Johnstown C. &amp; C. Co.)" itype="coal">Portage Coll. No. 2 (Johnstown C. E &amp; C. Co)</location>.........................<distance milepostW= "24.5" milepostE= "23.2">24.5 23.2</distance></entry>
+    <entry><switch number="5269">5269</switch> ...<location type="industry" name="Portage Coll. No. 10 (Johnstown C. &amp; C. Co.)" itype="coal">Portage Coll. No. 10 (Johnstown C. &amp; C. Co.)</location>......................  <distance milepostW= "25.4" milepostE= "24.0">25.4 24.0</distance></entry>
+    <entry><switch number="5272">5272</switch> ...<location type="industry" name="Penker Coll. No. 1 (Portage-Kittanning Coal Co.)" itype="coal">Penker Coll. No. 1 (Portage-Kittanning Coal Co.)</location>..............  <distance milepostW= "25.5" milepostE= "25.5">25.5 25.5</distance></entry>
+    <entry><switch number="5281">5281</switch> ... End of Martin Branch..................  <distance milepostW= "25.3" milepostE= "24.4">25.3 24.4</distance></entry>
 </branch>
 <!--break-->
 <branch name="Sonman">
-    <entry><switch number="5250">5250</switch> ... <location type="junction" name="Sonman Branch">Junction Sonman Branch</location>................  <distance milepost= "23.4 21.0">23.4 21.0</distance></entry>
-    <entry><switch number="5251">5251</switch> .... <location type="industry" name="Sonman Shaft &amp; Slope Coll. and Wilmore Coll. No. 3 (Son E.,: l man Shaft Coal Co.)" itype="coal">Sonman Shaft &amp; Slope Coll. and Wilmore Coll. No. 3 (Son E.,: l man Shaft Coal Co.)</location>........  <distance milepost= "23.8 21.4">23.8 21.4</distance></entry>
-    <entry><switch number="5252">5252</switch> .... <location type="industry" name="Penker Coll. No. 2 (Portage-Kittanning Coal Co.)" itype="coal">Penker Coll. No. 2 (Portage-Kittanning Coal Co.)</location> ....  <distance milepost= "24.3 21.9">24.3 21.9</distance></entry>
+    <entry><switch number="5250">5250</switch> ... <location type="junction" name="Sonman Branch">Junction Sonman Branch</location>................  <distance milepostW= "23.4" milepostE= "21.0">23.4 21.0</distance></entry>
+    <entry><switch number="5251">5251</switch> .... <location type="industry" name="Sonman Shaft &amp; Slope Coll. and Wilmore Coll. No. 3 (Son E.,: l man Shaft Coal Co.)" itype="coal">Sonman Shaft &amp; Slope Coll. and Wilmore Coll. No. 3 (Son E.,: l man Shaft Coal Co.)</location>........  <distance milepostW= "23.8" milepostE= "21.4">23.8 21.4</distance></entry>
+    <entry><switch number="5252">5252</switch> .... <location type="industry" name="Penker Coll. No. 2 (Portage-Kittanning Coal Co.)" itype="coal">Penker Coll. No. 2 (Portage-Kittanning Coal Co.)</location> ....   <distance milepostW= "24.3" milepostE= "21.9">24.3 21.9</distance></entry>
     <entry><switch number="5253">5253</switch> ... End of Sonman Branch..................  <distance milepost= "24.0 21.5">24.0 21.5</distance></entry>
 </branch>
 
 <branch>
-    <entry><switch number="345">345</switch> .... <location type="junction" name="Ben's Creek Branch, East Connection">East Connection Ben's Creek Br.</location> ....  <distance milepost= "24.4 20.0">24.4 20.0</distance></entry>
-    <entry><switch number="5243">5243</switch> ... <location type="industry" name="Hughes Coll. No. 4 (C. A. Hughes &amp; Co.)" itype="coal">Hughes Coll. No. 4 (C. A. Hughes &amp; Co.)</location> ..........................  <distance milepost= "25.4 21.0">25.4 21.0</distance></entry>
-    <entry><switch number="5246A">5246A</switch> ... <location type="industry" name="Ben's Creek Valley Coll. (Ben's Creek Valley Coal Co.)" itype="coal">Ben's Creek Valley Coll. (Ben's Creek Valley Coal Co.)</location>  <distance milepost= "25.5 21.4">25.5 21.4</distance></entry>
-        <entry><switch number="5249">5249</switch> .... End of Ben's Creek Branch............  <distance milepost= "25.7 21.6">25.7 21.6</distance></entry>
-
+    <entry><switch number="345">345</switch> .... <location type="junction" name="Ben's Creek Branch, East Connection">East Connection Ben's Creek Br.</location> .... <distance milepostW= "24.4" milepostE= "20.0">24.4 20.0</distance></entry>
+    <entry><switch number="5243">5243</switch> ... <location type="industry" name="Hughes Coll. No. 4 (C. A. Hughes &amp; Co.)" itype="coal">Hughes Coll. No. 4 (C. A. Hughes &amp; Co.)</location> ..........................   <distance milepostW= "25.4" milepostE= "21.0">25.4 21.0</distance></entry>
+    <entry><switch number="5246A">5246A</switch> ... <location type="industry" name="Ben's Creek Valley Coll. (Ben's Creek Valley Coal Co.)" itype="coal">Ben's Creek Valley Coll. (Ben's Creek Valley Coal Co.)</location>  <distance milepostW= "25.5" milepostE= "21.4">25.5 21.4</distance></entry>
+    <entry><switch number="5249">5249</switch> .... End of Ben's Creek Branch............  <distance milepostW= "25.7" milepostE= "21.6">25.7 21.6</distance></entry>
 </branch>
 
     <entry><switch number="349">349</switch> .. <location type="industry" name="Wimore Power House" itype="electric generation">Wilmore, Pa. (Power House)</location>......................  <distance milepost= "23.5">23.5</distance></entry>
