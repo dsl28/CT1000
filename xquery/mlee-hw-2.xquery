@@ -4,10 +4,10 @@ declare variable $data := doc('../xml/?select=CT1000_XML.xml');
 
 <html>
 <head>
-    <title>Coal Industry Report</title>
+    <title> Industry Report</title>
 </head>
 <body> 
-    <h1>Coal Industry Report</h1>
+    <h1> Industry Report</h1>
     <table border="1">
         <tr>
             <th>Name</th>
@@ -16,7 +16,7 @@ declare variable $data := doc('../xml/?select=CT1000_XML.xml');
             <th>Location Type</th>
         </tr>
         {
-            for $entry in $data//CT1000//entry[location/@itype = "coal"]
+            for $entry in $data//CT1000//entry[location/@type = "i"]
             let $distance := xs:decimal($entry/distance/@milepost)
             where $distance <= 20.0 
               and matches(string($entry/switch/@number), "3[0-9]{2}")
