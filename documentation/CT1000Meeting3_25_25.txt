@@ -1,0 +1,10 @@
+Meeting on 3/25/25
+
+Reviewed progress with Dr. Campbell
+
+-XML is looking good, just keep searching for errors in text and tags as you're able 
+
+-Basic HTML and CSS exist for the website now
+
+-In terms of SVG, we are planning on doing a subway map or "tree" style visualization, and then bar graphs. 
+
