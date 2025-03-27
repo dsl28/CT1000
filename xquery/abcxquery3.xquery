@@ -1,14 +1,17 @@
-declare variable $data := collection ('../xml/?select.*xml');
+xquery version "3.1";
+declare option saxon:output "method=html";
+declare option saxon:output "doctype-system=about:legacy-compat";
+declare variable $data := collection('../xml/?select=*.xml');
 <html>
 <head>
     <title>Pittsburgh Division</title>
     <h1>Switches</h1>
 </head>
 <body>
-    <p>&nbsp</p>
+    <p> </p>
     <p>The Pittsburgh Division Railroad Tracks has some switches associated with their location.</p>
     <p>Consult the table below to see the different types of switches mentioned.</p>
-    <p>&nbsp</p>
+    <p> </p>
     <table>
         <tr>
             <th>Switch Number</th>
@@ -26,7 +29,7 @@ declare variable $data := collection ('../xml/?select.*xml');
                     <td>{string($entry/location/@name)}</td>
                     <td>{$distance}</td>
                 </tr>
-        )
+        }
     </table>
 </body>
 </html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Pittsburgh Division</title>
+      <h1>Switches</h1>
+   </head>
+   <body>
+      <p></p>
+      <p>The Pittsburgh Division Railroad Tracks has some switches associated with their location.</p>
+      <p>Consult the table below to see the different types of switches mentioned.</p>
+      <p></p>
+      <table>
+         <tr>
+            <th>Switch Number</th>
+            <th>Switch Location</th>
+            <th>Milepost</th>
+         </tr>
