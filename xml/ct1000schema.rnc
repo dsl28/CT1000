@@ -19,8 +19,10 @@ type = attribute type {text}
 name = attribute name {text}
 itype = attribute itype {text}
 
-distance = element distance { (milepost|text)* }
+distance = element distance { (milepost|milepostW|milepostE|text)* }
 milepost = attribute milepost { text }
+milepostW = attribute milepostW { text }
+milepostE = attribute milepostE { text }
 
 branch = element branch { (name|measure|entry|switch|branch|page|subsidiary|page_heading|text)* }
 
