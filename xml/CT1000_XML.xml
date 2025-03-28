@@ -1537,7 +1537,7 @@ PITTSBURGH DIVISION-Continued
 
             <entry>PT ... <location type="transfer" name="Pitcairn, Pa. (Pitcairn Transfer)">Pitcairn, Pa. (Pitcairn Transfer)</location> ............ <distance milepost= "98.6">98.6</distance></entry>
 
-P
+
             <entry><location type="yard" name="Pitcairn, Pa. (Yard )">Pitcairn, Pa. (Yard )</location>..............................  <distance milepost= "98.8">98.8</distance></entry>
             <entry>" <location type="shop" name="(Shop )">(Shop )</location> ........................................  <distance milepost= "99.1">99.1</distance></entry>
 
@@ -1580,26 +1580,26 @@ PITTSBURGH DIVISION-Continued
             <entry><switch number="431">431</switch> .... <location type="station" name="Braddock, Pa. (Station)">Braddock, Pa. (Station)</location> ..........................  <distance milepost= "103.8">103.8</distance></entry>
 
             <entry><switch number="431A">431A</switch></entry>
-                <entry> Copeland, Pa. (Station)...................  <distance milepost= "48104.3.2">104.3</distance></entry>
-            <entry>" (Mccrady-Rodgers Co. No. l) ........  <distance milepost= "104.3">104.3</distance></entry>
-            <entry>" (Sommerfeld Machine Co.) ............  <distance milepost= "104.3">104.3</distance></entry>
+            <entry> <location type="station" name="Copeland, Pa. (Station)">Copeland, Pa. (Station)</location>...................  <distance milepost= "48104.3.2">104.3</distance></entry>
+            <entry>" <location type="industry" name="(Mccrady-Rodgers Co. No. l)" itype="concrete">(Mccrady-Rodgers Co. No. l)</location> ........  <distance milepost= "104.3">104.3</distance></entry>
+            <entry>" <location type="industry" name="(Sommerfeld Machine Co.)" itype="machinery">(Sommerfeld Machine Co.)</location> ............  <distance milepost= "104.3">104.3</distance></entry>
 
-            <entry><switch number="432">432</switch> .... Hawkins, Pa. (Station)J* ........................  <distance milepost= "104.9">104.9</distance></entry>
+            <entry><switch number="432">432</switch> .... <location type="station" name="Hawkins, Pa. (Station)">Hawkins, Pa. (Station)</location> ........................  <distance milepost= "104.9">104.9</distance></entry>
 
-            <entry><switch number="EP">EP</switch> .... East Pittsburgh, Pa. (Station) ................  <distance milepost= "101.7">101.7</distance></entry>
-            <entry><switch number="429">429</switch> ... Brinton U Junction ................................  <distance milepost= "102.2">102.2</distance></entry>
-            <entry><switch number="430">430</switch> ... Bessemer, Pa. (Station) ..........................  <distance milepost= "103.0">103.0</distance></entry>
-            <entry><switch number="431">431</switch> .... Braddock, Pa. (Station) .......................... <distance milepost= "103.8">103.8</distance></entry>
+            <entry><switch number="EP">EP</switch> .... <location type="station" name="East Pittsburgh, Pa. (Station)">East Pittsburgh, Pa. (Station)</location> ................  <distance milepost= "101.7">101.7</distance></entry>
+            <entry><switch number="429">429</switch> .... <location type="junction" name="Brinton U Junction">Brinton U Junction</location> ................................  <distance milepost= "102.2">102.2</distance></entry>
+            <entry><switch number="430">430</switch> .... <location type="station" name="Bessemer, Pa. (Station)">Bessemer, Pa. (Station)</location> ..........................  <distance milepost= "103.0">103.0</distance></entry>
+            <entry><switch number="431">431</switch> .... <location type="staion" name="Braddock, Pa. (Station)">Braddock, Pa. (Station)</location> .......................... <distance milepost= "103.8">103.8</distance></entry>
 
 
-            <entry><switch number="82ll">431A</switch></entry>
-                <entry>" Copeland, Pa. (Station)..................  <distance milepost= "104.3">104.3</distance></entry>
-                <entry>" (Mccrady-Rodgers Co. No. l) ........  <distance milepost= "104.3">104.3</distance></entry>
-                <entry>" (Sommerfeld Machine Co.) ............  <distance milepost= "104.3">104.3</distance></entry>
+            <entry><switch number="82ll">431A</switch></entry> <!-- ABC: Possible repeat: lines 1583-1587, lines 1596-1600 -->
+                <entry>" <location type="station" name="Copeland, Pa. (Station)">Copeland, Pa. (Station)</location>..................  <distance milepost= "104.3">104.3</distance></entry>
+                <entry>" <location type="industry" name="(Mccrady-Rodgers Co. No. l)" itype="concrete">(Mccrady-Rodgers Co. No. l)</location> ........  <distance milepost= "104.3">104.3</distance></entry>
+                <entry>" <location type="industry" name="(Sommerfeld Machine Co.)" itype="machinery">(Sommerfeld Machine Co.)</location> ............  <distance milepost= "104.3">104.3</distance></entry>
 
-                <entry><switch number="432">432</switch> .... Hawkins, Pa. (Station) ........................ <distance milepost= "104.9">104.9</distance></entry>
+                <entry><switch number="432">432</switch> .... <location type="station" name="Hawkins, Pa. (Station)">Hawkins, Pa. (Station)</location> ........................ <distance milepost= "104.9">104.9</distance></entry>
 
-                <entry><switch number="433">433</switch> Swissvale, Pa. (Nicholson &amp; Co.) ............ <distance milepost= "105.0">105.0</distance></entry>
+                <entry><switch number="433">433</switch> <location type="industry" name="Swissvale, Pa. (Nicholson &amp; Co.)" itype="construction">Swissvale, Pa. (Nicholson &amp; Co.)</location> ............ <distance milepost= "105.0">105.0</distance></entry>
                 <entry>" (Geo. W. Wurzell)  ..........................  <distance milepost= "48.2">105.0</distance></entry>
                 <entry>" (Koppers Co. and Koppers Products Co.)  l  <distance milepost= "105.0">105.0</distance></entry>
                 <entry>" (Pittsburgh Waste Co. and Vesuvius Crucible Co.) ..........................  <distance milepost= "105.4">105.4</distance></entry>
