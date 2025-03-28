@@ -11,4 +11,4 @@ for $ent at $pos in $entry
 where $ent/location[@name="(Station)"]
     return (concat("&#xa;", " Out of ", $station-count, " stations, there are ", $un-st-count, " unnamed stations, where one of them is at the ", $pos, "th entry."))
     
-    (: This XQuery lists all the stations, and singles out stations where they have not been assigned a formal name, and lists what entry that station is at as well:)
+    (:This XQuery lists the count of every station, and lists how many unnamed stations there are and lists what entry number said station is at:)
