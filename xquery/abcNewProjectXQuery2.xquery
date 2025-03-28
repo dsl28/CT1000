@@ -1,14 +1,11 @@
 declare variable $data := collection('../xml/?select.*xml');
 let $entry := /CT1000//entry
-let $certain-entry := $entry[location[@name="(Station)"]][n]
+let $certain-entry := $entry[location[@type="station"]][n]
 let $location := $entry/location
 let $location-count := count($location)
 let $stations := $location[@type="station"]
 let $station-count := count($stations)
-let $un-stations := $location[@name="(Station)"]
-let $un-st-count := count($un-stations)
 for $ent at $pos in $entry
-where $ent/location[@name="(Station)"]
-    return (concat("&#xa;", " Out of ", $station-count, " stations, there are ", $un-st-count, " unnamed stations, where one of them is at the ", $pos, "th entry."))
-    
+where $ent/location[@type="station"]
+    return (concat("&#xa;", " There are ", $station-count, " stations. The ", $stations," station is at the ", $pos, "th entry."))
     (: This XQuery lists all the stations, and singles out stations where they have not been assigned a formal name, and lists what entry that station is at as well:)
