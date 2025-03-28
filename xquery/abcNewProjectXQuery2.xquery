@@ -8,4 +8,5 @@ let $station-count := count($stations)
 for $ent at $pos in $entry
 where $ent/location[@type="station"]
     return (concat("&#xa;", " There are ", $station-count, " stations. The ", $stations," station is at the ", $pos, "th entry."))
-    (: This XQuery lists all the stations, and singles out stations where they have not been assigned a formal name, and lists what entry that station is at as well:)
+   
+    (:This XQuery lists the count of every station, and lists how many stations there are, and specifically lists the name of the station and the entry number it is at.:)
