@@ -1,6 +1,6 @@
 xquery version"3.1";
 declare option saxon:output"method=html";
-declare variable $data := doc('CT1000/xml/?select=CT1000_XML.xml');
+declare variable $data := doc('../xml/CT1000_XML.xml');
 
 <html>
 <head>
@@ -12,11 +12,11 @@ declare variable $data := doc('CT1000/xml/?select=CT1000_XML.xml');
         <tr>
             <th>Name</th>
             <th>Switch Number</th>
-            <th>Distance from Altoona</th>
+            <th>Distance from </th>
             <th>Location Type</th>
         </tr>
         {
-            for $entry in $data//CT1000//entry[location/@type = "i"]
+            for $entry in $data//CT1000//entry[location/@itype = "coal"]
             let $distance := xs:decimal($entry/distance/@milepost)
             where $distance <= 20.0 
               and matches(string($entry/switch/@number), "3[0-9]{2}")
