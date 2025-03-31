@@ -28,4 +28,4 @@ var navLinks = [
     navContainer.innerHTML = navHTML;
   }
 }
-window.onload = siteNav;
+document.addEventListener("DOMContentLoaded", siteNav);
