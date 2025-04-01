@@ -1718,61 +1718,61 @@ PITTSBURGH DIVISION-Continued
         (Pass. Sta.)
     </measure>
 
-                    <entry>.... Roup, Pa. (Station) ..................................  <distance milepost= "110.2">110.2</distance></entry>
+                    <entry>.... <location type="station" name="Roup, Pa. (Station)">Roup, Pa. (Station)</location> ..................................  <distance milepost= "110.2">110.2</distance></entry>
 
                     <entry><switch number="437">437</switch></entry>
                    
-                       <entry> East Liberty, Pa. (John Sexton Co.) ........  <distance milepost= "110.5">110.5</distance></entry>
-                    <entry>" (J. A. Williams &amp; Co., Pittsburgh Stopper Co. and Bamberger Krauss &amp; Co.) ..........................  <distance milepost= "110.5">110.5</distance></entry>
-                    <entry>" (Amberson Avenue Public Delivery ---Carload Delivery only) ............  <distance milepost= "110.5">110.5</distance></entry>
-                    <entry>" (Meyers Flour Co.) ........................  <distance milepost= "110.5">110.5</distance></entry>
-                    <entry>" (Shadyside Pass. Station) ..............  <distance milepost= "110.7">110.7</distance></entry>
-                    <entry>" (Ford Motor Co.) ..........................  <distance milepost= "110.8">110.8</distance></entry>
-                    <entry>" (Felix Half, Toyad Co. and Standard Furniture Co.) ........................  <distance milepost= "110.8">110.8</distance></entry>
-                    <entry>" (Federated Metals Corp.) ..............  <distance milepost= "111.1">111.1</distance></entry>
-                    <entry>" (Gulf Oil Corp.) ..............................  <distance milepost= "111.2">111.2</distance></entry>
+                    <entry> <location type="industry" name="East Liberty, Pa. (John Sexton Co.)" itype="business">East Liberty, Pa. (John Sexton Co.)</location> ........  <distance milepost= "110.5">110.5</distance></entry>
+                    <entry>" <location type="industry" name="(J. A. Williams &amp; Co., Pittsburgh Stopper Co. and Bamberger Krauss &amp; Co.)">(J. A. Williams &amp; Co., Pittsburgh Stopper Co. and Bamberger Krauss &amp; Co.)</location> ..........................  <distance milepost= "110.5">110.5</distance></entry>
+                    <entry>" <location type="delivery" name="(Amberson Avenue Public Delivery ---Carload Delivery only)">(Amberson Avenue Public Delivery ---Carload Delivery only)</location> ............  <distance milepost= "110.5">110.5</distance></entry>
+                    <entry>" <location type="industry" name="(Meyers Flour Co.)" itype="flour">(Meyers Flour Co.)</location> ........................  <distance milepost= "110.5">110.5</distance></entry>
+                    <entry>" <location type="industry" name="(Shadyside Pass. Station)">(Shadyside Pass. Station)</location> ..............  <distance milepost= "110.7">110.7</distance></entry>
+                    <entry>" <location type="industry" name="(Ford Motor Co.)" itype="motor">(Ford Motor Co.)</location> ..........................  <distance milepost= "110.8">110.8</distance></entry>
+                    <entry>" <location type="industry" name="(Felix Half, Toyad Co. and Standard Furniture Co.)" itype="furniture">(Felix Half, Toyad Co. and Standard Furniture Co.)</location> ........................  <distance milepost= "110.8">110.8</distance></entry>
+                    <entry>" <location type="industry" name="(Federated Metals Corp.)" itype="metal">(Federated Metals Corp.)</location> ..............  <distance milepost= "111.1">111.1</distance></entry>
+                    <entry>" <location type="industry" name="(Gulf Oil Corp.)" itype="oil">(Gulf Oil Corp.)</location> ..............................  <distance milepost= "111.2">111.2</distance></entry>
 
 <branch name="Deny Siding">
-    <entry><switch number="439">439</switch> .... Pittsburgh, Pa. (Junc. Denny Siding) ........  <distance milepost= "111.9">111.9</distance></entry>
-    <entry><switch number="438">438</switch>.... " (Junc. B. &amp; 0. R. R.) .................. <distance milepost= "112.1">112.1</distance></entry>
+    <entry><switch number="439">439</switch> .... <location type="junction" name="Pittsburgh, Pa. (Junc. Denny Siding)">Pittsburgh, Pa. (Junc. Denny Siding)</location> ........  <distance milepost= "111.9">111.9</distance></entry>
+    <entry><switch number="438">438</switch>.... " <location type="junction" name="(Junc. B. &amp; 0. R. R.)">(Junc. B. &amp; 0. R. R.)</location> .................. <distance milepost= "112.1">112.1</distance></entry>
     <entry><switch number="439">439</switch></entry>
-        <entry>....Pittsburgh, Pa. (Commercial Sash &amp; Door Co. and Loose-Wiles Biscuit Co.)  <distance milepost= "112.1">112.1</distance></entry>
-    <entry>" (H. Kalson) ..................................  <distance milepost= "112.3">112.3</distance></entry>
-    <entry>" (Ward Baking Co.) ........................  <distance milepost= "112.3">112.3</distance></entry>
-    <entry>" (Pittsburgh Gage &amp; Supply Co.) ....  <distance milepost= "112.4">112.4</distance></entry>
-    <entry>" (Gimbel Bros.) .............................. <distance milepost= "112.5">112.5</distance></entry>
+            <entry>....<location type="industry" name="Pittsburgh, Pa. (Commercial Sash &amp; Door Co. and Loose-Wiles Biscuit Co.)" itype="door">Pittsburgh, Pa. (Commercial Sash &amp; Door Co. and Loose-Wiles Biscuit Co.)</location>  <distance milepost= "112.1">112.1</distance></entry>
+    <entry>" <location type="owner" name="(H. Kalson)">(H. Kalson)</location> ..................................  <distance milepost= "112.3">112.3</distance></entry>
+    <entry>" <location type="industry" name="(Ward Baking Co.)" itype="baking" >(Ward Baking Co.)</location> ........................  <distance milepost= "112.3">112.3</distance></entry>
+    <entry>" <location type="industry" name="(Pittsburgh Gage &amp; Supply Co.)" itype="supplies">(Pittsburgh Gage &amp; Supply Co.)</location> ....  <distance milepost= "112.4">112.4</distance></entry>
+    <entry>" <location type="industry" name="(Gimbel Bros.)" itype="department store">(Gimbel Bros.)</location> .............................. <distance milepost= "112.5">112.5</distance></entry>
 </branch>
     
                     <entry><switch number="439A">439A</switch></entry>
-                        <entry>Pittsburgh, Pa. (33d Street Delivery) ......  <distance milepost= "112.0">112.0</distance></entry>
-                    <entry>" (Junction Coal Co.) ........................  <distance milepost= "112.0">112.0</distance></entry>
-                    <entry>" (Alex. Black Coal Co., Lim.) ..........  <distance milepost= "112.1">112.1</distance></entry>
-                    <entry>" (Power House No. 2) ......................  <distance milepost= "112.2">112.2</distance></entry>
-                    <entry>" (28th Street Shop) ......................  <distance milepost= "112.5">112.5</distance></entry>
-                    <entry><switch number="440">440</switch> ... Pittsburgh, Pa. (26th St. Electric Crane)  <distance milepost= "112.8">112.8</distance></entry>
-                    <entry><switch number="440C">440C</switch>.... " (Power House No. l) ....................  <distance milepost= "113.7">113.7</distance></entry>
-                    <entry><switch number="OD">OD</switch>.... " (United States Post 0ffice ) ............  <distance milepost= "113.8">113.8</distance></entry>
-                    <entry><switch number="441A">441A</switch>.... " (Junc. Pittsburgh and Panhandle Divisions) ..................................  <distance milepost= "114.1">114.1</distance></entry>
+                    <entry><location type="delivery" name="Pittsburgh, Pa. (33d Street Delivery)">Pittsburgh, Pa. (33d Street Delivery)</location> ......  <distance milepost= "112.0">112.0</distance></entry>
+                    <entry>" <location type="industry" name="(Junction Coal Co.)">(Junction Coal Co.)</location> ........................  <distance milepost= "112.0">112.0</distance></entry>
+                    <entry>" <location type="industry" name="(Alex. Black Coal Co., Lim.)" itype="coal">(Alex. Black Coal Co., Lim.)</location> ..........  <distance milepost= "112.1">112.1</distance></entry>
+                    <entry>" <location type="power house" name="(Power House No. 2)">(Power House No. 2)</location> ......................  <distance milepost= "112.2">112.2</distance></entry>
+                    <entry>" <location type="shop" name="(28th Street Shop)">(28th Street Shop)</location> ......................  <distance milepost= "112.5">112.5</distance></entry>
+                    <entry><switch number="440">440</switch> ... <location type="crane" name="Pittsburgh, Pa. (26th St. Electric Crane)">Pittsburgh, Pa. (26th St. Electric Crane)</location>  <distance milepost= "112.8">112.8</distance></entry>
+                    <entry><switch number="440C">440C</switch>.... " <location type="power house" name="(Power House No. l)">(Power House No. l)</location> ....................  <distance milepost= "113.7">113.7</distance></entry>
+                    <entry><switch number="OD">OD</switch>.... " <location type="post office" name="(United States Post Office )">(United States Post Office )</location> ............  <distance milepost= "113.8">113.8</distance></entry>
+                    <entry><switch number="441A">441A</switch>.... " <location type="junction" name="(Junc. Pittsburgh and Panhandle Divisions)">(Junc. Pittsburgh and Panhandle Divisions)</location> ..................................  <distance milepost= "114.1">114.1</distance></entry>
                     <entry><switch number="1B">1B</switch></entry>
-                        <entry>Pittsburgh, Pa., South Side (Junc. Panhandle Div.) ............................  <distance milepost= "114.8">114.8</distance></entry>
-                    <entry>" (Carson St. Station and Public Delivery) ....................................  <distance milepost= "114.9">114.9.2</distance></entry>
-                    <entry><switch number="OB">OB</switch> ... Pittsburgh, Pa., South Side (23d St. Station) ..........................................  <distance milepost= "118.1">118.1</distance></entry>
-                    <entry><switch number="441B">441B</switch> " (Junc., Eastern Div.)....................  <distance milepost= "114.1">114.1</distance></entry>
-                    <entry><switch number="AC">AC</switch> " (Junc. Conemaugh Div. P. R. R.) ......  <distance milepost= "114.8">114.8</distance></entry>
-                    <entry><switch number="IA">IA</switch> " (Island Avenue - East and West Bound Freight Yard) ..................  <distance milepost= "48116.8.2">116.8</distance></entry>
-                    <entry><switch number="CW">CW</switch> ... Conway, Pa ...............................................  <distance milepost= "136.8">136.8</distance></entry>
-                    <entry><switch number="441C">441C</switch> ... Pittsburgh, Pa. (Jc. Conemaugh Div.) ......  <distance milepost= "112.7">112.7</distance></entry>
-                    <entry><switch number="Z">Z</switch> " (43d Street Yard and Local Tracks)  <distance milepost= "114.3">114.3</distance></entry>
-                    <entry><switch number="A28">A28</switch>.... " (Penna. R. R. Produce Term.) ..........  <distance milepost= "113.6">113.6</distance></entry>
-                    <entry><switch number="A23">A23</switch> .... " (16th St. and Freight House Yard) ..  <distance milepost= "113.8">113.8</distance></entry>
-                    <entry><switch number="OD">OD</switch>.... " (Penna. Station): .......................... <distance milepost= "113.8">113.8</distance></entry>
+                    <entry><location type="junction" name="Pittsburgh, Pa., South Side (Junc. Panhandle Div.)">Pittsburgh, Pa., South Side (Junc. Panhandle Div.)</location> ............................  <distance milepost= "114.8">114.8</distance></entry>
+                    <entry>" <location type="delivery" name="(Carson St. Station and Public Delivery)">(Carson St. Station and Public Delivery)</location> ....................................  <distance milepost= "114.9">114.9.2</distance></entry>
+                    <entry><switch number="OB">OB</switch> ... <location type="station" name="Pittsburgh, Pa., South Side (23d St. Station)">Pittsburgh, Pa., South Side (23d St. Station)</location> ..........................................  <distance milepost= "118.1">118.1</distance></entry>
+                    <entry><switch number="441B">441B</switch> " <location type="junction" name="(Junc., Eastern Div.)">(Junc., Eastern Div.)</location>....................  <distance milepost= "114.1">114.1</distance></entry>
+                    <entry><switch number="AC">AC</switch> " <location type="junction" name="(Junc. Conemaugh Div. P. R. R.)">(Junc. Conemaugh Div. P. R. R.)</location> ......  <distance milepost= "114.8">114.8</distance></entry>
+                    <entry><switch number="IA">IA</switch> " <location type="yard" name="(Island Avenue - East and West Bound Freight Yard)">(Island Avenue - East and West Bound Freight Yard)</location> ..................  <distance milepost= "48116.8.2">116.8</distance></entry>
+                    <entry><switch number="CW">CW</switch> ... <location type="place name" name="Conway, Pa">Conway, Pa</location> ...............................................  <distance milepost= "136.8">136.8</distance></entry>
+                    <entry><switch number="441C">441C</switch> ... <location type="junction" name="Pittsburgh, Pa. (Jc. Conemaugh Div.)">Pittsburgh, Pa. (Jc. Conemaugh Div.)</location> ......  <distance milepost= "112.7">112.7</distance></entry>
+                    <entry><switch number="Z">Z</switch> " <location type="yard" name="(43d Street Yard and Local Tracks)">(43d Street Yard and Local Tracks)</location>  <distance milepost= "114.3">114.3</distance></entry>
+                    <entry><switch number="A28">A28</switch>.... " <location type="industry" name="(Penna. R. R. Produce Term.)" itype="produce">(Penna. R. R. Produce Term.)</location> ..........  <distance milepost= "113.6">113.6</distance></entry>
+                    <entry><switch number="A23">A23</switch>.... " <location type="yard" name="(16th St. and Freight House Yard)">(16th St. and Freight House Yard)</location> ..  <distance milepost= "113.8">113.8</distance></entry>
+                    <entry><switch number="OD">OD</switch>.... " <location type="station" name="(Penna. Station)">(Penna. Station)</location> .......................... <distance milepost= "113.8">113.8</distance></entry>
 <branch name="Duquesne Way Elevated">
-    <entry><switch number="442">442</switch> .... " (Jc. Duquesne Way Elevated Br.) ..  <distance milepost= "114.0">114.0</distance></entry>
+    <entry><switch number="442">442</switch> .... " <location type="junction" name="(Jc. Duquesne Way Elevated Br.)">(Jc. Duquesne Way Elevated Br.)</location> ..  <distance milepost= "114.0">114.0</distance></entry>
     <entry><switch number="443">443</switch></entry>
-        <entry><switch number="82ll"></switch>Pittsburgh, Pa. (Duquesne Freight Station Delivery) ................................  <distance milepost= "114.9">114.9</distance></entry>
-                                     <entry>" (Duquesne Frt. Sta. Short St. Ex.)  <distance milepost= "114.8">114.8</distance></entry>
+    <entry><switch number="82ll"></switch><location type="delivery" name="Pittsburgh, Pa. (Duquesne Freight Station Delivery)">Pittsburgh, Pa. (Duquesne Freight Station Delivery)</location> ................................  <distance milepost= "114.9">114.9</distance></entry>
+        <entry>" <location type="station" name="(Duquesne Frt. Sta. Short St. Ex.)">(Duquesne Frt. Sta. Short St. Ex.)</location>  <distance milepost= "114.8">114.8</distance></entry>
 </branch>
 
 <!-- ABC: Cleaned up from 1470 until end, replaced &amps, replaced letters after ) such as ")t" with Regex-->
-
+<!-- ABC: Finished location marking, will check for cleanup as well however-->
 </CT1000>
