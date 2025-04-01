@@ -1589,7 +1589,7 @@ PITTSBURGH DIVISION-Continued
             <entry><switch number="EP">EP</switch> .... <location type="station" name="East Pittsburgh, Pa. (Station)">East Pittsburgh, Pa. (Station)</location> ................  <distance milepost= "101.7">101.7</distance></entry>
             <entry><switch number="429">429</switch> .... <location type="junction" name="Brinton U Junction">Brinton U Junction</location> ................................  <distance milepost= "102.2">102.2</distance></entry>
             <entry><switch number="430">430</switch> .... <location type="station" name="Bessemer, Pa. (Station)">Bessemer, Pa. (Station)</location> ..........................  <distance milepost= "103.0">103.0</distance></entry>
-            <entry><switch number="431">431</switch> .... <location type="staion" name="Braddock, Pa. (Station)">Braddock, Pa. (Station)</location> .......................... <distance milepost= "103.8">103.8</distance></entry>
+            <entry><switch number="431">431</switch> .... <location type="station" name="Braddock, Pa. (Station)">Braddock, Pa. (Station)</location> .......................... <distance milepost= "103.8">103.8</distance></entry>
 
 
             <entry><switch number="82ll">431A</switch></entry> <!-- ABC: Possible repeat: lines 1583-1587, lines 1596-1600 -->
@@ -1745,7 +1745,7 @@ PITTSBURGH DIVISION-Continued
     
                     <entry><switch number="439A">439A</switch></entry>
                     <entry><location type="delivery" name="Pittsburgh, Pa. (33d Street Delivery)">Pittsburgh, Pa. (33d Street Delivery)</location> ......  <distance milepost= "112.0">112.0</distance></entry>
-                    <entry>" <location type="industry" name="(Junction Coal Co.)">(Junction Coal Co.)</location> ........................  <distance milepost= "112.0">112.0</distance></entry>
+                    <entry>" <location type="industry" name="(Junction Coal Co.)" itype="coal">(Junction Coal Co.)</location> ........................  <distance milepost= "112.0">112.0</distance></entry>
                     <entry>" <location type="industry" name="(Alex. Black Coal Co., Lim.)" itype="coal">(Alex. Black Coal Co., Lim.)</location> ..........  <distance milepost= "112.1">112.1</distance></entry>
                     <entry>" <location type="power house" name="(Power House No. 2)">(Power House No. 2)</location> ......................  <distance milepost= "112.2">112.2</distance></entry>
                     <entry>" <location type="shop" name="(28th Street Shop)">(28th Street Shop)</location> ......................  <distance milepost= "112.5">112.5</distance></entry>
