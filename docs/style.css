@@ -1,8 +1,28 @@
 body {
 background-color: #050f0c;
 color: #f0dc82;
-font-family: arial, helvetica, sans-serif;
+font-family: "Times New Roman";
 }
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
 
 a {
   color: #f0dc82;
