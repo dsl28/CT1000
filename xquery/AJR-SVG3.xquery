@@ -8,7 +8,7 @@ declare variable $yspace := 20;
 <html>
     <head>
         <title>Industries Graph</title>
-    </head>
+    </head> 
     
     <p> A grpah illistrating the rail-served industries along the Pennsylvania Railroad's Pittsburgh division (circa 1945).
     This graph is grouped by type and thus shows an intersting visual on a slice of the wide variety of types of industry 
