@@ -4,6 +4,12 @@ color: #f0dc82;
 font-family: "Times New Roman";
 }
 
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
 h1 {
   text-align: center;
 }
