@@ -1,8 +1,30 @@
 body {
-background-color: #ff5733;
+
+background-color: #7c3030;
+
 color: #f0dc82;
-font-family: arial, helvetica, sans-serif;
+font-family: "Times New Roman";
 }
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+
 
 a {
   color: #f0dc82;
