@@ -1,4 +1,4 @@
-declare variable $data := collection('../xml/?select.*xml');
+declare variable $data := collection("../xml/CT1000_XML.xml')/entry;");
 declare variable $entry := /CT1000//entry;
 declare variable $location := $entry/location;
 declare variable $stations := $location[@type="station"]/text();
