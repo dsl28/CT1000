@@ -1,5 +1,7 @@
 body {
-background-color: #050f0c;
+
+background-color: #7c3030;
+
 color: #f0dc82;
 font-family: "Times New Roman";
 }
@@ -15,7 +17,7 @@ h1 {
 }
 
 p {
-  text-align: center;
+  text-align: left;
 }
 
 h2 {

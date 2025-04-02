@@ -30,7 +30,7 @@ declare variable $source-files:=('..xml/CT1000.xml/?select*.xml');
     <td> 
         {
      for $station-mile in $station-MP
-    let $mile:= $station-MP/data(@name)
+    let $mile:= $station-mile/data(@name)
     return <li>{$mile}</li>
 }
     </td>

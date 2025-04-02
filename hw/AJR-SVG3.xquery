@@ -1,10 +1,14 @@
 declare option saxon:output "method=html";
 declare option saxon:output "doctype-system=about:legacy-compat";
+declare variable $source-files:=doc('..xml/CT1000.xml/?select=*.xml');
+declare variable $industries := $source-files//location[@type="industry"];
+declare variable $xspace := 20;
+declare variable $yspace := 20;
 
 <html>
     <head>
         <title>Industries Graph</title>
-    </head>
+    </head> 
     
     <p> A grpah illistrating the rail-served industries along the Pennsylvania Railroad's Pittsburgh division (circa 1945).
     This graph is grouped by type and thus shows an intersting visual on a slice of the wide variety of types of industry 
@@ -32,10 +36,12 @@ declare option saxon:output "doctype-system=about:legacy-compat";
                         <text x="-75" y="{$position * $yspace + 5}" font-size="15px" fill="black">{$industry}</text>
                         <line x1="0" y1="{$position * $yspace}" x2="{$industry-type-count * $xspace}" y2="{$position * $yspace}" stroke="red" stroke-width="15"/>
                         <text x="{$industry-type-count * $xspace + 10}" y="{$position * $yspace + 5}" font-size="15px" fill="black">{$industry-type-count}</text>
-                        <line x1="0" y1="0" x2="0" y2="{max($position +1) * $yspacer}" stroke="black" stroke-width="2"/>
-                        }}
+                        <line x1="0" y1="0" x2="0" y2="{max($position +1) * $yspace}" stroke="black" stroke-width="2"/>
+                       
                     </g>
+                    }
                 </g>
+            </g>
         </svg>
         
         
