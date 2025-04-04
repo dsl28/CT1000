@@ -16,7 +16,7 @@ declare variable $data := doc('../xml/CT1000_XML.xml');
             <th>Location Type</th>
         </tr>
         {
-            for $entry in $data//CT1000//entry[location/@itype = "coal"]
+            for $entry in $data//CT1000//entry[location/@type]
             let $distance := xs:decimal($entry/distance/@milepost)
             where $distance <= 20.0 
               and matches(string($entry/switch/@number), "3[0-9]{2}")
@@ -26,7 +26,7 @@ declare variable $data := doc('../xml/CT1000_XML.xml');
                     <td>{string($entry/location/@name)}</td>
                     <td>{string($entry/switch/@number)}</td>
                     <td>{$distance}</td>
-                    <td>{string($entry/location/@type)}</td>
+                    <td>{string($entry/location/@itype)}</td>
                 </tr>
         }
     </table>
