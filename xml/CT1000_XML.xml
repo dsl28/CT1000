@@ -49,7 +49,8 @@ Altoona
     <entry><location type= "siding" name= "Power Plant"> (Power Plant Siding)</location>.................... <distance milepost= "11.1">11.1</distance> </entry>
 </switch>
 
-    <entry><switch number= "336">336</switch> ....  <location type= "station" name= "Gallitzin">Gallitzin, Pa.(Westbound Station)</location> and <location type= "industry" name= "Tunnel Colliery Number 1, Inland Coal Compnay" itype="coal">Tunnel Coll. No. 1-Inland Coal Co.)</location>........................................ <distance milepost= "11.8">11.8</distance></entry>
+    <entry><switch number= "336">336</switch> ....  <location type= "station" name= "Gallitzin">Gallitzin, Pa.(Westbound Station)</location> ........................................ <distance milepost= "11.8">11.8</distance></entry>
+    <entry><switch number= "336">336</switch><location type= "industry" name= "Tunnel Colliery Number 1, Inland Coal Compnay" itype="coal">Tunnel Coll. No. 1-Inland Coal Co.)</location>........................................ <distance milepost= "11.8">11.8</distance></entry>
     <entry><switch number= "336A">336A</switch>.... <location type= "siding" name= "storage"> (Storage) </location>....................................<distance milepost= "11.9">11.9</distance> </entry>
     <entry><switch number= "336B">336B</switch>.... <location type= "industry" name= "Pennsylvania Colliery Number 1, Pennsylvania Coal and Coke Corperation" itype="coal">(Pa. Coll. No. 1-Penna. C. &amp; C. Corporation)</location> (Br.) ..................<distance milepost= "11.9">11.9</distance> </entry>
 
