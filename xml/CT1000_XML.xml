@@ -697,7 +697,7 @@ PITTSBURGH DIVISION-Continued -->
 </branch>
     
 IR
-    <entry><location type="station" name="Irvona">Irvona, Pa. (Station)</location>..................................  <distance milepost= "27 .0">27 .0</distance></entry>
+    <entry><location type="station" name="Irvona">Irvona, Pa. (Station)</location>..................................  <distance milepost= "27.0">27.0</distance></entry>
     <entry>" <location type="junction" name="Irvona Branch">(Junction Irvona Branch)</location>..............  <distance milepost= "48.2">48.2</distance></entry>
     <entry>" <location type="siding" name="Storage">(Storage)</location>  ......................................  <distance milepost= "27.1">27.1</distance></entry>
 
