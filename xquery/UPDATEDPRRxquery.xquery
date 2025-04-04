@@ -1,4 +1,4 @@
-declare variable $numBranches := 68;
+declare variable $numBranches := 40;
 declare variable $branchLen := 600;
 declare variable $branchSpacer := 100;
 declare variable $bigCircleExtraSpacer := 100;
@@ -17,12 +17,12 @@ declare variable $yShift := 200;
             {
                 for $branchNum in 1 to $numBranches
                     let $branchY := $branchSpacer * $branchNum
-                    let $branchName := /CT1000//branch/data(@name)
+                    let $branchName := /Q{}CT1000/Q{}branch[position()=$branchNum]/data(@name)
                     
                     return
                     <g transform="translate(0, {$branchY})">
                         <circle cx="555" cy="0" r="9"/>
-                        <text x="575" y="-20" font-size="25" font-weight="bold"
+                        <text x="475" y="-20" font-size="20" font-weight="bold"
                         text-anchor="start">{$branchName}</text>
                         
                         <line x1="555" x2="{555 + $branchLen}" y1="0" y2="0" stroke="black" stroke-width="5"/>
