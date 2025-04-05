@@ -1,6 +1,6 @@
 declare option saxon:output "method=html";
 declare option saxon:output "doctype-system=about:legacy-compat";
-declare variable $source-files:=doc('..xml/CT1000.xml/?select=*.xml');
+declare variable $source-files:=doc('../xml/CT1000_XML.xml');
 declare variable $industries := $source-files//location[@type="industry"];
 declare variable $xspace := 20;
 declare variable $yspace := 20;
