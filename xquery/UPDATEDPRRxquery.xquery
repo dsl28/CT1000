@@ -1,4 +1,4 @@
-declare variable $numBranches := 40;
+declare variable $numBranches := 39;
 declare variable $branchLen := 600;
 declare variable $branchSpacer := 100;
 declare variable $bigCircleExtraSpacer := 100;
@@ -6,7 +6,7 @@ declare variable $mainLen := $numBranches * $branchSpacer + $bigCircleExtraSpace
 declare variable $xShift := 100;
 declare variable $yShift := 200;
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 4180">>
     <desc></desc>
     <g alignment-baseline="baseline" transform="translate(200,0)">
         <text x='170' y='50' font-size="40">The Pennsylvania Railroad: Pittsburgh Division</text>
@@ -22,8 +22,8 @@ declare variable $yShift := 200;
                     return
                     <g transform="translate(0, {$branchY})">
                         <circle cx="555" cy="0" r="9"/>
-                        <text x="475" y="-20" font-size="20" font-weight="bold"
-                        text-anchor="start">{$branchName}</text>
+                        <text x="520" y="5" font-size="20" font-weight="bold"
+                        text-anchor="end">{$branchName}</text>
                         
                         <line x1="555" x2="{555 + $branchLen}" y1="0" y2="0" stroke="black" stroke-width="5"/>
                         
@@ -34,12 +34,13 @@ declare variable $yShift := 200;
                                 where $circleX mod $firstCircleX = 0
                                 
                                 let $circleNum := $circleX div $firstCircleX
-                                
+                                let $stationName := /Q{}CT1000/Q{}branch/Q{}location/data(@type="station")
+                            
                                 return
                                 <g transform="translate({$circleX}, 0)">
                                     <circle cx="555" cy="0" r="7"/>
                                     <text x="555" y="-20" font-size="16" font-weight="bold"
-                                    text-anchor="middle">S{$circleNum}</text>
+                                    text-anchor="middle">{$stationName}{$circleNum}</text>
                                 </g>
                         }
                     </g>

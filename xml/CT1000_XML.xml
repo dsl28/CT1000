@@ -802,12 +802,12 @@ Conn. Conn.
     <entry><switch number="5253">5253</switch> ... End of Sonman Branch..................  <distance milepost= "24.0 21.5">24.0 21.5</distance></entry>
 </branch>
 
-<branch>
+
     <entry><switch number="345">345</switch> .... <location type="junction" name="Ben's Creek Branch, East Connection">East Connection Ben's Creek Br.</location> .... <distance milepostW= "24.4" milepostE= "20.0">24.4 20.0</distance></entry>
     <entry><switch number="5243">5243</switch> ... <location type="industry" name="Hughes Coll. No. 4 (C. A. Hughes &amp; Co.)" itype="coal">Hughes Coll. No. 4 (C. A. Hughes &amp; Co.)</location> ..........................   <distance milepostW= "25.4" milepostE= "21.0">25.4 21.0</distance></entry>
     <entry><switch number="5246A">5246A</switch> ... <location type="industry" name="Ben's Creek Valley Coll. (Ben's Creek Valley Coal Co.)" itype="coal">Ben's Creek Valley Coll. (Ben's Creek Valley Coal Co.)</location>  <distance milepostW= "25.5" milepostE= "21.4">25.5 21.4</distance></entry>
     <entry><switch number="5249">5249</switch> .... End of Ben's Creek Branch............  <distance milepostW= "25.7" milepostE= "21.6">25.7 21.6</distance></entry>
-</branch>
+
 
     <entry><switch number="349">349</switch> .. <location type="industry" name="Wimore Power House" itype="electric generation">Wilmore, Pa. (Power House)</location>......................  <distance milepost= "23.5">23.5</distance></entry>
     <entry>...<location type="station" name="Wilmore">Wilmore, Pa. (Passenger Station)</location>............  <distance milepost= "23.9">23.9</distance></entry>
