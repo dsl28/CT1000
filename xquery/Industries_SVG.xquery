@@ -33,7 +33,7 @@ declare variable $yspace := 20;
                     let $industry-type-count:= $industry/data(@itype)=>count()
                     return
                     <g>
-                        <text x="-75" y="{$position * $yspace + 5}" font-size="15px" fill="black">{$industry}</text>
+                        <text x="-75" y="{$position * $yspace + 5}" font-size="15px" fill="black">{$industry}</text> 
                         <line x1="0" y1="{$position * $yspace}" x2="{$industry-type-count * $xspace}" y2="{$position * $yspace}" stroke="red" stroke-width="15"/>
                         <text x="{$industry-type-count * $xspace + 10}" y="{$position * $yspace + 5}" font-size="15px" fill="black">{$industry-type-count}</text>
                         <line x1="0" y1="0" x2="0" y2="{max($position +1) * $yspace}" stroke="black" stroke-width="2"/>
