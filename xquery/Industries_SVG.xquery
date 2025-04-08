@@ -1,3 +1,4 @@
+xquery version "3.1";
 declare option saxon:output "method=html";
 declare option saxon:output "doctype-system=about:legacy-compat";
 declare variable $source-files:=doc('../xml/CT1000_XML.xml');
@@ -9,17 +10,19 @@ declare variable $yspace := 20;
     <head>
         <title>Industries Graph</title>
     </head> 
-    
-    <p> A grpah illistrating the rail-served industries along the Pennsylvania Railroad's Pittsburgh division (circa 1945).
+ 
+ 
+    <body>
+    <p> A graph illistrating the rail-served industries along the Pennsylvania Railroad's Pittsburgh division (circa 1945).
     This graph is grouped by type and thus shows an intersting visual on a slice of the wide variety of types of industry 
     that were present in western Pennsylvania at the peak of its industrial might. As well as the variety, it also shows 
     visually how large the presence of each industry was. </p>
     
     <h1>The Graph:</h1>
     
-    <body>
+ 
         
-        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+        <svg >
             <g transform="translate(300,300)">
                 <g>
                     <!-- heading -->
@@ -29,9 +32,15 @@ declare variable $yspace := 20;
                 <g>
                     {
                     
-                    for $industry at $position in $industries
+                 (:   for $industry at $position in $industries
                     let $industry-type-count:= $industry/data(@itype)=>count()
-                    group by $industry-type := //location/@itype=>data()
+                    group by $industry-type := //location/@itype=>data()  :)
+                    
+                    let $industry-types := $industries/@itype=>data()=>distinct-values()
+                    for $industry-type at $position in $industry-types
+                        let $industry-type-count := $industries[@itype=>data() = $industry-type]=>count()
+                    
+                    
                     return
                     
                     <g>
