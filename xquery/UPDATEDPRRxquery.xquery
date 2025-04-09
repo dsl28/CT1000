@@ -26,6 +26,40 @@ declare variable $yShift := 200;
                         text-anchor="end">{$branchName}</text>
                         
                         <line x1="555" x2="{555 + $branchLen}" y1="0" y2="0" stroke="black" stroke-width="5"/>
+                        {
+                            let $countStation := count(//Q{}location/data(@type="station"))
+                            
+                            return
+                            if ($countStation eq 0) then ()
+                            else
+                            let $firstCircleX := round-half-to-even($branchLen div $countStation)
+                            for $circleX in $firstCircleX to $branchLen
+                                where $circleX mod $firstCircleX = 0
+                                
+                                let $circleNum :=$countStation
+                                let $stationName := /Q{}location/data(@type="station")
+                            
+                                return
+                                <g transform="translate({$circleX}, 0)">
+                                    <circle cx="555" cy="0" r="7"/>
+                                    <text x="555" y="-20" font-size="16" font-weight="bold"
+                                    text-anchor="middle">{$stationName}{$circleNum}</text>
+                                </g>
+                                
+                        }
+                    </g>
+            }
+        </g>
+    </g>
+</svg>
+
+(: return
+                    <g transform="translate(0, {$branchY})">
+                        <circle cx="555" cy="0" r="9"/>
+                        <text x="520" y="5" font-size="20" font-weight="bold"
+                        text-anchor="end">{$branchName}</text>
+                        
+                        <line x1="555" x2="{555 + $branchLen}" y1="0" y2="0" stroke="black" stroke-width="5"/>
                         
                         {
                             let $firstCircleX := xs:integer($branchLen div $branchNum)
@@ -33,7 +67,7 @@ declare variable $yShift := 200;
                             for $circleX in $firstCircleX to $branchLen
                                 where $circleX mod $firstCircleX = 0
                                 
-                                let $circleNum := $circleX div $firstCircleX
+                                let $circleNum := count(/Q{}CT1000/Q{}branch/Q{}location/data(@type="station"))
                                 let $stationName := /Q{}CT1000/Q{}branch/Q{}location/data(@type="station")
                             
                                 return
@@ -42,9 +76,4 @@ declare variable $yShift := 200;
                                     <text x="555" y="-20" font-size="16" font-weight="bold"
                                     text-anchor="middle">{$stationName}{$circleNum}</text>
                                 </g>
-                        }
-                    </g>
-            }
-        </g>
-    </g>
-</svg>
+                                :)
