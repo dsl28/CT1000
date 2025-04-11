@@ -26,7 +26,7 @@ declare variable $yspace := 20;
             <g transform="translate(300,300)">
                 <g>
                     <!-- heading -->
-                    <text x="500" y="100" font-size="30px"  fill="black">Industries by type</text>  
+                    <text x="500" y="0" font-size="30px"  fill="#f0dc82">Industries by type</text>  
                     
                 </g>
                 <g>
@@ -45,9 +45,9 @@ declare variable $yspace := 20;
                     
                     <g>
                    
-                        <text x="-75" y="{$position * $yspace + 5}" font-size="15px" fill="black">{$industry-type}</text> 
+                        <text x="-75" y="{$position * $yspace + 5}" font-size="15px" fill="#f0dc82">{$industry-type}</text> 
                         <line x1="0" y1="{$position * $yspace}" x2="{$industry-type-count * $xspace}" y2="{$position * $yspace}" stroke="red" stroke-width="15"/>
-                        <text x="{$industry-type-count * $xspace + 10}" y="{$position * $yspace + 5}" font-size="15px" fill="black">{$industry-type-count}</text>
+                        <text x="{$industry-type-count * $xspace + 10}" y="{$position * $yspace + 5}" font-size="15px" fill="#f0dc82">{$industry-type-count}</text>
                         <line x1="0" y1="0" x2="0" y2="{max($position +1) * $yspace}" stroke="black" stroke-width="2"/>  
                        
                     </g>
