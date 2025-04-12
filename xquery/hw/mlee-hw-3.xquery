@@ -1,7 +1,7 @@
 xquery version"3.1";
 declare option saxon:output "method=html";
 declare option saxon:output "doctype-system=about:legacy-compat";
-declare variable $data := doc('../xquery/homework/./xml/?select=.xml');
+declare variable $data := collection('../xml/?select=*.xml');
 declare variable $xspacer := 10;
 declare variable $yspacer := 25;
 
