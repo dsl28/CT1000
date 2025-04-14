@@ -22,7 +22,7 @@ declare variable $yspace := 20;
     
  
         
-        <svg >
+        <svg width="100%" height="100%">
             <g transform="translate(300,300)">
                 <g>
                     <!-- heading -->
