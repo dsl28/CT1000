@@ -29,21 +29,22 @@ declare variable $yShift := 200;
                         {
                             let $stations := //Q{}branch[data(@name)=$branchName]/Q{}entry/Q{}location[data(@type="station")]
                             let $numStations := count($stations)
+                            let $lineStart := 255
+                            let $lineEnd := $branchLen
+                            let $lineLength := $lineEnd - $lineStart
                             let $firstCircleX := xs:integer(round-half-to-even($branchLen div $numStations))
 
                             for $pos in 1 to $numStations
                                 let $station := $stations[$pos]
                                 let $stationName := data($station/@name)
-                                let $circleX := $pos * $firstCircleX
+                                let $circleX := if ($numStations = 1) then $lineStart
+                                else $lineStart + (($lineLength * ($pos - 1)) div ($numStations - 1))
 
                                 return
-                                <g transform="translate({$circleX - 405}, 0)">
-                                    <circle cx="555" cy="0" r="7"/>
-                                    <text x="555" y="-20" font-size="12" font-weight="bold"
-                                    text-anchor="middle">{$stationName}</text>
+                                <g>
+                                    <circle cx="{$circleX}" cy="0" r="7"/>
+                                    <text x="{$circleX}" y="-20" font-size="12" font-weight="bold" text-anchor="middle">{$stationName}</text>
                                 </g>
-
-                                
                         }
                     </g>
             }
