@@ -1,0 +1,31 @@
+body {
+
+background-color: #7c3030;
+
+color: #f0dc82;
+font-family: "Times New Roman";
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+
+a {
+  color: #f0dc82;
+}
