@@ -9,12 +9,12 @@
                 <text x="500" y="0" font-size="30px"  fill="#f0dc82">Industries by Type</text> 
              </g>
    <g>
-     <!-- <g>
+      <g>
          <text x="-120" y="25" font-size="15px" fill="#f0dc82">coal</text>
          <line x1="0" y1="20" x2="4100" y2="20" stroke="#f0dc82" stroke-width="15"></line>
          <text x="4110" y="25" font-size="15px" fill="#f0dc82">205</text>
          <line x1="0" y1="0" x2="0" y2="40" stroke="black" stroke-width="2"></line>
-      </g> -->
+      </g> 
       <g>
          <text x="-120" y="45" font-size="15px" fill="#f0dc82">refractory brick</text>
          <line x1="0" y1="40" x2="120" y2="40" stroke="#f0dc82" stroke-width="15"></line>
