@@ -1434,7 +1434,7 @@ PITTSBURGH DIVISION-Continued
 
 <branch name="Turtle Creek">
     <entry><switch number="424">424</switch> </entry>
-    <entry> <location type="station" name="(Trafford, Pa. (Station)">(Trafford, Pa. (Station)</location>............................  <distance milepost= "96.9">96.9</distance></entry>
+    <entry> <location type="station" name="Trafford, Pa. (Station)">Trafford, Pa. (Station)</location>............................  <distance milepost= "96.9">96.9</distance></entry>
     <entry> <location type="junction" name="(Junc. Turtle Creek Branch)">(Junc. Turtle Creek Branch)</location>..........  <distance milepost= "97.0">97.0</distance></entry>
 
     <entry><switch number="5432">5432</switch></entry>
@@ -1466,7 +1466,7 @@ PITTSBURGH DIVISION-Continued
 
 EX
     <entry><location type="industry" name="Export, Pa. (Export Lumber Co.)" itype="lumber">Export, Pa. (Export Lumber Co.)</location> ............  <distance milepost= "106.8">106.8</distance></entry>
-    <entry>" <location type="station" name="(Station)">(Station)</location> ......................................  <distance milepost= "106.9">106.9</distance></entry>
+    <entry>" <location type="station" name=" Export, Pa. (Station)">(Station)</location> ......................................  <distance milepost= "106.9">106.9</distance></entry>
     <entry>" <location type="industry" name="(Export Coll.-Westmoreland Coal EX Co.)" itype="coal">(Export Coll.-Westmoreland Coal EX Co.)</location> ......................................  <distance milepost= "107.1">107.1</distance></entry>
     <entry>" <location type="industry" name="(Westmoreland Coal Co.-Material Track)" itype="coal">(Westmoreland Coal Co.-Material Track)</location> .................. . ..............  <distance milepost= "107.3">107.3</distance></entry>
 
@@ -1488,7 +1488,7 @@ PITTSBURGH DIVISION-Continued
     <entry><switch number="5451">5451</switch></entry>
     <entry> <location type="passing" name="White Valley, Pa. (Passing Siding)">White Valley, Pa. (Passing Siding)</location> ..........  <distance milepost= "107.9">107.9</distance></entry>
     <entry>" <location type="industry" name="(Manordale Gas &amp; Oil Co.)" itype="oil">(Manordale Gas &amp; Oil Co.)</location> ............  <distance milepost= "107.9">107.9</distance></entry>
-    <entry>" <location type="station" name="(Station)">(Station)</location> ........................................  <distance milepost= "108.2">108.2</distance></entry>
+    <entry>" <location type="station" name="White Valley, Pa. (Station)">(Station)</location> ........................................  <distance milepost= "108.2">108.2</distance></entry>
 
     <entry><switch number="5453">5453</switch> .... <location type="siding" name="Delmont Siding">Delmont Siding</location> ..........................................  <distance milepost= "108.5">108.5</distance></entry>
     <entry><switch number="5453B">5453B</switch> .... <location type="place name" name="Delmont, Pa">Delmont, Pa</location> .............................................  <distance milepost= "109.9">109.9</distance></entry>
