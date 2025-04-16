@@ -1,37 +1,25 @@
-
 body {
-
 background-color: #7c3030;
-
 color: #f0dc82;
 font-family: "Times New Roman";
 }
 
-table, th, td { 
-   top:50%;
-   left:50%;
-   border: 1px solid;
-   background-color: #D2B48C;
-   color: black;
-}
-
 div{
   text-align: center;
+  background-color:black;
+  font-size: 25px;
 }
-
-
 
 h1 {
   text-align: left;
   text-decoration: underline;
 }
 
-h2 {
+p {
   text-align: left;
   font-size: 20px;
+  text-indent: 30px;
 }
-
-
 
 a {
   color: #f0dc82;
