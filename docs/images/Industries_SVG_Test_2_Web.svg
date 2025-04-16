@@ -11,247 +11,247 @@
    <g>
       <g>
          <g>
-            <text x="-150" y="25" font-size="15px" fill="#f0dc82">coal</text>
+            <text x="-130" y="25" font-size="15px" fill="#f0dc82">coal</text>
             <line x1="0" y1="20" x2="4100" y2="20" stroke="#f0dc82" stroke-width="15"></line>
             <text x="4110" y="25" font-size="15px" fill="#f0dc82">205</text>
             <line x1="0" y1="0" x2="0" y2="40" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="45" font-size="15px" fill="#f0dc82">refractory brick</text>
+            <text x="-130" y="45" font-size="15px" fill="#f0dc82">refractory brick</text>
             <line x1="0" y1="40" x2="120" y2="40" stroke="#f0dc82" stroke-width="15"></line>
             <text x="130" y="45" font-size="15px" fill="#f0dc82">6</text>
             <line x1="0" y1="0" x2="0" y2="60" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="65" font-size="15px" fill="#f0dc82">grain</text>
+            <text x="-130" y="65" font-size="15px" fill="#f0dc82">grain</text>
             <line x1="0" y1="60" x2="80" y2="60" stroke="#f0dc82" stroke-width="15"></line>
             <text x="90" y="65" font-size="15px" fill="#f0dc82">4</text>
             <line x1="0" y1="0" x2="0" y2="80" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="85" font-size="15px" fill="#f0dc82">delivery</text>
+            <text x="-130" y="85" font-size="15px" fill="#f0dc82">delivery</text>
             <line x1="0" y1="80" x2="620" y2="80" stroke="#f0dc82" stroke-width="15"></line>
             <text x="630" y="85" font-size="15px" fill="#f0dc82">31</text>
             <line x1="0" y1="0" x2="0" y2="100" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="105" font-size="15px" fill="#f0dc82">private customer</text>
+            <text x="-130" y="105" font-size="15px" fill="#f0dc82">private customer</text>
             <line x1="0" y1="100" x2="640" y2="100" stroke="#f0dc82" stroke-width="15"></line>
             <text x="650" y="105" font-size="15px" fill="#f0dc82">32</text>
             <line x1="0" y1="0" x2="0" y2="120" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="125" font-size="15px" fill="#f0dc82">lumber</text>
+            <text x="-130" y="125" font-size="15px" fill="#f0dc82">lumber</text>
             <line x1="0" y1="120" x2="340" y2="120" stroke="#f0dc82" stroke-width="15"></line>
             <text x="350" y="125" font-size="15px" fill="#f0dc82">17</text>
             <line x1="0" y1="0" x2="0" y2="140" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="145" font-size="15px" fill="#f0dc82">oil</text>
+            <text x="-130" y="145" font-size="15px" fill="#f0dc82">oil</text>
             <line x1="0" y1="140" x2="300" y2="140" stroke="#f0dc82" stroke-width="15"></line>
             <text x="310" y="145" font-size="15px" fill="#f0dc82">15</text>
             <line x1="0" y1="0" x2="0" y2="160" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="165" font-size="15px" fill="#f0dc82">misc.</text>
+            <text x="-130" y="165" font-size="15px" fill="#f0dc82">misc.</text>
             <line x1="0" y1="160" x2="320" y2="160" stroke="#f0dc82" stroke-width="15"></line>
             <text x="330" y="165" font-size="15px" fill="#f0dc82">16</text>
             <line x1="0" y1="0" x2="0" y2="180" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="185" font-size="15px" fill="#f0dc82">bakery</text>
+            <text x="-130" y="185" font-size="15px" fill="#f0dc82">bakery</text>
             <line x1="0" y1="180" x2="80" y2="180" stroke="#f0dc82" stroke-width="15"></line>
             <text x="90" y="185" font-size="15px" fill="#f0dc82">4</text>
             <line x1="0" y1="0" x2="0" y2="200" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="205" font-size="15px" fill="#f0dc82">brick</text>
+            <text x="-130" y="205" font-size="15px" fill="#f0dc82">brick</text>
             <line x1="0" y1="200" x2="140" y2="200" stroke="#f0dc82" stroke-width="15"></line>
             <text x="150" y="205" font-size="15px" fill="#f0dc82">7</text>
             <line x1="0" y1="0" x2="0" y2="220" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="225" font-size="15px" fill="#f0dc82">tannery</text>
+            <text x="-130" y="225" font-size="15px" fill="#f0dc82">tannery</text>
             <line x1="0" y1="220" x2="20" y2="220" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="225" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="240" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="245" font-size="15px" fill="#f0dc82">drilling</text>
+            <text x="-130" y="245" font-size="15px" fill="#f0dc82">drilling</text>
             <line x1="0" y1="240" x2="20" y2="240" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="245" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="260" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="265" font-size="15px" fill="#f0dc82">meat packing</text>
+            <text x="-130" y="265" font-size="15px" fill="#f0dc82">meat packing</text>
             <line x1="0" y1="260" x2="100" y2="260" stroke="#f0dc82" stroke-width="15"></line>
             <text x="110" y="265" font-size="15px" fill="#f0dc82">5</text>
             <line x1="0" y1="0" x2="0" y2="280" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="285" font-size="15px" fill="#f0dc82">ice</text>
+            <text x="-130" y="285" font-size="15px" fill="#f0dc82">ice</text>
             <line x1="0" y1="280" x2="80" y2="280" stroke="#f0dc82" stroke-width="15"></line>
             <text x="90" y="285" font-size="15px" fill="#f0dc82">4</text>
             <line x1="0" y1="0" x2="0" y2="300" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="305" font-size="15px" fill="#f0dc82">electrical generation</text>
+            <text x="-130" y="305" font-size="15px" fill="#f0dc82">electrical generation</text>
             <line x1="0" y1="300" x2="100" y2="300" stroke="#f0dc82" stroke-width="15"></line>
             <text x="110" y="305" font-size="15px" fill="#f0dc82">5</text>
             <line x1="0" y1="0" x2="0" y2="320" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="325" font-size="15px" fill="#f0dc82">mine equipment</text>
+            <text x="-130" y="325" font-size="15px" fill="#f0dc82">mine equipment</text>
             <line x1="0" y1="320" x2="100" y2="320" stroke="#f0dc82" stroke-width="15"></line>
             <text x="110" y="325" font-size="15px" fill="#f0dc82">5</text>
             <line x1="0" y1="0" x2="0" y2="340" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="345" font-size="15px" fill="#f0dc82">water</text>
+            <text x="-130" y="345" font-size="15px" fill="#f0dc82">water</text>
             <line x1="0" y1="340" x2="40" y2="340" stroke="#f0dc82" stroke-width="15"></line>
             <text x="50" y="345" font-size="15px" fill="#f0dc82">2</text>
             <line x1="0" y1="0" x2="0" y2="360" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="365" font-size="15px" fill="#f0dc82">food</text>
+            <text x="-130" y="365" font-size="15px" fill="#f0dc82">food</text>
             <line x1="0" y1="360" x2="180" y2="360" stroke="#f0dc82" stroke-width="15"></line>
             <text x="190" y="365" font-size="15px" fill="#f0dc82">9</text>
             <line x1="0" y1="0" x2="0" y2="380" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="385" font-size="15px" fill="#f0dc82">railway appliances</text>
+            <text x="-130" y="385" font-size="15px" fill="#f0dc82">railway appliances</text>
             <line x1="0" y1="380" x2="100" y2="380" stroke="#f0dc82" stroke-width="15"></line>
             <text x="110" y="385" font-size="15px" fill="#f0dc82">5</text>
             <line x1="0" y1="0" x2="0" y2="400" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="405" font-size="15px" fill="#f0dc82">steel</text>
+            <text x="-130" y="405" font-size="15px" fill="#f0dc82">steel</text>
             <line x1="0" y1="400" x2="120" y2="400" stroke="#f0dc82" stroke-width="15"></line>
             <text x="130" y="405" font-size="15px" fill="#f0dc82">6</text>
             <line x1="0" y1="0" x2="0" y2="420" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="425" font-size="15px" fill="#f0dc82">stone</text>
+            <text x="-130" y="425" font-size="15px" fill="#f0dc82">stone</text>
             <line x1="0" y1="420" x2="20" y2="420" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="425" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="440" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="445" font-size="15px" fill="#f0dc82">electric</text>
+            <text x="-130" y="445" font-size="15px" fill="#f0dc82">electric</text>
             <line x1="0" y1="440" x2="180" y2="440" stroke="#f0dc82" stroke-width="15"></line>
             <text x="190" y="445" font-size="15px" fill="#f0dc82">9</text>
             <line x1="0" y1="0" x2="0" y2="460" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="465" font-size="15px" fill="#f0dc82">hardware</text>
+            <text x="-130" y="465" font-size="15px" fill="#f0dc82">hardware</text>
             <line x1="0" y1="460" x2="120" y2="460" stroke="#f0dc82" stroke-width="15"></line>
             <text x="130" y="465" font-size="15px" fill="#f0dc82">6</text>
             <line x1="0" y1="0" x2="0" y2="480" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="485" font-size="15px" fill="#f0dc82">glass</text>
+            <text x="-130" y="485" font-size="15px" fill="#f0dc82">glass</text>
             <line x1="0" y1="480" x2="180" y2="480" stroke="#f0dc82" stroke-width="15"></line>
             <text x="190" y="485" font-size="15px" fill="#f0dc82">9</text>
             <line x1="0" y1="0" x2="0" y2="500" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="505" font-size="15px" fill="#f0dc82">metal</text>
+            <text x="-130" y="505" font-size="15px" fill="#f0dc82">metal</text>
             <line x1="0" y1="500" x2="100" y2="500" stroke="#f0dc82" stroke-width="15"></line>
             <text x="110" y="505" font-size="15px" fill="#f0dc82">5</text>
             <line x1="0" y1="0" x2="0" y2="520" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="525" font-size="15px" fill="#f0dc82">construction</text>
+            <text x="-130" y="525" font-size="15px" fill="#f0dc82">construction</text>
             <line x1="0" y1="520" x2="220" y2="520" stroke="#f0dc82" stroke-width="15"></line>
             <text x="230" y="525" font-size="15px" fill="#f0dc82">11</text>
             <line x1="0" y1="0" x2="0" y2="540" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="545" font-size="15px" fill="#f0dc82">machinery</text>
+            <text x="-130" y="545" font-size="15px" fill="#f0dc82">machinery</text>
             <line x1="0" y1="540" x2="120" y2="540" stroke="#f0dc82" stroke-width="15"></line>
             <text x="130" y="545" font-size="15px" fill="#f0dc82">6</text>
             <line x1="0" y1="0" x2="0" y2="560" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="565" font-size="15px" fill="#f0dc82">automotive</text>
+            <text x="-130" y="565" font-size="15px" fill="#f0dc82">automotive</text>
             <line x1="0" y1="560" x2="80" y2="560" stroke="#f0dc82" stroke-width="15"></line>
             <text x="90" y="565" font-size="15px" fill="#f0dc82">4</text>
             <line x1="0" y1="0" x2="0" y2="580" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="585" font-size="15px" fill="#f0dc82">welding gas</text>
+            <text x="-130" y="585" font-size="15px" fill="#f0dc82">welding gas</text>
             <line x1="0" y1="580" x2="20" y2="580" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="585" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="600" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="605" font-size="15px" fill="#f0dc82">chemical</text>
+            <text x="-130" y="605" font-size="15px" fill="#f0dc82">chemical</text>
             <line x1="0" y1="600" x2="40" y2="600" stroke="#f0dc82" stroke-width="15"></line>
             <text x="50" y="605" font-size="15px" fill="#f0dc82">2</text>
             <line x1="0" y1="0" x2="0" y2="620" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="625" font-size="15px" fill="#f0dc82">meter</text>
+            <text x="-130" y="625" font-size="15px" fill="#f0dc82">meter</text>
             <line x1="0" y1="620" x2="60" y2="620" stroke="#f0dc82" stroke-width="15"></line>
             <text x="70" y="625" font-size="15px" fill="#f0dc82">3</text>
             <line x1="0" y1="0" x2="0" y2="640" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="645" font-size="15px" fill="#f0dc82">gas</text>
+            <text x="-130" y="645" font-size="15px" fill="#f0dc82">gas</text>
             <line x1="0" y1="640" x2="20" y2="640" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="645" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="660" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="665" font-size="15px" fill="#f0dc82">telephone</text>
+            <text x="-130" y="665" font-size="15px" fill="#f0dc82">telephone</text>
             <line x1="0" y1="660" x2="20" y2="660" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="665" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="680" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="685" font-size="15px" fill="#f0dc82">paper box</text>
+            <text x="-130" y="685" font-size="15px" fill="#f0dc82">paper box</text>
             <line x1="0" y1="680" x2="20" y2="680" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="685" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="700" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="705" font-size="15px" fill="#f0dc82">drug</text>
+            <text x="-130" y="705" font-size="15px" fill="#f0dc82">drug</text>
             <line x1="0" y1="700" x2="20" y2="700" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="705" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="720" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="725" font-size="15px" fill="#f0dc82">furniture</text>
+            <text x="-130" y="725" font-size="15px" fill="#f0dc82">furniture</text>
             <line x1="0" y1="720" x2="40" y2="720" stroke="#f0dc82" stroke-width="15"></line>
             <text x="50" y="725" font-size="15px" fill="#f0dc82">2</text>
             <line x1="0" y1="0" x2="0" y2="740" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="745" font-size="15px" fill="#f0dc82">cork</text>
+            <text x="-130" y="745" font-size="15px" fill="#f0dc82">cork</text>
             <line x1="0" y1="740" x2="20" y2="740" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="745" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="760" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="765" font-size="15px" fill="#f0dc82">department store</text>
+            <text x="-130" y="765" font-size="15px" fill="#f0dc82">department store</text>
             <line x1="0" y1="760" x2="20" y2="760" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="765" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="780" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="785" font-size="15px" fill="#f0dc82">crane</text>
+            <text x="-130" y="785" font-size="15px" fill="#f0dc82">crane</text>
             <line x1="0" y1="780" x2="20" y2="780" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="785" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="800" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="805" font-size="15px" fill="#f0dc82">post office</text>
+            <text x="-130" y="805" font-size="15px" fill="#f0dc82">post office</text>
             <line x1="0" y1="800" x2="20" y2="800" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="805" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="820" stroke="black" stroke-width="2"></line>
          </g>
          <g>
-            <text x="-150" y="825" font-size="15px" fill="#f0dc82">produce</text>
+            <text x="-130" y="825" font-size="15px" fill="#f0dc82">produce</text>
             <line x1="0" y1="820" x2="20" y2="820" stroke="#f0dc82" stroke-width="15"></line>
             <text x="30" y="825" font-size="15px" fill="#f0dc82">1</text>
             <line x1="0" y1="0" x2="0" y2="840" stroke="black" stroke-width="2"></line>
