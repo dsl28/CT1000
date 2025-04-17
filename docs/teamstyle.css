@@ -1,25 +1,12 @@
-
 body {
-
 background-color: #7c3030;
-
 color: #f0dc82;
 font-family: "Times New Roman";
-}
-
-table, th, td { 
-   top:50%;
-   left:50%;
-   border: 1px solid;
-   background-color: #D2B48C;
-   color: black;
 }
 
 div{
   text-align: center;
 }
-
-
 
 h1 {
   text-align: left;
@@ -28,10 +15,14 @@ h1 {
 
 h2 {
   text-align: left;
-  font-size: 20px;
+  font-style: italic;
 }
 
-
+p {
+  text-align: left;
+  font-size: 20px;
+  text-indent: 30px;
+}
 
 a {
   color: #f0dc82;
