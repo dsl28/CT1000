@@ -1,5 +1,5 @@
 declare variable $numBranches := 39;
-declare variable $branchLen := 950;
+declare variable $branchLen := 1050;
 declare variable $branchSpacer := 100;
 declare variable $bigCircleExtraSpacer := 100;
 declare variable $mainLen := $numBranches * $branchSpacer + $bigCircleExtraSpacer;
@@ -32,6 +32,8 @@ declare variable $yShift := 200;
                         {
                             let $stations := //Q{}branch[data(@name)=$branchName]/Q{}entry/Q{}location[data(@type="station")]
                             let $numStations := count($stations)
+                            let $stations2 := //Q{}branch/Q{}branch/Q{}entry/Q{}location[data(@type="station")]
+                            let $numStations2 := count($stations2)
                             let $lineStart := 255
                             let $lineEnd := $branchLen
                             let $lineLength := $lineEnd - $lineStart
@@ -40,6 +42,8 @@ declare variable $yShift := 200;
                             for $pos in 1 to $numStations
                                 let $station := $stations[$pos]
                                 let $stationName := data($station/@name)
+                                let $station2 := $stations2[$pos]
+                                let $stationName2 := data($station2/@name)
                                 let $sfORdwe := $branchName = "South Fork" or $branchName = "Duquesne Way Elevated"
                                 let $inverseL := if ($sfORdwe) then -45 else 45
                                 let $inverseT := if ($sfORdwe) then 20 else -20
@@ -50,8 +54,10 @@ declare variable $yShift := 200;
                                 <g>
                                     <circle cx="{$circleX}" cy="0" r="7"/>
                                     <text x="{$circleX}" y="{$inverseT}" font-size="11" font-weight="bold" text-anchor="middle">{$stationName}</text>
-                                    <line x1="400" x2="455" y1="0" y2="{$inverseL}" stroke="black" stroke-width="5"/>
-                                    <line x1="454" x2="{$branchLen}" y1="{$inverseL}" y2="{$inverseL}" stroke="black" stroke-width="5"/>
+                                    <line x1="300" x2="355" y1="0" y2="{$inverseL}" stroke="black" stroke-width="5"/>
+                                    <line x1="354" x2="{$branchLen}" y1="{$inverseL}" y2="{$inverseL}" stroke="black" stroke-width="5"/>
+                                    <circle cx="{$circleX + 100}" cy="{$inverseL}" r="7"/>
+                                    <text x="{$circleX + 100}" y="{$inverseT + 45}" font-size="10.5" font-weight="bold" text-anchor="middle" text-shadow="2px 2px 2px white">{$stationName2}</text>
                                 </g>
                         }
                     </g>
