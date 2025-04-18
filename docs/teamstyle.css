@@ -4,8 +4,11 @@ color: #f0dc82;
 font-family: "Times New Roman";
 }
 
+
 div{
   text-align: center;
+  background-color:black;
+  font-size: 25px;
 }
 
 h1 {

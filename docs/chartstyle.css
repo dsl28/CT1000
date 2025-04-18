@@ -17,9 +17,9 @@ table, th, td {
 
 div{
   text-align: center;
+  background-color:black;
+  font-size: 25px;
 }
-
-
 
 h1 {
   text-align: left;
