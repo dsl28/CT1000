@@ -32,7 +32,7 @@ declare variable $yShift := 200;
                         {
                             let $stations := //Q{}branch[data(@name)=$branchName]/Q{}entry/Q{}location[data(@type="station")]
                             let $numStations := count($stations)
-                            let $stations2 := //Q{}branch/Q{}branch/Q{}entry/Q{}location[data(@type="station")]
+                            let $stations2 := //Q{}branch/Q{}branch/Q{}entry/Q{}location[data(@type="station")] (:ABC: this doesnt seem to work:)
                             let $numStations2 := count($stations2)
                             let $lineStart := 255
                             let $lineEnd := $branchLen
@@ -44,11 +44,18 @@ declare variable $yShift := 200;
                                 let $stationName := data($station/@name)
                                 let $station2 := $stations2[$pos]
                                 let $stationName2 := data($station2/@name)
-                                let $sfORdwe := $branchName = "South Fork" or $branchName = "Duquesne Way Elevated"
+                                let $sfORdwe := $branchName = "South Fork" or $branchName = "Duquesne Way Elevated" (:ABC: added this rather than the if else SVG loop, for some reason the if else loop straight up never worked so I compromised with this:)
                                 let $inverseL := if ($sfORdwe) then -45 else 45
                                 let $inverseT := if ($sfORdwe) then 20 else -20
+                                let $inverseT2 := if ($sfORdwe) then $inverseT - 45 else $inverseT + 45
                                 let $circleX := if ($numStations = 1) then $lineStart
                                 else $lineStart + (($lineLength * ($pos - 1)) div ($numStations - 1))
+                                let $lineStart2 := 255
+                                let $lineEnd2 := $branchLen
+                                let $lineLength2 := $lineEnd2 - $lineStart2
+                                let $circleX2 := if ($numStations2 = 1) then $lineStart2
+                                else $lineStart2 + (($lineLength2 * ($pos - 1)) div ($numStations2 - 1))
+
 
                                 return
                                 <g>
@@ -56,8 +63,9 @@ declare variable $yShift := 200;
                                     <text x="{$circleX}" y="{$inverseT}" font-size="11" font-weight="bold" text-anchor="middle">{$stationName}</text>
                                     <line x1="300" x2="355" y1="0" y2="{$inverseL}" stroke="black" stroke-width="5"/>
                                     <line x1="354" x2="{$branchLen}" y1="{$inverseL}" y2="{$inverseL}" stroke="black" stroke-width="5"/>
-                                    <circle cx="{$circleX + 100}" cy="{$inverseL}" r="7"/>
-                                    <text x="{$circleX + 100}" y="{$inverseT + 45}" font-size="10.5" font-weight="bold" text-anchor="middle" text-shadow="2px 2px 2px white">{$stationName2}</text>
+                                    <circle cx="{$circleX2 + 100}" cy="{$inverseL}" r="7"/>
+                                    <text x="{$circleX2 + 100}" y="{$inverseT2}" font-size="11" font-weight="bold" text-anchor="middle" fill="white" stroke="white" stroke-width="3">{$stationName2}</text>
+                                    <text x="{$circleX2 + 100}" y="{$inverseT2}" font-size="10.5" font-weight="bold" text-anchor="middle">{$stationName2}</text>
                                 </g>
                         }
                     </g>
