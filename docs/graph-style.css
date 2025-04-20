@@ -12,19 +12,25 @@ img {
   width: 100%;
 }
 
-h1 {
+div{
   text-align: center;
+  background-color:black;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: left;
+  font-size: 20px;
 }
 
 p {
   text-align: center;
 }
-
-h2 {
-  text-align: center;
-}
-
-
 
 a {
   color: #f0dc82;
