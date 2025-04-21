@@ -9,10 +9,10 @@ declare variable $yShift := 200;
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 4180">>
     <desc></desc>
     <g alignment-baseline="baseline" transform="translate(200,0)">
-        <text x='170' y='50' font-size="40">The Pennsylvania Railroad: Pittsburgh Division</text>
-        <line x1='155' y1='62.6' x2='953' y2='62.6' stroke-width='3' stroke='black'></line>
-        <circle cx='165' cy='110' r="10"  stroke-width='5' stroke='black'></circle>
-        <line x1="165" x2="165" y1="110" y2="{$mainLen}" stroke="black" stroke-width="5"/>
+        <text x='170' y='50' font-size="40" fill="#f0dc82">The Pennsylvania Railroad: Pittsburgh Division</text>
+        <line x1='155' y1='62.6' x2='953' y2='62.6' stroke-width='3' stroke='#f0dc82'></line>
+        <circle cx='165' cy='110' r="10"  stroke-width='5' fill="#f0dc82"></circle>
+        <line x1="165" x2="165" y1="110" y2="{$mainLen}" stroke="#f0dc82" stroke-width="5"/>
         <g transform="translate(0, {$bigCircleExtraSpacer})">                
             {
                 for $branchNum in 1 to $numBranches
@@ -24,11 +24,10 @@ declare variable $yShift := 200;
                     return
                     if ($numStations > 0) then
                     <g transform="translate(0, {$branchY})">
-                        <circle cx="165" cy="0" r="9"/>
-                        <text x="140" y="5" font-size="20" font-weight="bold"
-                        text-anchor="end">{$branchName}</text>
+                        <circle cx="165" cy="0" r="9" fill="#f0dc82"/>
+                        <text x="140" y="5" font-size="20" font-weight="bold" text-anchor="end" fill="#f0dc82">{$branchName}</text>
                         
-                        <line x1="165" x2="{$branchLen}" y1="0" y2="0" stroke="black" stroke-width="5"/>
+                        <line x1="165" x2="{$branchLen}" y1="0" y2="0" stroke="#f0dc82" stroke-width="5"/>
                         {
                             let $stations := //Q{}branch[data(@name)=$branchName]/Q{}entry/Q{}location[data(@type="station")]
                             let $numStations := count($stations)
@@ -59,20 +58,20 @@ declare variable $yShift := 200;
 
                                 return
                                 <g>
-                                    <circle cx="{$circleX}" cy="0" r="7"/>
-                                    <text x="{$circleX}" y="{$inverseT}" font-size="11" font-weight="bold" text-anchor="middle">{$stationName}</text>
-                                    <line x1="300" x2="355" y1="0" y2="{$inverseL}" stroke="black" stroke-width="5"/>
-                                    <line x1="354" x2="{$branchLen}" y1="{$inverseL}" y2="{$inverseL}" stroke="black" stroke-width="5"/>
-                                    <circle cx="{$circleX2 + 100}" cy="{$inverseL}" r="7"/>
+                                    <circle cx="{$circleX}" cy="0" r="7" fill="#f0dc82"/>
+                                    <text x="{$circleX}" y="{$inverseT}" font-size="11" font-weight="bold" text-anchor="middle" fill="#f0dc82">{$stationName}</text>
+                                    <line x1="300" x2="355" y1="0" y2="{$inverseL}" stroke="#f0dc82" stroke-width="5"/>
+                                    <line x1="354" x2="{$branchLen}" y1="{$inverseL}" y2="{$inverseL}" stroke="#f0dc82" stroke-width="5"/>
+                                    <circle cx="{$circleX2 + 100}" cy="{$inverseL}" r="7" fill="#f0dc82"/>
                                     <text x="{$circleX2 + 100}" y="{$inverseT2}" font-size="11" font-weight="bold" text-anchor="middle" fill="white" stroke="white" stroke-width="3">{$stationName2}</text>
-                                    <text x="{$circleX2 + 100}" y="{$inverseT2}" font-size="10.5" font-weight="bold" text-anchor="middle">{$stationName2}</text>
+                                    <text x="{$circleX2 + 100}" y="{$inverseT2}" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#f0dc82">{$stationName2}</text>
                                 </g>
                         }
                     </g>
                     else
                     <g transform="translate(0, {$branchY})">
-                        <circle cx="165" cy="0" r="9"/>
-                        <text x="140" y="5" font-size="20" font-weight="bold" text-anchor="end">{$branchName}</text>
+                        <circle cx="165" cy="0" r="9" fill="#f0dc82"/>
+                        <text x="140" y="5" font-size="20" font-weight="bold" text-anchor="end" fill="#f0dc82">{$branchName}</text>
                     </g>
             }
         </g>
