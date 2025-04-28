@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 4180">&gt;
-    <desc/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 4180">
    <g alignment-baseline="baseline" transform="translate(200,0)">
       <text x="170" y="50" font-size="40" fill="#f0dc82">The Pennsylvania Railroad: Pittsburgh Division</text>
       <line x1="155"
@@ -40,6 +39,42 @@
                   y2="0"
                   stroke="#f0dc82"
                   stroke-width="5"/>
+            <line x1="300"
+                  x2="355"
+                  y1="0"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="1050"
+                  y1="45"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="414"
+                  y1="45"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="1050"
+                  y1="100"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="464"
+                  y1="100"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="464"
+                  x2="1050"
+                  y1="145"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
             <g>
                <circle cx="255" cy="0" r="7" fill="#f0dc82"/>
                <text x="255"
@@ -48,105 +83,55 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Ebensburg</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="355" cy="45" r="7" fill="#f0dc82"/>
-               <text x="355"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Vintondale</text>
-               <text x="355"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Vintondale</text>
-            </g>
-            <g>
-               <circle cx="652.5" cy="0" r="7" fill="#f0dc82"/>
-               <text x="652.5"
+               <circle cx="414" cy="0" r="7" fill="#f0dc82"/>
+               <text x="414"
                      y="-20"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Nantyglo</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="487.5" cy="45" r="7" fill="#f0dc82"/>
-               <text x="487.5"
-                     y="25"
+               <circle cx="573" cy="0" r="7" fill="#f0dc82"/>
+               <text x="573"
+                     y="-20"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Dunlo, Pa. (Station)</text>
-               <text x="487.5"
-                     y="25"
-                     font-size="10.5"
+                     fill="#f0dc82">Vintondale</text>
+               <circle cx="732" cy="0" r="7" fill="#f0dc82"/>
+               <text x="732"
+                     y="-20"
+                     font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="#f0dc82">Dunlo, Pa. (Station)</text>
-            </g>
-            <g>
+                     fill="#f0dc82">Rexis</text>
+               <circle cx="891" cy="0" r="7" fill="#f0dc82"/>
+               <text x="891"
+                     y="-20"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Scottglen</text>
                <circle cx="1050" cy="0" r="7" fill="#f0dc82"/>
                <text x="1050"
                      y="-20"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="#f0dc82">Scottglen</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="620" cy="45" r="7" fill="#f0dc82"/>
-               <text x="620"
+                     fill="#f0dc82">Josephine</text>
+               <circle cx="355" cy="45" r="7" fill="#f0dc82"/>
+               <text x="355"
                      y="25"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Ruthford, Pa. (Station)</text>
-               <text x="620"
+                     fill="#f0dc82">Vintondale</text>
+               <circle cx="1050" cy="45" r="7" fill="#f0dc82"/>
+               <text x="1050"
                      y="25"
-                     font-size="10.5"
+                     font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="#f0dc82">Ruthford, Pa. (Station)</text>
+                     fill="#f0dc82">Rexis</text>
             </g>
          </g>
          <g transform="translate(0, 300)">
@@ -181,6 +166,42 @@
                   y2="0"
                   stroke="#f0dc82"
                   stroke-width="5"/>
+            <line x1="300"
+                  x2="355"
+                  y1="0"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="1050"
+                  y1="45"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="414"
+                  y1="45"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="1050"
+                  y1="100"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="464"
+                  y1="100"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="464"
+                  x2="1050"
+                  y1="145"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
             <g>
                <circle cx="255" cy="0" r="7" fill="#f0dc82"/>
                <text x="255"
@@ -188,34 +209,28 @@
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="#f0dc82">Cherry Tree</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="355" cy="45" r="7" fill="#f0dc82"/>
-               <text x="355"
-                     y="25"
+                     fill="#f0dc82">Fleming Summit</text>
+               <circle cx="520" cy="0" r="7" fill="#f0dc82"/>
+               <text x="520"
+                     y="-20"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Vintondale</text>
-               <text x="355"
-                     y="25"
-                     font-size="10.5"
+                     fill="#f0dc82">Commodore</text>
+               <circle cx="785" cy="0" r="7" fill="#f0dc82"/>
+               <text x="785"
+                     y="-20"
+                     font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="#f0dc82">Vintondale</text>
+                     fill="#f0dc82">Shanktown</text>
+               <circle cx="1050" cy="0" r="7" fill="#f0dc82"/>
+               <text x="1050"
+                     y="-20"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Cherry Tree</text>
             </g>
          </g>
          <g transform="translate(0, 600)">
@@ -304,6 +319,42 @@
                   y2="0"
                   stroke="#f0dc82"
                   stroke-width="5"/>
+            <line x1="300"
+                  x2="355"
+                  y1="0"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="1050"
+                  y1="45"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="414"
+                  y1="45"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="1050"
+                  y1="100"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="464"
+                  y1="100"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="464"
+                  x2="1050"
+                  y1="145"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
             <g>
                <circle cx="255" cy="0" r="7" fill="#f0dc82"/>
                <text x="255"
@@ -312,33 +363,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Coalport</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="355" cy="45" r="7" fill="#f0dc82"/>
-               <text x="355"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Vintondale</text>
-               <text x="355"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Vintondale</text>
             </g>
          </g>
          <g transform="translate(0, 1500)">
@@ -418,6 +442,42 @@
                   y2="0"
                   stroke="#f0dc82"
                   stroke-width="5"/>
+            <line x1="300"
+                  x2="355"
+                  y1="0"
+                  y2="-45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="1050"
+                  y1="-45"
+                  y2="-45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="414"
+                  y1="-45"
+                  y2="-100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="1050"
+                  y1="-100"
+                  y2="-100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="464"
+                  y1="-100"
+                  y2="-145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="464"
+                  x2="1050"
+                  y1="-145"
+                  y2="-145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
             <g>
                <circle cx="255" cy="0" r="7" fill="#f0dc82"/>
                <text x="255"
@@ -426,71 +486,34 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">St. Michael, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="-45"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="355" cy="-45" r="7" fill="#f0dc82"/>
-               <text x="355"
-                     y="-25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Vintondale</text>
-               <text x="355"
-                     y="-25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Vintondale</text>
-            </g>
-            <g>
-               <circle cx="453.75" cy="0" r="7" fill="#f0dc82"/>
-               <text x="453.75"
+               <circle cx="334.5" cy="0" r="7" fill="#f0dc82"/>
+               <text x="334.5"
                      y="20"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Creslo, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="-45"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="487.5" cy="-45" r="7" fill="#f0dc82"/>
-               <text x="487.5"
-                     y="-25"
+               <circle cx="414" cy="0" r="7" fill="#f0dc82"/>
+               <text x="414"
+                     y="20"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Dunlo, Pa. (Station)</text>
-               <text x="487.5"
-                     y="-25"
-                     font-size="10.5"
+                     fill="#f0dc82">Dunlo, Pa. (Station)</text>
+               <circle cx="493.5" cy="0" r="7" fill="#f0dc82"/>
+               <text x="493.5"
+                     y="20"
+                     font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="#f0dc82">Dunlo, Pa. (Station)</text>
-            </g>
-            <g>
+                     fill="#f0dc82">Ruthford, Pa. (Station)</text>
+               <circle cx="573" cy="0" r="7" fill="#f0dc82"/>
+               <text x="573"
+                     y="20"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Lloydell, Pa. (Station)</text>
                <circle cx="652.5" cy="0" r="7" fill="#f0dc82"/>
                <text x="652.5"
                      y="20"
@@ -498,105 +521,104 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Lovett, Pa. (Station and G. H. Millert)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="-45"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="620" cy="-45" r="7" fill="#f0dc82"/>
-               <text x="620"
-                     y="-25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Ruthford, Pa. (Station)</text>
-               <text x="620"
-                     y="-25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Ruthford, Pa. (Station)</text>
-            </g>
-            <g>
-               <circle cx="851.25" cy="0" r="7" fill="#f0dc82"/>
-               <text x="851.25"
+               <circle cx="732" cy="0" r="7" fill="#f0dc82"/>
+               <text x="732"
                      y="20"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Salix, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="-45"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="752.5" cy="-45" r="7" fill="#f0dc82"/>
-               <text x="752.5"
-                     y="-25"
+               <circle cx="811.5" cy="0" r="7" fill="#f0dc82"/>
+               <text x="811.5"
+                     y="20"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Lloydell, Pa. (Station)</text>
-               <text x="752.5"
-                     y="-25"
-                     font-size="10.5"
+                     fill="#f0dc82">Elton. Pa.</text>
+               <circle cx="891" cy="0" r="7" fill="#f0dc82"/>
+               <text x="891"
+                     y="20"
+                     font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="#f0dc82">Lloydell, Pa. (Station)</text>
-            </g>
-            <g>
+                     fill="#f0dc82">Cairnbrook, Pa. (Station)</text>
+               <circle cx="970.5" cy="0" r="7" fill="#f0dc82"/>
+               <text x="970.5"
+                     y="20"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Central City, Pa. (Station)</text>
                <circle cx="1050" cy="0" r="7" fill="#f0dc82"/>
                <text x="1050"
                      y="20"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="#f0dc82">Elton. Pa.</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="-45"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="885" cy="-45" r="7" fill="#f0dc82"/>
-               <text x="885"
+                     fill="#f0dc82">Eureka No. 42, Pa. (Station)</text>
+               <circle cx="355" cy="-45" r="7" fill="#f0dc82"/>
+               <text x="355"
                      y="-25"
                      font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Cairnbrook, Pa. (Station)</text>
-               <text x="885"
+                     fill="#f0dc82">Dunlo, Pa. (Station)</text>
+               <circle cx="494" cy="-45" r="7" fill="#f0dc82"/>
+               <text x="494"
                      y="-25"
-                     font-size="10.5"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Ruthford, Pa. (Station)</text>
+               <circle cx="633" cy="-45" r="7" fill="#f0dc82"/>
+               <text x="633"
+                     y="-25"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Lloydell, Pa. (Station)</text>
+               <circle cx="772" cy="-45" r="7" fill="#f0dc82"/>
+               <text x="772"
+                     y="-25"
+                     font-size="11"
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Cairnbrook, Pa. (Station)</text>
+               <circle cx="911" cy="-45" r="7" fill="#f0dc82"/>
+               <text x="911"
+                     y="-25"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Central City, Pa. (Station)</text>
+               <circle cx="1050" cy="-45" r="7" fill="#f0dc82"/>
+               <text x="1050"
+                     y="-25"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Eureka No. 42, Pa. (Station)</text>
+               <circle cx="414" cy="-45" r="7" fill="#f0dc82"/>
+               <text x="414"
+                     y="-50"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Dunlo, Pa. (Station)</text>
+               <circle cx="732" cy="-45" r="7" fill="#f0dc82"/>
+               <text x="732"
+                     y="-50"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Cairnbrook, Pa. (Station)</text>
+               <circle cx="1050" cy="-45" r="7" fill="#f0dc82"/>
+               <text x="1050"
+                     y="-50"
+                     font-size="11"
+                     font-weight="bold"
+                     text-anchor="middle"
+                     fill="#f0dc82">Central City, Pa. (Station)</text>
             </g>
          </g>
          <g transform="translate(0, 2300)">
@@ -613,6 +635,42 @@
                   y2="0"
                   stroke="#f0dc82"
                   stroke-width="5"/>
+            <line x1="300"
+                  x2="355"
+                  y1="0"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="1050"
+                  y1="45"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="414"
+                  y1="45"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="1050"
+                  y1="100"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="464"
+                  y1="100"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="464"
+                  x2="1050"
+                  y1="145"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
             <g>
                <circle cx="255" cy="0" r="7" fill="#f0dc82"/>
                <text x="255"
@@ -621,33 +679,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Conemaugh, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="355" cy="45" r="7" fill="#f0dc82"/>
-               <text x="355"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Vintondale</text>
-               <text x="355"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Vintondale</text>
             </g>
          </g>
          <g transform="translate(0, 2400)">
@@ -700,6 +731,42 @@
                   y2="0"
                   stroke="#f0dc82"
                   stroke-width="5"/>
+            <line x1="300"
+                  x2="355"
+                  y1="0"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="1050"
+                  y1="45"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="414"
+                  y1="45"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="1050"
+                  y1="100"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="464"
+                  y1="100"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="464"
+                  x2="1050"
+                  y1="145"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
             <g>
                <circle cx="255" cy="0" r="7" fill="#f0dc82"/>
                <text x="255"
@@ -708,35 +775,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Hannastown, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="355" cy="45" r="7" fill="#f0dc82"/>
-               <text x="355"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Vintondale</text>
-               <text x="355"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Vintondale</text>
-            </g>
-            <g>
                <circle cx="1050" cy="0" r="7" fill="#f0dc82"/>
                <text x="1050"
                      y="-20"
@@ -744,33 +782,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">New Alexandria, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="487.5" cy="45" r="7" fill="#f0dc82"/>
-               <text x="487.5"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Dunlo, Pa. (Station)</text>
-               <text x="487.5"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Dunlo, Pa. (Station)</text>
             </g>
          </g>
          <g transform="translate(0, 2900)">
@@ -805,6 +816,42 @@
                   y2="0"
                   stroke="#f0dc82"
                   stroke-width="5"/>
+            <line x1="300"
+                  x2="355"
+                  y1="0"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="1050"
+                  y1="45"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="414"
+                  y1="45"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="1050"
+                  y1="100"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="464"
+                  y1="100"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="464"
+                  x2="1050"
+                  y1="145"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
             <g>
                <circle cx="255" cy="0" r="7" fill="#f0dc82"/>
                <text x="255"
@@ -813,33 +860,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Jeannette, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="355" cy="45" r="7" fill="#f0dc82"/>
-               <text x="355"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Vintondale</text>
-               <text x="355"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Vintondale</text>
             </g>
          </g>
          <g transform="translate(0, 3200)">
@@ -874,6 +894,42 @@
                   y2="0"
                   stroke="#f0dc82"
                   stroke-width="5"/>
+            <line x1="300"
+                  x2="355"
+                  y1="0"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="1050"
+                  y1="45"
+                  y2="45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="414"
+                  y1="45"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="1050"
+                  y1="100"
+                  y2="100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="464"
+                  y1="100"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="464"
+                  x2="1050"
+                  y1="145"
+                  y2="145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
             <g>
                <circle cx="255" cy="0" r="7" fill="#f0dc82"/>
                <text x="255"
@@ -882,35 +938,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Trafford, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="355" cy="45" r="7" fill="#f0dc82"/>
-               <text x="355"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Vintondale</text>
-               <text x="355"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Vintondale</text>
-            </g>
-            <g>
                <circle cx="414" cy="0" r="7" fill="#f0dc82"/>
                <text x="414"
                      y="-20"
@@ -918,35 +945,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">North Trafford, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="487.5" cy="45" r="7" fill="#f0dc82"/>
-               <text x="487.5"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Dunlo, Pa. (Station)</text>
-               <text x="487.5"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Dunlo, Pa. (Station)</text>
-            </g>
-            <g>
                <circle cx="573" cy="0" r="7" fill="#f0dc82"/>
                <text x="573"
                      y="-20"
@@ -954,35 +952,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Blackburn, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="620" cy="45" r="7" fill="#f0dc82"/>
-               <text x="620"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Ruthford, Pa. (Station)</text>
-               <text x="620"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Ruthford, Pa. (Station)</text>
-            </g>
-            <g>
                <circle cx="732" cy="0" r="7" fill="#f0dc82"/>
                <text x="732"
                      y="-20"
@@ -990,35 +959,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82"> Export, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="752.5" cy="45" r="7" fill="#f0dc82"/>
-               <text x="752.5"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Lloydell, Pa. (Station)</text>
-               <text x="752.5"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Lloydell, Pa. (Station)</text>
-            </g>
-            <g>
                <circle cx="891" cy="0" r="7" fill="#f0dc82"/>
                <text x="891"
                      y="-20"
@@ -1026,35 +966,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">White Valley, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="885" cy="45" r="7" fill="#f0dc82"/>
-               <text x="885"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Cairnbrook, Pa. (Station)</text>
-               <text x="885"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Cairnbrook, Pa. (Station)</text>
-            </g>
-            <g>
                <circle cx="1050" cy="0" r="7" fill="#f0dc82"/>
                <text x="1050"
                      y="-20"
@@ -1062,33 +973,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">Slickville, Pa. (Station)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="45"
-                     y2="45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="1017.5" cy="45" r="7" fill="#f0dc82"/>
-               <text x="1017.5"
-                     y="25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Central City, Pa. (Station)</text>
-               <text x="1017.5"
-                     y="25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Central City, Pa. (Station)</text>
             </g>
          </g>
          <g transform="translate(0, 3500)">
@@ -1141,6 +1025,42 @@
                   y2="0"
                   stroke="#f0dc82"
                   stroke-width="5"/>
+            <line x1="300"
+                  x2="355"
+                  y1="0"
+                  y2="-45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="1050"
+                  y1="-45"
+                  y2="-45"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="355"
+                  x2="414"
+                  y1="-45"
+                  y2="-100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="1050"
+                  y1="-100"
+                  y2="-100"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="414"
+                  x2="464"
+                  y1="-100"
+                  y2="-145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
+            <line x1="464"
+                  x2="1050"
+                  y1="-145"
+                  y2="-145"
+                  stroke="#f0dc82"
+                  stroke-width="5"/>
             <g>
                <circle cx="255" cy="0" r="7" fill="#f0dc82"/>
                <text x="255"
@@ -1149,33 +1069,6 @@
                      font-weight="bold"
                      text-anchor="middle"
                      fill="#f0dc82">(Duquesne Frt. Sta. Short St. Ex.)</text>
-               <line x1="300"
-                     x2="355"
-                     y1="0"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <line x1="354"
-                     x2="1050"
-                     y1="-45"
-                     y2="-45"
-                     stroke="#f0dc82"
-                     stroke-width="5"/>
-               <circle cx="355" cy="-45" r="7" fill="#f0dc82"/>
-               <text x="355"
-                     y="-25"
-                     font-size="11"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="white"
-                     stroke="white"
-                     stroke-width="3">Vintondale</text>
-               <text x="355"
-                     y="-25"
-                     font-size="10.5"
-                     font-weight="bold"
-                     text-anchor="middle"
-                     fill="#f0dc82">Vintondale</text>
             </g>
          </g>
       </g>
