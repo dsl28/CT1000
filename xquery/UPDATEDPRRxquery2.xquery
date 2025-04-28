@@ -6,8 +6,7 @@ declare variable $mainLen := $numBranches * $branchSpacer + $bigCircleExtraSpace
 declare variable $xShift := 100;
 declare variable $yShift := 200;
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 4180">>
-    <desc></desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 4180">
     <g alignment-baseline="baseline" transform="translate(200,0)">
         <text x='170' y='50' font-size="40" fill="#f0dc82">The Pennsylvania Railroad: Pittsburgh Division</text>
         <line x1='155' y1='62.6' x2='953' y2='62.6' stroke-width='3' stroke='#f0dc82'></line>
